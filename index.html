@@ -1355,6 +1355,54 @@
             font-weight: 600;
         }
 
+        /* ===== CLIENTS CAROUSEL ===== */
+        .clients {
+            padding: 60px 0 40px;
+        }
+
+        .clients-track-wrapper {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+        }
+
+        .clients-track {
+            display: flex;
+            gap: 48px;
+            align-items: center;
+            width: max-content;
+            animation: scrollLogos 30s linear infinite;
+        }
+
+        .clients-track:hover {
+            animation-play-state: paused;
+        }
+
+        .clients-track img {
+            height: 70px;
+            width: auto;
+            max-width: 180px;
+            object-fit: contain;
+            border-radius: 12px;
+            background: var(--dark-card);
+            padding: 12px 18px;
+            box-shadow: 0 2px 12px rgba(45, 27, 105, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .clients-track img:hover {
+            transform: scale(1.08);
+            box-shadow: 0 4px 20px rgba(45, 27, 105, 0.15);
+        }
+
+        @keyframes scrollLogos {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
         /* ===== FOOTER ===== */
         footer {
             padding: 60px 0 32px;
@@ -1708,6 +1756,37 @@
                             <p>Eliminates the evidence gaps that cause clawbacks.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== COMPANIES WE'VE WORKED WITH — CAROUSEL ===== -->
+    <section class="clients">
+        <div class="container">
+            <div style="text-align:center; max-width:720px; margin:0 auto 2rem;">
+                <span class="section-label">Trusted By</span>
+                <h2>Companies We&rsquo;ve Helped &amp; Worked With</h2>
+            </div>
+            <div class="clients-track-wrapper">
+                <div class="clients-track" id="clientsTrack">
+                    <img src="images/portfolio/ai-compliance.png" alt="AI Compliance" loading="lazy">
+                    <img src="images/portfolio/airfix-solutions.png" alt="Airfix Solutions" loading="lazy">
+                    <img src="images/portfolio/autoflow.png" alt="AutoFlow" loading="lazy">
+                    <img src="images/portfolio/covert-security.png" alt="Covert Security" loading="lazy">
+                    <img src="images/portfolio/inventory-pro.png" alt="Inventory Pro" loading="lazy">
+                    <img src="images/portfolio/legal-doc.png" alt="Legal Doc" loading="lazy">
+                    <img src="images/portfolio/preston-seo.png" alt="Preston SEO" loading="lazy">
+                    <img src="images/portfolio/tppa-2025.png" alt="TPPA 2025" loading="lazy">
+                    <!-- Duplicated for seamless loop -->
+                    <img src="images/portfolio/ai-compliance.png" alt="AI Compliance" loading="lazy">
+                    <img src="images/portfolio/airfix-solutions.png" alt="Airfix Solutions" loading="lazy">
+                    <img src="images/portfolio/autoflow.png" alt="AutoFlow" loading="lazy">
+                    <img src="images/portfolio/covert-security.png" alt="Covert Security" loading="lazy">
+                    <img src="images/portfolio/inventory-pro.png" alt="Inventory Pro" loading="lazy">
+                    <img src="images/portfolio/legal-doc.png" alt="Legal Doc" loading="lazy">
+                    <img src="images/portfolio/preston-seo.png" alt="Preston SEO" loading="lazy">
+                    <img src="images/portfolio/tppa-2025.png" alt="TPPA 2025" loading="lazy">
                 </div>
             </div>
         </div>
