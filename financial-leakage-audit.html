@@ -127,6 +127,13 @@
         .nav-bar a { display: flex; align-items: center; gap: 10px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--text-primary); text-decoration: none; }
         .nav-bar img { height: 36px; width: auto; }
         .nav-back { font-size: 0.9rem !important; font-weight: 500 !important; }
+        .nav-site-links { display: flex; align-items: center; gap: 4px; }
+        .nav-site-links a { display: inline-block; font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 500; color: var(--text-muted); padding: 5px 10px; border-radius: 6px; text-decoration: none; transition: all 0.3s ease; }
+        .nav-site-links a:hover { color: var(--text-primary); background: rgba(45,27,105,0.06); text-decoration: none; }
+        .nav-site-links a.active { color: var(--gold); font-weight: 600; }
+        .nav-cta-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 16px; background: var(--gold); color: #fff; font-size: 0.82rem; font-weight: 600; border-radius: 7px; text-decoration: none; transition: all 0.3s ease; }
+        .nav-cta-btn:hover { background: var(--gold-light); color: #fff; text-decoration: none; transform: translateY(-1px); }
+        @media (max-width: 768px) { .nav-site-links { display: none; } .nav-cta-btn { display: none; } }
 
         /* Hero */
         .service-hero { padding: 140px 0 60px; text-align: center; }
@@ -207,7 +214,15 @@
                 <img src="logo.png" alt="Heimdell Tech AI" width="36" height="36">
                 HEIMDELL TECH AI
             </a>
-            <a href="./" class="nav-back">&larr; Back to Home</a>
+            <div class="nav-site-links">
+                <a href="./">Home</a>
+                <a href="financial-leakage-audit.html" class="active">Leakage Audit</a>
+                <a href="compliance-protocol-setup.html">Compliance Setup</a>
+                <a href="systems-architecture.html">Systems &amp; Ops</a>
+                <a href="about.html">About</a>
+            </div>
+            <a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a>
+            <a href="./" class="nav-back" style="display:none;">Back</a>
         </div>
     </div>
 
@@ -365,6 +380,29 @@
         </div>
     </section>
 
+    <!-- Related Services -->
+    <hr class="divider">
+    <section class="section">
+        <div class="container">
+            <h2>Other Services</h2>
+            <p>Explore our full range of managed compliance and operations services for UK telecom resellers.</p>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">&#9989;</div>
+                    <h3>100% Compliance Protocol Setup</h3>
+                    <p>Full implementation of The Silver Protocol &mdash; automated voice-logs, CRM audit locks, identity verification and provider-ready certificates.</p>
+                    <a href="compliance-protocol-setup.html" style="display:inline-block;margin-top:12px;font-weight:600;">Learn more &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">&#9881;</div>
+                    <h3>Systems Architecture &amp; Fractional Ops</h3>
+                    <p>CRM automation, workflow design, compliance infrastructure and operational scaling &mdash; without the full-time hire.</p>
+                    <a href="systems-architecture.html" style="display:inline-block;margin-top:12px;font-weight:600;">Learn more &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Final CTA -->
     <section class="final-cta">
         <div class="container">
@@ -385,12 +423,33 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Heimdell Tech AI. All rights reserved.</p>
-            <p>Registered in England &amp; Wales 16478408 &middot; D-U-N-S: 233836391 &middot; ICO: ZC079121</p>
-            <div style="margin-top: 8px;">
-                <a href="privacy-policy.html">Privacy Policy</a>
-                <a href="terms-of-service.html">Terms of Service</a>
-                <a href="./">Home</a>
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;text-align:left;margin-bottom:24px;">
+                <div>
+                    <h5 style="font-size:0.82rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:12px;">Services</h5>
+                    <div style="display:flex;flex-direction:column;gap:8px;">
+                        <a href="financial-leakage-audit.html">Financial Leakage Audit</a>
+                        <a href="compliance-protocol-setup.html">Compliance Protocol Setup</a>
+                        <a href="systems-architecture.html">Systems Architecture &amp; Ops</a>
+                    </div>
+                </div>
+                <div>
+                    <h5 style="font-size:0.82rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:12px;">Company</h5>
+                    <div style="display:flex;flex-direction:column;gap:8px;">
+                        <a href="./">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms-of-service.html">Terms of Service</a>
+                    </div>
+                </div>
+                <div>
+                    <h5 style="font-size:0.82rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:12px;">Contact</h5>
+                    <p style="font-size:0.85rem;color:var(--text-secondary);line-height:1.6;">11 Lower Croft, Preston, PR1 9DJ<br><a href="tel:+447414909674">+44 7414 909674</a><br><a href="mailto:andrew@remoteability.org">andrew@remoteability.org</a></p>
+                    <p style="font-size:0.8rem;color:var(--text-muted);margin-top:8px;">Mon&ndash;Fri 8:30am&ndash;5:30pm &bull; Sat 9:30am&ndash;3:00pm</p>
+                </div>
+            </div>
+            <div style="border-top:1px solid var(--dark-border);padding-top:16px;">
+                <p>&copy; 2026 Heimdell Tech AI. All rights reserved.</p>
+                <p>Registered in England &amp; Wales 16478408 &middot; D-U-N-S: 233836391 &middot; ICO: ZC079121</p>
             </div>
         </div>
     </footer>
