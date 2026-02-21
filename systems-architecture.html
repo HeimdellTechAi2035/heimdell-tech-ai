@@ -128,6 +128,20 @@
     }
     </script>
 
+    <!-- JSON-LD: WebPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://telecomcompliance.uk/systems-architecture.html#webpage",
+        "url": "https://telecomcompliance.uk/systems-architecture.html",
+        "name": "Systems Architecture & Fractional Ops for UK Telecom Resellers",
+        "description": "Fractional operations management and systems architecture for UK telecom resellers — CRM automation, workflow design, compliance infrastructure and operational scaling.",
+        "isPartOf": { "@id": "https://telecomcompliance.uk/#website" },
+        "inLanguage": "en-GB"
+    }
+    </script>
+
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
@@ -148,8 +162,8 @@
         a { color: var(--gold-light); text-decoration: none; }
         a:hover { color: var(--gold); text-decoration: underline; }
 
-        /* Nav Bar */
-        .nav-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(240,230,255,0.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--dark-border); padding: 16px 24px; }
+        /* Navigation */
+        .nav-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(240,230,255,0.85); backdrop-filter: blur(20px); border-bottom: 1px solid var(--dark-border); padding: 16px 24px; }
         .nav-bar-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
         .nav-bar a { display: flex; align-items: center; gap: 10px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--text-primary); text-decoration: none; }
         .nav-bar img { height: 36px; width: auto; }

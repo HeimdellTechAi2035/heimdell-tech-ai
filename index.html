@@ -269,8 +269,28 @@
     }
     </script>
 
+    <!-- JSON-LD: HowTo — The Silver Protocol verification process -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How The Silver Protocol Verifies a UK Telecom Sale",
+        "description": "The eight-step managed compliance verification process used by Heimdell Tech AI to certify every UK telecom reseller sale as provider-audit-ready.",
+        "totalTime": "PT5M",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Sale Logged", "text": "The sales agent closes the deal and logs it into the CRM or submission platform." },
+            { "@type": "HowToStep", "position": 2, "name": "Silver Protocol Triggered", "text": "The system detects the new sale and initiates the managed verification workflow automatically." },
+            { "@type": "HowToStep", "position": 3, "name": "Identity Validated", "text": "Customer identity and Direct Debit details are verified against the submitted information." },
+            { "@type": "HowToStep", "position": 4, "name": "Contract Terms Re-Read", "text": "Key contract terms including duration, pricing and early termination are clearly re-stated to the customer." },
+            { "@type": "HowToStep", "position": 5, "name": "Verbal Confirmation Recorded", "text": "Customer provides recorded, explicit verbal consent acknowledging all terms and cooling-off rights under the Consumer Contracts Regulations 2013." },
+            { "@type": "HowToStep", "position": 6, "name": "Recording Stored", "text": "The voice log is time-stamped, indexed and stored in a secure, retrievable archive." },
+            { "@type": "HowToStep", "position": 7, "name": "Compliance Certificate Generated", "text": "A provider-ready compliance certificate is created summarising all verification data points." },
+            { "@type": "HowToStep", "position": 8, "name": "CRM Updated", "text": "The certificate, recording reference and compliance status are pushed into the CRM record." }
+        ]
+    }
+    </script>
+
     <style>
-        /* ===== RESET & BASE ===== */
         *, *::before, *::after {
             margin: 0;
             padding: 0;
@@ -1943,7 +1963,7 @@
 
                 <p class="hero-sub">Stop losing commission to cooling-off disputes, failed audits and unverified sign-ups. The Silver Protocol independently verifies every sale your field teams close.</p>
 
-                <p class="hero-position">We are not software. We are a fully managed post-sale verification layer that sits between your sales team and your provider relationship &mdash; protecting every pound of commission you earn.</p>
+                <p class="hero-position">We are not software. We are not an AI tool. &ldquo;Tech AI&rdquo; is our brand name &mdash; Heimdell Tech AI is a fully managed, human-operated post-sale verification layer that sits between your sales team and your provider relationship, protecting every pound of commission you earn.</p>
 
                 <div class="hero-ctas">
                     <a href="tel:+447414909674" class="btn btn-primary btn-lg">&#9742; Call Now</a>
