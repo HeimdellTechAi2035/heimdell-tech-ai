@@ -313,25 +313,26 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            height: 72px;
+            height: 64px;
         }
 
         .nav-logo {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
+            flex-shrink: 0;
         }
 
         .nav-logo img {
-            height: 44px;
+            height: 36px;
             width: auto;
         }
 
         .nav-logo-text {
             font-family: var(--font-heading);
-            font-size: 1.2rem;
+            font-size: 1.05rem;
             font-weight: 700;
-            color: var(--white);
+            color: var(--text-primary);
             letter-spacing: -0.02em;
         }
 
@@ -342,25 +343,29 @@
         .nav-links {
             display: flex;
             align-items: center;
-            gap: 32px;
+            gap: 8px;
             list-style: none;
         }
 
         .nav-links a {
             color: var(--text-secondary);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             font-weight: 500;
-            transition: color var(--transition);
+            padding: 6px 12px;
+            border-radius: 6px;
+            transition: all var(--transition);
         }
 
         .nav-links a:hover {
-            color: var(--white);
+            color: var(--text-primary);
+            background: rgba(45,27,105,0.06);
         }
 
         .nav-cta {
             display: flex;
-            gap: 12px;
+            gap: 10px;
             align-items: center;
+            flex-shrink: 0;
         }
 
         .hamburger {
@@ -447,8 +452,9 @@
         }
 
         .btn-sm {
-            padding: 8px 20px;
-            font-size: 0.85rem;
+            padding: 7px 16px;
+            font-size: 0.82rem;
+            border-radius: 7px;
         }
 
         /* ===== SECTION BASE ===== */
@@ -1621,14 +1627,19 @@
             .nav-links {
                 display: none;
                 position: fixed;
-                top: 72px;
+                top: 64px;
                 left: 0;
                 right: 0;
                 bottom: 0;
                 background: var(--dark);
                 flex-direction: column;
                 padding: 32px 24px;
-                gap: 24px;
+                gap: 16px;
+            }
+
+            .nav-links a {
+                font-size: 1rem !important;
+                padding: 10px 16px !important;
             }
 
             .nav-links.active {
@@ -1705,12 +1716,11 @@
             </a>
 
             <ul class="nav-links" id="navLinks">
-                <li><a href="#protocol">The Silver Protocol</a></li>
+                <li><a href="#protocol">Protocol</a></li>
                 <li><a href="#process">How It Works</a></li>
-                <li><a href="#calculator">ROI Calculator</a></li>
+                <li><a href="#calculator">ROI</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#faq">FAQ</a></li>
-                <li><a href="financial-leakage-audit.html">Leakage Audit</a></li>
             </ul>
 
             <div class="nav-cta">
