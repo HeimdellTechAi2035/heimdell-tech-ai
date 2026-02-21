@@ -5,17 +5,15 @@ Managed post-sale compliance verification for UK telecom resellers.
 ## Hosting
 
 This site is hosted on **GitHub Pages** at:  
-🔗 [https://heimdelltechai2035.github.io/heimdell-tech-ai/](https://heimdelltechai2035.github.io/heimdell-tech-ai/)
+🔗 [https://telecomcompliance.uk/](https://telecomcompliance.uk/)
 
-## Custom Domain (Optional)
+## Custom Domain
 
-To connect a custom domain (e.g. `www.heimdelltech.ai`):
+Live at **https://telecomcompliance.uk** — connected via GitHub Pages with custom domain.
 
-1. Go to **Settings → Pages** in this repository  
-2. Enter your custom domain under **Custom domain**  
-3. Update your DNS with a `CNAME` record pointing to `heimdelltechai2035.github.io`  
-4. Uncomment and edit the `CNAME` file in this repo  
-5. Update the canonical URL and OG URL in `index.html`
+DNS configured with:
+- A records pointing to GitHub Pages IPs (185.199.108-111.153)
+- CNAME file in repo root
 
 ## Structure
 
