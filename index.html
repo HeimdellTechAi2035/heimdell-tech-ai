@@ -46,7 +46,7 @@
         "name": "The Silver Protocol",
         "description": "A fully managed post-sale compliance verification service for UK telecom resellers. The Silver Protocol validates identity, records contract confirmations, delivers digital audit trails and generates provider-ready compliance certificates — eliminating commission clawbacks and protecting against provider audits.",
         "provider": {
-            "@type": "Organization",
+            "@type": "ProfessionalService",
             "name": "Heimdell Tech AI",
             "url": "https://telecomcompliance.uk/",
             "logo": "https://telecomcompliance.uk/logo.png",
@@ -59,6 +59,9 @@
             },
             "address": {
                 "@type": "PostalAddress",
+                "streetAddress": "11 Lower Croft",
+                "addressLocality": "Preston",
+                "postalCode": "PR1 9DJ",
                 "addressCountry": "GB"
             },
             "sameAs": [
@@ -75,12 +78,20 @@
                     "https://www.linkedin.com/in/andrew-j-72b96a312"
                 ]
             },
-            "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-                "opens": "09:00",
-                "closes": "17:30"
-            }
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                    "opens": "08:30",
+                    "closes": "17:30"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Saturday"],
+                    "opens": "09:30",
+                    "closes": "15:00"
+                }
+            ]
         },
         "areaServed": [
             {
