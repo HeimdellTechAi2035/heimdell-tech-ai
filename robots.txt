@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heimdelltechai2035.github.io/heimdell-tech-ai/sitemap.xml
