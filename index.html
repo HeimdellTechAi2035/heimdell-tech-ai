@@ -406,182 +406,25 @@
         }
 
         /* ===== NAVIGATION ===== */
-        .nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            background: rgba(240, 230, 255, 0.92);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--dark-border);
-            transition: all var(--transition);
-        }
-
-        .nav.scrolled {
-            background: rgba(240, 230, 255, 0.98);
-            box-shadow: 0 2px 20px rgba(45,27,105,0.1);
-        }
-
-        .nav-inner {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            height: 64px;
-        }
-
-        .nav-logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-shrink: 0;
-        }
-
-        .nav-logo img {
-            height: 36px;
-            width: auto;
-        }
-
-        .nav-logo-text {
-            font-family: var(--font-heading);
-            font-size: 1.05rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            letter-spacing: -0.02em;
-        }
-
-        .nav-logo-text span {
-            color: var(--gold);
-        }
-
-        .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-            font-weight: 500;
-            padding: 6px 12px;
-            border-radius: 6px;
-            transition: all var(--transition);
-        }
-
-        .nav-links a:hover {
-            color: var(--text-primary);
-            background: rgba(45,27,105,0.06);
-        }
-
-        /* Services Dropdown */
-        .nav-dropdown {
-            position: relative;
-        }
-
-        .nav-dropdown > a {
-            cursor: pointer;
-        }
-
-        .nav-dropdown > a::after {
-            content: '';
-            display: inline-block;
-            width: 0;
-            height: 0;
-            border-left: 4px solid transparent;
-            border-right: 4px solid transparent;
-            border-top: 4px solid currentColor;
-            margin-left: 5px;
-            vertical-align: middle;
-            transition: transform var(--transition);
-        }
-
-        .nav-dropdown:hover > a::after {
-            transform: rotate(180deg);
-        }
-
-        .dropdown-menu {
-            display: none;
-            position: absolute;
-            top: calc(100% + 8px);
-            left: 50%;
-            transform: translateX(-50%);
-            background: var(--dark-card);
-            border: 1px solid var(--dark-border);
-            border-radius: 12px;
-            padding: 8px;
-            min-width: 260px;
-            box-shadow: 0 12px 32px rgba(45,27,105,0.12);
-            z-index: 1002;
-        }
-
-        .nav-dropdown:hover .dropdown-menu {
-            display: block;
-        }
-
-        .dropdown-menu a {
-            display: block;
-            padding: 10px 14px !important;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            transition: all var(--transition);
-            white-space: normal;
-        }
-
-        .dropdown-menu a:hover {
-            background: var(--dark-surface);
-            color: var(--text-primary);
-        }
-
-        .dropdown-menu .dd-label {
-            display: block;
-            font-weight: 600;
-            color: var(--text-primary);
-            font-size: 0.85rem;
-        }
-
-        .dropdown-menu .dd-desc {
-            display: block;
-            font-size: 0.78rem;
-            color: var(--text-muted);
-            margin-top: 2px;
-        }
-
-        .nav-cta {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            flex-shrink: 0;
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: pointer;
-            padding: 8px;
-            z-index: 1001;
-        }
-
-        .hamburger span {
-            width: 24px;
-            height: 2px;
-            background: var(--white);
-            transition: all var(--transition);
-        }
-
-        .hamburger.active span:nth-child(1) {
-            transform: rotate(45deg) translate(5px, 5px);
-        }
-
-        .hamburger.active span:nth-child(2) {
-            opacity: 0;
-        }
-
-        .hamburger.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(5px, -5px);
+        .nav-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(240,230,255,0.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--dark-border); padding: 16px 24px; transition: all var(--transition); }
+        .nav-bar.scrolled { background: rgba(240,230,255,0.98); box-shadow: 0 2px 20px rgba(45,27,105,0.1); }
+        .nav-bar-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; position: relative; }
+        .nav-bar-inner > a { display: flex; align-items: center; gap: 10px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--text-primary); text-decoration: none; }
+        .nav-bar img { height: 36px; width: auto; }
+        .nav-site-links { display: flex; align-items: center; gap: 4px; }
+        .nav-site-links a { display: inline-block; font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 500; color: var(--text-muted); padding: 5px 10px; border-radius: 6px; text-decoration: none; transition: all 0.3s ease; }
+        .nav-site-links a:hover { color: var(--text-primary); background: rgba(45,27,105,0.06); }
+        .nav-site-links a.active { color: var(--gold); font-weight: 600; }
+        .nav-cta-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 16px; background: var(--gold); color: #fff; font-size: 0.82rem; font-weight: 600; border-radius: 7px; text-decoration: none; transition: all 0.3s ease; }
+        .nav-cta-btn:hover { background: var(--gold-light); color: #fff; transform: translateY(-1px); }
+        .nav-hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; padding: 4px; }
+        .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--text-primary); border-radius: 2px; transition: all 0.3s ease; }
+        @media (max-width: 768px) {
+            .nav-site-links { display: none; flex-direction: column; position: absolute; top: 100%; left: -24px; right: -24px; background: rgba(240,230,255,0.98); backdrop-filter: blur(20px); padding: 16px 24px; border-bottom: 1px solid var(--dark-border); gap: 0; }
+            .nav-site-links.active { display: flex; }
+            .nav-site-links a { padding: 10px 16px; width: 100%; }
+            .nav-cta-btn { display: none; }
+            .nav-hamburger { display: flex; }
         }
 
         /* ===== BUTTONS ===== */
@@ -1839,60 +1682,6 @@
                 padding: 120px 0 80px;
             }
 
-            .nav-links {
-                display: none;
-                position: fixed;
-                top: 64px;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: var(--dark);
-                flex-direction: column;
-                padding: 32px 24px;
-                gap: 8px;
-                overflow-y: auto;
-            }
-
-            .nav-links a {
-                font-size: 1rem !important;
-                padding: 10px 16px !important;
-            }
-
-            .nav-dropdown > a::after {
-                display: none !important;
-            }
-
-            .dropdown-menu {
-                display: block !important;
-                position: static !important;
-                transform: none !important;
-                box-shadow: none !important;
-                border: none !important;
-                background: transparent !important;
-                padding: 0 0 0 12px !important;
-                min-width: auto !important;
-            }
-
-            .dropdown-menu a {
-                padding: 8px 16px !important;
-            }
-
-            .dropdown-menu .dd-desc {
-                display: none !important;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .nav-cta {
-                display: none;
-            }
-
-            .hamburger {
-                display: flex;
-            }
-
             .hero-stats {
                 flex-wrap: wrap;
                 gap: 24px;
@@ -1947,46 +1736,22 @@
 <body>
 
     <!-- ===== NAVIGATION ===== -->
-    <nav class="nav" id="nav">
-        <div class="container nav-inner">
-            <a href="./" class="nav-logo" aria-label="Heimdell Tech AI home">
-                <img src="logo.png" alt="Heimdell Tech AI logo" width="44" height="44">
-                <span class="nav-logo-text">HEIMDELL <span>TECH AI</span></span>
+    <nav class="nav-bar" id="nav">
+        <div class="nav-bar-inner">
+            <a href="./">
+                <img src="logo.png" alt="Heimdell Tech AI" width="36" height="36">
+                HEIMDELL TECH AI
             </a>
-
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#protocol">Protocol</a></li>
-                <li><a href="#process">How It Works</a></li>
-                <li class="nav-dropdown">
-                    <a href="#">Services</a>
-                    <div class="dropdown-menu">
-                        <a href="financial-leakage-audit.html">
-                            <span class="dd-label">Financial Leakage Audit</span>
-                            <span class="dd-desc">Free 15-min diagnostic &mdash; find where you&rsquo;re losing commission</span>
-                        </a>
-                        <a href="compliance-protocol-setup.html">
-                            <span class="dd-label">Compliance Protocol Setup</span>
-                            <span class="dd-desc">Full Silver Protocol implementation &amp; managed service</span>
-                        </a>
-                        <a href="systems-architecture.html">
-                            <span class="dd-label">Systems Architecture &amp; Ops</span>
-                            <span class="dd-desc">Fractional operations, CRM automation &amp; scaling</span>
-                        </a>
-                    </div>
-                </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
-
-            <div class="nav-cta">
-                <a href="tel:+447414909674" class="btn btn-ghost btn-sm">&#9742; Call Now</a>
-                <a href="#audit" class="btn btn-primary btn-sm">Book Leakage Audit</a>
+            <div class="nav-site-links" id="navLinks">
+                <a href="./" class="active">Home</a>
+                <a href="financial-leakage-audit.html">Leakage Audit</a>
+                <a href="compliance-protocol-setup.html">Compliance Setup</a>
+                <a href="systems-architecture.html">Systems &amp; Ops</a>
+                <a href="about.html">About</a>
             </div>
-
-            <div class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
-                <span></span>
-                <span></span>
-                <span></span>
+            <a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a>
+            <div class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
             </div>
         </div>
     </nav>
@@ -2789,19 +2554,8 @@
         });
 
         // Mobile menu toggle
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('navLinks');
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        // Close mobile menu on link click
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
-            });
+        document.getElementById('navHamburger').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('active');
         });
 
         // FAQ toggle

@@ -79,7 +79,7 @@
         }
         body {
             font-family:'Inter',sans-serif; background:var(--dark); color:var(--text-primary);
-            display:flex; align-items:center; justify-content:center; min-height:100vh; text-align:center; padding:24px;
+            display:flex; align-items:center; justify-content:center; min-height:100vh; text-align:center; padding:80px 24px 24px;
         }
         .card {
             max-width:520px; background:var(--dark-card); border:1px solid var(--dark-border);
@@ -106,9 +106,49 @@
         .meta-line { font-size:0.78rem; color:var(--text-muted); margin-top:24px; margin-bottom:0; }
         .meta-line a { color:var(--text-muted); text-decoration:underline; }
         .meta-line a:hover { color:var(--gold); }
+        /* Nav Bar */
+        .nav-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(240,230,255,0.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--dark-border); padding: 16px 24px; }
+        .nav-bar-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; position: relative; }
+        .nav-bar-inner > a { display: flex; align-items: center; gap: 10px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--text-primary); text-decoration: none; }
+        .nav-bar img { height: 36px; width: auto; }
+        .nav-site-links { display: flex; align-items: center; gap: 4px; }
+        .nav-site-links a { display: inline-block; font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 500; color: var(--text-muted); padding: 5px 10px; border-radius: 6px; text-decoration: none; transition: all 0.3s ease; }
+        .nav-site-links a:hover { color: var(--text-primary); background: rgba(45,27,105,0.06); }
+        .nav-cta-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 16px; background: var(--gold); color: #fff; font-size: 0.82rem; font-weight: 600; border-radius: 7px; text-decoration: none; transition: all 0.3s ease; }
+        .nav-cta-btn:hover { background: var(--gold-light); color: #fff; transform: translateY(-1px); }
+        .nav-hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; padding: 4px; }
+        .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--text-primary); border-radius: 2px; transition: all 0.3s ease; }
+        @media (max-width: 768px) {
+            .nav-site-links { display: none; flex-direction: column; position: absolute; top: 100%; left: -24px; right: -24px; background: rgba(240,230,255,0.98); backdrop-filter: blur(20px); padding: 16px 24px; border-bottom: 1px solid var(--dark-border); gap: 0; }
+            .nav-site-links.active { display: flex; }
+            .nav-site-links a { padding: 10px 16px; width: 100%; }
+            .nav-cta-btn { display: none; }
+            .nav-hamburger { display: flex; }
+        }
     </style>
 </head>
 <body>
+    <!-- Nav Bar -->
+    <nav class="nav-bar">
+        <div class="nav-bar-inner">
+            <a href="./">
+                <img src="logo.png" alt="Heimdell Tech AI" width="36" height="36">
+                HEIMDELL TECH AI
+            </a>
+            <div class="nav-site-links" id="navLinks">
+                <a href="./">Home</a>
+                <a href="financial-leakage-audit.html">Leakage Audit</a>
+                <a href="compliance-protocol-setup.html">Compliance Setup</a>
+                <a href="systems-architecture.html">Systems &amp; Ops</a>
+                <a href="about.html">About</a>
+            </div>
+            <a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a>
+            <div class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
     <div class="card">
         <div class="logo">
             <img src="logo.png" alt="Heimdell Tech AI" width="40" height="40">
@@ -121,5 +161,12 @@
         <a href="./" class="btn">&#8592; Return to The Silver Protocol Homepage</a>
         <p class="meta-line"><a href="about.html">About the Founder</a> &middot; <a href="https://www.linkedin.com/in/andrew-j-72b96a312">LinkedIn</a> &middot; D-U-N-S 233836391 &middot; ICO ZC079121</p>
     </div>
+
+    <script>
+    document.getElementById('navHamburger').addEventListener('click', function() {
+        document.getElementById('navLinks').classList.toggle('active');
+    });
+    </script>
+
 </body>
 </html>
