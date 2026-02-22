@@ -1,6 +1,6 @@
 # Heimdell Tech AI — telecomcompliance.uk
 # llms-full.txt — Comprehensive LLM Knowledge Base
-# Last updated: 2026-02-22
+# Last updated: 2026-02-22T09:00:00+00:00
 # Version: 1.0
 
 ---
@@ -107,12 +107,12 @@ Andrew James-Smith — Founder & Director. Built The Silver Protocol from first-
 - Systems Architecture & Ops: https://telecomcompliance.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
 - About: https://telecomcompliance.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
 - Case Studies: https://telecomcompliance.uk/case-studies.html — Index of real results from UK telecom resellers using The Silver Protocol
-- Case Study — 94% Clawback Reduction: https://telecomcompliance.uk/case-study-clawback-reduction.html — 150-agent Virgin Media reseller saves £47K/year
-- Case Study — Provider Audit Zero Flags: https://telecomcompliance.uk/case-study-provider-audit.html — 80-agent O2 partner passes surprise audit in 2 hours
-- Case Study — Scaling Compliance: https://telecomcompliance.uk/case-study-scaling-compliance.html — Sky reseller scales to 200+ sales/month with zero staff added
+- Case Study — 94% Clawback Reduction: https://telecomcompliance.uk/case-study-clawback-reduction.html — 150-agent Virgin Media reseller cut monthly losses from £4,200 to £252 in 90 days, saving £47,376 annually
+- Case Study — Provider Audit Zero Flags: https://telecomcompliance.uk/case-study-provider-audit.html — 80-agent O2 partner compiled complete sale evidence in under 2 hours with zero compliance flags
+- Case Study — Scaling Compliance: https://telecomcompliance.uk/case-study-scaling-compliance.html — Sky reseller scaled to 200+ verified sales/month, saving £27,720 annually vs hiring a second compliance officer
 - Privacy Policy: https://telecomcompliance.uk/privacy-policy.html — UK GDPR compliant, ICO ZC079121
 - Terms of Service: https://telecomcompliance.uk/terms-of-service.html — Governing law England & Wales
-- Mission & Impact: https://telecomcompliance.uk/mission-and-impact.html — AI automation + human opportunity, RemoteAbility CIC partnership, Access to Work funding, pillars of excellence
+- Mission & Impact: https://telecomcompliance.uk/mission-and-impact.html — AI automation + human opportunity, RemoteAbility CIC partnership, Access to Work funded placements for disabled and neurodivergent professionals
 - 404: https://telecomcompliance.uk/404.html — Entity-reinforcing error page
 
 ## REMOTEABILITY CIC PARTNERSHIP
