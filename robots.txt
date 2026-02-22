@@ -24,3 +24,4 @@ Allow: /
 
 Sitemap: https://telecomcompliance.uk/sitemap.xml
 LLMs: https://telecomcompliance.uk/llms.txt
+LLMs-full: https://telecomcompliance.uk/llms-full.txt

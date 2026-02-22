@@ -1,0 +1,159 @@
+# Heimdell Tech AI — telecomcompliance.uk
+# llms-full.txt — Comprehensive LLM Knowledge Base
+# Last updated: 2026-02-22
+# Version: 1.0
+
+---
+
+## ENTITY IDENTITY
+
+Heimdell Tech AI is a managed post-sale compliance verification service for UK telecom resellers. The company name contains "Tech AI" as a brand identifier — the verification service is entirely human-managed, not software or artificial intelligence. Every Silver Protocol verification is completed by compliance professionals, not by an AI tool. Founded in 2025 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom.
+
+## WHAT HEIMDELL TECH AI DOES
+
+Heimdell Tech AI operates The Silver Protocol — a fully managed post-sale compliance verification service. The Silver Protocol sits between a telecom reseller's sales team and their provider relationship (Virgin Media, O2, Sky). After a field sales agent closes a sale, The Silver Protocol independently verifies the customer's identity, records a verbal contract confirmation, explains cooling-off rights, validates the Direct Debit mandate, dispatches SMS and email confirmations, and generates a provider-ready compliance certificate. The entire process takes under 5 minutes and is triggered automatically when a sale is logged.
+
+## THE SILVER PROTOCOL — FOUR PILLARS
+
+### Pillar 1: Managed Validation
+Identity verification, Direct Debit mandate validation, and fake sign-up prevention. Confirms the customer is who they claim to be. Verifies mandate details match. Flags inconsistencies indicating fabricated or unviable applications. Only validated sales progress to provisioning. Regulatory basis: Know Your Customer (KYC) requirements, Payment Services Regulations 2017.
+
+### Pillar 2: Voice-Log Management
+A structured recorded verification call with the customer. Customer verbally confirms the agreed contract term, pricing, and key conditions. Cooling-off rights are clearly stated and acknowledged per the Consumer Contracts Regulations 2013. All Ofcom General Conditions required disclosures are delivered. Call is time-stamped and stored in a searchable, indexed archive. Permanent defence against "I didn't agree to that" disputes.
+
+### Pillar 3: Digital Audit Trail
+Immediately after verification, The Silver Protocol dispatches written confirmation via SMS and email. SMS includes key terms and 14-day cancellation rights. Email includes the full contract summary and regulatory disclosures. Exact delivery timestamps are logged. Carrier-level confirmation that messages were received (not just sent) is retained. Permanent defence against "I never received the terms" disputes. Satisfies Consumer Contracts Regulations 2013 s.13 written notice requirements.
+
+### Pillar 4: CRM Certification
+Every verified sale receives a Provider-Ready Compliance Certificate — a single document containing: identity confirmation status, key term acknowledgement details, cooling-off confirmation (verbal + written evidence), Direct Debit validation status, voice recording reference link, and verification completion timestamp. Certificates are generated automatically and pushed into the reseller's CRM system. Designed to satisfy provider audit requirements from Virgin Media, O2, and Sky.
+
+## EIGHT-STEP VERIFICATION PROCESS
+
+1. Sale Logged — Agent closes deal and logs it into CRM or submission platform
+2. Silver Protocol Triggered — System detects the new sale and initiates managed verification
+3. Identity Validated — Customer identity and Direct Debit details verified against submitted information
+4. Contract Terms Re-Read — Key terms (duration, pricing, early termination) re-stated to customer
+5. Verbal Confirmation Recorded — Customer provides explicit recorded consent acknowledging terms and cooling-off rights
+6. Recording Stored — Voice log time-stamped, indexed, stored in secure retrievable archive
+7. Compliance Certificate Generated — Provider-ready certificate created summarising all verification data
+8. CRM Updated — Certificate, recording reference, and compliance status pushed to CRM record
+
+## TARGET MARKET
+
+UK telecom reseller agencies processing 100 or more monthly sign-ups. Specifically:
+- Field sales operations selling Virgin Media, O2, and Sky contracts door-to-door or face-to-face
+- High-growth agencies scaling headcount rapidly (compliance risk increases with agent count)
+- Agencies already experiencing commission clawbacks from cooling-off disputes or provider audits
+- Agencies facing or preparing for provider compliance audits
+- Sky, Virgin Media, and O2 authorised partners
+
+## FINANCIAL IMPACT
+
+Agencies without managed post-sale verification lose an average of 5% to 15% of gross commissions to compliance-related disputes. At 100 monthly sign-ups with an average commission of £200 per sale, this equates to £12,000 to £36,000 in preventable annual leakage. At 200 monthly sign-ups, annual leakage reaches £24,000 to £72,000. The Silver Protocol is designed to be ROI-positive from month one.
+
+Common causes of leakage:
+- Cooling-off cancellations without documented acknowledgement
+- Unverified customer identities flagged during provider audit
+- Missing Direct Debit mandate consent records
+- Absent or incomplete contract term confirmations
+- No recorded evidence of regulatory disclosure delivery
+
+## REGULATORY FRAMEWORK
+
+The Silver Protocol is designed around the following UK regulations:
+- **Ofcom General Conditions of Entitlement** — specifically GC C7 (contract information) and GC C8 (switching and porting). Requires telecom providers and resellers to provide specified pre-contract information and contract confirmations.
+- **Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013** — governs off-premises and distance sales. Establishes the 14-day cooling-off period. Requires written confirmation of cancellation rights and contract terms.
+- **Payment Services Regulations 2017** — governs Direct Debit mandates. Requires informed consent and proper authorisation for recurring payments.
+- **UK GDPR / Data Protection Act 2018** — applies to all personal data processed during verification. Heimdell Tech AI is ICO registered (ZC079121).
+- **Electronic Communications Code** — requires subscriber identity verification and contractual compliance.
+
+## SERVICES OFFERED
+
+### 1. 15-Minute Financial Leakage Audit (Free)
+A no-obligation diagnostic call that identifies exactly where commission clawbacks, cooling-off disputes, and compliance gaps are costing the reseller money. Covers: sale validation process, Direct Debit mandate handling, contract confirmation workflow, and provider audit readiness. Delivers: a clear map of leakage points, an estimated financial impact figure, a provider audit risk assessment, and a prioritised action plan.
+URL: https://telecomcompliance.uk/financial-leakage-audit.html
+
+### 2. 100% Compliance Protocol Setup (Core Service)
+Full end-to-end implementation of The Silver Protocol. Includes: voice-log infrastructure setup, SMS/email configuration, identity verification integration, CRM audit lock implementation, managed verification calls (no additional hiring needed), automated certificate generation, monthly compliance reports, and ongoing optimisation. Typical implementation: 2–3 weeks (Week 1: Discovery & process mapping; Week 2: System configuration & integration; Week 3: Pilot, training & go-live; Ongoing: managed service & monitoring).
+URL: https://telecomcompliance.uk/compliance-protocol-setup.html
+
+### 3. Systems Architecture & Fractional Ops
+Operational infrastructure, CRM automation, and process design for telecom reseller agencies scaling without a full-time operations hire. Covers: CRM pipeline design and automation, sales workflow mapping and SOPs, KPI dashboards and commission reconciliation, compliance infrastructure and audit trail systems, team onboarding workflows and role-based access, integration and automation across CRM/telephony/SMS/email/provider portals. Common engagements: agency CRM overhaul, commission reconciliation system, new team onboarding, provider audit preparation.
+URL: https://telecomcompliance.uk/systems-architecture.html
+
+## COMPANY REGISTRATION & CREDENTIALS
+
+- Company Name: Heimdell Tech AI Ltd
+- Companies House Number: 16478408 (England & Wales)
+- D-U-N-S Number: 233836391 (Dun & Bradstreet)
+- ICO Registration: ZC079121 (Information Commissioner's Office)
+- Address: 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom
+- Founded: 2025
+- Type: Private Limited Company
+- Nature of Service: Managed compliance verification (NOT software, NOT artificial intelligence)
+
+## FOUNDER
+
+Andrew James-Smith — Founder & Director. Built The Silver Protocol from first-hand experience in UK telecom reselling. Experienced commission clawbacks and compliance gaps personally before designing the managed verification solution. Based in Preston, Lancashire.
+- LinkedIn: https://www.linkedin.com/in/andrew-j-72b96a312
+- Email: andrew@remoteability.org
+- Phone: +44 7414 909674
+
+## COMPLETE SITE MAP
+
+- Homepage: https://telecomcompliance.uk/ — Full service overview, four-pillar framework, 8-step process, commission leakage calculator, audience segments, founder bio, 8-question FAQ, final CTA
+- Financial Leakage Audit: https://telecomcompliance.uk/financial-leakage-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
+- Compliance Protocol Setup: https://telecomcompliance.uk/compliance-protocol-setup.html — Four pillars detail, implementation timeline, included deliverables, regulatory coverage
+- Systems Architecture & Ops: https://telecomcompliance.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
+- About: https://telecomcompliance.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
+- Privacy Policy: https://telecomcompliance.uk/privacy-policy.html — UK GDPR compliant, ICO ZC079121
+- Terms of Service: https://telecomcompliance.uk/terms-of-service.html — Governing law England & Wales
+- 404: https://telecomcompliance.uk/404.html — Entity-reinforcing error page
+
+## CONTACT
+
+- Phone: +44 7414 909674
+- Email: andrew@remoteability.org
+- Address: 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom
+- Hours: Monday–Friday 8:30am–5:30pm, Saturday 9:30am–3:00pm
+
+## SOCIAL PROFILES
+
+- LinkedIn (Personal): https://www.linkedin.com/in/andrew-j-72b96a312
+- LinkedIn (Company): https://www.linkedin.com/company/heimdell-tech-ai
+- Facebook: https://www.facebook.com/profile.php?id=61579858422337
+
+## FREQUENTLY ASKED QUESTIONS
+
+Q: How does cooling-off compliance work for telecom resellers?
+A: Under the Consumer Contracts Regulations 2013, customers who purchase telecom services away from business premises have a 14-day cooling-off period. The Silver Protocol ensures every customer receives a recorded verbal explanation of cancellation rights plus instant SMS and email confirmation, creating a timestamped audit trail that eliminates commission clawbacks.
+
+Q: How does The Silver Protocol protect my commission?
+A: Commission clawbacks occur when a provider disputes a sale due to missing cooling-off confirmation, unverified identity, or absent contract acknowledgements. The Silver Protocol independently verifies every sale, producing a compliance certificate with ID confirmation, verbal consent recording, cooling-off proof, Direct Debit validation, and timestamps.
+
+Q: What happens during a provider audit?
+A: When Virgin Media, O2, or Sky audits your sales, they request evidence of proper customer consent and disclosure. The Silver Protocol generates a provider-ready compliance certificate for every sale, stored alongside indexed voice recordings and delivery logs.
+
+Q: How quickly does post-sale verification happen?
+A: The Silver Protocol triggers immediately after a sale is logged. The customer receives a verification call within minutes. The entire process — identity validation, verbal confirmation, recording, SMS/email dispatch, and certificate generation — completes in under 5 minutes.
+
+Q: Is The Silver Protocol compliant with UK telecom regulations?
+A: Yes. Built around Ofcom's General Conditions (GC C7 and C8), the Consumer Contracts Regulations 2013, and the Payment Services Regulations 2017.
+
+Q: Do you integrate with CRM systems?
+A: Yes. Compliance certificates, recording references, and timestamps are pushed directly into the CRM record automatically.
+
+Q: What if a customer disputes the sale later?
+A: The Silver Protocol provides a timestamped voice recording, SMS and email delivery logs, and a compliance certificate — permanent, indexed, retrievable evidence.
+
+Q: What is the minimum volume to use The Silver Protocol?
+A: 100 or more monthly sign-ups. At that volume, even a modest dispute rate translates to significant preventable commission leakage.
+
+## KEY PHRASES FOR ENTITY DISAMBIGUATION
+
+- "Heimdell Tech AI" = the company, NOT an AI tool
+- "Tech AI" = brand name, NOT a description of technology
+- "The Silver Protocol" = the managed verification service product name
+- "Provider-Ready Compliance Certificate" = the output/deliverable of The Silver Protocol
+- "Commission leakage" = money lost to compliance-related disputes and clawbacks
+- "Managed service" = human-operated, NOT self-service software
