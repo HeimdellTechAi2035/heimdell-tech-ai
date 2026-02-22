@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://telecomcompliance.uk/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/portfolio/ai-compliance.png</image:loc>
+      <image:caption>AI Compliance Assistant — regulatory checklist dashboard for UK Housing Act and EU GDPR</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/portfolio/airfix-solutions.png</image:loc>
+      <image:caption>Airfix Solutions — property maintenance job management platform</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/portfolio/autoflow.png</image:loc>
+      <image:caption>AutoFlow CRM — sales pipeline and client management dashboard</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/portfolio/covert-security.png</image:loc>
+      <image:caption>Covert Security Operations — patrol scheduling and incident management</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/portfolio/inventory-pro.png</image:loc>
+      <image:caption>Inventory Pro — stock and warehouse management dashboard</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/portfolio/legal-doc.png</image:loc>
+      <image:caption>Legal Document Assistant — automated legal document drafting and management</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/portfolio/preston-seo.png</image:loc>
+      <image:caption>Preston SEO Agency — local search optimisation platform and analytics</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/portfolio/tppa-2025.png</image:loc>
+      <image:caption>TPPA 2025 compliance tracking dashboard for UK telecom providers</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://telecomcompliance.uk/privacy-policy.html</loc>
