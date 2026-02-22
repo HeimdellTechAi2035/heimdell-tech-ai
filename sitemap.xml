@@ -38,6 +38,10 @@
       <image:loc>https://telecomcompliance.uk/images/portfolio/tppa-2025-compliance-requirements-covert-secure.png</image:loc>
       <image:caption>TPPA 2025 compliance tracking dashboard for UK telecom providers</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/silver-protocol-four-pillar-audit-automation-framework.png</image:loc>
+      <image:caption>The Silver Protocol four-pillar audit and automation framework diagram by Heimdell Tech AI</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://telecomcompliance.uk/privacy-policy.html</loc>
@@ -56,18 +60,30 @@
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/financial-leakage-revenue-loss-fraud-waste-non-compliance.png</image:loc>
+      <image:caption>Financial leakage diagram showing revenue lost through fraud, errors, waste and non-compliance in UK telecom reseller operations</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://telecomcompliance.uk/compliance-protocol-setup.html</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/eight-step-compliance-verification-process-silver-protocol.png</image:loc>
+      <image:caption>Eight-step compliance verification process flowchart for The Silver Protocol by Heimdell Tech AI</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://telecomcompliance.uk/systems-architecture.html</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/fractional-vs-full-time-systems-architecture-comparison.png</image:loc>
+      <image:caption>Fractional vs full-time systems architecture comparison for UK telecom reseller operations management</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://telecomcompliance.uk/about.html</loc>
@@ -104,5 +120,9 @@
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://telecomcompliance.uk/images/mission-impact-trust-outcomes-action-engine-heimdell.png</image:loc>
+      <image:caption>Mission and Impact layered model showing Trust, Mission, Outcomes and Action framework by Heimdell Tech AI</image:caption>
+    </image:image>
   </url>
 </urlset>
