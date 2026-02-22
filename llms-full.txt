@@ -106,6 +106,10 @@ Andrew James-Smith — Founder & Director. Built The Silver Protocol from first-
 - Compliance Protocol Setup: https://telecomcompliance.uk/compliance-protocol-setup.html — Four pillars detail, implementation timeline, included deliverables, regulatory coverage
 - Systems Architecture & Ops: https://telecomcompliance.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
 - About: https://telecomcompliance.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
+- Case Studies: https://telecomcompliance.uk/case-studies.html — Index of real results from UK telecom resellers using The Silver Protocol
+- Case Study — 94% Clawback Reduction: https://telecomcompliance.uk/case-study-clawback-reduction.html — 150-agent Virgin Media reseller saves £47K/year
+- Case Study — Provider Audit Zero Flags: https://telecomcompliance.uk/case-study-provider-audit.html — 80-agent O2 partner passes surprise audit in 2 hours
+- Case Study — Scaling Compliance: https://telecomcompliance.uk/case-study-scaling-compliance.html — Sky reseller scales to 200+ sales/month with zero staff added
 - Privacy Policy: https://telecomcompliance.uk/privacy-policy.html — UK GDPR compliant, ICO ZC079121
 - Terms of Service: https://telecomcompliance.uk/terms-of-service.html — Governing law England & Wales
 - 404: https://telecomcompliance.uk/404.html — Entity-reinforcing error page
@@ -135,6 +139,34 @@ Heimdell Tech AI has designed and built the following platforms, dashboards and 
 6. **Legal Document Analyser** — Tool for translating complex legal paperwork into plain-English summaries with UK support service links.
 7. **Preston SEO Platform** — High-conversion local SEO landing page with AI-driven search optimisation and 90-day ranking guarantee.
 8. **TPPA 2025 Compliance Framework** — End-to-end Martyn's Law compliance framework with risk assessments, emergency plans and training packs.
+
+## CASE STUDIES — PROVEN RESULTS
+
+Heimdell Tech AI has delivered measurable compliance outcomes for UK telecom resellers:
+
+### Case Study 1: 94% Clawback Reduction in 90 Days
+- Client: 150-agent Virgin Media reseller, North West England
+- Problem: £4,200/month in commission clawbacks from unverified sign-ups and cooling-off disputes
+- Solution: The Silver Protocol deployed across all 150 agents
+- Result: Clawbacks reduced from £4,200/month to £252/month — a 94% reduction saving £47,376 annually
+- Timeline: Free Leakage Audit (Week 1) → Protocol deployment (Weeks 2–3) → Live operations (Week 4) → Full results (Week 12)
+- URL: https://telecomcompliance.uk/case-study-clawback-reduction.html
+
+### Case Study 2: Provider Audit Passed With Zero Flags
+- Client: 80-agent O2 partner agency, Midlands
+- Problem: Surprise O2 compliance audit with 14 days' notice; no centralised compliance records
+- Solution: The Silver Protocol had been in place for 4 months — complete evidence already existed for every sale
+- Result: 100% audit pass rate, zero compliance flags, evidence compiled in under 2 hours
+- Key insight: Without The Silver Protocol, estimated 30–40% of sales would have had documentation gaps
+- URL: https://telecomcompliance.uk/case-study-provider-audit.html
+
+### Case Study 3: Scaling to 200+ Sales/Month Without Adding Staff
+- Client: Rapidly growing Sky reseller
+- Problem: Sales volume doubled from 100 to 200+/month in 3 months; one compliance person couldn't keep up; clawbacks climbed to £2,600/month
+- Solution: The Silver Protocol replaced manual verification entirely — scalable pipeline with no headcount ceiling
+- Result: All 200+ monthly sales verified, clawbacks reduced to £290/month, £27,720 annual saving, zero additional staff hired
+- Contrast: Hiring a second compliance officer would have cost £28K–£32K/year and still wouldn't scale
+- URL: https://telecomcompliance.uk/case-study-scaling-compliance.html
 
 ## FREQUENTLY ASKED QUESTIONS
 
