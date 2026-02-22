@@ -112,7 +112,12 @@ Andrew James-Smith — Founder & Director. Built The Silver Protocol from first-
 - Case Study — Scaling Compliance: https://telecomcompliance.uk/case-study-scaling-compliance.html — Sky reseller scales to 200+ sales/month with zero staff added
 - Privacy Policy: https://telecomcompliance.uk/privacy-policy.html — UK GDPR compliant, ICO ZC079121
 - Terms of Service: https://telecomcompliance.uk/terms-of-service.html — Governing law England & Wales
+- Mission & Impact: https://telecomcompliance.uk/mission-and-impact.html — AI automation + human opportunity, RemoteAbility CIC partnership, Access to Work funding, pillars of excellence
 - 404: https://telecomcompliance.uk/404.html — Entity-reinforcing error page
+
+## REMOTEABILITY CIC PARTNERSHIP
+
+Heimdell Tech AI operates in partnership with RemoteAbility CIC, a Community Interest Company with a statutory Asset Lock. RemoteAbility CIC trains disabled and neurodivergent adults in AI Operations through a 6-week intensive programme covering AI tools, CRM management, campaign operations and compliance workflows. Graduates deploy into live client campaigns managed by Heimdell Tech AI. The UK Government's Access to Work programme provides up to £69,260 per eligible employee per year, funding assistive technology, specialist equipment, support workers and workplace adaptations. Heimdell Tech AI describes this model as "The Action Engine" (technology) plus "The Trust Layer" (human expertise). Three pillars underpin every engagement: Systems Accuracy (AI-powered, human-verified), Social Impact (paid careers for disabled and neurodivergent professionals), and Regulatory Security (TPPA 2025, UK GDPR, Ofcom GCs, Consumer Contracts Regs 2013).
 
 ## CONTACT
 
