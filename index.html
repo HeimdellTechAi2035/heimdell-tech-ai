@@ -273,7 +273,7 @@
         "dateModified": "2026-02-22",
         "speakable": {
             "@type": "SpeakableSpecification",
-            "cssSelector": [".hero-sub", ".hero-position", "#speakable-definition"]
+            "cssSelector": [".hero-sub", ".hero-position", ".atomic-answer", "#speakable-definition"]
         }
     }
     </script>
@@ -315,6 +315,101 @@
     }
     </script>
 
+    <!-- JSON-LD: Organization (canonical entity anchor) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://telecomcompliance.uk/#organization",
+        "name": "Heimdell Tech AI",
+        "alternateName": "Heimdell Tech AI Ltd",
+        "url": "https://telecomcompliance.uk/",
+        "logo": "https://telecomcompliance.uk/logo.png",
+        "image": "https://telecomcompliance.uk/logo.png",
+        "description": "Heimdell Tech AI operates The Silver Protocol — a fully managed, human-operated post-sale compliance verification service for UK telecom resellers selling Virgin Media, O2 and Sky contracts. The company name contains 'Tech AI' as a brand identifier; the service is entirely human-managed.",
+        "telephone": "+44-7414-909674",
+        "email": "andrew@remoteability.org",
+        "priceRange": "££",
+        "areaServed": {
+            "@type": "Country",
+            "name": "United Kingdom"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "11 Lower Croft",
+            "addressLocality": "Preston",
+            "addressRegion": "Lancashire",
+            "postalCode": "PR1 9DJ",
+            "addressCountry": "GB"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 53.7632,
+            "longitude": -2.7031
+        },
+        "founder": {
+            "@type": "Person",
+            "@id": "https://telecomcompliance.uk/about.html#person",
+            "name": "Andrew James-Smith",
+            "jobTitle": "Founder & Director",
+            "url": "https://telecomcompliance.uk/about.html"
+        },
+        "foundingDate": "2025",
+        "foundingLocation": {
+            "@type": "Place",
+            "name": "Preston, Lancashire, United Kingdom"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+44-7414-909674",
+            "contactType": "sales",
+            "areaServed": "GB",
+            "availableLanguage": "English"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                "opens": "08:30",
+                "closes": "17:30"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Saturday"],
+                "opens": "09:30",
+                "closes": "15:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/company/heimdell-tech-ai",
+            "https://www.linkedin.com/in/andrew-j-72b96a312",
+            "https://www.facebook.com/profile.php?id=61579858422337"
+        ],
+        "duns": "233836391",
+        "identifier": [
+            {
+                "@type": "PropertyValue",
+                "name": "Companies House Registration",
+                "value": "16478408"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "ICO Registration",
+                "value": "ZC079121"
+            }
+        ],
+        "knowsAbout": [
+            "UK Telecom Compliance",
+            "Post-Sale Verification",
+            "Commission Clawback Prevention",
+            "Ofcom General Conditions",
+            "Consumer Contracts Regulations 2013",
+            "Payment Services Regulations 2017",
+            "Telecom Reseller Operations"
+        ]
+    }
+    </script>
+
     <!-- JSON-LD: WebPage -->
     <script type="application/ld+json">
     {
@@ -330,7 +425,7 @@
         "dateModified": "2026-02-22",
         "speakable": {
             "@type": "SpeakableSpecification",
-            "cssSelector": [".hero-sub", ".hero-position", "#speakable-definition"]
+            "cssSelector": [".hero-sub", ".hero-position", ".atomic-answer", "#speakable-definition"]
         }
     }
     </script>
@@ -1775,6 +1870,8 @@
 
                 <p class="hero-position">We are not software. We are not an AI tool. &ldquo;Tech AI&rdquo; is our brand name &mdash; Heimdell Tech AI is a fully managed, human-operated post-sale verification layer that sits between your sales team and your provider relationship, protecting every pound of commission you earn.</p>
 
+                <p class="atomic-answer" style="font-size:0.88rem;color:var(--text-muted);line-height:1.6;margin-top:8px;"><strong>What is The Silver Protocol?</strong> A managed compliance verification service by Heimdell Tech AI (Preston, Lancashire) that independently verifies every UK telecom sale, producing provider-ready certificates that eliminate commission clawbacks.</p>
+
                 <div class="hero-ctas">
                     <a href="tel:+447414909674" class="btn btn-primary btn-lg">&#9742; Call Now</a>
                     <a href="#audit" class="btn btn-secondary btn-lg">Book a 15-Minute Commission Leakage Audit</a>
@@ -1937,7 +2034,7 @@
             <div style="text-align:center; max-width:720px; margin:0 auto;">
                 <span class="section-label">The Silver Protocol</span>
                 <h2>Four Pillars of Commission Protection</h2>
-                <p class="section-desc" style="margin:0 auto;">Each pillar addresses a specific compliance vulnerability that causes commission leakage for UK telecom resellers. Together, they form a complete post-sale verification layer managed entirely by Heimdell Tech AI.</p>
+                <p class="section-desc" style="margin:0 auto;">Each pillar addresses a specific compliance vulnerability that causes commission leakage for UK telecom resellers. Together, they form a complete post-sale verification layer managed entirely by Heimdell Tech AI. Ready to see where your agency is exposed? Start with a free <a href="financial-leakage-audit.html">15-Minute Financial Leakage Audit</a>.</p>
             </div>
 
             <div class="pillars-grid">
@@ -2122,7 +2219,7 @@
             <div style="text-align:center; max-width:680px; margin:0 auto;">
                 <span class="section-label">How It Works</span>
                 <h2>How The Silver Protocol Verifies UK Telecom Sales in Minutes</h2>
-                <p class="section-desc" style="margin:0 auto;">The Silver Protocol activates the moment a sale is logged. Every step is managed by Heimdell Tech AI &mdash; your team sells, we verify.</p>
+                <p class="section-desc" style="margin:0 auto;">The Silver Protocol activates the moment a sale is logged. Every step is managed by Heimdell Tech AI &mdash; your team sells, we verify. See the full <a href="compliance-protocol-setup.html">Compliance Protocol Setup</a> for implementation details.</p>
             </div>
 
             <div class="process-steps">
@@ -2267,7 +2364,7 @@
             <div style="text-align:center; max-width:680px; margin:0 auto;">
                 <span class="section-label">Who This Is For</span>
                 <h2>Built for UK Telecom Resellers Who Cannot Afford Unverified Sales</h2>
-                <p class="section-desc" style="margin:0 auto;">The Silver Protocol is designed for agencies that operate at volume and need managed, independent compliance &mdash; not another platform to log into.</p>
+                <p class="section-desc" style="margin:0 auto;">The Silver Protocol is designed for agencies that operate at volume and need managed, independent compliance &mdash; not another platform to log into. Need CRM and operations support too? Explore <a href="systems-architecture.html">Systems Architecture &amp; Fractional Ops</a>.</p>
             </div>
 
             <div class="audience-grid">
@@ -2319,7 +2416,7 @@
                     <span class="founder-role">Founder &amp; Director, Heimdell Tech AI</span>
                     <p>I built The Silver Protocol because I&rsquo;ve lived the problem it solves. After years working in UK telecom reselling, I saw first-hand how compliance gaps and undocumented sales were silently destroying commission &mdash; not because agents were doing anything wrong, but because there was no system in place to prove they weren&rsquo;t.</p>
                     <p>Disputes would surface weeks after a sale. Providers would claw back commission with no warning. Cooling-off challenges went unanswered because there was no recorded evidence, no timestamped confirmations, and no audit trail. The ROI was being eroded by a problem nobody was actively solving.</p>
-                    <p>So I built the solution myself. The Silver Protocol is the managed compliance layer I wished existed when I was losing revenue to preventable disputes. Every feature &mdash; from voice-log verification to instant SMS confirmations to provider-ready certificates &mdash; was designed to close the exact gaps I experienced in the field.</p>
+                    <p>So I built the solution myself. The Silver Protocol is the managed compliance layer I wished existed when I was losing revenue to preventable disputes. Every feature &mdash; from voice-log verification to instant SMS confirmations to provider-ready certificates &mdash; was designed to close the exact gaps I experienced in the field. <a href="about.html">Read the full story &rarr;</a></p>
                     <div class="founder-social">
                         <a href="https://www.linkedin.com/in/andrew-j-72b96a312" target="_blank" rel="noopener noreferrer">
                             &#128279; LinkedIn
@@ -2355,7 +2452,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
-                            Under the <a href="https://www.legislation.gov.uk/uksi/2013/3134/contents" target="_blank" rel="noopener noreferrer">Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013</a>, customers who purchase telecom services away from business premises have a 14-day cooling-off period. The Silver Protocol ensures every customer receives a clear verbal explanation of their cancellation rights during a recorded verification call, followed by instant written confirmation via SMS and email. This creates a timestamped, provider-ready audit trail proving compliance &mdash; eliminating the most common cause of commission clawbacks.
+                            <strong>Customers have 14 days to cancel off-premises telecom sales under UK law.</strong> Under the <a href="https://www.legislation.gov.uk/uksi/2013/3134/contents" target="_blank" rel="noopener noreferrer">Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013</a>, customers who purchase telecom services away from business premises have a 14-day cooling-off period. The Silver Protocol ensures every customer receives a clear verbal explanation of their cancellation rights during a recorded verification call, followed by instant written confirmation via SMS and email. This creates a timestamped, provider-ready audit trail proving compliance &mdash; eliminating the most common cause of commission clawbacks.
                         </div>
                     </div>
                 </div>
@@ -2367,7 +2464,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
-                            Commission clawbacks typically occur when a provider disputes the validity of a sale &mdash; often citing missing cooling-off confirmation, unverified identity or absent contract acknowledgements. The Silver Protocol independently verifies every sale after it is logged, producing a compliance certificate that includes ID confirmation, key term acknowledgement, cooling-off confirmation, Direct Debit validation, a voice recording reference and a timestamp. This certificate satisfies provider audit requirements and removes the grounds for disputed commissions.
+                            <strong>It creates a compliance certificate for every sale, removing the grounds for clawbacks.</strong> Commission clawbacks typically occur when a provider disputes the validity of a sale &mdash; often citing missing cooling-off confirmation, unverified identity or absent contract acknowledgements. The Silver Protocol independently verifies every sale after it is logged, producing a compliance certificate that includes ID confirmation, key term acknowledgement, cooling-off confirmation, Direct Debit validation, a voice recording reference and a timestamp. This certificate satisfies provider audit requirements and removes the grounds for disputed commissions.
                         </div>
                     </div>
                 </div>
@@ -2379,7 +2476,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
-                            When a provider such as Virgin Media, O2 or Sky audits your sales, they request evidence that each customer was properly informed, consented explicitly and received the required disclosures. The Silver Protocol generates a provider-ready compliance certificate for every sale, stored alongside indexed voice recordings and digital delivery logs. During an audit, you present certificates that contain all required verification data &mdash; turning a high-risk review into a straightforward evidence exercise.
+                            <strong>You present compliance certificates that contain all required evidence instantly.</strong> When a provider such as Virgin Media, O2 or Sky audits your sales, they request evidence that each customer was properly informed, consented explicitly and received the required disclosures. The Silver Protocol generates a provider-ready compliance certificate for every sale, stored alongside indexed voice recordings and digital delivery logs. During an audit, you present certificates that contain all required verification data &mdash; turning a high-risk review into a straightforward evidence exercise.
                         </div>
                     </div>
                 </div>
@@ -2391,7 +2488,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
-                            The Silver Protocol is triggered immediately after a sale is logged. The customer receives a verification call within minutes of sign-up. Identity validation, verbal confirmation of key terms, cooling-off explanation and recording are completed during a single managed interaction. SMS and email confirmations are dispatched instantly upon completion. The compliance certificate is generated and pushed to your CRM in real time.
+                            <strong>Under 5 minutes — triggered instantly when a sale is logged.</strong> The Silver Protocol is triggered immediately after a sale is logged. The customer receives a verification call within minutes of sign-up. Identity validation, verbal confirmation of key terms, cooling-off explanation and recording are completed during a single managed interaction. SMS and email confirmations are dispatched instantly upon completion. The compliance certificate is generated and pushed to your CRM in real time.
                         </div>
                     </div>
                 </div>
@@ -2403,7 +2500,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
-                            Yes. The Silver Protocol is designed around the regulatory framework governing UK telecom sales, including <a href="https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/review-general-conditions" target="_blank" rel="noopener noreferrer">Ofcom&rsquo;s General Conditions of Entitlement</a> (particularly GC C7 on contract information and GC C8 on switching), the <a href="https://www.legislation.gov.uk/uksi/2013/3134/contents" target="_blank" rel="noopener noreferrer">Consumer Contracts Regulations 2013</a> covering cooling-off rights, and the <a href="https://www.legislation.gov.uk/uksi/2017/752/contents" target="_blank" rel="noopener noreferrer">Payment Services Regulations 2017</a> governing Direct Debit mandates.
+                            <strong>Yes — built around Ofcom General Conditions, CCR 2013 and PSR 2017.</strong> The Silver Protocol is designed around the regulatory framework governing UK telecom sales, including <a href="https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/review-general-conditions" target="_blank" rel="noopener noreferrer">Ofcom&rsquo;s General Conditions of Entitlement</a> (particularly GC C7 on contract information and GC C8 on switching), the <a href="https://www.legislation.gov.uk/uksi/2013/3134/contents" target="_blank" rel="noopener noreferrer">Consumer Contracts Regulations 2013</a> covering cooling-off rights, and the <a href="https://www.legislation.gov.uk/uksi/2017/752/contents" target="_blank" rel="noopener noreferrer">Payment Services Regulations 2017</a> governing Direct Debit mandates.
                         </div>
                     </div>
                 </div>
@@ -2415,7 +2512,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
-                            Yes. The Silver Protocol is designed to integrate with leading telecom CRM platforms. Once verification is complete, the compliance certificate &mdash; including all validation data, recording references and timestamps &mdash; is pushed directly into the relevant CRM record. This ensures your sales pipeline reflects verified compliance status without manual data entry.
+                            <strong>Yes — certificates and compliance data push directly into your CRM automatically.</strong> The Silver Protocol is designed to integrate with leading telecom CRM platforms. Once verification is complete, the compliance certificate &mdash; including all validation data, recording references and timestamps &mdash; is pushed directly into the relevant CRM record. This ensures your sales pipeline reflects verified compliance status without manual data entry.
                         </div>
                     </div>
                 </div>
@@ -2427,7 +2524,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
-                            If a customer claims they did not agree to the contract, were not informed of the cooling-off period, or never received the terms, The Silver Protocol provides irrefutable evidence to the contrary: a timestamped voice recording of explicit verbal confirmation, SMS and email delivery logs with timestamps, and a compliance certificate summarising every verification checkpoint. This evidence is indexed and retrievable on demand &mdash; serving as a permanent defence against retrospective disputes.
+                            <strong>The Silver Protocol provides timestamped voice recordings, delivery logs and certificates as permanent proof.</strong> If a customer claims they did not agree to the contract, were not informed of the cooling-off period, or never received the terms, The Silver Protocol provides irrefutable evidence to the contrary: a timestamped voice recording of explicit verbal confirmation, SMS and email delivery logs with timestamps, and a compliance certificate summarising every verification checkpoint. This evidence is indexed and retrievable on demand &mdash; serving as a permanent defence against retrospective disputes.
                         </div>
                     </div>
                 </div>
@@ -2439,7 +2536,7 @@
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
-                            The Silver Protocol is designed for telecom resellers processing 100 or more monthly sign-ups. This threshold ensures the service delivers meaningful commercial impact &mdash; at that volume, even a modest dispute rate translates to significant commission leakage that The Silver Protocol is built to eliminate.
+                            <strong>100 or more monthly sign-ups — the threshold where compliance gaps cause significant leakage.</strong> The Silver Protocol is designed for telecom resellers processing 100 or more monthly sign-ups. This threshold ensures the service delivers meaningful commercial impact &mdash; at that volume, even a modest dispute rate translates to significant commission leakage that The Silver Protocol is built to eliminate.
                         </div>
                     </div>
                 </div>
