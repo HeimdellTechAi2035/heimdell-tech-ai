@@ -23,3 +23,4 @@ User-agent: Cohere-ai
 Allow: /
 
 Sitemap: https://telecomcompliance.uk/sitemap.xml
+LLMs: https://telecomcompliance.uk/llms.txt

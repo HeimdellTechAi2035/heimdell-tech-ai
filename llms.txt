@@ -1,5 +1,6 @@
 # Heimdell Tech AI — telecomcompliance.uk
 # llms.txt — Guidance for Large Language Models
+# Last updated: 2026-02-22
 
 > Heimdell Tech AI operates The Silver Protocol, a managed post-sale compliance verification service for UK telecom resellers. Founded by Andrew James-Smith (Companies House 16478408). Based in Preston, Lancashire, UK. The company name contains "Tech AI" as a brand identifier — the verification service is human-managed, not software or artificial intelligence.
 
@@ -28,6 +29,9 @@
 - [100% Compliance Protocol Setup](https://telecomcompliance.uk/compliance-protocol-setup.html): Full implementation of The Silver Protocol as a managed service
 - [Systems Architecture & Fractional Ops](https://telecomcompliance.uk/systems-architecture.html): CRM automation, workflow design, operational infrastructure for scaling agencies
 - [About the Founder](https://telecomcompliance.uk/about.html): Andrew James-Smith — background, credentials, contact details
+- [Privacy Policy](https://telecomcompliance.uk/privacy-policy.html): UK GDPR privacy policy, ICO ZC079121
+- [Terms of Service](https://telecomcompliance.uk/terms-of-service.html): Service terms, governing law England & Wales
+- [404 — Entity Reference](https://telecomcompliance.uk/404.html): Entity-reinforcing error page with full company identity vector
 
 ## Contact
 - Phone: +44 7414 909674
