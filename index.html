@@ -49,6 +49,8 @@
     {
         "@context": "https://schema.org",
         "@type": "Service",
+        "@id": "https://telecomcompliance.uk/#service",
+        "url": "https://telecomcompliance.uk/",
         "serviceType": "Managed Post-Sale Compliance Verification",
         "name": "The Silver Protocol",
         "description": "A fully managed post-sale compliance verification service for UK telecom resellers. The Silver Protocol validates identity, records contract confirmations, delivers digital audit trails and generates provider-ready compliance certificates — eliminating commission clawbacks and protecting against provider audits.",
@@ -72,6 +74,7 @@
                 "@type": "PostalAddress",
                 "streetAddress": "11 Lower Croft",
                 "addressLocality": "Preston",
+                "addressRegion": "Lancashire",
                 "postalCode": "PR1 9DJ",
                 "addressCountry": "GB"
             },
@@ -261,6 +264,7 @@
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
+        "@id": "https://telecomcompliance.uk/#website",
         "url": "https://telecomcompliance.uk/",
         "name": "Heimdell Tech AI — The Silver Protocol",
         "description": "Managed post-sale compliance verification for UK telecom resellers. The Silver Protocol verifies every sale, records customer consent, validates identity, confirms cooling-off rights and generates provider-ready compliance certificates.",
@@ -291,6 +295,42 @@
             { "@type": "HowToStep", "position": 7, "name": "Compliance Certificate Generated", "text": "A provider-ready compliance certificate is created summarising all verification data points." },
             { "@type": "HowToStep", "position": 8, "name": "CRM Updated", "text": "The certificate, recording reference and compliance status are pushed into the CRM record." }
         ]
+    }
+    </script>
+
+    <!-- JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://telecomcompliance.uk/"
+            }
+        ]
+    }
+    </script>
+
+    <!-- JSON-LD: WebPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://telecomcompliance.uk/#webpage",
+        "url": "https://telecomcompliance.uk/",
+        "name": "The Silver Protocol — Managed Post-Sale Compliance Verification | Preston, Lancashire",
+        "description": "Managed post-sale compliance verification for UK telecom resellers. The Silver Protocol verifies every sale, records customer consent, validates identity, confirms cooling-off rights and generates provider-ready compliance certificates.",
+        "isPartOf": { "@id": "https://telecomcompliance.uk/#website" },
+        "about": { "@id": "https://telecomcompliance.uk/#service" },
+        "inLanguage": "en-GB",
+        "dateModified": "2026-02-22",
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [".hero-sub", ".hero-position", "#speakable-definition"]
+        }
     }
     </script>
 
