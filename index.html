@@ -410,6 +410,114 @@
     }
     </script>
 
+    <!-- JSON-LD: ImageObject — Portfolio -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Systems Built by Heimdell Tech AI",
+        "description": "A portfolio of platforms, dashboards and tools designed and built by Heimdell Tech AI.",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://telecomcompliance.uk/images/portfolio/ai-compliance.png",
+                    "name": "AI Compliance Assistant",
+                    "description": "Dashboard interface of an AI-powered landlord compliance tool showing regulatory checklists for the UK Housing Act and EU GDPR data protection.",
+                    "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+                    "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://telecomcompliance.uk/images/portfolio/airfix-solutions.png",
+                    "name": "AirFix Solutions",
+                    "description": "Website header for AirFix Solutions showcasing 97-99% pollutant removal stats and smart monitoring features for UK city councils.",
+                    "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+                    "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://telecomcompliance.uk/images/portfolio/autoflow.png",
+                    "name": "AutoFlow Smart Ordering System",
+                    "description": "Secure login interface for AutoFlow Smart Ordering System listing AI-powered handwritten stock log recognition and real-time reporting features.",
+                    "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+                    "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://telecomcompliance.uk/images/portfolio/covert-security.png",
+                    "name": "Security Command Centre",
+                    "description": "Dark-mode security command center interface displaying a compliance matrix, system health status and recent activity logs for TPPA 2025.",
+                    "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+                    "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://telecomcompliance.uk/images/portfolio/inventory-pro.png",
+                    "name": "InventoryPro Dashboard",
+                    "description": "InventoryPro dashboard interface showing stock-level widgets, quick action buttons for reporting and system health indicators.",
+                    "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+                    "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://telecomcompliance.uk/images/portfolio/legal-doc.png",
+                    "name": "Legal Document Analyser",
+                    "description": "Legal document analysis portal featuring a drag-and-drop upload zone and quick links to UK support services.",
+                    "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+                    "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 7,
+                "item": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://telecomcompliance.uk/images/portfolio/preston-seo.png",
+                    "name": "Preston SEO Platform",
+                    "description": "SEO service landing page for Preston-based businesses highlighting a 90-day money-back guarantee and AI-driven local search optimisation.",
+                    "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+                    "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 8,
+                "item": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://telecomcompliance.uk/images/portfolio/tppa-2025.png",
+                    "name": "TPPA 2025 Compliance Framework",
+                    "description": "Detailed list of TPPA 2025 compliance requirements including risk assessments, emergency action plans and staff training packs.",
+                    "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+                    "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+                }
+            }
+        ]
+    }
+    </script>
+
     <!-- JSON-LD: WebPage -->
     <script type="application/ld+json">
     {
@@ -1608,52 +1716,64 @@
             font-weight: 600;
         }
 
-        /* ===== CLIENTS CAROUSEL ===== */
-        .clients {
-            padding: 60px 0 40px;
+        /* ===== PORTFOLIO GALLERY ===== */
+        .portfolio {
+            padding: 80px 0 60px;
         }
 
-        .clients-track-wrapper {
-            overflow: hidden;
-            position: relative;
-            width: 100%;
-            mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
-            -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+            margin-top: 32px;
         }
 
-        .clients-track {
-            display: flex;
-            gap: 48px;
-            align-items: center;
-            width: max-content;
-            animation: scrollLogos 30s linear infinite;
-        }
-
-        .clients-track:hover {
-            animation-play-state: paused;
-        }
-
-        .clients-track img {
-            height: 70px;
-            width: auto;
-            max-width: 180px;
-            object-fit: contain;
-            border-radius: 12px;
+        .portfolio-item {
             background: var(--dark-card);
-            padding: 12px 18px;
-            box-shadow: 0 2px 12px rgba(45, 27, 105, 0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            flex-shrink: 0;
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: transform var(--transition), box-shadow var(--transition);
         }
 
-        .clients-track img:hover {
-            transform: scale(1.08);
-            box-shadow: 0 4px 20px rgba(45, 27, 105, 0.15);
+        .portfolio-item:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
         }
 
-        @keyframes scrollLogos {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
+        .portfolio-item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            object-position: top;
+            display: block;
+        }
+
+        .portfolio-item-info {
+            padding: 20px 24px 24px;
+        }
+
+        .portfolio-item-info h4 {
+            font-family: var(--font-heading);
+            font-size: 1.05rem;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+        }
+
+        .portfolio-item-info p {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        @media (max-width: 640px) {
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+            .portfolio-item img {
+                height: 180px;
+            }
         }
 
         /* ===== FOOTER ===== */
@@ -1997,32 +2117,71 @@
         </div>
     </section>
 
-    <!-- ===== COMPANIES WE'VE WORKED WITH — CAROUSEL ===== -->
-    <section class="clients">
+    <!-- ===== PORTFOLIO — SYSTEMS WE'VE BUILT ===== -->
+    <section class="portfolio" id="portfolio">
         <div class="container">
-            <div style="text-align:center; max-width:720px; margin:0 auto 2rem;">
-                <span class="section-label">Trusted By</span>
-                <h2>Companies We&rsquo;ve Helped &amp; Worked With</h2>
+            <div style="text-align:center; max-width:720px; margin:0 auto 0.5rem;">
+                <span class="section-label">Our Work</span>
+                <h2>Systems We&rsquo;ve Built</h2>
+                <p class="section-desc" style="margin:0 auto;">A selection of platforms, dashboards and tools designed and built by Heimdell Tech AI &mdash; from compliance automation to inventory logistics and security command centres.</p>
             </div>
-            <div class="clients-track-wrapper">
-                <div class="clients-track" id="clientsTrack">
-                    <img src="images/portfolio/ai-compliance.png" alt="AI Compliance" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/airfix-solutions.png" alt="Airfix Solutions" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/autoflow.png" alt="AutoFlow" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/covert-security.png" alt="Covert Security" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/inventory-pro.png" alt="Inventory Pro" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/legal-doc.png" alt="Legal Doc" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/preston-seo.png" alt="Preston SEO" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/tppa-2025.png" alt="TPPA 2025" width="180" height="70" loading="lazy">
-                    <!-- Duplicated for seamless loop -->
-                    <img src="images/portfolio/ai-compliance.png" alt="AI Compliance" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/airfix-solutions.png" alt="Airfix Solutions" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/autoflow.png" alt="AutoFlow" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/covert-security.png" alt="Covert Security" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/inventory-pro.png" alt="Inventory Pro" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/legal-doc.png" alt="Legal Doc" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/preston-seo.png" alt="Preston SEO" width="180" height="70" loading="lazy">
-                    <img src="images/portfolio/tppa-2025.png" alt="TPPA 2025" width="180" height="70" loading="lazy">
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/portfolio/ai-compliance.png" alt="Dashboard interface of an AI-powered landlord compliance tool showing regulatory checklists for the UK Housing Act and EU GDPR data protection" width="600" height="400" loading="lazy">
+                    <div class="portfolio-item-info">
+                        <h4>AI Compliance Assistant</h4>
+                        <p>AI-powered compliance assistant for UK and EU landlords with segmented regulatory coverage and automated checklist generation.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio/airfix-solutions.png" alt="Website header for AirFix Solutions showcasing 97-99% pollutant removal stats and smart monitoring features for UK city councils" width="600" height="400" loading="lazy">
+                    <div class="portfolio-item-info">
+                        <h4>AirFix Solutions</h4>
+                        <p>Environmental tech platform for urban air filtration and Net Zero targets, featuring smart monitoring for UK city councils.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio/autoflow.png" alt="Secure login interface for AutoFlow Smart Ordering System listing AI-powered handwritten stock log recognition and real-time reporting features" width="600" height="400" loading="lazy">
+                    <div class="portfolio-item-info">
+                        <h4>AutoFlow Smart Ordering</h4>
+                        <p>Automated inventory logistics powered by AI handwriting recognition, Airtable integration and cloud-based real-time reporting.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio/covert-security.png" alt="Dark-mode security command center interface displaying a compliance matrix, system health status and recent activity logs for TPPA 2025" width="600" height="400" loading="lazy">
+                    <div class="portfolio-item-info">
+                        <h4>Security Command Centre</h4>
+                        <p>Real-time compliance monitoring dashboard for the TPPA 2025 framework with system health, activity logs and compliance matrix.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio/inventory-pro.png" alt="InventoryPro dashboard interface showing stock-level widgets, quick action buttons for reporting and system health indicators" width="600" height="400" loading="lazy">
+                    <div class="portfolio-item-info">
+                        <h4>InventoryPro Dashboard</h4>
+                        <p>Intelligent inventory management with real-time stock alerts, AI-powered analytics and Airtable configuration.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio/legal-doc.png" alt="Legal document analysis portal featuring a drag-and-drop upload zone and quick links to UK support services like Victim Support and Free Legal Advice" width="600" height="400" loading="lazy">
+                    <div class="portfolio-item-info">
+                        <h4>Legal Document Analyser</h4>
+                        <p>Minimalist tool for translating and summarising complex legal paperwork into plain English with support service links.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio/preston-seo.png" alt="SEO service landing page for Preston-based businesses highlighting a 90-day money-back guarantee and AI-driven local search optimisation" width="600" height="400" loading="lazy">
+                    <div class="portfolio-item-info">
+                        <h4>Preston SEO Platform</h4>
+                        <p>High-conversion local SEO landing page with AI-driven search optimisation and 90-day Google Page 1 ranking guarantee.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio/tppa-2025.png" alt="Detailed list of TPPA 2025 compliance requirements including risk assessments, emergency action plans and staff training packs by Covert Secure Consultancy" width="600" height="400" loading="lazy">
+                    <div class="portfolio-item-info">
+                        <h4>TPPA 2025 Compliance Framework</h4>
+                        <p>End-to-end compliance framework for Martyn&rsquo;s Law including risk assessments, emergency action plans and staff training packs.</p>
+                    </div>
                 </div>
             </div>
         </div>

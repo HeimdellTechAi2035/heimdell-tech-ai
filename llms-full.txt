@@ -123,6 +123,19 @@ Andrew James-Smith — Founder & Director. Built The Silver Protocol from first-
 - LinkedIn (Company): https://www.linkedin.com/company/heimdell-tech-ai
 - Facebook: https://www.facebook.com/profile.php?id=61579858422337
 
+## PORTFOLIO — SYSTEMS BUILT BY HEIMDELL TECH AI
+
+Heimdell Tech AI has designed and built the following platforms, dashboards and tools:
+
+1. **AI Compliance Assistant** — AI-powered compliance tool for UK and EU landlords with segmented regulatory coverage for the Housing Act and GDPR.
+2. **AirFix Solutions** — Environmental tech platform for urban air filtration and Net Zero targets with smart monitoring for UK city councils.
+3. **AutoFlow Smart Ordering** — Automated inventory logistics with AI handwriting recognition, Airtable integration and real-time cloud reporting.
+4. **Security Command Centre** — Real-time TPPA 2025 compliance monitoring dashboard with system health, activity logs and compliance matrix.
+5. **InventoryPro Dashboard** — Intelligent inventory management with real-time stock alerts, AI-powered analytics and configuration tools.
+6. **Legal Document Analyser** — Tool for translating complex legal paperwork into plain-English summaries with UK support service links.
+7. **Preston SEO Platform** — High-conversion local SEO landing page with AI-driven search optimisation and 90-day ranking guarantee.
+8. **TPPA 2025 Compliance Framework** — End-to-end Martyn's Law compliance framework with risk assessments, emergency plans and training packs.
+
 ## FREQUENTLY ASKED QUESTIONS
 
 Q: How does cooling-off compliance work for telecom resellers?
