@@ -764,6 +764,19 @@
             letter-spacing: 0.1em;
             color: var(--gold);
             margin-bottom: 16px;
+            animation: labelSlide 0.8s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes labelSlide {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
 
         .section-label::before {
@@ -771,6 +784,18 @@
             width: 24px;
             height: 2px;
             background: var(--gold);
+            box-shadow: 0 0 10px var(--gold);
+            animation: lineGrow 0.6s ease-out forwards;
+            transform-origin: left;
+        }
+
+        @keyframes lineGrow {
+            from {
+                transform: scaleX(0);
+            }
+            to {
+                transform: scaleX(1);
+            }
         }
 
         h1, h2, h3, h4, h5 {
@@ -783,6 +808,16 @@
             font-size: clamp(2rem, 4vw, 2.8rem);
             color: var(--white);
             margin-bottom: 20px;
+            animation: headingGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes headingGlow {
+            0%, 100% {
+                text-shadow: 0 0 20px rgba(255, 255, 255, 0.3), 0 0 40px rgba(107, 66, 194, 0.2);
+            }
+            50% {
+                text-shadow: 0 0 30px rgba(255, 255, 255, 0.5), 0 0 60px rgba(107, 66, 194, 0.4), 0 0 80px rgba(218, 165, 32, 0.2);
+            }
         }
 
         h3 {
@@ -1326,6 +1361,20 @@
             color: var(--text-secondary);
             font-size: 1.05rem;
             margin-bottom: 24px;
+            animation: fadeIn 1s ease-out forwards;
+            opacity: 0;
+        }
+
+        .trust-text p:nth-child(2) { animation-delay: 0.2s; }
+        .trust-text p:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
         }
 
         .trust-bullets {
@@ -1343,6 +1392,24 @@
             border: 1px solid var(--dark-border);
             border-radius: var(--radius);
             transition: all var(--transition);
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+        }
+
+        .trust-bullet:nth-child(1) { animation-delay: 0.1s; }
+        .trust-bullet:nth-child(2) { animation-delay: 0.2s; }
+        .trust-bullet:nth-child(3) { animation-delay: 0.3s; }
+        .trust-bullet:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .trust-bullet:hover {
@@ -1360,6 +1427,13 @@
             align-items: center;
             justify-content: center;
             font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .trust-bullet:hover .trust-bullet-icon {
+            background: rgba(107, 66, 194, 0.25);
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 0 20px rgba(107, 66, 194, 0.4);
         }
 
         .trust-bullet h4 {
@@ -1391,12 +1465,30 @@
             position: relative;
             overflow: hidden;
             transition: all var(--transition);
+            animation: scaleIn 0.6s ease-out forwards;
+            opacity: 0;
+        }
+
+        .pillar-card:nth-child(1) { animation-delay: 0.1s; }
+        .pillar-card:nth-child(2) { animation-delay: 0.2s; }
+        .pillar-card:nth-child(3) { animation-delay: 0.3s; }
+        .pillar-card:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.85);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
 
         .pillar-card:hover {
             border-color: var(--purple-accent);
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: var(--shadow-lg), 0 0 40px rgba(107, 66, 194, 0.2);
         }
 
         .pillar-card::before {
@@ -1432,6 +1524,17 @@
             justify-content: center;
             font-size: 1.5rem;
             margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .pillar-card:hover .pillar-icon {
+            animation: iconShake 0.5s ease;
+        }
+
+        @keyframes iconShake {
+            0%, 100% { transform: translateX(0) rotate(0deg); }
+            25% { transform: translateX(-5px) rotate(-5deg); }
+            75% { transform: translateX(5px) rotate(5deg); }
         }
 
         .pillar-card:nth-child(1) .pillar-icon { background: rgba(107, 66, 194, 0.15); }
@@ -1557,11 +1660,30 @@
             border: 1px solid var(--dark-border);
             border-radius: var(--radius-lg);
             transition: all var(--transition);
+            animation: slideInRotate 0.7s ease-out forwards;
+            opacity: 0;
+        }
+
+        .process-step:nth-child(1) { animation-delay: 0.1s; }
+        .process-step:nth-child(2) { animation-delay: 0.2s; }
+        .process-step:nth-child(3) { animation-delay: 0.3s; }
+        .process-step:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes slideInRotate {
+            from {
+                opacity: 0;
+                transform: translateY(40px) rotate(-5deg);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) rotate(0deg);
+            }
         }
 
         .process-step:hover {
             border-color: var(--gold);
-            transform: translateY(-4px);
+            transform: translateY(-8px);
+            box-shadow: 0 10px 40px rgba(218, 165, 32, 0.3);
         }
 
         .process-step-num {
@@ -1577,6 +1699,18 @@
             font-weight: 700;
             font-size: 1rem;
             color: #FFFFFF;
+            animation: numberFloat 3s ease-in-out infinite;
+        }
+
+        @keyframes numberFloat {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+                box-shadow: 0 5px 15px rgba(107, 66, 194, 0.3);
+            }
+            50% {
+                transform: translateY(-5px) rotate(2deg);
+                box-shadow: 0 10px 25px rgba(107, 66, 194, 0.5);
+            }
         }
 
         .process-step h4 {
@@ -1610,6 +1744,19 @@
             background: var(--dark-card);
             border: 1px solid var(--dark-border);
             border-radius: var(--radius);
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .process-outcome:nth-child(1) { animation-delay: 0.2s; }
+        .process-outcome:nth-child(2) { animation-delay: 0.3s; }
+        .process-outcome:nth-child(3) { animation-delay: 0.4s; }
+
+        .process-outcome:hover {
+            transform: translateY(-3px);
+            border-color: var(--gold);
+            box-shadow: 0 8px 24px rgba(218, 165, 32, 0.2);
         }
 
         .process-outcome-icon {
@@ -1652,6 +1799,19 @@
             padding: 40px;
             position: relative;
             overflow: hidden;
+            animation: slideInLeft 0.8s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
 
         .calc-card::before {
@@ -1726,6 +1886,19 @@
             padding: 40px;
             position: relative;
             overflow: hidden;
+            animation: slideInRight 0.8s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
 
         .calc-recovery::before {
@@ -1761,6 +1934,18 @@
             border: 1px solid var(--dark-border);
             border-radius: var(--radius);
             text-align: center;
+            animation: scaleIn 0.6s ease-out forwards;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .calc-metric:nth-child(1) { animation-delay: 0.2s; }
+        .calc-metric:nth-child(2) { animation-delay: 0.3s; }
+
+        .calc-metric:hover {
+            transform: scale(1.05);
+            border-color: var(--gold);
+            box-shadow: 0 8px 24px rgba(218, 165, 32, 0.2);
         }
 
         .calc-metric-value {
@@ -1794,11 +1979,39 @@
             border: 1px solid var(--dark-border);
             border-radius: var(--radius-lg);
             transition: all var(--transition);
+            animation: bounceIn 0.6s ease-out forwards;
+            opacity: 0;
+        }
+
+        .audience-card:nth-child(1) { animation-delay: 0.1s; }
+        .audience-card:nth-child(2) { animation-delay: 0.2s; }
+        .audience-card:nth-child(3) { animation-delay: 0.3s; }
+        .audience-card:nth-child(4) { animation-delay: 0.4s; }
+        .audience-card:nth-child(5) { animation-delay: 0.5s; }
+        .audience-card:nth-child(6) { animation-delay: 0.6s; }
+
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.3) translateY(50px);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.05) translateY(-10px);
+            }
+            70% {
+                transform: scale(0.95) translateY(5px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
         }
 
         .audience-card:hover {
             border-color: var(--gold);
-            transform: translateY(-3px);
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 15px 40px rgba(218, 165, 32, 0.25);
         }
 
         .audience-icon {
@@ -1811,6 +2024,18 @@
             justify-content: center;
             font-size: 1.3rem;
             margin-bottom: 16px;
+            animation: iconPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes iconPulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(107, 66, 194, 0.4);
+            }
+            50% {
+                transform: scale(1.08);
+                box-shadow: 0 0 0 10px rgba(107, 66, 194, 0);
+            }
         }
 
         .audience-card h4 {
@@ -2078,11 +2303,32 @@
             border-radius: var(--radius-lg);
             overflow: hidden;
             transition: transform var(--transition), box-shadow var(--transition);
+            animation: fadeInScale 0.6s ease-out forwards;
+            opacity: 0;
+        }
+
+        .portfolio-item:nth-child(1) { animation-delay: 0.1s; }
+        .portfolio-item:nth-child(2) { animation-delay: 0.2s; }
+        .portfolio-item:nth-child(3) { animation-delay: 0.3s; }
+        .portfolio-item:nth-child(4) { animation-delay: 0.4s; }
+        .portfolio-item:nth-child(5) { animation-delay: 0.5s; }
+        .portfolio-item:nth-child(6) { animation-delay: 0.6s; }
+        .portfolio-item:nth-child(7) { animation-delay: 0.7s; }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.9) translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
         }
 
         .portfolio-item:hover {
-            transform: translateY(-6px);
-            box-shadow: var(--shadow-lg);
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: var(--shadow-lg), 0 0 50px rgba(107, 66, 194, 0.2);
         }
 
         .portfolio-item img {
@@ -2091,6 +2337,11 @@
             object-fit: cover;
             object-position: top;
             display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.1);
         }
 
         .portfolio-item-info {
