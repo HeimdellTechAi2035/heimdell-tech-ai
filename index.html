@@ -764,8 +764,11 @@
             letter-spacing: 0.1em;
             color: var(--gold);
             margin-bottom: 16px;
-            animation: labelSlide 0.8s ease-out forwards;
             opacity: 0;
+        }
+
+        .section-label.is-visible {
+            animation: labelSlide 0.8s ease-out forwards;
         }
 
         @keyframes labelSlide {
@@ -1392,14 +1395,17 @@
             border: 1px solid var(--dark-border);
             border-radius: var(--radius);
             transition: all var(--transition);
-            animation: fadeInUp 0.6s ease-out forwards;
             opacity: 0;
         }
 
-        .trust-bullet:nth-child(1) { animation-delay: 0.1s; }
-        .trust-bullet:nth-child(2) { animation-delay: 0.2s; }
-        .trust-bullet:nth-child(3) { animation-delay: 0.3s; }
-        .trust-bullet:nth-child(4) { animation-delay: 0.4s; }
+        .trust-bullet.is-visible {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+
+        .trust-bullet.is-visible:nth-child(1) { animation-delay: 0.1s; }
+        .trust-bullet.is-visible:nth-child(2) { animation-delay: 0.2s; }
+        .trust-bullet.is-visible:nth-child(3) { animation-delay: 0.3s; }
+        .trust-bullet.is-visible:nth-child(4) { animation-delay: 0.4s; }
 
         @keyframes fadeInUp {
             from {
@@ -1465,14 +1471,17 @@
             position: relative;
             overflow: hidden;
             transition: all var(--transition);
-            animation: scaleIn 0.6s ease-out forwards;
             opacity: 0;
         }
 
-        .pillar-card:nth-child(1) { animation-delay: 0.1s; }
-        .pillar-card:nth-child(2) { animation-delay: 0.2s; }
-        .pillar-card:nth-child(3) { animation-delay: 0.3s; }
-        .pillar-card:nth-child(4) { animation-delay: 0.4s; }
+        .pillar-card.is-visible {
+            animation: scaleIn 0.6s ease-out forwards;
+        }
+
+        .pillar-card.is-visible:nth-child(1) { animation-delay: 0.1s; }
+        .pillar-card.is-visible:nth-child(2) { animation-delay: 0.2s; }
+        .pillar-card.is-visible:nth-child(3) { animation-delay: 0.3s; }
+        .pillar-card.is-visible:nth-child(4) { animation-delay: 0.4s; }
 
         @keyframes scaleIn {
             from {
@@ -1660,14 +1669,17 @@
             border: 1px solid var(--dark-border);
             border-radius: var(--radius-lg);
             transition: all var(--transition);
-            animation: slideInRotate 0.7s ease-out forwards;
             opacity: 0;
         }
 
-        .process-step:nth-child(1) { animation-delay: 0.1s; }
-        .process-step:nth-child(2) { animation-delay: 0.2s; }
-        .process-step:nth-child(3) { animation-delay: 0.3s; }
-        .process-step:nth-child(4) { animation-delay: 0.4s; }
+        .process-step.is-visible {
+            animation: slideInRotate 0.7s ease-out forwards;
+        }
+
+        .process-step.is-visible:nth-child(1) { animation-delay: 0.1s; }
+        .process-step.is-visible:nth-child(2) { animation-delay: 0.2s; }
+        .process-step.is-visible:nth-child(3) { animation-delay: 0.3s; }
+        .process-step.is-visible:nth-child(4) { animation-delay: 0.4s; }
 
         @keyframes slideInRotate {
             from {
@@ -1744,14 +1756,17 @@
             background: var(--dark-card);
             border: 1px solid var(--dark-border);
             border-radius: var(--radius);
-            animation: fadeInUp 0.6s ease-out forwards;
             opacity: 0;
             transition: all 0.3s ease;
         }
 
-        .process-outcome:nth-child(1) { animation-delay: 0.2s; }
-        .process-outcome:nth-child(2) { animation-delay: 0.3s; }
-        .process-outcome:nth-child(3) { animation-delay: 0.4s; }
+        .process-outcome.is-visible {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+
+        .process-outcome.is-visible:nth-child(1) { animation-delay: 0.2s; }
+        .process-outcome.is-visible:nth-child(2) { animation-delay: 0.3s; }
+        .process-outcome.is-visible:nth-child(3) { animation-delay: 0.4s; }
 
         .process-outcome:hover {
             transform: translateY(-3px);
@@ -1799,8 +1814,11 @@
             padding: 40px;
             position: relative;
             overflow: hidden;
-            animation: slideInLeft 0.8s ease-out forwards;
             opacity: 0;
+        }
+
+        .calc-card.is-visible {
+            animation: slideInLeft 0.8s ease-out forwards;
         }
 
         @keyframes slideInLeft {
@@ -1886,8 +1904,11 @@
             padding: 40px;
             position: relative;
             overflow: hidden;
-            animation: slideInRight 0.8s ease-out forwards;
             opacity: 0;
+        }
+
+        .calc-recovery.is-visible {
+            animation: slideInRight 0.8s ease-out forwards;
         }
 
         @keyframes slideInRight {
@@ -1934,13 +1955,16 @@
             border: 1px solid var(--dark-border);
             border-radius: var(--radius);
             text-align: center;
-            animation: scaleIn 0.6s ease-out forwards;
             opacity: 0;
             transition: all 0.3s ease;
         }
 
-        .calc-metric:nth-child(1) { animation-delay: 0.2s; }
-        .calc-metric:nth-child(2) { animation-delay: 0.3s; }
+        .calc-metric.is-visible {
+            animation: scaleIn 0.6s ease-out forwards;
+        }
+
+        .calc-metric.is-visible:nth-child(1) { animation-delay: 0.2s; }
+        .calc-metric.is-visible:nth-child(2) { animation-delay: 0.3s; }
 
         .calc-metric:hover {
             transform: scale(1.05);
@@ -1979,16 +2003,19 @@
             border: 1px solid var(--dark-border);
             border-radius: var(--radius-lg);
             transition: all var(--transition);
-            animation: bounceIn 0.6s ease-out forwards;
             opacity: 0;
         }
 
-        .audience-card:nth-child(1) { animation-delay: 0.1s; }
-        .audience-card:nth-child(2) { animation-delay: 0.2s; }
-        .audience-card:nth-child(3) { animation-delay: 0.3s; }
-        .audience-card:nth-child(4) { animation-delay: 0.4s; }
-        .audience-card:nth-child(5) { animation-delay: 0.5s; }
-        .audience-card:nth-child(6) { animation-delay: 0.6s; }
+        .audience-card.is-visible {
+            animation: bounceIn 0.6s ease-out forwards;
+        }
+
+        .audience-card.is-visible:nth-child(1) { animation-delay: 0.1s; }
+        .audience-card.is-visible:nth-child(2) { animation-delay: 0.2s; }
+        .audience-card.is-visible:nth-child(3) { animation-delay: 0.3s; }
+        .audience-card.is-visible:nth-child(4) { animation-delay: 0.4s; }
+        .audience-card.is-visible:nth-child(5) { animation-delay: 0.5s; }
+        .audience-card.is-visible:nth-child(6) { animation-delay: 0.6s; }
 
         @keyframes bounceIn {
             0% {
@@ -2303,17 +2330,20 @@
             border-radius: var(--radius-lg);
             overflow: hidden;
             transition: transform var(--transition), box-shadow var(--transition);
-            animation: fadeInScale 0.6s ease-out forwards;
             opacity: 0;
         }
 
-        .portfolio-item:nth-child(1) { animation-delay: 0.1s; }
-        .portfolio-item:nth-child(2) { animation-delay: 0.2s; }
-        .portfolio-item:nth-child(3) { animation-delay: 0.3s; }
-        .portfolio-item:nth-child(4) { animation-delay: 0.4s; }
-        .portfolio-item:nth-child(5) { animation-delay: 0.5s; }
-        .portfolio-item:nth-child(6) { animation-delay: 0.6s; }
-        .portfolio-item:nth-child(7) { animation-delay: 0.7s; }
+        .portfolio-item.is-visible {
+            animation: fadeInScale 0.6s ease-out forwards;
+        }
+
+        .portfolio-item.is-visible:nth-child(1) { animation-delay: 0.1s; }
+        .portfolio-item.is-visible:nth-child(2) { animation-delay: 0.2s; }
+        .portfolio-item.is-visible:nth-child(3) { animation-delay: 0.3s; }
+        .portfolio-item.is-visible:nth-child(4) { animation-delay: 0.4s; }
+        .portfolio-item.is-visible:nth-child(5) { animation-delay: 0.5s; }
+        .portfolio-item.is-visible:nth-child(6) { animation-delay: 0.6s; }
+        .portfolio-item.is-visible:nth-child(7) { animation-delay: 0.7s; }
 
         @keyframes fadeInScale {
             from {
@@ -3456,6 +3486,29 @@
                     window.scrollTo({ top: y, behavior: 'smooth' });
                 }
             });
+        });
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const animateOnScroll = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    // Optionally unobserve after animation
+                    animateOnScroll.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all elements that should animate on scroll
+        const animatedElements = document.querySelectorAll('.trust-bullet, .pillar-card, .process-step, .process-outcome, .calc-card, .calc-recovery, .calc-metric, .audience-card, .portfolio-item, .section-label');
+        
+        animatedElements.forEach(element => {
+            animateOnScroll.observe(element);
         });
     </script>
 
