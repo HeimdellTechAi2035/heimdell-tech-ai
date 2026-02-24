@@ -882,7 +882,7 @@
 
         /* ===== HERO ===== */
         .hero {
-            padding: 160px 0 120px;
+            padding: 160px 0 48px;
             position: relative;
             overflow-x: hidden;
             overflow-y: visible;
@@ -1355,6 +1355,7 @@
             border-radius: var(--radius-lg);
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(218, 165, 32, 0.15);
             border: 1px solid rgba(218, 165, 32, 0.2);
+            display: block;
         }
 
         @keyframes slideInRight {
@@ -2668,12 +2669,9 @@
 
             /* MOBILE HERO - COMPLETE REBUILD */
             .hero {
-                padding: 120px 0 60px;
+                padding: 100px 0 32px;
                 overflow-x: hidden !important;
                 max-width: 100vw;
-                min-height: 100vh;
-                display: flex;
-                align-items: center;
             }
 
             .hero-inner {
@@ -2792,7 +2790,7 @@
             }
 
             .hero-callcentre {
-                margin-top: 32px;
+                margin-top: 24px;
             }
 
             .hero-callcentre img {
@@ -2902,8 +2900,7 @@
         /* Extra small screens - mobile optimized */
         @media (max-width: 480px) {
             .hero {
-                padding: 100px 0 40px;
-                min-height: 100vh;
+                padding: 90px 0 24px;
             }
 
             .hero-content {
