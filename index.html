@@ -2685,32 +2685,6 @@
                 align-items: center;
             }
 
-            /* Animated Logo at Top */
-            .hero-content::before {
-                content: '';
-                display: block;
-                width: 180px;
-                height: 180px;
-                margin: 0 auto 32px;
-                background-image: url('heimdell-tech-ai-silver-protocol-logo.png');
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-                opacity: 0.6;
-                animation: logoFloat 6s ease-in-out infinite;
-            }
-
-            @keyframes logoFloat {
-                0%, 100% { 
-                    transform: translateY(0px) scale(1);
-                    opacity: 0.6;
-                }
-                50% { 
-                    transform: translateY(-15px) scale(1.05);
-                    opacity: 0.8;
-                }
-            }
-
             .hero-badge {
                 display: inline-flex;
                 justify-content: center;
@@ -2796,7 +2770,13 @@
             }
 
             .hero-watermark {
-                display: none;
+                width: 600px;
+                height: 600px;
+                opacity: 0.2;
+            }
+
+            .hero-watermark img {
+                animation: rotate360 80s linear infinite;
             }
 
             .hero-visual {
@@ -2916,11 +2896,10 @@
                 padding: 0 18px;
             }
 
-            /* Animated Logo - slightly smaller */
-            .hero-content::before {
-                width: 160px;
-                height: 160px;
-                margin-bottom: 28px;
+            .hero-watermark {
+                width: 500px;
+                height: 500px;
+                opacity: 0.18;
             }
 
             .hero-badge {
