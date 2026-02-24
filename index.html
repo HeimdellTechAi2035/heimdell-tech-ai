@@ -607,6 +607,8 @@
         html {
             scroll-behavior: smooth;
             font-size: 16px;
+            overflow-x: hidden !important;
+            max-width: 100vw;
         }
 
         body {
@@ -615,9 +617,10 @@
             color: var(--text-primary);
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
-            overflow-x: hidden;
+            overflow-x: hidden !important;
             width: 100%;
             max-width: 100vw;
+            position: relative;
         }
 
         .container {
@@ -876,7 +879,8 @@
         .hero {
             padding: 160px 0 120px;
             position: relative;
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: visible;
             background: linear-gradient(135deg, #0a0520 0%, #1a0b3a 50%, #0a0520 100%);
         }
 
@@ -2649,7 +2653,8 @@
 
             .hero {
                 padding: 100px 0 60px;
-                overflow-x: hidden;
+                overflow-x: hidden !important;
+                max-width: 100vw;
             }
 
             .hero-inner {
@@ -2728,9 +2733,20 @@
             }
 
             .hero-watermark {
-                opacity: 0.05;
-                width: 600px;
-                height: 600px;
+                display: none;
+            }
+
+            .hero-ctas::before {
+                content: '';
+                display: block;
+                width: 220px;
+                height: 220px;
+                margin: 0 auto 24px;
+                background-image: url('heimdell-tech-ai-silver-protocol-logo.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                opacity: 0.5;
             }
 
             .process-steps {
@@ -2830,7 +2846,8 @@
         @media (max-width: 480px) {
             .hero {
                 padding: 95px 0 45px;
-                overflow-x: hidden;
+                overflow-x: hidden !important;
+                max-width: 100vw;
             }
 
             .hero-inner {
