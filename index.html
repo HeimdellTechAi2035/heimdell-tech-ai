@@ -969,13 +969,8 @@
             opacity: 0.25;
             pointer-events: none;
             z-index: 1;
-        }
-
-        @media (prefers-reduced-motion: no-preference) and (min-width: 769px) {
-            .hero-watermark {
-                will-change: transform;
-                animation: rotate360 80s linear infinite;
-            }
+            will-change: transform;
+            animation: rotate360 80s linear infinite;
         }
 
         @keyframes rotate360 {
@@ -2773,10 +2768,6 @@
                 width: 600px;
                 height: 600px;
                 opacity: 0.2;
-            }
-
-            .hero-watermark img {
-                animation: rotate360 80s linear infinite;
             }
 
             .hero-visual {
