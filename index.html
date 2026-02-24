@@ -1342,6 +1342,21 @@
             animation: slideInRight 1s ease-out;
         }
 
+        .hero-callcentre {
+            width: 100%;
+            margin-top: 48px;
+            z-index: 2;
+            position: relative;
+        }
+
+        .hero-callcentre img {
+            width: 100%;
+            height: auto;
+            border-radius: var(--radius-lg);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(218, 165, 32, 0.15);
+            border: 1px solid rgba(218, 165, 32, 0.2);
+        }
+
         @keyframes slideInRight {
             from {
                 opacity: 0;
@@ -2776,6 +2791,14 @@
                 margin-top: 40px;
             }
 
+            .hero-callcentre {
+                margin-top: 32px;
+            }
+
+            .hero-callcentre img {
+                border-radius: 12px;
+            }
+
             .hero-card {
                 max-width: 100%;
                 padding: 24px 20px;
@@ -3075,6 +3098,13 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+
+        <!-- Call Centre Image -->
+        <div class="container">
+            <div class="hero-callcentre">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80" alt="Professional telecom call centre team verifying sales compliance for UK resellers" width="1200" height="630" loading="lazy">
             </div>
         </div>
     </section>
