@@ -632,7 +632,12 @@
 
         @media (max-width: 640px) {
             .container {
-                padding: 0 14px;
+                padding: 0 20px;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
             }
         }
 
@@ -2664,9 +2669,10 @@
             }
 
             .hero-content {
-                padding: 0;
+                padding: 0 10px;
                 max-width: 100%;
                 text-align: center;
+                box-sizing: border-box;
             }
 
             .hero-badge {
@@ -2677,6 +2683,8 @@
                 max-width: 100%;
                 word-break: break-word;
                 gap: 5px;
+                overflow-wrap: break-word;
+                hyphens: auto;
             }
 
             .hero-visual {
@@ -2688,21 +2696,27 @@
                 max-width: 100%;
                 padding: 20px;
                 margin: 0;
+                box-sizing: border-box;
             }
 
             .hero h1 {
-                font-size: 1rem;
+                font-size: 0.9rem;
                 word-break: break-word;
-                line-height: 1.35;
+                line-height: 1.4;
                 margin-bottom: 14px;
                 text-align: center;
+                overflow-wrap: break-word;
+                hyphens: auto;
+                padding: 0;
             }
 
             .hero-sub {
-                font-size: 0.8rem;
+                font-size: 0.75rem;
                 line-height: 1.4;
                 margin-bottom: 24px;
                 text-align: center;
+                word-break: break-word;
+                overflow-wrap: break-word;
             }
 
             .hero-position {
@@ -2862,19 +2876,22 @@
             }
 
             .hero-content {
-                padding: 0;
+                padding: 0 8px;
                 max-width: 100%;
                 text-align: center;
+                box-sizing: border-box;
             }
 
             .hero-badge {
                 justify-content: center;
                 margin: 0 auto 10px;
-                font-size: 0.6rem;
+                font-size: 0.58rem;
                 padding: 4px 8px;
                 max-width: 100%;
                 word-break: break-word;
                 gap: 4px;
+                overflow-wrap: break-word;
+                hyphens: auto;
             }
 
             .hero-visual {
@@ -2886,18 +2903,19 @@
                 max-width: 100%;
                 padding: 16px;
                 margin: 0;
+                box-sizing: border-box;
             }
 
             .hero-card-title {
-                font-size: 0.85rem;
+                font-size: 0.8rem;
             }
 
             .hero-card-sub {
-                font-size: 0.7rem;
+                font-size: 0.68rem;
             }
 
             .checklist li {
-                font-size: 0.75rem;
+                font-size: 0.72rem;
             }
 
             .hero-stats {
@@ -2913,17 +2931,23 @@
             }
 
             .hero h1 {
-                font-size: 0.95rem;
-                line-height: 1.4;
+                font-size: 0.85rem;
+                line-height: 1.45;
                 margin-bottom: 12px;
                 text-align: center;
+                word-break: break-word;
+                overflow-wrap: break-word;
+                hyphens: auto;
+                padding: 0;
             }
 
             .hero-sub {
-                font-size: 0.75rem;
-                line-height: 1.4;
+                font-size: 0.7rem;
+                line-height: 1.45;
                 margin-bottom: 28px;
                 text-align: center;
+                word-break: break-word;
+                overflow-wrap: break-word;
             }
 
             .hero-position {
