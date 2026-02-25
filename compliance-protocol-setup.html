@@ -128,6 +128,56 @@
     }
     </script>
 
+    <!-- JSON-LD: FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How long does it take to implement The Silver Protocol?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Full implementation takes 2–3 weeks. Week one covers discovery and process mapping. Week two handles system configuration and CRM integration. Week three includes team training and live pilot testing. You process verified sales by week three with no disruption to current operations."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What CRM systems does The Silver Protocol integrate with?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Silver Protocol integrates with all major telecom reseller CRMs including Salesforce, HubSpot, Pipedrive, Zoho and custom-built systems. Compliance certificates, verification status and recording references push directly into your CRM records via API or webhook integration."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I verify customer identity for UK telecom sales?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "UK telecom sales require identity verification under Ofcom General Conditions and the Electronic Communications Code. The Silver Protocol verifies customer identity through document checks, Direct Debit mandate validation under PSR 2017, and recorded verbal confirmation — creating a compliance certificate for every sale."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What documentation do I need to pass a provider compliance audit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Provider audits require evidence of customer consent, cooling-off rights notification under CCR 2013, identity verification, and Direct Debit mandate confirmation. The Silver Protocol generates a compliance certificate containing all these elements — timestamped voice recording, SMS/email delivery logs, and verification data — for every sale."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I avoid cooling-off cancellation clawbacks on telecom sales?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cooling-off clawbacks occur when providers cannot prove customers received the required 14-day cancellation notice under Consumer Contracts Regulations 2013. The Silver Protocol records verbal cooling-off confirmation, sends instant SMS and email notifications, and timestamps everything — eliminating the most common clawback trigger."
+                }
+            }
+        ]
+    }
+    </script>
+
     <!-- JSON-LD: WebPage -->
     <script type="application/ld+json">
     {
@@ -268,6 +318,19 @@
         .footer { padding: 40px 0; text-align: center; border-top: 1px solid var(--dark-border); }
         .footer p { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px; }
         .footer a { color: var(--text-secondary); font-size: 0.85rem; margin: 0 8px; }
+
+        /* ===== FAQ ===== */
+        .faq { background: var(--dark-surface); border-top: 1px solid var(--dark-border); border-bottom: 1px solid var(--dark-border); padding: 80px 0; }
+        .faq-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 32px; }
+        .faq-item { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: var(--radius); overflow: hidden; transition: all var(--transition); }
+        .faq-item:hover { border-color: var(--purple-accent); }
+        .faq-question { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; cursor: pointer; gap: 16px; }
+        .faq-question h4 { font-size: 0.92rem; color: var(--white); font-weight: 600; line-height: 1.4; margin: 0; }
+        .faq-toggle { width: 28px; height: 28px; flex-shrink: 0; background: rgba(107, 66, 194, 0.12); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1rem; color: var(--purple-accent); transition: all var(--transition); }
+        .faq-item.active .faq-toggle { transform: rotate(45deg); background: rgba(45, 27, 105, 0.12); color: var(--gold); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+        .faq-answer-inner { padding: 0 24px 20px; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; }
+        .faq-item.active .faq-answer { max-height: 500px; }
 
         @media (max-width: 640px) {
             .service-hero h1 { font-size: 1.8rem; }
@@ -524,6 +587,78 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div style="text-align:center; max-width:680px; margin:0 auto;">
+                <span class="section-label">Frequently Asked Questions</span>
+                <h2>Common Questions About Protocol Implementation</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How long does it take to implement The Silver Protocol?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>2–3 weeks from sign-off to full deployment.</strong> Week one covers discovery and process mapping. Week two handles system configuration and CRM integration. Week three includes team training and live pilot testing. You process verified sales by week three with no disruption to current operations.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>What CRM systems does The Silver Protocol integrate with?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>All major telecom reseller CRMs including Salesforce, HubSpot, Pipedrive, Zoho and custom-built systems.</strong> Compliance certificates, verification status and recording references push directly into your CRM records via API or webhook integration — no manual data entry required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How do I verify customer identity for UK telecom sales?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>Identity verification is required under <a href="https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/review-general-conditions" target="_blank" rel="noopener noreferrer">Ofcom General Conditions</a> and the Electronic Communications Code.</strong> The Silver Protocol verifies customer identity through document checks, Direct Debit mandate validation under <a href="https://www.legislation.gov.uk/uksi/2017/752/contents" target="_blank" rel="noopener noreferrer">PSR 2017</a>, and recorded verbal confirmation — creating a compliance certificate for every sale.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>What documentation do I need to pass a provider compliance audit?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>Provider audits require evidence of customer consent, cooling-off rights notification, identity verification, and Direct Debit mandate confirmation.</strong> The Silver Protocol generates a compliance certificate containing all these elements — timestamped voice recording, SMS/email delivery logs, and verification data — for every sale. When Virgin Media, O2 or Sky audits your sales, you present indexed, retrievable evidence.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How do I avoid cooling-off cancellation clawbacks on telecom sales?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>Clawbacks occur when providers cannot prove customers received the required 14-day cancellation notice under <a href="https://www.legislation.gov.uk/uksi/2013/3134/contents" target="_blank" rel="noopener noreferrer">Consumer Contracts Regulations 2013</a>.</strong> The Silver Protocol records verbal cooling-off confirmation, sends instant SMS and email notifications, and timestamps everything — eliminating the most common clawback trigger.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Final CTA -->
     <section class="final-cta">
         <div class="container">
@@ -581,6 +716,14 @@
     document.getElementById('navHamburger').addEventListener('click', function() {
         document.getElementById('navLinks').classList.toggle('active');
     });
+
+    // FAQ toggle
+    function toggleFaq(el) {
+        const item = el.closest('.faq-item');
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) { item.classList.add('active'); }
+    }
     </script>
 
     <script src="cookie-consent.js"></script>

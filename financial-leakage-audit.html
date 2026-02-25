@@ -97,6 +97,48 @@
     }
     </script>
 
+    <!-- JSON-LD: FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What causes commission clawbacks for UK telecom resellers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Commission clawbacks occur when providers dispute sale validity due to missing cooling-off confirmation, unverified customer identity, absent contract acknowledgements, or failed Direct Debit mandates. A 15-minute Financial Leakage Audit identifies which of these gaps exist in your current process."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much commission do telecom resellers lose to compliance gaps?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "UK telecom resellers processing 100+ monthly sales typically lose £2,000-£5,000 per month to compliance-related clawbacks. Common causes include cooling-off disputes under Consumer Contracts Regulations 2013, Direct Debit indemnity claims under PSR 2017, and failed provider audits."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a Financial Leakage Audit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Financial Leakage Audit is a free 15-minute diagnostic call that examines your post-sale workflow against provider compliance requirements. We identify sale validation gaps, Direct Debit handling issues, contract confirmation weaknesses, and provider audit readiness - then estimate the monthly financial impact."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I prepare for a provider compliance audit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Provider audits require evidence of customer consent, cooling-off notification, identity verification, and Direct Debit mandate confirmation for every sale. A Financial Leakage Audit assesses your current documentation completeness and identifies gaps that could trigger commission clawbacks."
+                }
+            }
+        ]
+    }
+    </script>
+
     <!-- JSON-LD: WebPage -->
     <script type="application/ld+json">
     {
@@ -235,6 +277,19 @@
         .footer { padding: 40px 0; text-align: center; border-top: 1px solid var(--dark-border); }
         .footer p { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px; }
         .footer a { color: var(--text-secondary); font-size: 0.85rem; margin: 0 8px; }
+
+        /* ===== FAQ ===== */
+        .faq { background: var(--dark-surface); border-top: 1px solid var(--dark-border); border-bottom: 1px solid var(--dark-border); padding: 80px 0; }
+        .faq-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 32px; }
+        .faq-item { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: 16px; overflow: hidden; transition: all 0.3s ease; }
+        .faq-item:hover { border-color: var(--gold); }
+        .faq-question { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; cursor: pointer; gap: 16px; }
+        .faq-question h4 { font-size: 0.92rem; color: var(--text-primary); font-weight: 600; line-height: 1.4; margin: 0; }
+        .faq-toggle { width: 28px; height: 28px; flex-shrink: 0; background: rgba(45, 27, 105, 0.12); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1rem; color: var(--gold); transition: all 0.3s ease; }
+        .faq-item.active .faq-toggle { transform: rotate(45deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+        .faq-answer-inner { padding: 0 24px 20px; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; }
+        .faq-item.active .faq-answer { max-height: 500px; }
 
         @media (max-width: 640px) {
             .service-hero h1 { font-size: 1.8rem; }
@@ -458,6 +513,66 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div style="text-align:center; max-width:680px; margin:0 auto;">
+                <span class="section-label">Frequently Asked Questions</span>
+                <h2>Common Questions About Commission Leakage</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>What causes commission clawbacks for UK telecom resellers?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>Missing compliance evidence that providers require for commission release.</strong> Clawbacks occur when providers dispute sale validity due to missing cooling-off confirmation under <a href="https://www.legislation.gov.uk/uksi/2013/3134/contents" target="_blank" rel="noopener noreferrer">Consumer Contracts Regulations 2013</a>, unverified customer identity, absent contract acknowledgements, or failed Direct Debit mandates under <a href="https://www.legislation.gov.uk/uksi/2017/752/contents" target="_blank" rel="noopener noreferrer">PSR 2017</a>.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How much commission do telecom resellers lose to compliance gaps?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>&pound;2,000&ndash;&pound;5,000 per month for resellers processing 100+ sales.</strong> Common causes include cooling-off disputes, Direct Debit indemnity claims, and failed provider audits. The Financial Leakage Audit calculates your specific exposure based on your current post-sale process.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>What is a Financial Leakage Audit?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>A free 15-minute diagnostic call that identifies your compliance gaps.</strong> We examine your post-sale workflow against provider compliance requirements: sale validation, Direct Debit handling, contract confirmation, and provider audit readiness. You receive an estimated monthly financial impact and prioritised action plan.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How do I prepare for a provider compliance audit?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <strong>You need timestamped evidence for every sale: customer consent, cooling-off notification, identity verification, and Direct Debit mandate confirmation.</strong> A Financial Leakage Audit assesses your current documentation completeness and identifies gaps before the provider does &mdash; preventing clawbacks rather than reacting to them.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Final CTA -->
     <section class="final-cta">
         <div class="container">
@@ -515,6 +630,14 @@
     document.getElementById('navHamburger').addEventListener('click', function() {
         document.getElementById('navLinks').classList.toggle('active');
     });
+
+    // FAQ toggle
+    function toggleFaq(el) {
+        const item = el.closest('.faq-item');
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) { item.classList.add('active'); }
+    }
     </script>
 
     <script src="cookie-consent.js"></script>

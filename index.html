@@ -229,6 +229,65 @@
     }
     </script>
 
+    <!-- JSON-LD: SoftwareApplication Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Telecompliance AI",
+        "operatingSystem": "Web-Based / Cloud",
+        "applicationCategory": "BusinessApplication",
+        "description": "An AI-powered automation system for UK telecom regulatory compliance. Reduces audit preparation from 20 hours to 5 minutes. Automates Ofcom reporting, AIT detection, and risk auditing with Glass Box accountability.",
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Setup Fee",
+                "price": "1000",
+                "priceCurrency": "GBP",
+                "description": "One-time implementation and integration fee"
+            },
+            {
+                "@type": "Offer",
+                "name": "Monthly Retainer",
+                "price": "800",
+                "priceCurrency": "GBP",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": "800",
+                    "priceCurrency": "GBP",
+                    "unitCode": "MON",
+                    "billingDuration": "P1M"
+                },
+                "description": "Ongoing managed compliance verification service"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "12"
+        },
+        "featureList": [
+            "Automated Ofcom General Conditions Auditing",
+            "Real-time AIT (Artificial Inflation of Traffic) Detection",
+            "AI-Powered Regulatory Risk Scoring (CRS 0-100)",
+            "Automated Compliance Document Generation",
+            "API Integration for Communication Providers",
+            "Neural Regulatory Mapping with NLP",
+            "Glass Box Explainability with Logic Metadata",
+            "Human-in-the-Loop (HITL) Triggers for High-Risk Decisions",
+            "Reduces audit preparation from 20 hours to 5 minutes"
+        ],
+        "softwareVersion": "2026.1.0",
+        "author": {
+            "@type": "Organization",
+            "name": "Heimdell Tech AI",
+            "url": "https://telecomcompliance.uk/",
+            "legalName": "Heimdell Tech AI Ltd"
+        },
+        "releaseNotes": "Version 2026.1.0 introduces Neural Regulatory Mapping, automated Ofcom GC auditing, and Glass Box accountability for all automated decisions."
+    }
+    </script>
+
     <!-- JSON-LD: FAQPage Schema -->
     <script type="application/ld+json">
     {
@@ -3121,16 +3180,16 @@
 
                 <div class="hero-stats">
                     <div>
+                        <div class="hero-stat-number">20hrs&rarr;5min</div>
+                        <div class="hero-stat-label">Audit prep time reduction</div>
+                    </div>
+                    <div>
                         <div class="hero-stat-number">100%</div>
                         <div class="hero-stat-label">Sales independently verified</div>
                     </div>
                     <div>
                         <div class="hero-stat-number">&lt;5 min</div>
                         <div class="hero-stat-label">Post-sale verification time</div>
-                    </div>
-                    <div>
-                        <div class="hero-stat-number">24/7</div>
-                        <div class="hero-stat-label">Audit-ready compliance records</div>
                     </div>
                 </div>
             </div>
