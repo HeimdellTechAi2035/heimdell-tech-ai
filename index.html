@@ -3314,46 +3314,52 @@
                 <p class="section-desc" style="margin:0 auto;">AI-powered services designed specifically for UK telecom businesses. From local SEO to sales automation, we help resellers grow and scale.</p>
             </div>
 
-            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+            <style>
+                .service-link { display:flex; align-items:center; justify-content:space-between; padding:14px 18px; margin-bottom:10px; background:var(--dark-surface); border:1px solid var(--dark-border); border-radius:10px; color:var(--text-primary); font-size:0.95rem; font-weight:500; text-decoration:none; transition:all 0.3s ease; }
+                .service-link:hover { background:var(--gold); color:#fff; border-color:var(--gold); transform:translateX(6px); box-shadow:0 4px 16px rgba(45,27,105,0.2); }
+                .service-link:hover .service-arrow { color:#fff; transform:translateX(4px); }
+                .service-arrow { color:var(--gold); font-size:1.2rem; font-weight:700; transition:all 0.3s ease; }
+                .services-card { background:var(--dark-card); border:1px solid var(--dark-border); border-radius:16px; padding:28px; }
+                .services-card h3 { font-size:1.2rem; margin-bottom:20px; color:var(--gold); display:flex; align-items:center; gap:10px; }
+                .services-card h3::before { content:''; width:4px; height:24px; background:var(--gold); border-radius:2px; }
+            </style>
+
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px;">
                 <!-- Marketing Services -->
-                <div style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:16px; padding:28px;">
-                    <h3 style="font-size:1.2rem; margin-bottom:16px; color:var(--gold);">Marketing Services</h3>
-                    <ul style="list-style:none; padding:0; margin:0;">
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/local-seo-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">Local SEO for Telecom</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ecommerce-seo-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">E-commerce SEO</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/google-business-profile-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">Google Business Profile</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-content-writing-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Content Writing</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-social-media-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Social Media</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-email-marketing-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Email Marketing</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-lead-generation-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Lead Generation</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/review-management-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">Review Management</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/video-marketing-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">Video Marketing</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ppc-management-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">PPC Management</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/conversion-rate-optimisation-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">Conversion Rate Optimisation</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/geo-optimisation-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">GEO Optimisation</a></li>
-                        <li style="padding:8px 0;"><a href="services/veo-optimisation-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">VEO Optimisation</a></li>
-                    </ul>
+                <div class="services-card">
+                    <h3>Marketing Services</h3>
+                    <a href="services/local-seo-telecom.html" class="service-link"><span>Local SEO for Telecom</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ecommerce-seo-telecom.html" class="service-link"><span>E-commerce SEO</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/google-business-profile-telecom.html" class="service-link"><span>Google Business Profile</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-content-writing-telecom.html" class="service-link"><span>AI Content Writing</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-social-media-telecom.html" class="service-link"><span>AI Social Media</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-email-marketing-telecom.html" class="service-link"><span>AI Email Marketing</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-lead-generation-telecom.html" class="service-link"><span>AI Lead Generation</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/review-management-telecom.html" class="service-link"><span>Review Management</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/video-marketing-telecom.html" class="service-link"><span>Video Marketing</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ppc-management-telecom.html" class="service-link"><span>PPC Management</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/conversion-rate-optimisation-telecom.html" class="service-link"><span>Conversion Rate Optimisation</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/geo-optimisation-telecom.html" class="service-link"><span>GEO Optimisation</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/veo-optimisation-telecom.html" class="service-link" style="margin-bottom:0;"><span>VEO Optimisation</span><span class="service-arrow">&rarr;</span></a>
                 </div>
 
                 <!-- Automation Services -->
-                <div style="background:var(--dark-card); border:1px solid var(--dark-border); border-radius:16px; padding:28px;">
-                    <h3 style="font-size:1.2rem; margin-bottom:16px; color:var(--gold);">Automation Services</h3>
-                    <ul style="list-style:none; padding:0; margin:0;">
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-chatbot-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Chatbot</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-appointment-booking-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">Appointment Booking</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-receptionist-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Receptionist</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-customer-service-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Customer Service</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/voice-ai-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">Voice AI</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/whatsapp-automation-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">WhatsApp Automation</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-crm-integration-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI CRM Integration</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/business-automation-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">Business Automation</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-sales-automation-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Sales Automation</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-document-processing-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Document Processing</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-inventory-management-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Inventory Management</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/ai-invoicing-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Invoicing</a></li>
-                        <li style="padding:8px 0; border-bottom:1px solid var(--dark-border);"><a href="services/hr-automation-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">HR Automation</a></li>
-                        <li style="padding:8px 0;"><a href="services/ai-quality-control-telecom.html" style="color:var(--text-primary); font-size:0.95rem;">AI Quality Control</a></li>
-                    </ul>
+                <div class="services-card">
+                    <h3>Automation Services</h3>
+                    <a href="services/ai-chatbot-telecom.html" class="service-link"><span>AI Chatbot</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-appointment-booking-telecom.html" class="service-link"><span>Appointment Booking</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-receptionist-telecom.html" class="service-link"><span>AI Receptionist</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-customer-service-telecom.html" class="service-link"><span>AI Customer Service</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/voice-ai-telecom.html" class="service-link"><span>Voice AI</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/whatsapp-automation-telecom.html" class="service-link"><span>WhatsApp Automation</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-crm-integration-telecom.html" class="service-link"><span>AI CRM Integration</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/business-automation-telecom.html" class="service-link"><span>Business Automation</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-sales-automation-telecom.html" class="service-link"><span>AI Sales Automation</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-document-processing-telecom.html" class="service-link"><span>AI Document Processing</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-inventory-management-telecom.html" class="service-link"><span>AI Inventory Management</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-invoicing-telecom.html" class="service-link"><span>AI Invoicing</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/hr-automation-telecom.html" class="service-link"><span>HR Automation</span><span class="service-arrow">&rarr;</span></a>
+                    <a href="services/ai-quality-control-telecom.html" class="service-link" style="margin-bottom:0;"><span>AI Quality Control</span><span class="service-arrow">&rarr;</span></a>
                 </div>
             </div>
         </div>
