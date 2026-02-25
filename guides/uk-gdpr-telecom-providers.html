@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK GDPR for Telecom Providers | Data Protection Guide | Heimdell Tech AI</title>
+    <meta name="description" content="UK GDPR compliance guide for telecom providers and resellers. Covers CDR retention, customer data protection, Article 22 automated decisions and data processor agreements.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://telecomcompliance.uk/guides/uk-gdpr-telecom-providers.html">
+    <meta name="author" content="Andrew James-Smith">
+    <link rel="icon" type="image/png" sizes="32x32" href="../heimdell-tech-ai-silver-protocol-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "UK GDPR for Telecom Providers: Data Protection Compliance Guide",
+        "description": "Complete UK GDPR compliance guide for telecom providers covering CDR retention, data subject rights and automated decision-making.",
+        "url": "https://telecomcompliance.uk/guides/uk-gdpr-telecom-providers.html",
+        "datePublished": "2026-02-25",
+        "dateModified": "2026-02-25",
+        "author": {"@type": "Person", "name": "Andrew James-Smith"},
+        "publisher": {"@type": "Organization", "name": "Heimdell Tech AI", "url": "https://telecomcompliance.uk/"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telecomcompliance.uk/"},
+            {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://telecomcompliance.uk/guides/"},
+            {"@type": "ListItem", "position": 3, "name": "UK GDPR for Telecoms", "item": "https://telecomcompliance.uk/guides/uk-gdpr-telecom-providers.html"}
+        ]
+    }
+    </script>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --purple-deep: #2D1B69; --dark: #F0E6FF; --dark-surface: #E8DBFD; --dark-card: #FFFFFF; --dark-border: #D4C2F0; --text-primary: #1A0E33; --text-secondary: #3D2B5E; --text-muted: #6B5A8A; --gold: #2D1B69; --gold-light: #4A2D8F; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--dark); color: var(--text-primary); line-height: 1.8; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+        a { color: var(--gold-light); text-decoration: none; }
+        a:hover { color: var(--gold); text-decoration: underline; }
+        .nav-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(240,230,255,0.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--dark-border); padding: 16px 24px; }
+        .nav-bar-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+        .nav-bar-inner > a { display: flex; align-items: center; gap: 10px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.05rem; color: var(--text-primary); text-decoration: none; }
+        .nav-bar img { height: 32px; width: auto; }
+        .nav-site-links { display: flex; align-items: center; gap: 2px; }
+        .nav-site-links a { font-size: 0.78rem; font-weight: 500; color: var(--text-muted); padding: 5px 8px; border-radius: 6px; }
+        .nav-cta-btn { padding: 6px 14px; background: var(--gold); color: #fff; font-size: 0.78rem; font-weight: 600; border-radius: 7px; }
+        .nav-hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
+        .nav-hamburger span { width: 22px; height: 2px; background: var(--text-primary); }
+        @media (max-width: 768px) { .nav-site-links, .nav-cta-btn { display: none; } .nav-hamburger { display: flex; } }
+        .article-hero { padding: 140px 0 60px; text-align: center; }
+        .article-hero .badge { display: inline-block; background: var(--gold); color: #fff; font-size: 0.75rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 20px; }
+        .article-hero h1 { font-family: 'Space Grotesk', sans-serif; font-size: 2.2rem; color: var(--text-primary); margin-bottom: 16px; line-height: 1.2; }
+        .article-hero .subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto 20px; }
+        .article-meta { font-size: 0.85rem; color: var(--text-muted); }
+        .bluf-box { background: var(--dark-card); border: 2px solid var(--gold); border-radius: 16px; padding: 24px 28px; margin: 32px auto; max-width: 800px; text-align: left; }
+        .bluf-box strong { color: var(--gold); }
+        .bluf-box p { color: var(--text-secondary); margin-top: 12px; }
+        .divider { border: none; border-top: 1px solid var(--dark-border); margin: 0; }
+        .section { padding: 60px 0; }
+        .section h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; color: var(--text-primary); margin-bottom: 16px; }
+        .section h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.3rem; color: var(--text-primary); margin: 28px 0 12px; }
+        .section p { color: var(--text-secondary); margin-bottom: 16px; }
+        .highlight-box { background: var(--dark-card); border-left: 4px solid var(--gold); border-radius: 0 16px 16px 0; padding: 24px 28px; margin: 24px 0; }
+        .parent-link { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: 12px; padding: 16px 20px; margin: 24px 0; display: inline-block; }
+        .parent-link:hover { border-color: var(--gold); text-decoration: none; }
+        .data-table { width: 100%; border-collapse: collapse; margin: 24px 0; background: var(--dark-card); border-radius: 16px; overflow: hidden; }
+        .data-table th, .data-table td { padding: 14px 18px; text-align: left; border-bottom: 1px solid var(--dark-border); }
+        .data-table th { background: var(--dark-surface); color: var(--gold); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; }
+        .data-table td { color: var(--text-secondary); font-size: 0.9rem; }
+        .feature-list { list-style: none; padding: 0; margin: 24px 0; }
+        .feature-list li { padding: 12px 0 12px 32px; position: relative; border-bottom: 1px solid var(--dark-border); color: var(--text-secondary); }
+        .feature-list li:last-child { border-bottom: none; }
+        .feature-list li::before { content: "✓"; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
+        .related-guides { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin: 32px 0; }
+        .related-card { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: 12px; padding: 20px; }
+        .related-card:hover { border-color: var(--gold); text-decoration: none; }
+        .related-card h4 { font-size: 1rem; color: var(--text-primary); margin-bottom: 6px; }
+        .related-card p { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
+        .final-cta { padding: 80px 0; text-align: center; }
+        .final-cta-card { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: 20px; padding: 48px 32px; }
+        .final-cta-card h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; margin-bottom: 16px; }
+        .final-cta-card p { color: var(--text-secondary); max-width: 600px; margin: 0 auto 28px; }
+        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; }
+        .btn-primary { background: var(--gold); color: #fff; }
+        .btn-primary:hover { background: var(--gold-light); text-decoration: none; }
+        .footer { padding: 40px 0; text-align: center; border-top: 1px solid var(--dark-border); }
+        .footer p { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px; }
+        .footer a { color: var(--text-secondary); font-size: 0.85rem; margin: 0 8px; }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar"><div class="nav-bar-inner"><a href="../"><img src="../heimdell-tech-ai-silver-protocol-logo.png" alt="Heimdell Tech AI" width="36" height="36"> HEIMDELL TECH AI</a><div class="nav-site-links"><a href="../">Home</a><a href="../compliance-protocol-setup.html">Compliance Setup</a><a href="../about.html">About</a></div><a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a><div class="nav-hamburger"><span></span><span></span><span></span></div></div></nav>
+
+    <article>
+        <header class="article-hero">
+            <div class="container">
+                <span class="badge">Data Protection</span>
+                <h1>UK GDPR for Telecom Providers</h1>
+                <p class="subtitle">Data protection compliance for communication providers handling customer records, CDRs and automated systems.</p>
+                <p class="article-meta">By <strong>Andrew James-Smith</strong> | Updated February 2026 | 12 min read</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <a href="uk-telecom-compliance.html" class="parent-link">← Back to UK Telecom Compliance Guide</a>
+            
+            <div class="bluf-box">
+                <strong>BLUF:</strong>
+                <p>Telecom providers process extensive personal data: customer details, call records, location data, billing information. UK GDPR applies fully. If you use AI for fraud detection or service decisions, Article 22 requires human oversight. ICO can fine up to £17.5 million or 4% of global turnover.</p>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Personal Data in Telecoms</h2>
+                <p>Communication providers handle several categories of personal data:</p>
+                <table class="data-table">
+                    <thead><tr><th>Data Type</th><th>Examples</th><th>Sensitivity</th></tr></thead>
+                    <tbody>
+                        <tr><td>Customer Data</td><td>Name, address, payment details</td><td>Standard</td></tr>
+                        <tr><td>Traffic Data</td><td>Call records, timestamps, numbers called</td><td>Higher (reveals behaviour)</td></tr>
+                        <tr><td>Location Data</td><td>Cell tower data, IP addresses</td><td>High (reveals movements)</td></tr>
+                        <tr><td>Content Data</td><td>Voicemails, messages</td><td>Very High</td></tr>
+                        <tr><td>Billing Data</td><td>Usage patterns, spend history</td><td>Standard</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Key GDPR Principles for Telecoms</h2>
+
+                <h3>Lawful Basis</h3>
+                <p>Document why you process each data category:</p>
+                <ul class="feature-list">
+                    <li><strong>Contract:</strong> Processing customer details, billing, service delivery</li>
+                    <li><strong>Legal obligation:</strong> Law enforcement requests, Ofcom compliance</li>
+                    <li><strong>Legitimate interest:</strong> Fraud detection, network security</li>
+                    <li><strong>Consent:</strong> Marketing, optional services, location features</li>
+                </ul>
+
+                <h3>Data Minimisation</h3>
+                <p>Only collect what's necessary. Telecom-specific considerations:</p>
+                <ul class="feature-list">
+                    <li>CDRs: Retain necessary fields, not full recordings</li>
+                    <li>Customer verification: Minimal ID data for KYC</li>
+                    <li>Location: Only if needed for service or with consent</li>
+                </ul>
+
+                <h3>Storage Limitation</h3>
+                <p>Define retention periods for each data type:</p>
+                <table class="data-table">
+                    <thead><tr><th>Data Type</th><th>Typical Retention</th><th>Legal Basis</th></tr></thead>
+                    <tbody>
+                        <tr><td>CDRs (billing)</td><td>12-24 months</td><td>Contract + disputes</td></tr>
+                        <tr><td>CDRs (law enforcement)</td><td>12 months</td><td>Data Retention Regulations</td></tr>
+                        <tr><td>Customer contracts</td><td>6 years post-termination</td><td>Limitation Act</td></tr>
+                        <tr><td>Marketing consent</td><td>Until withdrawn + 6 months</td><td>Evidence of consent</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Article 22: Automated Decision-Making</h2>
+                <p>If you use AI or automated systems to make decisions affecting customers, UK GDPR Article 22 applies:</p>
+
+                <h3>What Triggers Article 22?</h3>
+                <ul class="feature-list">
+                    <li>Automated credit scoring for service approval</li>
+                    <li>AI fraud detection that blocks accounts</li>
+                    <li>Automated service suspension for non-payment</li>
+                    <li>Risk scoring that affects pricing or access</li>
+                </ul>
+
+                <h3>Requirements</h3>
+                <ul class="feature-list">
+                    <li><strong>Human oversight:</strong> Human review for significant decisions</li>
+                    <li><strong>Right to explanation:</strong> Explain decision logic to customers</li>
+                    <li><strong>Right to contest:</strong> Mechanism to challenge automated decisions</li>
+                    <li><strong>DPIA:</strong> Data Protection Impact Assessment required</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <p><strong>Heimdell Tech AI Approach:</strong> Our Telecompliance AI implements Human-in-the-Loop (HITL) triggers. When the system detects a high-risk decision (service suspension, fraud block), it pauses and generates a Decision Justification Brief for human approval.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Data Subject Rights</h2>
+                <p>Customers have rights over their personal data. Telecom-specific responses:</p>
+                <table class="data-table">
+                    <thead><tr><th>Right</th><th>Response Required</th><th>Telecom Considerations</th></tr></thead>
+                    <tbody>
+                        <tr><td>Access (SAR)</td><td>30 days</td><td>Provide CDRs, account history</td></tr>
+                        <tr><td>Rectification</td><td>Without undue delay</td><td>Update contact/billing details</td></tr>
+                        <tr><td>Erasure</td><td>Without undue delay</td><td>May conflict with retention obligations</td></tr>
+                        <tr><td>Portability</td><td>30 days</td><td>Export account data in standard format</td></tr>
+                        <tr><td>Objection</td><td>Without undue delay</td><td>Marketing opt-outs, fraud processing</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>Exemptions</h3>
+                <p>You can refuse some requests where legal obligations apply:</p>
+                <ul class="feature-list">
+                    <li>CDRs retained for law enforcement purposes</li>
+                    <li>Data needed for ongoing legal disputes</li>
+                    <li>Records required by Ofcom regulations</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Data Processor Agreements</h2>
+                <p>If you use third parties (cloud platforms, billing systems), ensure Data Processing Agreements cover:</p>
+                <ul class="feature-list">
+                    <li>Processing only on documented instructions</li>
+                    <li>Appropriate security measures</li>
+                    <li>Subprocessor approval and flow-down</li>
+                    <li>Assistance with data subject requests</li>
+                    <li>Return or deletion at contract end</li>
+                    <li>Audit rights</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Related Guides</h2>
+                <div class="related-guides">
+                    <a href="ofcom-general-conditions-guide.html" class="related-card">
+                        <h4>Ofcom General Conditions →</h4>
+                        <p>All 27 conditions explained</p>
+                    </a>
+                    <a href="gc-c1-fraud-prevention.html" class="related-card">
+                        <h4>GC C1 Fraud Prevention →</h4>
+                        <p>AIT detection requirements</p>
+                    </a>
+                    <a href="pecr-telecom-compliance.html" class="related-card">
+                        <h4>PECR Compliance →</h4>
+                        <p>Marketing and communications rules</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta-card">
+                <h2>GDPR-Compliant AI Automation</h2>
+                <p>Telecompliance AI includes Article 22 compliance by design, with Human-in-the-Loop triggers and Glass Box explainability for all automated decisions.</p>
+                <a href="tel:+447414909674" class="btn btn-primary">&#9742; Book a Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Heimdell Tech AI Ltd. Companies House: 16478408</p>
+            <p><a href="../">Home</a><a href="../about.html">About</a><a href="uk-telecom-compliance.html">UK Compliance Guide</a></p>
+        </div>
+    </footer>
+</body>
+</html>

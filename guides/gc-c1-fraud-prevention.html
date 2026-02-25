@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofcom GC C1 Fraud Prevention Guide | AIT Detection for UK Telecoms | Heimdell Tech AI</title>
+    <meta name="description" content="Complete guide to Ofcom General Condition C1 fraud and misuse prevention. Covers AIT detection, IRSF prevention, fraud monitoring requirements for UK telecom resellers.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html">
+    <meta name="author" content="Andrew James-Smith">
+    <link rel="icon" type="image/png" sizes="32x32" href="../heimdell-tech-ai-silver-protocol-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Ofcom GC C1 Fraud Prevention: AIT Detection Requirements for UK Telecoms",
+        "description": "Complete guide to Ofcom GC C1 fraud prevention including AIT detection, IRSF prevention and fraud monitoring.",
+        "url": "https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html",
+        "datePublished": "2026-02-25",
+        "dateModified": "2026-02-25",
+        "author": {"@type": "Person", "name": "Andrew James-Smith"},
+        "publisher": {"@type": "Organization", "name": "Heimdell Tech AI", "url": "https://telecomcompliance.uk/"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telecomcompliance.uk/"},
+            {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://telecomcompliance.uk/guides/"},
+            {"@type": "ListItem", "position": 3, "name": "GC C1 Fraud Prevention", "item": "https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html"}
+        ]
+    }
+    </script>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --purple-deep: #2D1B69; --dark: #F0E6FF; --dark-surface: #E8DBFD; --dark-card: #FFFFFF; --dark-border: #D4C2F0; --text-primary: #1A0E33; --text-secondary: #3D2B5E; --text-muted: #6B5A8A; --gold: #2D1B69; --gold-light: #4A2D8F; --danger: #DC3545; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--dark); color: var(--text-primary); line-height: 1.8; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+        a { color: var(--gold-light); text-decoration: none; }
+        a:hover { color: var(--gold); text-decoration: underline; }
+        .nav-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(240,230,255,0.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--dark-border); padding: 16px 24px; }
+        .nav-bar-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+        .nav-bar-inner > a { display: flex; align-items: center; gap: 10px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.05rem; color: var(--text-primary); text-decoration: none; }
+        .nav-bar img { height: 32px; width: auto; }
+        .nav-site-links { display: flex; align-items: center; gap: 2px; }
+        .nav-site-links a { font-size: 0.78rem; font-weight: 500; color: var(--text-muted); padding: 5px 8px; border-radius: 6px; }
+        .nav-cta-btn { padding: 6px 14px; background: var(--gold); color: #fff; font-size: 0.78rem; font-weight: 600; border-radius: 7px; }
+        .nav-hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
+        .nav-hamburger span { width: 22px; height: 2px; background: var(--text-primary); }
+        @media (max-width: 768px) { .nav-site-links, .nav-cta-btn { display: none; } .nav-hamburger { display: flex; } }
+        .article-hero { padding: 140px 0 60px; text-align: center; }
+        .article-hero .badge { display: inline-block; background: var(--danger); color: #fff; font-size: 0.75rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 20px; }
+        .article-hero h1 { font-family: 'Space Grotesk', sans-serif; font-size: 2.2rem; color: var(--text-primary); margin-bottom: 16px; line-height: 1.2; }
+        .article-hero .subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto 20px; }
+        .article-meta { font-size: 0.85rem; color: var(--text-muted); }
+        .bluf-box { background: var(--dark-card); border: 2px solid var(--danger); border-radius: 16px; padding: 24px 28px; margin: 32px auto; max-width: 800px; text-align: left; }
+        .bluf-box strong { color: var(--danger); }
+        .bluf-box p { color: var(--text-secondary); margin-top: 12px; }
+        .divider { border: none; border-top: 1px solid var(--dark-border); margin: 0; }
+        .section { padding: 60px 0; }
+        .section h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; color: var(--text-primary); margin-bottom: 16px; }
+        .section h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.3rem; color: var(--text-primary); margin: 28px 0 12px; }
+        .section p { color: var(--text-secondary); margin-bottom: 16px; }
+        .highlight-box { background: var(--dark-card); border-left: 4px solid var(--gold); border-radius: 0 16px 16px 0; padding: 24px 28px; margin: 24px 0; }
+        .warning-box { background: #FFEBEE; border-left: 4px solid var(--danger); border-radius: 0 16px 16px 0; padding: 24px 28px; margin: 24px 0; }
+        .warning-box strong { color: var(--danger); }
+        .parent-link { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: 12px; padding: 16px 20px; margin: 24px 0; display: inline-block; }
+        .parent-link:hover { border-color: var(--gold); text-decoration: none; }
+        .data-table { width: 100%; border-collapse: collapse; margin: 24px 0; background: var(--dark-card); border-radius: 16px; overflow: hidden; }
+        .data-table th, .data-table td { padding: 14px 18px; text-align: left; border-bottom: 1px solid var(--dark-border); }
+        .data-table th { background: var(--dark-surface); color: var(--gold); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; }
+        .data-table td { color: var(--text-secondary); font-size: 0.9rem; }
+        .feature-list { list-style: none; padding: 0; margin: 24px 0; }
+        .feature-list li { padding: 12px 0 12px 32px; position: relative; border-bottom: 1px solid var(--dark-border); color: var(--text-secondary); }
+        .feature-list li:last-child { border-bottom: none; }
+        .feature-list li::before { content: "✓"; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
+        .risk-list li::before { content: "⚠"; color: var(--danger); }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 24px 0; }
+        .card { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: 16px; padding: 24px; }
+        .card h4 { font-size: 1.1rem; color: var(--text-primary); margin-bottom: 8px; }
+        .card p { font-size: 0.9rem; color: var(--text-muted); margin: 0; }
+        .related-guides { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin: 32px 0; }
+        .related-card { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: 12px; padding: 20px; }
+        .related-card:hover { border-color: var(--gold); text-decoration: none; }
+        .related-card h4 { font-size: 1rem; color: var(--text-primary); margin-bottom: 6px; }
+        .related-card p { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
+        .final-cta { padding: 80px 0; text-align: center; }
+        .final-cta-card { background: var(--dark-card); border: 1px solid var(--dark-border); border-radius: 20px; padding: 48px 32px; }
+        .final-cta-card h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; margin-bottom: 16px; }
+        .final-cta-card p { color: var(--text-secondary); max-width: 600px; margin: 0 auto 28px; }
+        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px; border-radius: 10px; font-weight: 700; font-size: 1rem; text-decoration: none; }
+        .btn-primary { background: var(--gold); color: #fff; }
+        .btn-primary:hover { background: var(--gold-light); text-decoration: none; }
+        .footer { padding: 40px 0; text-align: center; border-top: 1px solid var(--dark-border); }
+        .footer p { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px; }
+        .footer a { color: var(--text-secondary); font-size: 0.85rem; margin: 0 8px; }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar"><div class="nav-bar-inner"><a href="../"><img src="../heimdell-tech-ai-silver-protocol-logo.png" alt="Heimdell Tech AI" width="36" height="36"> HEIMDELL TECH AI</a><div class="nav-site-links"><a href="../">Home</a><a href="../compliance-protocol-setup.html">Compliance Setup</a><a href="../about.html">About</a></div><a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a><div class="nav-hamburger"><span></span><span></span><span></span></div></div></nav>
+
+    <article>
+        <header class="article-hero">
+            <div class="container">
+                <span class="badge">High-Risk Area</span>
+                <h1>Ofcom GC C1: Fraud &amp; Misuse Prevention</h1>
+                <p class="subtitle">How to prevent AIT fraud, detect IRSF attacks and meet Ofcom's fraud monitoring requirements.</p>
+                <p class="article-meta">By <strong>Andrew James-Smith</strong> | Updated February 2026 | 10 min read</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <a href="uk-telecom-compliance.html" class="parent-link">← Back to UK Telecom Compliance Guide</a>
+            
+            <div class="bluf-box">
+                <strong>Critical Alert:</strong>
+                <p>GC C1 is the most common reason for Ofcom enforcement actions against telecom providers. You must actively prevent fraud on your network - reactive measures are not sufficient. Failure can result in fines up to 10% of turnover plus liability for fraud losses.</p>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>What Does GC C1 Require?</h2>
+                <p>General Condition C1 requires communication providers to take "all reasonable steps" to prevent fraud and misuse on their networks. The condition specifically covers:</p>
+                <ul class="feature-list">
+                    <li>Prevention of Artificial Inflation of Traffic (AIT)</li>
+                    <li>Blocking access to known fraud destinations</li>
+                    <li>Monitoring traffic patterns for anomalies</li>
+                    <li>Responding to fraud reports within 24 hours</li>
+                    <li>Cooperating with other providers on fraud prevention</li>
+                </ul>
+
+                <div class="warning-box">
+                    <p><strong>Key Point:</strong> "Reasonable steps" is assessed based on your technical capabilities and resources. Large providers are expected to have sophisticated detection systems; smaller resellers still need documented procedures and basic monitoring.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Common Fraud Types</h2>
+                
+                <h3>Artificial Inflation of Traffic (AIT)</h3>
+                <p>AIT is the deliberate generation of fraudulent traffic, typically to premium rate or international revenue share numbers. Fraudsters profit from the termination revenue while the originating provider bears the cost.</p>
+
+                <h3>International Revenue Share Fraud (IRSF)</h3>
+                <p>IRSF exploits high call termination rates to certain international destinations. Attackers generate calls to these destinations and share the termination revenue with the number operator.</p>
+
+                <div class="cards-grid">
+                    <div class="card">
+                        <h4>Wangiri Fraud</h4>
+                        <p>Brief "ring and drop" calls prompt callbacks to premium numbers. Victims see missed calls and call back, generating revenue for fraudsters.</p>
+                    </div>
+                    <div class="card">
+                        <h4>PBX Hacking</h4>
+                        <p>Attackers compromise customer phone systems to make fraudulent outbound calls. Often happens overnight or over weekends.</p>
+                    </div>
+                    <div class="card">
+                        <h4>CLI Spoofing</h4>
+                        <p>Falsified caller ID used for scam calls. Banks and government agencies are often impersonated.</p>
+                    </div>
+                    <div class="card">
+                        <h4>SIM Box Fraud</h4>
+                        <p>Illegal call termination bypassing interconnect agreements. Reduces quality and evades taxation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Required Fraud Controls</h2>
+                <p>Ofcom expects providers to implement proportionate controls:</p>
+
+                <table class="data-table">
+                    <thead><tr><th>Control</th><th>What It Does</th><th>Implementation</th></tr></thead>
+                    <tbody>
+                        <tr><td>Traffic Monitoring</td><td>Detects unusual patterns</td><td>CDR analysis, real-time alerts</td></tr>
+                        <tr><td>Destination Blocking</td><td>Prevents calls to fraud hotspots</td><td>Hot destination blacklists</td></tr>
+                        <tr><td>Credit Limits</td><td>Caps financial exposure</td><td>Per-customer and per-call limits</td></tr>
+                        <tr><td>Velocity Checks</td><td>Detects burst traffic</td><td>Calls per minute thresholds</td></tr>
+                        <tr><td>CLI Validation</td><td>Prevents spoofing</td><td>STIR/SHAKEN or manual checks</td></tr>
+                        <tr><td>Customer Verification</td><td>Ensures legitimate users</td><td>ID verification, credit checks</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>Detection Indicators</h3>
+                <p>Watch for these red flags in your traffic:</p>
+                <ul class="feature-list risk-list">
+                    <li>Sudden spike in calls to unfamiliar international destinations</li>
+                    <li>High call volumes outside business hours</li>
+                    <li>Many short-duration calls to the same number</li>
+                    <li>Calls to high-cost destinations from new customers</li>
+                    <li>Sequential calling patterns (automated dialers)</li>
+                    <li>Unusual geographic patterns (UK SIP to premium international)</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Incident Response Procedure</h2>
+                <p>When fraud is detected, you must act quickly:</p>
+
+                <table class="data-table">
+                    <thead><tr><th>Timeframe</th><th>Action</th><th>Documentation</th></tr></thead>
+                    <tbody>
+                        <tr><td>Immediate</td><td>Block the traffic source</td><td>Log time, source, destination</td></tr>
+                        <tr><td>Within 1 hour</td><td>Assess scope and impact</td><td>Estimated losses, affected customers</td></tr>
+                        <tr><td>Within 4 hours</td><td>Notify upstream provider</td><td>Incident report with CDRs</td></tr>
+                        <tr><td>Within 24 hours</td><td>Complete investigation</td><td>Root cause analysis</td></tr>
+                        <tr><td>Within 48 hours</td><td>Implement preventive measures</td><td>Control enhancements</td></tr>
+                    </tbody>
+                </table>
+
+                <div class="highlight-box">
+                    <p><strong>Evidence Preservation:</strong> Retain all CDRs, logs and communications related to fraud incidents for at least 12 months. This evidence may be required for Ofcom investigations or legal proceedings.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Automated Detection with AI</h2>
+                <p>Modern fraud detection uses machine learning to identify anomalies that rule-based systems miss:</p>
+                <ul class="feature-list">
+                    <li><strong>Isolation Forest:</strong> Detects unusual traffic patterns without predefined rules</li>
+                    <li><strong>Real-time Scoring:</strong> Every call rated for fraud probability</li>
+                    <li><strong>Adaptive Thresholds:</strong> Baselines adjust to normal business patterns</li>
+                    <li><strong>Glass Box Accountability:</strong> Every block decision includes explanation</li>
+                </ul>
+
+                <p>Heimdell Tech AI's <a href="../system-capabilities.html">Telecompliance AI</a> implements these techniques for UK telecom providers, with Human-in-the-Loop triggers for high-value blocks.</p>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section">
+            <div class="container">
+                <h2>Related Guides</h2>
+                <div class="related-guides">
+                    <a href="ofcom-general-conditions-guide.html" class="related-card">
+                        <h4>All General Conditions →</h4>
+                        <p>Complete GC breakdown for resellers</p>
+                    </a>
+                    <a href="pecr-telecom-compliance.html" class="related-card">
+                        <h4>PECR Compliance →</h4>
+                        <p>Marketing and consent rules</p>
+                    </a>
+                    <a href="uk-gdpr-telecom-providers.html" class="related-card">
+                        <h4>UK GDPR for Telecoms →</h4>
+                        <p>Data protection obligations</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta-card">
+                <h2>Automate Your Fraud Prevention</h2>
+                <p>Telecompliance AI detects AIT patterns in real-time using machine learning, automatically blocking fraud before it triggers upstream action.</p>
+                <a href="tel:+447414909674" class="btn btn-primary">&#9742; Book a Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Heimdell Tech AI Ltd. Companies House: 16478408</p>
+            <p><a href="../">Home</a><a href="../about.html">About</a><a href="uk-telecom-compliance.html">UK Compliance Guide</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -39,6 +39,13 @@
 - [Terms of Service](https://telecomcompliance.uk/terms-of-service.html): Service terms, governing law England & Wales
 - [404 — Entity Reference](https://telecomcompliance.uk/404.html): Entity-reinforcing error page with full company identity vector
 
+## Compliance Guides (Topical Cluster)
+- [UK Telecom Compliance Guide 2026](https://telecomcompliance.uk/guides/uk-telecom-compliance.html): Complete regulatory roadmap for UK telecom resellers — Ofcom General Conditions, PECR, UK GDPR, AIT fraud prevention, audit requirements and penalties
+- [Ofcom General Conditions Guide](https://telecomcompliance.uk/guides/ofcom-general-conditions-guide.html): All 27 General Conditions of Entitlement explained with practical compliance steps for resellers and communication providers
+- [GC C1 Fraud Prevention](https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html): AIT detection, IRSF prevention, fraud monitoring requirements and incident response procedures for Ofcom compliance
+- [PECR Telecom Compliance](https://telecomcompliance.uk/guides/pecr-telecom-compliance.html): Marketing consent, TPS checking, CLI requirements and data retention rules for UK communication providers
+- [UK GDPR for Telecom Providers](https://telecomcompliance.uk/guides/uk-gdpr-telecom-providers.html): Data protection for CDRs, customer data, Article 22 automated decisions and data processor agreements
+
 ## Contact
 - Phone: +44 7414 909674
 - Email: andrew@remoteability.org
