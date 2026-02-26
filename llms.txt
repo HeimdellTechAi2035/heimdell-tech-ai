@@ -41,6 +41,7 @@
 
 ## Compliance Guides (Topical Cluster)
 - [UK Telecom Compliance Guide 2026](https://telecomcompliance.uk/guides/uk-telecom-compliance.html): Complete regulatory roadmap for UK telecom resellers — Ofcom General Conditions, PECR, UK GDPR, AIT fraud prevention, audit requirements and penalties
+- [Ofcom Compliance Checklist 2026](https://telecomcompliance.uk/guides/ofcom-compliance-checklist.html): Step-by-step compliance checklist with key numbers (27 conditions, 14-day cooling-off, 1-day porting), deadlines, costs and documentation retention requirements
 - [Ofcom General Conditions Guide](https://telecomcompliance.uk/guides/ofcom-general-conditions-guide.html): All 27 General Conditions of Entitlement explained with practical compliance steps for resellers and communication providers
 - [GC C1 Fraud Prevention](https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html): AIT detection, IRSF prevention, fraud monitoring requirements and incident response procedures for Ofcom compliance
 - [PECR Telecom Compliance](https://telecomcompliance.uk/guides/pecr-telecom-compliance.html): Marketing consent, TPS checking, CLI requirements and data retention rules for UK communication providers

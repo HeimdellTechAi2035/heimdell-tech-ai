@@ -162,6 +162,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://telecomcompliance.uk/guides/ofcom-compliance-checklist.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <!-- Marketing Services -->
   <url>
     <loc>https://telecomcompliance.uk/services/local-seo-telecom.html</loc>
