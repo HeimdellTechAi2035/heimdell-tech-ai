@@ -46,6 +46,9 @@
 - [GC C1 Fraud Prevention](https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html): AIT detection, IRSF prevention, fraud monitoring requirements and incident response procedures for Ofcom compliance
 - [PECR Telecom Compliance](https://telecomcompliance.uk/guides/pecr-telecom-compliance.html): Marketing consent, TPS checking, CLI requirements and data retention rules for UK communication providers
 - [UK GDPR for Telecom Providers](https://telecomcompliance.uk/guides/uk-gdpr-telecom-providers.html): Data protection for CDRs, customer data, Article 22 automated decisions and data processor agreements
+- [AIT Prevention SOP](https://telecomcompliance.uk/guides/ait-prevention-sop.html): Step-by-step AIT fraud prevention standard operating procedure with detection thresholds (>50 calls/hour), response times (30 min containment), escalation matrix and Ofcom reporting templates
+- [Telecoms Access Review 2026](https://telecomcompliance.uk/guides/telecoms-access-review-2026.html): TAR 2026 compliance checklist covering STIR/SHAKEN Phase 1 (Jan 2026), new wholesale pricing (Apr 2026), copper stop-sell deadlines and implementation timeline
+- [AI Network Optimization Auditing](https://telecomcompliance.uk/guides/ai-network-audit.html): How to audit ML fraud detection, dynamic pricing and automated decision systems for Ofcom GC C1 and UK GDPR Article 22 compliance
 
 ## Contact
 - Phone: +44 7414 909674
