@@ -57,6 +57,9 @@
 - [Telecoms Access Review 2026](https://telecomcompliance.uk/guides/telecoms-access-review-2026.html): TAR 2026 compliance checklist covering STIR/SHAKEN Phase 1 (Jan 2026), new wholesale pricing (Apr 2026), copper stop-sell deadlines and implementation timeline
 - [AI Network Optimization Auditing](https://telecomcompliance.uk/guides/ai-network-audit.html): How to audit ML fraud detection, dynamic pricing and automated decision systems for Ofcom GC C1 and UK GDPR Article 22 compliance
 
+### Reference Resources
+- [UK Telecom Compliance Glossary](https://telecomcompliance.uk/guides/telecom-compliance-glossary.html): Authoritative glossary of 30+ UK telecom regulatory terms. Each entry includes 1-sentence definition and 3-step compliance action list. Covers: AIT, CLI, Cooling-Off, ETC, GC C1, IRSF, OTS, PECR, Soft Opt-In, STIR/SHAKEN, TSA Tiers 1/2/3, TOTSCo, TPS, UK GDPR, Wangiri
+
 ## Contact
 - Phone: +44 7414 909674
 - Email: andrew@remoteability.org

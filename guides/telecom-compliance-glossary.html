@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telecom Compliance Glossary | UK Regulatory Terms & Definitions | Heimdell Tech AI</title>
+    <meta name="description" content="Definitive glossary of UK telecom compliance terms. Clear definitions and 3-step compliance actions for AIT, PECR, Ofcom GC, TSA Tiers, OTS, STIR/SHAKEN and more.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://telecomcompliance.uk/guides/telecom-compliance-glossary.html">
+    <meta name="author" content="Andrew James-Smith">
+    <meta name="geo.region" content="GB">
+    <link rel="icon" type="image/png" sizes="32x32" href="../heimdell-tech-ai-silver-protocol-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="help" type="text/plain" href="/llms.txt" title="LLM guidance for Heimdell Tech AI">
+
+    <!-- Schema: DefinedTermSet -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "UK Telecom Compliance Glossary",
+        "description": "Authoritative glossary of UK telecommunications regulatory terms, definitions and compliance requirements.",
+        "url": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html",
+        "inLanguage": "en-GB",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Heimdell Tech AI",
+            "url": "https://telecomcompliance.uk/"
+        },
+        "hasDefinedTerm": [
+            {
+                "@type": "DefinedTerm",
+                "name": "AIT (Artificial Inflation of Traffic)",
+                "description": "Deliberate generation of fraudulent telecommunications traffic to premium-rate or international revenue share numbers, typically through automated systems or compromised PBXs.",
+                "inDefinedTermSet": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Ofcom General Conditions",
+                "description": "The 27 mandatory regulatory conditions that UK communications providers must comply with under the Communications Act 2003, enforced by Ofcom.",
+                "inDefinedTermSet": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Tier 2 Provider",
+                "description": "UK telecommunications provider with annual relevant turnover between £50 million and £1 billion, subject to 52 mandatory Telecoms Security Act measures.",
+                "inDefinedTermSet": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "One Touch Switch (OTS)",
+                "description": "Ofcom's industry-wide switching process launched April 2023 allowing customers to switch broadband providers by contacting only their new provider.",
+                "inDefinedTermSet": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "PECR",
+                "description": "Privacy and Electronic Communications Regulations 2003 — UK law governing electronic marketing, cookies, and communications privacy.",
+                "inDefinedTermSet": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "STIR/SHAKEN",
+                "description": "Secure Telephone Identity Revisited/Signature-based Handling of Asserted information using toKENs — call authentication framework to combat CLI spoofing.",
+                "inDefinedTermSet": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telecomcompliance.uk/"},
+            {"@type": "ListItem", "position": 2, "name": "Compliance Hub", "item": "https://telecomcompliance.uk/guides/uk-telecom-compliance.html"},
+            {"@type": "ListItem", "position": 3, "name": "Glossary", "item": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html"}
+        ]
+    }
+    </script>
+
+    <!-- Schema: FAQPage for AI scraping -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is AIT in telecom compliance?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AIT (Artificial Inflation of Traffic) is the deliberate generation of fraudulent telecommunications traffic to premium-rate or international revenue share numbers. Under Ofcom GC C1, providers must implement real-time monitoring, maintain fraud destination blacklists, and block suspicious traffic within 30 minutes of detection."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the primary risk for Tier 2 providers under TSA?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The primary risk for Tier 2 providers (£50m-£1bn revenue) under the Telecoms Security Act is failing to implement all 52 mandatory Code of Practice measures by the compliance deadline. This can result in fines up to 10% of relevant turnover plus £100,000 daily penalties for continuing non-compliance."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the PECR soft opt-in rule?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The PECR soft opt-in allows electronic marketing without explicit consent when: 1) contact details were obtained during a sale or negotiation, 2) marketing relates to similar products/services, and 3) recipients were given a clear opt-out opportunity at collection and in every subsequent message."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is One Touch Switch compensation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under One Touch Switch (OTS), providers must pay automatic compensation of £5.25 per day if a residential broadband switch takes longer than 10 working days. Additional compensation of £26.24 applies for missed engineer appointments, and £9.33 per day for service loss during the switch."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg-primary: #0a0a0b;
+            --bg-secondary: #111113;
+            --bg-tertiary: #1a1a1d;
+            --bg-hover: #232326;
+            --accent-primary: #8b5cf6;
+            --accent-secondary: #a78bfa;
+            --accent-muted: rgba(139, 92, 246, 0.1);
+            --text-primary: #ffffff;
+            --text-secondary: #a1a1aa;
+            --text-tertiary: #71717a;
+            --border-color: #27272a;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --error: #ef4444;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 11, 0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-link { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+        .logo-img { height: 40px; width: auto; }
+        .logo-text { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; color: var(--text-primary); }
+        .back-link { color: var(--accent-primary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+        .back-link:hover { color: var(--accent-secondary); }
+
+        /* Hero */
+        .hero {
+            padding: 140px 0 60px;
+            background: linear-gradient(180deg, var(--accent-muted) 0%, transparent 100%);
+        }
+        .breadcrumb { display: flex; gap: 8px; font-size: 0.875rem; color: var(--text-tertiary); margin-bottom: 24px; flex-wrap: wrap; }
+        .breadcrumb a { color: var(--text-secondary); text-decoration: none; }
+        .breadcrumb a:hover { color: var(--accent-primary); }
+        h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; margin-bottom: 16px; line-height: 1.2; }
+        .subtitle { font-size: 1.25rem; color: var(--text-secondary); max-width: 700px; }
+
+        /* BLUF Box */
+        .bluf-box {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border: 1px solid var(--accent-primary);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 40px 0;
+        }
+        .bluf-label { font-weight: 700; color: var(--accent-primary); margin-bottom: 12px; font-size: 0.875rem; letter-spacing: 0.05em; }
+        .bluf-content { font-size: 1.1rem; line-height: 1.6; }
+        .bluf-content strong { color: var(--accent-secondary); }
+
+        /* Alphabet Nav */
+        .alpha-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin: 32px 0;
+            padding: 20px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+        }
+        .alpha-nav a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        .alpha-nav a:hover, .alpha-nav a.active {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+
+        /* Glossary Content */
+        .glossary-section { padding: 40px 0 80px; }
+        .letter-heading {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent-primary);
+            margin: 48px 0 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--accent-primary);
+        }
+        .letter-heading:first-of-type { margin-top: 0; }
+
+        /* Term Card */
+        .term-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            transition: all 0.2s;
+        }
+        .term-card:hover {
+            border-color: var(--accent-primary);
+            box-shadow: 0 4px 20px rgba(139, 92, 246, 0.1);
+        }
+        .term-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+        .term-abbrev {
+            display: inline-block;
+            background: var(--accent-muted);
+            color: var(--accent-secondary);
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        .term-definition {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        .term-definition strong { color: var(--text-primary); }
+        .compliance-steps {
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            padding: 16px 20px;
+        }
+        .compliance-steps-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--accent-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 12px;
+        }
+        .compliance-steps ol {
+            margin: 0;
+            padding-left: 20px;
+            color: var(--text-secondary);
+        }
+        .compliance-steps li {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        .compliance-steps li:last-child { margin-bottom: 0; }
+        .compliance-steps li strong { color: var(--text-primary); }
+
+        /* Related Link */
+        .term-related {
+            margin-top: 16px;
+            font-size: 0.9rem;
+        }
+        .term-related a {
+            color: var(--accent-primary);
+            text-decoration: none;
+        }
+        .term-related a:hover { text-decoration: underline; }
+
+        /* Hub Link */
+        .hub-link {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 40px 0;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .hub-link-icon { font-size: 2rem; }
+        .hub-link-content h4 { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
+        .hub-link-content p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; }
+        .hub-link a { color: var(--accent-primary); text-decoration: none; }
+        .hub-link a:hover { text-decoration: underline; }
+
+        /* CTA */
+        .cta-section {
+            background: linear-gradient(135deg, var(--accent-muted) 0%, transparent 100%);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 48px;
+            text-align: center;
+            margin: 48px 0;
+        }
+        .cta-section h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; margin-bottom: 16px; }
+        .cta-section p { color: var(--text-secondary); margin-bottom: 24px; }
+        .cta-button {
+            display: inline-block;
+            background: var(--accent-primary);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .cta-button:hover { background: var(--accent-secondary); transform: translateY(-2px); }
+
+        /* Footer */
+        footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 48px 0;
+        }
+        .footer-content { max-width: 1200px; margin: 0 auto; padding: 0 24px; text-align: center; }
+        .footer-links { display: flex; justify-content: center; gap: 32px; margin-bottom: 24px; flex-wrap: wrap; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; }
+        .footer-links a:hover { color: var(--accent-primary); }
+        .footer-copy { font-size: 0.875rem; color: var(--text-tertiary); }
+
+        @media (max-width: 768px) {
+            .alpha-nav a { width: 32px; height: 32px; font-size: 0.8rem; }
+            .cta-section { padding: 32px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="../index.html" class="logo-link">
+                <img src="../heimdell-tech-ai-silver-protocol-logo.png" alt="Heimdell Tech AI" class="logo-img">
+                <span class="logo-text">Heimdell Tech AI</span>
+            </a>
+            <a href="uk-telecom-compliance.html" class="back-link">← Back to Compliance Hub</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="../index.html">Home</a>
+                <span>/</span>
+                <a href="uk-telecom-compliance.html">Compliance Hub</a>
+                <span>/</span>
+                <span>Glossary</span>
+            </nav>
+            <h1>UK Telecom Compliance Glossary</h1>
+            <p class="subtitle">Authoritative definitions and 3-step compliance actions for every key regulatory term. Your reference for Ofcom, PECR, TSA, and UK telecom law.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="bluf-box">
+            <div class="bluf-label">HOW TO USE THIS GLOSSARY</div>
+            <div class="bluf-content">
+                Each term includes a <strong>1-sentence definition</strong> and <strong>3 compliance steps</strong>. 
+                Use the alphabet navigation to jump to specific terms. 
+                This glossary covers <strong>30+ regulatory terms</strong> spanning Ofcom General Conditions, PECR, UK GDPR, Telecoms Security Act, and One Touch Switch requirements.
+            </div>
+        </div>
+
+        <nav class="alpha-nav" aria-label="Glossary alphabet navigation">
+            <a href="#A">A</a>
+            <a href="#C">C</a>
+            <a href="#D">D</a>
+            <a href="#E">E</a>
+            <a href="#G">G</a>
+            <a href="#I">I</a>
+            <a href="#O">O</a>
+            <a href="#P">P</a>
+            <a href="#S">S</a>
+            <a href="#T">T</a>
+            <a href="#U">U</a>
+            <a href="#W">W</a>
+        </nav>
+    </div>
+
+    <section class="glossary-section">
+        <div class="container">
+
+            <!-- A -->
+            <h2 class="letter-heading" id="A">A</h2>
+
+            <article class="term-card" id="ait">
+                <h3 class="term-name">AIT<span class="term-abbrev">Artificial Inflation of Traffic</span></h3>
+                <p class="term-definition">Deliberate generation of fraudulent telecommunications traffic to premium-rate or international revenue share numbers, typically through automated systems, compromised PBXs, or SIM boxes, resulting in illegitimate revenue for fraudsters at the expense of communication providers.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Implement real-time monitoring</strong> — Set alerts for >50 calls/hour to single destinations, >£500 international spend/day, and calls to known fraud prefixes</li>
+                        <li><strong>Maintain fraud destination blacklists</strong> — Subscribe to industry fraud intelligence feeds and auto-block calls to flagged number ranges</li>
+                        <li><strong>Establish 30-minute containment SLA</strong> — Document incident response procedures requiring traffic blocking within 30 minutes of confirmed AIT detection</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="ait-prevention-sop.html">AIT Prevention SOP</a>, <a href="gc-c1-fraud-prevention.html">GC C1 Fraud Prevention</a></p>
+            </article>
+
+            <article class="term-card" id="adr">
+                <h3 class="term-name">ADR<span class="term-abbrev">Alternative Dispute Resolution</span></h3>
+                <p class="term-definition">Third-party dispute resolution service that UK communication providers must offer customers after 8 weeks of unresolved complaints, or immediately if deadlock is declared. Approved schemes are CISAS and Ombudsman Services: Communications.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Join an approved ADR scheme</strong> — Register with either CISAS or Ombudsman Services: Communications before commencing service</li>
+                        <li><strong>Include ADR details in contracts</strong> — Customer contracts must state which ADR scheme you belong to and how to access it</li>
+                        <li><strong>Issue ADR letters at 8 weeks</strong> — Send written notification of ADR rights after 8 weeks of unresolved complaint or when declaring deadlock</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="automatic-compensation">
+                <h3 class="term-name">Automatic Compensation</h3>
+                <p class="term-definition">Ofcom scheme requiring broadband and landline providers to automatically pay customers for delayed repairs, installations, or missed engineer appointments without the customer needing to claim.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Track SLA breaches automatically</strong> — Implement systems to detect delayed repairs (>2 working days) and delayed installations (>missed date)</li>
+                        <li><strong>Calculate and credit compensation</strong> — Pay £9.33/day for loss of service, £5.25/day for delayed installation, £26.24 for missed appointments</li>
+                        <li><strong>Credit within 30 days</strong> — Apply compensation to customer account within 30 calendar days of the qualifying event</li>
+                    </ol>
+                </div>
+            </article>
+
+            <!-- C -->
+            <h2 class="letter-heading" id="C">C</h2>
+
+            <article class="term-card" id="cli">
+                <h3 class="term-name">CLI<span class="term-abbrev">Caller Line Identification</span></h3>
+                <p class="term-definition">The telephone number transmitted to identify the calling party. Under PECR and Ofcom rules, providers must not present false or misleading CLI, and must enable customers to withhold their number when required.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Validate CLI at provisioning</strong> — Only allocate numbers you control; verify customer identity before assigning CLI ranges</li>
+                        <li><strong>Block spoofed CLI</strong> — Implement STIR/SHAKEN or equivalent validation to reject calls with invalid/spoofed originating numbers</li>
+                        <li><strong>Offer CLI withhold</strong> — Provide customers with per-call (141) and permanent CLI withhold options as required by GC C6</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="cooling-off">
+                <h3 class="term-name">Cooling-Off Period</h3>
+                <p class="term-definition">The 14-day statutory right for consumers to cancel a distance or off-premises contract without penalty under the Consumer Contracts Regulations 2013, starting from the day after contract conclusion or delivery of goods.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Provide written confirmation</strong> — Send contract confirmation within 1 working day clearly stating cooling-off rights and cancellation instructions</li>
+                        <li><strong>Record consent for early service</strong> — If service starts before cooling-off ends, obtain and document explicit customer consent</li>
+                        <li><strong>Process cancellations within 14 days</strong> — Refund all payments within 14 days of receiving cancellation notice; no penalty charges apply</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="commission-clawback">
+                <h3 class="term-name">Commission Clawback</h3>
+                <p class="term-definition">Recovery of sales commission by a telecom provider from a reseller when a customer cancels within the cooling-off period, fails identity verification, disputes the sale, or the contract is found non-compliant with regulatory requirements.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Verify identity at point of sale</strong> — Implement ID verification before contract completion to prevent fraudulent sign-ups</li>
+                        <li><strong>Record verbal consent</strong> — Create timestamped voice logs confirming customer understanding of contract terms and cooling-off rights</li>
+                        <li><strong>Generate audit-ready evidence</strong> — Produce provider-ready compliance certificates for every sale demonstrating regulatory adherence</li>
+                    </ol>
+                </div>
+            </article>
+
+            <!-- D -->
+            <h2 class="letter-heading" id="D">D</h2>
+
+            <article class="term-card" id="dua">
+                <h3 class="term-name">DUA 2025<span class="term-abbrev">Data Use and Access Act 2025</span></h3>
+                <p class="term-definition">UK legislation reforming data protection law, amending UK GDPR and PECR. Key changes include first-party analytics cookie exemption, expanded B2B soft opt-in, codified legitimate interests, and Smart Data scheme framework.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Update cookie consent</strong> — Remove consent prompts for first-party analytics; maintain consent for third-party tracking and advertising cookies</li>
+                        <li><strong>Revise B2B marketing processes</strong> — Document relationship basis for expanded soft opt-in to corporate subscribers</li>
+                        <li><strong>Monitor Smart Data designation</strong> — Track DSIT announcements on potential telecom sector designation for data portability requirements</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="data-use-act-2025.html">Data Use Act 2025 Implementation Guide</a></p>
+            </article>
+
+            <!-- E -->
+            <h2 class="letter-heading" id="E">E</h2>
+
+            <article class="term-card" id="etc">
+                <h3 class="term-name">ETC<span class="term-abbrev">Early Termination Charge</span></h3>
+                <p class="term-definition">Fee charged to customers who cancel a fixed-term contract before the minimum term ends. Under Ofcom rules, ETCs must not exceed the provider's actual loss and must be clearly disclosed before contract signing.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Calculate proportionately</strong> — ETC must reflect remaining contract value minus costs saved; cannot be punitive or exceed actual loss</li>
+                        <li><strong>Disclose before contract</strong> — Provide clear ETC amounts or calculation method in pre-contract information and contract terms</li>
+                        <li><strong>Communicate on switching</strong> — Under OTS, losing provider must accurately state any ETCs due within the confirmation letter</li>
+                    </ol>
+                </div>
+            </article>
+
+            <!-- G -->
+            <h2 class="letter-heading" id="G">G</h2>
+
+            <article class="term-card" id="gc">
+                <h3 class="term-name">General Conditions<span class="term-abbrev">Ofcom GC</span></h3>
+                <p class="term-definition">The 27 mandatory regulatory conditions under the Communications Act 2003 that UK communications providers must comply with, covering network access, consumer protection, numbering, and fraud prevention.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Identify applicable conditions</strong> — Determine which of the 27 GCs apply to your service type (ECS, ECN, number-based) using Ofcom's guidance</li>
+                        <li><strong>Document compliance evidence</strong> — Maintain records demonstrating adherence to each applicable condition (contracts, procedures, training)</li>
+                        <li><strong>Review annually</strong> — Conduct annual compliance review against current GC requirements; update processes for any Ofcom amendments</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="ofcom-general-conditions-guide.html">Ofcom General Conditions Guide</a></p>
+            </article>
+
+            <article class="term-card" id="gc-c1">
+                <h3 class="term-name">GC C1<span class="term-abbrev">General Condition C1 — Fraud Prevention</span></h3>
+                <p class="term-definition">Ofcom General Condition requiring communication providers to take all reasonable steps to prevent fraud and misuse on their networks, including AIT, premium rate fraud, CLI spoofing, and Wangiri scams.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Implement fraud monitoring</strong> — Deploy real-time traffic analysis capable of detecting anomalous call patterns within minutes</li>
+                        <li><strong>Establish rapid response</strong> — Document procedures for blocking fraudulent traffic within 30 minutes and notifying affected parties</li>
+                        <li><strong>Report to Ofcom</strong> — File fraud reports with Ofcom for significant incidents; maintain 12-month incident log</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="gc-c1-fraud-prevention.html">GC C1 Fraud Prevention Guide</a></p>
+            </article>
+
+            <!-- I -->
+            <h2 class="letter-heading" id="I">I</h2>
+
+            <article class="term-card" id="irsf">
+                <h3 class="term-name">IRSF<span class="term-abbrev">International Revenue Share Fraud</span></h3>
+                <p class="term-definition">Fraud scheme where criminals generate calls to international premium-rate numbers they control, receiving a share of the call charges while the originating provider bears the cost. A major component of AIT fraud.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Block high-risk destinations</strong> — Implement controls for calls to known IRSF hotspots (certain African, Eastern European, Pacific island codes)</li>
+                        <li><strong>Set international spending limits</strong> — Apply per-customer daily caps of £200-500 for international calls with alerts at 80% threshold</li>
+                        <li><strong>Subscribe to fraud intelligence</strong> — Join i3 Forum or CFCA to receive real-time IRSF destination alerts and update blacklists</li>
+                    </ol>
+                </div>
+            </article>
+
+            <!-- O -->
+            <h2 class="letter-heading" id="O">O</h2>
+
+            <article class="term-card" id="ofcom">
+                <h3 class="term-name">Ofcom<span class="term-abbrev">Office of Communications</span></h3>
+                <p class="term-definition">The UK's communications regulator responsible for telecommunications, broadcasting, and postal services. Ofcom enforces General Conditions, investigates complaints, and can fine providers up to 10% of relevant annual turnover.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Register as a provider</strong> — Notify Ofcom before providing electronic communications services using their online notification system</li>
+                        <li><strong>Monitor regulatory updates</strong> — Subscribe to Ofcom consultations and statements affecting your service type</li>
+                        <li><strong>Respond to information requests</strong> — Comply with Ofcom Section 135 requests within specified deadlines; retain evidence for 6+ years</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="ots">
+                <h3 class="term-name">OTS<span class="term-abbrev">One Touch Switch</span></h3>
+                <p class="term-definition">Ofcom's industry-wide switching process launched April 2023 allowing residential broadband customers to switch providers by contacting only the gaining provider. Switches must complete within 10 working days.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Register with TOTSCo</strong> — Complete registration with The One Touch Switching Company and integrate with Hub APIs or Portal</li>
+                        <li><strong>Meet 10-day SLA</strong> — Ensure all residential broadband switches complete within 10 working days; monitor at-risk orders from day 7</li>
+                        <li><strong>Automate compensation</strong> — Pay £5.25/day automatically for delays; £26.24 for missed appointments; credit within 30 days</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="one-touch-switch-compliance.html">One Touch Switch Compliance Guide</a></p>
+            </article>
+
+            <!-- P -->
+            <h2 class="letter-heading" id="P">P</h2>
+
+            <article class="term-card" id="pecr">
+                <h3 class="term-name">PECR<span class="term-abbrev">Privacy and Electronic Communications Regulations 2003</span></h3>
+                <p class="term-definition">UK law governing electronic marketing, cookies, and communications privacy. Covers consent for marketing calls/emails, TPS checking, CLI requirements, traffic data retention, and cookie consent rules.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Obtain marketing consent</strong> — Record explicit opt-in for email/SMS marketing; check TPS/CTPS before live marketing calls</li>
+                        <li><strong>Display valid CLI</strong> — Never present false or misleading caller ID; offer call-back capability on marketing calls</li>
+                        <li><strong>Implement cookie consent</strong> — Obtain consent for non-essential cookies (except first-party analytics under DUA 2025)</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="pecr-telecom-compliance.html">PECR Telecom Compliance Guide</a></p>
+            </article>
+
+            <article class="term-card" id="porting">
+                <h3 class="term-name">Porting<span class="term-abbrev">Number Portability</span></h3>
+                <p class="term-definition">The right of customers to keep their telephone number when switching providers, mandated by Ofcom GC A2. Geographic and non-geographic numbers must port within 1 working day.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Process port requests in 1 day</strong> — Complete number ports within 1 working day of receiving valid request from gaining provider</li>
+                        <li><strong>Never block ports</strong> — Cannot refuse porting due to outstanding bills; must not create artificial delays</li>
+                        <li><strong>Maintain porting records</strong> — Log all port requests, completion times, and any failures for regulatory audit</li>
+                    </ol>
+                </div>
+            </article>
+
+            <!-- S -->
+            <h2 class="letter-heading" id="S">S</h2>
+
+            <article class="term-card" id="soft-opt-in">
+                <h3 class="term-name">Soft Opt-In</h3>
+                <p class="term-definition">PECR exemption allowing electronic marketing without explicit consent when contact details were obtained during a sale or negotiation, marketing relates to similar products, and opt-out was offered at collection and in every message.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Document sales context</strong> — Record how contact details were obtained (purchase, quote, enquiry) with timestamp</li>
+                        <li><strong>Market similar products only</strong> — Limit marketing to products/services similar to those originally purchased or discussed</li>
+                        <li><strong>Include opt-out in every message</strong> — Provide clear unsubscribe mechanism; honour opt-outs within 28 days</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="stir-shaken">
+                <h3 class="term-name">STIR/SHAKEN</h3>
+                <p class="term-definition">Secure Telephone Identity Revisited / Signature-based Handling of Asserted information using toKENs — international standards framework for digitally signing calls to authenticate CLI and combat spoofing.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Implement certificate authority</strong> — Obtain STIR certificates from approved CA; configure SIP infrastructure for call signing</li>
+                        <li><strong>Sign outbound calls</strong> — Apply attestation levels (A/B/C) based on your knowledge of the calling party's right to use the CLI</li>
+                        <li><strong>Verify inbound calls</strong> — Check SHAKEN signatures on received calls; flag or block calls with invalid/missing attestation</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="telecoms-access-review-2026.html">Telecoms Access Review 2026</a></p>
+            </article>
+
+            <!-- T -->
+            <h2 class="letter-heading" id="T">T</h2>
+
+            <article class="term-card" id="tsa">
+                <h3 class="term-name">TSA<span class="term-abbrev">Telecommunications (Security) Act 2021</span></h3>
+                <p class="term-definition">UK legislation establishing a security framework for public telecoms networks, requiring providers to implement security measures proportionate to their tier classification, with Ofcom enforcement powers.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Determine your tier</strong> — Classify based on annual revenue: Tier 1 (>£1bn), Tier 2 (£50m-£1bn), Tier 3 (<£50m)</li>
+                        <li><strong>Implement mandatory measures</strong> — Complete all required Code of Practice measures: 65 (Tier 1), 52 (Tier 2), or 38 (Tier 3)</li>
+                        <li><strong>Remove high-risk vendors</strong> — Exclude designated vendors from core network functions by December 2027 deadline</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="telecoms-security-act.html">Telecoms Security Act: Tier 1, 2, 3 Requirements</a></p>
+            </article>
+
+            <article class="term-card" id="tier-1">
+                <h3 class="term-name">Tier 1 Provider</h3>
+                <p class="term-definition">UK telecommunications provider with gross annual relevant revenue exceeding £1 billion, subject to all 65 mandatory Telecoms Security Act Code of Practice measures. Examples: BT, Virgin Media O2, Vodafone, Three.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Implement all 65 measures</strong> — No measures are "recommended" for Tier 1; all Code of Practice requirements are mandatory</li>
+                        <li><strong>Establish dedicated SOC</strong> — Maintain 24/7 Security Operations Centre capability with incident response procedures</li>
+                        <li><strong>Commission external audits</strong> — Conduct annual independent security audits; report findings to Ofcom on request</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="tier-2">
+                <h3 class="term-name">Tier 2 Provider</h3>
+                <p class="term-definition">UK telecommunications provider with gross annual relevant revenue between £50 million and £1 billion, subject to 52 mandatory and 13 recommended Telecoms Security Act measures. Examples: Sky, TalkTalk, Hyperoptic.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Implement 52 mandatory measures</strong> — Prioritise mandatory requirements; document rationale for not implementing recommended measures</li>
+                        <li><strong>Conduct risk assessment</strong> — Annual security risk assessment covering network, services, and supply chain</li>
+                        <li><strong>External audit (recommended)</strong> — While not mandatory, independent audits demonstrate due diligence to Ofcom</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="tier-3">
+                <h3 class="term-name">Tier 3 Provider</h3>
+                <p class="term-definition">UK telecommunications provider with gross annual relevant revenue below £50 million, subject to 38 mandatory and 27 recommended Telecoms Security Act measures. Covers most resellers and regional ISPs.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Implement 38 mandatory measures</strong> — Focus on: board security owner, risk assessment, access control, patch management, incident response</li>
+                        <li><strong>Document security policy</strong> — Written policy covering all applicable measures, reviewed annually</li>
+                        <li><strong>Establish breach notification</strong> — Process to notify Ofcom within 72 hours of significant security incidents</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="totsco">
+                <h3 class="term-name">TOTSCo<span class="term-abbrev">The One Touch Switching Company</span></h3>
+                <p class="term-definition">Industry body operating the central Hub that facilitates all One Touch Switch transactions between UK broadband providers. All residential broadband providers must integrate with TOTSCo.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Complete registration</strong> — Register with TOTSCo before offering residential broadband services; choose integration method</li>
+                        <li><strong>Integrate with Hub</strong> — Implement API integration (high-volume), Portal access (low-volume), or use wholesale partner's integration</li>
+                        <li><strong>Meet message SLAs</strong> — Process all TOTSCo Hub messages within 2 hours; maintain audit logging for 12 months</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="term-card" id="tps">
+                <h3 class="term-name">TPS/CTPS<span class="term-abbrev">Telephone Preference Service</span></h3>
+                <p class="term-definition">UK opt-out registers for consumers (TPS) and businesses (CTPS) who do not wish to receive unsolicited marketing calls. Callers must check these registers before making live marketing calls.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Subscribe to TPS/CTPS</strong> — Register with the Direct Marketing Association to access the registers for screening</li>
+                        <li><strong>Screen before calling</strong> — Check numbers against TPS (consumers) and CTPS (businesses) within 28 days before each campaign</li>
+                        <li><strong>Maintain suppression lists</strong> — Keep your own suppression list of opt-outs; retain for minimum 6 years</li>
+                    </ol>
+                </div>
+            </article>
+
+            <!-- U -->
+            <h2 class="letter-heading" id="U">U</h2>
+
+            <article class="term-card" id="uk-gdpr">
+                <h3 class="term-name">UK GDPR<span class="term-abbrev">UK General Data Protection Regulation</span></h3>
+                <p class="term-definition">The retained EU GDPR as it applies in the UK post-Brexit, governing the processing of personal data. Enforced by the ICO with fines up to £17.5 million or 4% of global turnover.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Establish lawful basis</strong> — Document lawful basis (consent, contract, legitimate interest) for each category of personal data processing</li>
+                        <li><strong>Respond to DSARs</strong> — Handle Data Subject Access Requests within 30 days; provide call records, account data on request</li>
+                        <li><strong>Implement Article 22 safeguards</strong> — For automated decisions with legal effects, provide human review mechanism and right to contest</li>
+                    </ol>
+                </div>
+                <p class="term-related">See also: <a href="uk-gdpr-telecom-providers.html">UK GDPR for Telecom Providers</a></p>
+            </article>
+
+            <!-- W -->
+            <h2 class="letter-heading" id="W">W</h2>
+
+            <article class="term-card" id="wangiri">
+                <h3 class="term-name">Wangiri Fraud</h3>
+                <p class="term-definition">Phone scam where fraudsters make brief calls from premium-rate international numbers, hoping recipients call back and incur high charges. Japanese for "one ring and cut." Providers must block known Wangiri sources under GC C1.</p>
+                <div class="compliance-steps">
+                    <div class="compliance-steps-label">3 Steps to Comply</div>
+                    <ol>
+                        <li><strong>Block calls from known Wangiri sources</strong> — Subscribe to industry intelligence feeds and auto-block originating ranges</li>
+                        <li><strong>Alert customers</strong> — Warn customers about callback scams via messaging, bill inserts, or website notices</li>
+                        <li><strong>Monitor callback patterns</strong> — Detect customers calling high-cost destinations after receiving short-duration inbound calls</li>
+                    </ol>
+                </div>
+            </article>
+
+            <div class="hub-link">
+                <div class="hub-link-icon">📚</div>
+                <div class="hub-link-content">
+                    <h4>Part of the UK Telecom Compliance Hub</h4>
+                    <p><a href="uk-telecom-compliance.html">Return to the main compliance guide</a> for detailed implementation guides on each regulatory area.</p>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h3>Need Compliance Support?</h3>
+                <p>Heimdell Tech AI provides managed compliance verification for UK telecom resellers. Let us handle your documentation, audits, and regulatory monitoring.</p>
+                <a href="mailto:andrew@remoteability.org?subject=Compliance%20Support%20Request" class="cta-button">Request Assessment</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="uk-telecom-compliance.html">Compliance Hub</a>
+                <a href="telecoms-security-act.html">Security Act</a>
+                <a href="one-touch-switch-compliance.html">OTS</a>
+                <a href="ait-prevention-sop.html">AIT Prevention</a>
+                <a href="../about.html">About</a>
+                <a href="../index.html">Home</a>
+            </div>
+            <p class="footer-copy">© 2026 Heimdell Tech AI Ltd. Company 16478408. ICO ZC079121.</p>
+        </div>
+    </footer>
+</body>
+</html>
