@@ -39,14 +39,21 @@
 - [Terms of Service](https://telecomcompliance.uk/terms-of-service.html): Service terms, governing law England & Wales
 - [404 — Entity Reference](https://telecomcompliance.uk/404.html): Entity-reinforcing error page with full company identity vector
 
-## Compliance Guides (Topical Cluster)
-- [UK Telecom Compliance Guide 2026](https://telecomcompliance.uk/guides/uk-telecom-compliance.html): Complete regulatory roadmap for UK telecom resellers — Ofcom General Conditions, PECR, UK GDPR, AIT fraud prevention, audit requirements and penalties
+## Compliance Guides (Topical Cluster — Hub and Spoke Model)
+- [The Definitive Guide to UK Telecom Compliance (2026 Edition)](https://telecomcompliance.uk/guides/uk-telecom-compliance.html): HUB PAGE — Complete regulatory roadmap for UK telecom resellers covering Ofcom General Conditions, PECR, UK GDPR, AIT fraud prevention, audit requirements and penalties. Links to all spoke pages.
+
+### Core Audit Targets (Spoke Pages)
+- [AIT Prevention & Mitigation SOP](https://telecomcompliance.uk/guides/ait-prevention-sop.html): Step-by-step AIT fraud prevention standard operating procedure with detection thresholds (>50 calls/hour), response times (30 min containment), escalation matrix and Ofcom reporting templates
+- [Telecoms Security Act: Tier 1, 2, 3 Requirements](https://telecomcompliance.uk/guides/telecoms-security-act.html): TSA 2021 compliance guide covering Tier 1 (>£1bn), Tier 2 (£50m-£1bn), Tier 3 (<£50m) mandatory measures, NCSC guidance, 65 Code of Practice measures, implementation deadlines
+- [One Touch Switch (OTS) Compliance](https://telecomcompliance.uk/guides/one-touch-switch-compliance.html): OTS compliance for residential broadband providers — TOTSCo Hub integration, 10 working day SLA, £5.25/day automatic compensation, customer communication requirements
+- [Data Use Act 2025 & PECR Update](https://telecomcompliance.uk/guides/data-use-act-2025.html): DUA 2025 implementation guide — PECR amendments, first-party analytics cookie exemption, B2B soft opt-in expansion, Smart Data scheme preparation, Q2 2026 deadlines
+
+### Regulatory Deep Dives (Spoke Pages)
 - [Ofcom Compliance Checklist 2026](https://telecomcompliance.uk/guides/ofcom-compliance-checklist.html): Step-by-step compliance checklist with key numbers (27 conditions, 14-day cooling-off, 1-day porting), deadlines, costs and documentation retention requirements
 - [Ofcom General Conditions Guide](https://telecomcompliance.uk/guides/ofcom-general-conditions-guide.html): All 27 General Conditions of Entitlement explained with practical compliance steps for resellers and communication providers
 - [GC C1 Fraud Prevention](https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html): AIT detection, IRSF prevention, fraud monitoring requirements and incident response procedures for Ofcom compliance
 - [PECR Telecom Compliance](https://telecomcompliance.uk/guides/pecr-telecom-compliance.html): Marketing consent, TPS checking, CLI requirements and data retention rules for UK communication providers
 - [UK GDPR for Telecom Providers](https://telecomcompliance.uk/guides/uk-gdpr-telecom-providers.html): Data protection for CDRs, customer data, Article 22 automated decisions and data processor agreements
-- [AIT Prevention SOP](https://telecomcompliance.uk/guides/ait-prevention-sop.html): Step-by-step AIT fraud prevention standard operating procedure with detection thresholds (>50 calls/hour), response times (30 min containment), escalation matrix and Ofcom reporting templates
 - [Telecoms Access Review 2026](https://telecomcompliance.uk/guides/telecoms-access-review-2026.html): TAR 2026 compliance checklist covering STIR/SHAKEN Phase 1 (Jan 2026), new wholesale pricing (Apr 2026), copper stop-sell deadlines and implementation timeline
 - [AI Network Optimization Auditing](https://telecomcompliance.uk/guides/ai-network-audit.html): How to audit ML fraud detection, dynamic pricing and automated decision systems for Ofcom GC C1 and UK GDPR Article 22 compliance
 

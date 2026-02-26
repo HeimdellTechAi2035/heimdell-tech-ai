@@ -186,6 +186,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://telecomcompliance.uk/guides/telecoms-security-act.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://telecomcompliance.uk/guides/one-touch-switch-compliance.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://telecomcompliance.uk/guides/data-use-act-2025.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <!-- Marketing Services -->
   <url>
     <loc>https://telecomcompliance.uk/services/local-seo-telecom.html</loc>
