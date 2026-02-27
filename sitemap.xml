@@ -44,6 +44,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://telecomcompliance.uk/compliance-protocol-implementation.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telecomcompliance.uk/post-sale-verification-system.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://telecomcompliance.uk/privacy-policy.html</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>yearly</changefreq>
@@ -74,6 +86,30 @@
       <image:loc>https://telecomcompliance.uk/images/eight-step-compliance-verification-process-silver-protocol.png</image:loc>
       <image:caption>Eight-step compliance verification process flowchart for The Silver Protocol by Heimdell Tech AI</image:caption>
     </image:image>
+  </url>
+  <url>
+    <loc>https://telecomcompliance.uk/regulatory-risk-assessment.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telecomcompliance.uk/ico-gdpr-compliance-audit.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telecomcompliance.uk/commission-clawback-prevention.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telecomcompliance.uk/post-sale-verification-deployment.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://telecomcompliance.uk/systems-architecture.html</loc>
