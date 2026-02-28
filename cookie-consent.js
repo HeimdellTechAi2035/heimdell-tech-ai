@@ -9,9 +9,34 @@
     'use strict';
 
     var CONSENT_KEY = 'heimdell_cookie_consent';
+    var CLARITY_PROJECT_ID = 'voj30qrhuu';
 
-    // If already accepted, do nothing
-    if (localStorage.getItem(CONSENT_KEY) === 'accepted') return;
+    // Load Microsoft Clarity with consent
+    function loadClarity(consentGranted) {
+        if (window.clarity) return; // Already loaded
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", CLARITY_PROJECT_ID);
+        
+        // Set consent status
+        if (consentGranted) {
+            window.clarity('consent');
+        }
+    }
+
+    // If already accepted, load Clarity and exit
+    if (localStorage.getItem(CONSENT_KEY) === 'accepted') {
+        loadClarity(true);
+        return;
+    }
+    
+    // If essential only, load Clarity without consent (no cookies)
+    if (localStorage.getItem(CONSENT_KEY) === 'essential') {
+        loadClarity(false);
+        return;
+    }
 
     /* ── CSS ────────────────────────────────────────────────── */
     var style = document.createElement('style');
@@ -69,6 +94,7 @@
         localStorage.setItem(CONSENT_KEY, 'accepted');
         localStorage.setItem('heimdell_consent_date', new Date().toISOString());
         localStorage.setItem('heimdell_automated_calls', 'yes');
+        loadClarity(true); // Load Clarity with full consent
         bar.style.animation = 'none';
         bar.style.transition = 'transform .3s ease, opacity .3s ease';
         bar.style.transform = 'translateY(100%)';
@@ -80,6 +106,7 @@
         localStorage.setItem(CONSENT_KEY, 'essential');
         localStorage.setItem('heimdell_consent_date', new Date().toISOString());
         localStorage.setItem('heimdell_automated_calls', 'no');
+        loadClarity(false); // Load Clarity without cookie consent
         bar.style.animation = 'none';
         bar.style.transition = 'transform .3s ease, opacity .3s ease';
         bar.style.transform = 'translateY(100%)';
