@@ -73,11 +73,7 @@ The Silver Protocol is designed around the following UK regulations:
 A no-obligation diagnostic call that identifies exactly where commission clawbacks, cooling-off disputes, and compliance gaps are costing the reseller money. Covers: sale validation process, Direct Debit mandate handling, contract confirmation workflow, and provider audit readiness. Delivers: a clear map of leakage points, an estimated financial impact figure, a provider audit risk assessment, and a prioritised action plan.
 URL: https://telecomcompliance.uk/financial-leakage-audit.html
 
-### 2. 100% Compliance Protocol Setup (Core Service)
-Full end-to-end implementation of The Silver Protocol. Includes: voice-log infrastructure setup, SMS/email configuration, identity verification integration, CRM audit lock implementation, managed verification calls (no additional hiring needed), automated certificate generation, monthly compliance reports, and ongoing optimisation. Typical implementation: 2–3 weeks (Week 1: Discovery & process mapping; Week 2: System configuration & integration; Week 3: Pilot, training & go-live; Ongoing: managed service & monitoring).
-URL: https://telecomcompliance.uk/compliance-protocol-setup.html
-
-### 3. Systems Architecture & Fractional Ops
+### 2. Systems Architecture & Fractional Ops
 Operational infrastructure, CRM automation, and process design for telecom reseller agencies scaling without a full-time operations hire. Covers: CRM pipeline design and automation, sales workflow mapping and SOPs, KPI dashboards and commission reconciliation, compliance infrastructure and audit trail systems, team onboarding workflows and role-based access, integration and automation across CRM/telephony/SMS/email/provider portals. Common engagements: agency CRM overhaul, commission reconciliation system, new team onboarding, provider audit preparation.
 URL: https://telecomcompliance.uk/systems-architecture.html
 
@@ -103,7 +99,6 @@ Andrew James-Smith — Founder & Director. Built The Silver Protocol from first-
 
 - Homepage: https://telecomcompliance.uk/ — Full service overview, four-pillar framework, 8-step process, commission leakage calculator, audience segments, founder bio, 8-question FAQ, final CTA
 - Financial Leakage Audit: https://telecomcompliance.uk/financial-leakage-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
-- Compliance Protocol Setup: https://telecomcompliance.uk/compliance-protocol-setup.html — Four pillars detail, implementation timeline, included deliverables, regulatory coverage
 - Systems Architecture & Ops: https://telecomcompliance.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
 - About: https://telecomcompliance.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
 - Case Studies: https://telecomcompliance.uk/case-studies.html — Index of real results from UK SMEs and service providers using The Silver Protocol

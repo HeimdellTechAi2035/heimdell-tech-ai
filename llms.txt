@@ -27,7 +27,6 @@
 ## Pages
 - [Homepage](https://telecomcompliance.uk/): The Silver Protocol — managed post-sale compliance verification for UK SMEs and service providers. Four-pillar framework, 8-step verification process, commission leakage calculator, FAQ, portfolio
 - [15-Minute Financial Leakage Audit](https://telecomcompliance.uk/financial-leakage-audit.html): Free diagnostic call identifying where commission clawbacks, cooling-off disputes and unverified identities cost UK SMEs and service providers 5%–15% of gross commissions annually
-- [100% Compliance Protocol Setup](https://telecomcompliance.uk/compliance-protocol-setup.html): Full managed implementation deploying voice-log infrastructure, identity verification, CRM audit locks and automated provider-ready certificates within 2–3 weeks
 - [Systems Architecture & Fractional Ops](https://telecomcompliance.uk/systems-architecture.html): CRM automation, compliance workflow design, KPI dashboards and provider audit infrastructure for scaling agencies — at a fraction of a full-time hire
 - [About the Founder](https://telecomcompliance.uk/about.html): Andrew James-Smith — Founder & Director, built The Silver Protocol from first-hand telecom reselling experience
 - [Case Studies](https://telecomcompliance.uk/case-studies.html): Proven results — 94% clawback reduction (£47K saved), surprise audit passed with zero flags, 200+ sales/month scaled with zero staff additions
