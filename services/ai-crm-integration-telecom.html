@@ -56,6 +56,25 @@
         }
     }
     </script>
+
+    <!-- JSON-LD: ImageObject (CRM Integration Data Flow Diagram) -->
+    <!-- TODO: Update contentUrl once ai-crm-integration-data-flow-diagram.webp is created -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "@id": "https://telecomcompliance.uk/images/ai-crm-integration-data-flow-diagram.png#image",
+        "contentUrl": "https://telecomcompliance.uk/images/ai-crm-integration-data-flow-diagram.png",
+        "name": "AI CRM Integration Data Flow Diagram",
+        "description": "Data flow diagram showing how AI CRM integration connects lead sources, automates data entry, enriches contact records and triggers workflow actions for UK SMEs and service providers.",
+        "width": 1200,
+        "height": 600,
+        "encodingFormat": "image/png",
+        "creator": { "@id": "https://telecomcompliance.uk/#organization" },
+        "copyrightHolder": { "@id": "https://telecomcompliance.uk/#organization" }
+    }
+    </script>
+
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         :root { --purple-deep: #2D1B69; --dark: #F0E6FF; --dark-surface: #E8DBFD; --dark-card: #FFFFFF; --dark-border: #D4C2F0; --text-primary: #1A0E33; --text-secondary: #3D2B5E; --text-muted: #6B5A8A; --gold: #2D1B69; --gold-light: #4A2D8F; }
@@ -148,6 +167,24 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Concept Explainer Visual: CRM Integration Data Flow -->
+    <section style="padding:48px 0;background:var(--dark-surface);border-top:1px solid var(--dark-border);border-bottom:1px solid var(--dark-border);">
+        <div class="container" style="max-width:800px;text-align:center;">
+            <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.3rem;color:var(--text-primary);margin-bottom:16px;">How Data Flows Through Your CRM</h3>
+            <p style="color:var(--text-secondary);max-width:650px;margin:0 auto 28px;">AI CRM integration connects your lead sources, communication channels and customer records into a single automated workflow — eliminating manual data entry and ensuring nothing falls through the cracks.</p>
+            <!-- TODO: Create ai-crm-integration-data-flow-diagram.webp showing lead source → CRM → automation → insights flow -->
+            <picture>
+                <source srcset="../images/ai-crm-integration-data-flow-diagram.webp" type="image/webp">
+                <img src="../images/ai-crm-integration-data-flow-diagram.png" 
+                     alt="AI CRM integration data flow diagram showing how lead sources connect to your CRM through automated pipelines: website forms, chatbots and calls flow into centralised customer records with AI enrichment, automated scoring and workflow triggers for UK SMEs" 
+                     width="1200" height="600" loading="lazy" 
+                     style="width:100%;max-width:700px;height:auto;border-radius:12px;border:1px solid var(--dark-border);background:var(--dark-card);"
+                     onerror="this.style.display='none'">
+            </picture>
+            <p style="color:var(--text-muted);font-size:0.82rem;margin-top:12px;">CRM Integration Data Flow — Heimdell Tech AI</p>
         </div>
     </section>
 
