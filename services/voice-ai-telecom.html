@@ -30,7 +30,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Voice AI for UK SMEs","serviceType":"Voice AI","description":"Voice AI for UK SMEs and service providers providing natural language interactions.","url":"https://telecomcompliance.uk/services/voice-ai-telecom.html","provider":{"@type":"ProfessionalService","name":"Heimdell Tech AI","url":"https://telecomcompliance.uk/"}}</script>
+    <!-- JSON-LD: Service Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://telecomcompliance.uk/services/voice-ai-telecom.html#service",
+        "name": "Voice AI for UK SMEs",
+        "serviceType": "Voice AI",
+        "description": "Voice AI for UK SMEs and service providers providing natural language interactions and conversational experiences.",
+        "url": "https://telecomcompliance.uk/services/voice-ai-telecom.html",
+        "provider": {
+            "@type": "ProfessionalService",
+            "@id": "https://telecomcompliance.uk/#organization",
+            "name": "Heimdell Tech AI",
+            "url": "https://telecomcompliance.uk/"
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "United Kingdom"
+        },
+        "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": "UK SMEs and service providers"
+        }
+    }
+    </script>
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         :root { --purple-deep: #2D1B69; --dark: #F0E6FF; --dark-surface: #E8DBFD; --dark-card: #FFFFFF; --dark-border: #D4C2F0; --text-primary: #1A0E33; --text-secondary: #3D2B5E; --text-muted: #6B5A8A; --gold: #2D1B69; --gold-light: #4A2D8F; }
