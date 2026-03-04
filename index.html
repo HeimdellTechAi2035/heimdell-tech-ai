@@ -52,11 +52,12 @@
       "@type": "ProfessionalService",
       "@id": "https://telecomcompliance.uk/#organization",
       "name": "Heimdell Tech AI",
+      "alternateName": ["Telecom Compliance", "The Heimdell Protocol", "The Silver Protocol"],
       "legalName": "Heimdell Tech AI Ltd",
       "url": "https://telecomcompliance.uk/",
       "logo": "https://telecomcompliance.uk/heimdell-tech-ai-silver-protocol-logo.png",
       "image": "https://telecomcompliance.uk/images/silver-protocol-four-pillar-audit-automation-framework.png",
-      "description": "Total compliance protection for UK SMEs. The Heimdell Protocol provides automated PECR, DUAA 2025 and ICO-ready verification for trades, service providers and small businesses &mdash; from sole traders to growing agencies.",
+      "description": "Managed compliance verification for UK SMEs. Commission protection through timestamped consent capture, ID verification, audit trails and ICO-ready certificates. Prevents clawbacks with defensible evidence for every sale.",
       "foundingDate": "2024",
       "founder": {
         "@type": "Person",
@@ -104,12 +105,16 @@
         "https://www.facebook.com/profile.php?id=61579858422337"
       ],
       "knowsAbout": [
-        "UK GDPR",
+        "Commission Clawback Prevention",
+        "Post-Sale Verification",
+        "Compliance Audit Trails",
+        "Timestamped Consent Capture",
         "PECR 2003",
-        "Data (Use and Access) Act 2025",
+        "Data Use and Access Act 2025",
+        "UK GDPR",
         "ICO Compliance",
-        "Consumer Contracts Regulations",
-        "SME Data Protection"
+        "Consumer Contracts Regulations 2013",
+        "ID Verification for SMEs"
       ],
       "areaServed": {
         "@type": "Country",
@@ -478,18 +483,28 @@
     }
     </script>
 
-    <!-- JSON-LD: WebSite + Speakable -->
+    <!-- JSON-LD: WebSite + Speakable + SearchAction -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "@id": "https://telecomcompliance.uk/#website",
         "url": "https://telecomcompliance.uk/",
-        "name": "Heimdell Tech AI — The Heimdell Protocol",
-        "description": "Managed compliance verification for UK SMEs, trades and service providers. The Heimdell Protocol verifies every job, documents customer consent, captures identity and meets ICO requirements automatically.",
+        "name": "Heimdell Tech AI — Compliance Verification for UK SMEs",
+        "alternateName": ["Telecom Compliance", "The Heimdell Protocol"],
+        "description": "Commission protection and compliance verification for UK SMEs. Timestamped consent, ID verification, audit trails and ICO-ready certificates.",
         "publisher": { "@id": "https://telecomcompliance.uk/#organization" },
+        "inLanguage": "en-GB",
         "datePublished": "2025-10-01T08:00:00+00:00",
-        "dateModified": "2026-03-04T09:00:00+00:00",
+        "dateModified": "2026-03-04T12:00:00+00:00",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://telecomcompliance.uk/guides/telecom-compliance-glossary.html?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        },
         "speakable": {
             "@type": "SpeakableSpecification",
             "cssSelector": [".hero-sub", ".hero-position", ".atomic-answer", "#speakable-definition"]
