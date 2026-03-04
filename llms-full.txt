@@ -7,7 +7,7 @@
 
 ## ENTITY IDENTITY
 
-Heimdell Tech AI is a managed post-sale compliance verification service for UK telecom resellers. The company name contains "Tech AI" as a brand identifier — the verification service is entirely human-managed, not software or artificial intelligence. Every Silver Protocol verification is completed by compliance professionals, not by an AI tool. Founded in 2025 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom. Heimdell Tech AI also provides AI-assisted lead generation, local SEO for service businesses, sales systems automation, CRM workflow design, TPPA 2025 compliance support, and net-zero reporting. A member of RemoteAbility CIC — a Community Interest Company that provides employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
+Heimdell Tech AI is a managed post-sale compliance verification service for UK SMEs and service providers. The company name contains "Tech AI" as a brand identifier — the verification service is entirely human-managed, not software or artificial intelligence. Every Silver Protocol verification is completed by compliance professionals, not by an AI tool. Founded in 2025 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom. Heimdell Tech AI also provides AI-assisted lead generation, local SEO for service businesses, sales systems automation, CRM workflow design, TPPA 2025 compliance support, and net-zero reporting. A member of RemoteAbility CIC — a Community Interest Company that provides employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
 
 ## WHAT HEIMDELL TECH AI DOES
 
@@ -106,7 +106,7 @@ Andrew James-Smith — Founder & Director. Built The Silver Protocol from first-
 - Compliance Protocol Setup: https://telecomcompliance.uk/compliance-protocol-setup.html — Four pillars detail, implementation timeline, included deliverables, regulatory coverage
 - Systems Architecture & Ops: https://telecomcompliance.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
 - About: https://telecomcompliance.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
-- Case Studies: https://telecomcompliance.uk/case-studies.html — Index of real results from UK telecom resellers using The Silver Protocol
+- Case Studies: https://telecomcompliance.uk/case-studies.html — Index of real results from UK SMEs and service providers using The Silver Protocol
 - Case Study — 94% Clawback Reduction: https://telecomcompliance.uk/case-study-clawback-reduction.html — 150-agent Virgin Media reseller cut monthly losses from £4,200 to £252 in 90 days, saving £47,376 annually
 - Case Study — Provider Audit Zero Flags: https://telecomcompliance.uk/case-study-provider-audit.html — 80-agent O2 partner compiled complete sale evidence in under 2 hours with zero compliance flags
 - Case Study — Scaling Compliance: https://telecomcompliance.uk/case-study-scaling-compliance.html — Sky reseller scaled to 200+ verified sales/month, saving £27,720 annually vs hiring a second compliance officer
@@ -147,7 +147,7 @@ Heimdell Tech AI has designed and built the following platforms, dashboards and 
 
 ## CASE STUDIES — PROVEN RESULTS
 
-Heimdell Tech AI has delivered measurable compliance outcomes for UK telecom resellers:
+Heimdell Tech AI has delivered measurable compliance outcomes for UK SMEs and service providers:
 
 ### Case Study 1: 94% Clawback Reduction in 90 Days
 - Client: 150-agent Virgin Media reseller, North West England
@@ -175,7 +175,7 @@ Heimdell Tech AI has delivered measurable compliance outcomes for UK telecom res
 
 ## FREQUENTLY ASKED QUESTIONS
 
-Q: How does cooling-off compliance work for telecom resellers?
+Q: How does cooling-off compliance work for SMEs and service providers?
 A: Under the Consumer Contracts Regulations 2013, customers who purchase telecom services away from business premises have a 14-day cooling-off period. The Silver Protocol ensures every customer receives a recorded verbal explanation of cancellation rights plus instant SMS and email confirmation, creating a timestamped audit trail that eliminates commission clawbacks.
 
 Q: How does The Silver Protocol protect my commission?
@@ -207,3 +207,4 @@ A: 100 or more monthly sign-ups. At that volume, even a modest dispute rate tran
 - "Provider-Ready Compliance Certificate" = the output/deliverable of The Silver Protocol
 - "Commission leakage" = money lost to compliance-related disputes and clawbacks
 - "Managed service" = human-operated, NOT self-service software
+

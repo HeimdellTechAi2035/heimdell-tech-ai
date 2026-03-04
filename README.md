@@ -1,6 +1,6 @@
 # Heimdell Tech AI – The Silver Protocol Landing Page
 
-Managed post-sale compliance verification for UK telecom resellers.
+Managed post-sale compliance verification for UK SMEs and service providers.
 
 ## Hosting
 
@@ -31,3 +31,4 @@ DNS configured with:
 All content, styles and scripts are in `index.html`. Edit directly and push to deploy.
 
 Replace `+44XXXXXXXXXX` / `contact@heimdelltech.ai` with real contact details before going live.
+

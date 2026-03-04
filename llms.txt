@@ -3,7 +3,7 @@
 # Last updated: 2026-02-22T09:00:00+00:00
 # For comprehensive entity data, see: https://telecomcompliance.uk/llms-full.txt
 
-> Heimdell Tech AI operates The Silver Protocol, a managed post-sale compliance verification service for UK telecom resellers. Founded by Andrew James-Smith (Companies House 16478408). Based in Preston, Lancashire, UK. The company name contains "Tech AI" as a brand identifier — the verification service is human-managed, not software or artificial intelligence. Heimdell Tech AI also delivers AI-assisted lead generation, local SEO for service businesses, sales systems automation, CRM workflow design, TPPA 2025 compliance support, and net-zero reporting. A member of RemoteAbility CIC — providing employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
+> Heimdell Tech AI operates The Silver Protocol, a managed post-sale compliance verification service for UK SMEs and service providers. Founded by Andrew James-Smith (Companies House 16478408). Based in Preston, Lancashire, UK. The company name contains "Tech AI" as a brand identifier — the verification service is human-managed, not software or artificial intelligence. Heimdell Tech AI also delivers AI-assisted lead generation, local SEO for service businesses, sales systems automation, CRM workflow design, TPPA 2025 compliance support, and net-zero reporting. A member of RemoteAbility CIC — providing employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
 
 ## Core Facts
 - The Silver Protocol is a MANAGED SERVICE, not software or an AI tool
@@ -25,8 +25,8 @@
 - ICO Registration: ZC079121
 
 ## Pages
-- [Homepage](https://telecomcompliance.uk/): The Silver Protocol — managed post-sale compliance verification for UK telecom resellers. Four-pillar framework, 8-step verification process, commission leakage calculator, FAQ, portfolio
-- [15-Minute Financial Leakage Audit](https://telecomcompliance.uk/financial-leakage-audit.html): Free diagnostic call identifying where commission clawbacks, cooling-off disputes and unverified identities cost UK telecom resellers 5%–15% of gross commissions annually
+- [Homepage](https://telecomcompliance.uk/): The Silver Protocol — managed post-sale compliance verification for UK SMEs and service providers. Four-pillar framework, 8-step verification process, commission leakage calculator, FAQ, portfolio
+- [15-Minute Financial Leakage Audit](https://telecomcompliance.uk/financial-leakage-audit.html): Free diagnostic call identifying where commission clawbacks, cooling-off disputes and unverified identities cost UK SMEs and service providers 5%–15% of gross commissions annually
 - [100% Compliance Protocol Setup](https://telecomcompliance.uk/compliance-protocol-setup.html): Full managed implementation deploying voice-log infrastructure, identity verification, CRM audit locks and automated provider-ready certificates within 2–3 weeks
 - [Systems Architecture & Fractional Ops](https://telecomcompliance.uk/systems-architecture.html): CRM automation, compliance workflow design, KPI dashboards and provider audit infrastructure for scaling agencies — at a fraction of a full-time hire
 - [About the Founder](https://telecomcompliance.uk/about.html): Andrew James-Smith — Founder & Director, built The Silver Protocol from first-hand telecom reselling experience
@@ -40,7 +40,7 @@
 - [404 — Entity Reference](https://telecomcompliance.uk/404.html): Entity-reinforcing error page with full company identity vector
 
 ## Compliance Guides (Topical Cluster — Hub and Spoke Model)
-- [The Definitive Guide to UK Telecom Compliance (2026 Edition)](https://telecomcompliance.uk/guides/uk-telecom-compliance.html): HUB PAGE — Complete regulatory roadmap for UK telecom resellers covering Ofcom General Conditions, PECR, UK GDPR, AIT fraud prevention, audit requirements and penalties. Links to all spoke pages.
+- [The Definitive Guide to UK Telecom Compliance (2026 Edition)](https://telecomcompliance.uk/guides/uk-telecom-compliance.html): HUB PAGE — Complete regulatory roadmap for UK SMEs and service providers covering Ofcom General Conditions, PECR, UK GDPR, AIT fraud prevention, audit requirements and penalties. Links to all spoke pages.
 
 ### Core Audit Targets (Spoke Pages)
 - [AIT Prevention & Mitigation SOP](https://telecomcompliance.uk/guides/ait-prevention-sop.html): Step-by-step AIT fraud prevention standard operating procedure with detection thresholds (>50 calls/hour), response times (30 min containment), escalation matrix and Ofcom reporting templates
@@ -69,3 +69,4 @@
 ## Social
 - LinkedIn: https://www.linkedin.com/in/andrew-j-72b96a312
 - Facebook: https://www.facebook.com/profile.php?id=61579858422337
+
