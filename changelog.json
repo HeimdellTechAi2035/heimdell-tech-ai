@@ -1,0 +1,90 @@
+{
+  "description": "Central changelog for page last-updated dates. Use ISO 8601 format (YYYY-MM-DD).",
+  "pages": {
+    "/": {
+      "title": "Homepage",
+      "lastUpdated": "2026-03-04",
+      "file": "index.html"
+    },
+    "/about.html": {
+      "title": "About",
+      "lastUpdated": "2026-03-04",
+      "file": "about.html"
+    },
+    "/services/": {
+      "title": "Services Overview",
+      "lastUpdated": "2026-03-04",
+      "file": "services/index.html"
+    },
+    "/system-capabilities.html": {
+      "title": "System Capabilities",
+      "lastUpdated": "2026-03-04",
+      "file": "system-capabilities.html"
+    },
+    "/systems-architecture.html": {
+      "title": "Systems Architecture",
+      "lastUpdated": "2026-03-04",
+      "file": "systems-architecture.html"
+    },
+    "/post-sale-verification-system.html": {
+      "title": "Post-Sale Verification System",
+      "lastUpdated": "2026-03-04",
+      "file": "post-sale-verification-system.html"
+    },
+    "/financial-leakage-audit.html": {
+      "title": "Financial Leakage Audit",
+      "lastUpdated": "2026-03-04",
+      "file": "financial-leakage-audit.html"
+    },
+    "/commission-clawback-prevention.html": {
+      "title": "Commission Clawback Prevention",
+      "lastUpdated": "2026-03-04",
+      "file": "commission-clawback-prevention.html"
+    },
+    "/regulatory-risk-assessment.html": {
+      "title": "Regulatory Risk Assessment",
+      "lastUpdated": "2026-03-04",
+      "file": "regulatory-risk-assessment.html"
+    },
+    "/compliance-protocol-implementation.html": {
+      "title": "Compliance Protocol Implementation",
+      "lastUpdated": "2026-03-04",
+      "file": "compliance-protocol-implementation.html"
+    },
+    "/compliance-protocol-setup.html": {
+      "title": "Compliance Protocol Setup",
+      "lastUpdated": "2026-03-04",
+      "file": "compliance-protocol-setup.html"
+    },
+    "/case-studies.html": {
+      "title": "Case Studies",
+      "lastUpdated": "2026-02-22",
+      "file": "case-studies.html"
+    },
+    "/case-study-clawback-reduction.html": {
+      "title": "Case Study: Clawback Reduction",
+      "lastUpdated": "2026-02-22",
+      "file": "case-study-clawback-reduction.html"
+    },
+    "/case-study-provider-audit.html": {
+      "title": "Case Study: Provider Audit",
+      "lastUpdated": "2026-02-22",
+      "file": "case-study-provider-audit.html"
+    },
+    "/case-study-scaling-compliance.html": {
+      "title": "Case Study: Scaling Compliance",
+      "lastUpdated": "2026-02-22",
+      "file": "case-study-scaling-compliance.html"
+    },
+    "/ico-gdpr-compliance-audit.html": {
+      "title": "ICO GDPR Compliance Audit",
+      "lastUpdated": "2026-03-04",
+      "file": "ico-gdpr-compliance-audit.html"
+    },
+    "/mission-and-impact.html": {
+      "title": "Mission and Impact",
+      "lastUpdated": "2026-03-04",
+      "file": "mission-and-impact.html"
+    }
+  }
+}
