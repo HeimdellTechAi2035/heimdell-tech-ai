@@ -1,6 +1,6 @@
-# Heimdell Tech AI – The Silver Protocol Landing Page
+# Heimdell Tech AI – The Telecom Verification Protocol Landing Page
 
-Managed TPV verification for telecom resellers, brokers and D2D sales teams.
+A managed third-party verification (TPV) system for telecom resellers, brokers and D2D sales teams.
 
 ## Image Naming Convention (Visual Authority SOP)
 
@@ -19,7 +19,7 @@ Managed TPV verification for telecom resellers, brokers and D2D sales teams.
 - Describe the **concept**, not just "image" or "diagram"
 - Include **what it explains** and **who it helps**
 - Target 10-25 words for explainer visuals
-- Example: `"Eight-step TPV verification process flowchart showing how The Silver Protocol validates customer consent for telecom resellers"`
+- Example: `"Eight-step TPV verification process flowchart showing how The Telecom Verification Protocol validates customer consent for telecom resellers"`
 
 ### ImageObject Schema
 Every concept explainer image should have accompanying JSON-LD:
