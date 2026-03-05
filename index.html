@@ -121,10 +121,20 @@
         "Consumer Contracts Regulations 2013",
         "ID Verification for Telecom Sales"
       ],
-      "areaServed": {
-        "@type": "Country",
-        "name": "United Kingdom"
-      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Lancashire"
+        },
+        {
+          "@type": "City",
+          "name": "Preston"
+        }
+      ],
       "priceRange": "££",
       "currenciesAccepted": "GBP",
       "paymentAccepted": "Bank Transfer, Direct Debit",
@@ -221,9 +231,10 @@
         "@type": "Service",
         "@id": "https://telecomcompliance.uk/#service",
         "url": "https://telecomcompliance.uk/",
-        "serviceType": "Managed Post-Sale Compliance Verification",
-        "name": "The Telecom Verification Protocol",
-        "description": "A managed third-party verification (TPV) system for telecom resellers. The Telecom Verification Protocol validates customer identity, documents consent, delivers digital audit trails and generates ICO-ready compliance documentation — eliminating disputes and protecting against regulatory fines.",
+        "serviceType": "Telecom compliance verification",
+        "name": "Third-Party Verification (TPV)",
+        "alternateName": "The Telecom Verification Protocol",
+        "description": "Managed TPV calls for UK telecom resellers. We make independent verification calls to confirm customer consent, explain contract terms, verify cooling-off rights and document Direct Debit authorisation. Each call creates a timestamped audit trail and compliance certificate that protects your commission.",
         "provider": {
             "@type": "ProfessionalService",
             "@id": "https://telecomcompliance.uk/#organization",

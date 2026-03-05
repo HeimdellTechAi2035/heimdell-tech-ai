@@ -31,15 +31,58 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
+    <!-- JSON-LD: LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["ProfessionalService", "LocalBusiness"],
+        "@id": "https://telecomcompliance.uk/#organization",
+        "name": "Heimdell Tech AI",
+        "legalName": "Heimdell Tech AI Ltd",
+        "url": "https://telecomcompliance.uk/",
+        "logo": "https://telecomcompliance.uk/heimdell-tech-ai-silver-protocol-logo.png",
+        "telephone": "+447414909674",
+        "email": "contact@telecomcompliance.uk",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "11 Lower Croft",
+            "addressLocality": "Preston",
+            "addressRegion": "Lancashire",
+            "postalCode": "PR1 9DJ",
+            "addressCountry": "GB"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "53.7587",
+            "longitude": "-2.6972"
+        },
+        "areaServed": [
+            {"@type": "Country", "name": "United Kingdom"},
+            {"@type": "AdministrativeArea", "name": "Lancashire"},
+            {"@type": "City", "name": "Preston"}
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/in/andrew-j-72b96a312",
+            "https://www.facebook.com/profile.php?id=61579858422337",
+            "https://share.google/9G7w3XXzznmNoMO7e",
+            "https://heimdelltechai.freeindex.co.uk/",
+            "https://www.yell.com/biz/heimdell-tech-ai-ltd-preston-10996575/",
+            "https://find-and-update.company-information.service.gov.uk/company/16478408",
+            "https://ico.org.uk/ESDWebPages/Entry/ZC079121"
+        ],
+        "priceRange": "££"
+    }
+    </script>
+
     <!-- JSON-LD: Service Schema -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Service",
         "@id": "https://telecomcompliance.uk/services/third-party-verification.html#service",
-        "name": "Third-Party Verification (TPV) for Telecom Sales",
-        "serviceType": "TPV Verification Service",
-        "description": "Independent third-party verification calls for UK telecom providers and resellers. We verify customer consent, key contract terms, cooling-off rights and Direct Debit authorisation with recorded confirmation.",
+        "name": "Third-Party Verification (TPV)",
+        "serviceType": "Telecom compliance verification",
+        "description": "Independent TPV calls for UK telecom providers and resellers. We verify customer consent, explain key contract terms, confirm cooling-off rights and Direct Debit authorisation. Each call is recorded to create a timestamped audit trail and compliance certificate.",
         "url": "https://telecomcompliance.uk/services/third-party-verification.html",
         "provider": {
             "@type": "ProfessionalService",
