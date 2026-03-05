@@ -64,6 +64,64 @@
     }
     </script>
 
+    <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a telecom verification call (TPV)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A TPV is an independent phone call made after every sale to confirm the customer genuinely agreed to the contract. We verify their identity, explain the key terms including monthly cost and contract length, confirm their cooling-off rights, and record their verbal consent. This call happens separately from your sales team to provide unbiased proof the sale was compliant."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why do telecom resellers get commission clawbacks?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Commission clawbacks happen when providers find gaps in your sales compliance during audits. Common causes include missing consent evidence, customers who claim they didn't understand the terms, and Direct Debit disputes. Without recorded proof of what the customer agreed to, providers reverse the commission by default."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What does the verification call confirm?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The verification call confirms four things: customer identity, understanding of key contract terms, acknowledgement of cooling-off rights, and authorisation of the Direct Debit mandate. Each point is explained clearly and the customer's verbal confirmation is recorded. This creates a complete audit trail for every sale."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are verification calls recorded?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, every verification call is recorded in full. The recording captures the customer confirming their identity, acknowledging the contract terms, and authorising payment. These recordings are stored securely and can be retrieved instantly if a provider requests evidence during an audit."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What evidence do we get for provider audits?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You receive a compliance certificate for every verified sale. This includes the call recording, timestamped verification details, customer identity confirmation, and copies of any SMS or email confirmations sent. This documentation is designed specifically to satisfy Virgin Media, O2, Sky and other major provider audit requirements."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How fast after the sale is the customer contacted?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We make verification calls within 24 hours of receiving your sale details. For high-volume operations, calls are typically completed within 2-4 hours during business hours. You receive status updates in your CRM as each verification completes or if any issues arise."
+                }
+            }
+        ]
+    }
+    </script>
+
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         :root { --purple-deep: #2D1B69; --dark: #F0E6FF; --dark-surface: #E8DBFD; --dark-card: #FFFFFF; --dark-border: #D4C2F0; --text-primary: #1A0E33; --text-secondary: #3D2B5E; --text-muted: #6B5A8A; --gold: #2D1B69; --gold-light: #4A2D8F; }
@@ -212,28 +270,33 @@
             <h2 style="margin-bottom:32px;">Frequently Asked Questions</h2>
             
             <div style="margin-bottom:24px;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;">
-                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">What is a TPV verification call?</h3>
-                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">TPV stands for Third Party Verification. It's an independent call made after every sale where we confirm the customer's identity, explain the contract terms, verify cooling-off rights and record their consent. This protects you from provider audits and commission clawbacks.</p>
+                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">What is a telecom verification call (TPV)?</h3>
+                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">A TPV is an independent phone call made after every sale to confirm the customer genuinely agreed to the contract. We verify their identity, explain the key terms including monthly cost and contract length, confirm their cooling-off rights, and record their verbal consent. This call happens separately from your sales team to provide unbiased proof the sale was compliant.</p>
             </div>
             
             <div style="margin-bottom:24px;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;">
-                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">How quickly do you make the verification call after the sale?</h3>
-                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">We make verification calls within 24 hours of receiving the sale details. For high-volume operations, calls are typically completed within 2-4 hours during business hours.</p>
+                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">Why do telecom resellers get commission clawbacks?</h3>
+                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">Commission clawbacks happen when providers find gaps in your sales compliance during audits. Common causes include missing consent evidence, customers who claim they didn't understand the terms, and Direct Debit disputes. Without recorded proof of what the customer agreed to, providers reverse the commission by default.</p>
             </div>
             
             <div style="margin-bottom:24px;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;">
-                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">What happens if the customer doesn't answer the verification call?</h3>
-                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">We make up to three call attempts at different times. If the customer is unreachable, we send SMS and email requesting a callback. You receive a status update in your CRM showing the verification is pending.</p>
+                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">What does the verification call confirm?</h3>
+                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">The verification call confirms four things: customer identity, understanding of key contract terms, acknowledgement of cooling-off rights, and authorisation of the Direct Debit mandate. Each point is explained clearly and the customer's verbal confirmation is recorded. This creates a complete audit trail for every sale.</p>
             </div>
             
             <div style="margin-bottom:24px;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;">
-                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">Will my compliance certificate satisfy a provider audit?</h3>
-                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">Yes. Our certificates include the recorded call audio, timestamped SMS/email confirmations and verification agent details. This documentation is designed specifically to satisfy Virgin Media, O2, Sky and other major provider audit requirements.</p>
+                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">Are verification calls recorded?</h3>
+                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">Yes, every verification call is recorded in full. The recording captures the customer confirming their identity, acknowledging the contract terms, and authorising payment. These recordings are stored securely and can be retrieved instantly if a provider requests evidence during an audit.</p>
+            </div>
+            
+            <div style="margin-bottom:24px;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;">
+                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">What evidence do we get for provider audits?</h3>
+                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">You receive a compliance certificate for every verified sale. This includes the call recording, timestamped verification details, customer identity confirmation, and copies of any SMS or email confirmations sent. This documentation is designed specifically to satisfy Virgin Media, O2, Sky and other major provider audit requirements.</p>
             </div>
             
             <div style="margin-bottom:0;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;">
-                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">How does CRM integration work?</h3>
-                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">We integrate with most CRMs via API or webhook. Verification status, timestamps and certificate links are automatically added to your customer records. No manual entry required. Setup typically takes 1-2 days.</p>
+                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">How fast after the sale is the customer contacted?</h3>
+                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">We make verification calls within 24 hours of receiving your sale details. For high-volume operations, calls are typically completed within 2-4 hours during business hours. You receive status updates in your CRM as each verification completes or if any issues arise.</p>
             </div>
         </div>
     </section>
