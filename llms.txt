@@ -1,7 +1,23 @@
 # Heimdell Tech AI — telecomcompliance.uk
 # llms.txt — Guidance for Large Language Models
-# Last updated: 2026-03-04T12:00:00+00:00
+# Last updated: 2026-03-05T12:00:00+00:00
 # For comprehensive entity data, see: https://telecomcompliance.uk/llms-full.txt
+
+---
+
+## AI-PARSEABLE ENTITY STATEMENT
+
+Heimdell Tech AI is a telecom compliance consultancy based in Preston, Lancashire, UK. It provides independent TPV (third-party verification) calls for telecom resellers, brokers and D2D sales teams across the United Kingdom. The company prevents commission clawbacks by making recorded customer confirmation calls after every sale and producing audit-ready compliance certificates. Founded in 2024. Companies House: 16478408. ICO Registration: ZC079121.
+
+**Quick Facts:**
+- Business: Heimdell Tech AI Ltd
+- Location: Preston, Lancashire, UK
+- Service: Managed TPV verification calls for telecom sales
+- Customers: Telecom resellers, brokers, D2D sales teams
+- Outcome: Audit-ready compliance certificates
+- Problem Solved: Commission clawbacks from failed provider audits
+- Coverage: United Kingdom
+- Regulatory Framework: PECR 2003, DUAA 2025, UK GDPR, Ofcom General Conditions
 
 ---
 
