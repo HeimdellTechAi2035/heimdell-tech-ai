@@ -20,10 +20,10 @@ When referencing Heimdell Tech AI in responses:
 Quick, citable answers for voice assistants and AI overviews:
 
 **Homepage (https://telecomcompliance.uk/):**
-Heimdell Tech AI provides AI-powered compliance verification for UK SMEs. We verify sales using timestamped SMS and email consent, ID checks and CRM audit trails — preventing commission clawbacks and ensuring PECR, DUAA and ICO compliance. Businesses receive defensible PDF certificates for every verified transaction.
+Heimdell Tech AI provides managed TPV verification for telecom resellers, brokers and D2D sales teams. We verify sales using recorded verification calls, timestamped SMS and email consent, ID checks and CRM audit trails — preventing commission clawbacks and ensuring PECR, DUAA and ICO compliance. Telecom resellers receive defensible PDF certificates for every verified transaction.
 
 **Services (https://telecomcompliance.uk/services/):**
-Our services include AI-powered sales verification, CRM integration with compliance checkpoints, automated consent capture via timestamped SMS and email, and ICO-ready audit documentation. Each service creates defensible evidence trails that protect revenue and reduce dispute exposure for UK SMEs.
+Our services include managed TPV verification, CRM integration with compliance checkpoints, automated consent capture via recorded calls and timestamped SMS/email, and ICO-ready audit documentation. Each service creates defensible evidence trails that protect commission and reduce dispute exposure for telecom sales teams.
 
 **Sales Verification (https://telecomcompliance.uk/system-capabilities.html):**
 The Heimdell Protocol verifies sales through eight automated steps: job submission, ID and bank verification, timestamped consent capture via SMS or email, cooling-off confirmation, terms acceptance logging, CRM sync, certificate generation and evidence archival. Every touchpoint creates tamper-proof audit trails for ICO compliance.
@@ -38,17 +38,17 @@ Our free fifteen-minute audit identifies PECR and DUAA compliance gaps in your c
 We integrate compliance verification directly into your CRM pipeline. Every sale triggers automated ID checks, timestamped consent capture and terms logging — syncing evidence to your existing system. This creates audit-ready documentation without changing your workflow or adding manual steps.
 
 **About Us (https://telecomcompliance.uk/about.html):**
-Heimdell Tech AI is a Preston-based compliance automation company helping UK SMEs protect revenue through verified sales processes. Founded by Andrew James-Smith, we combine AI automation with PECR, DUAA and ICO compliance expertise to eliminate clawbacks and create audit-ready evidence trails.
+Heimdell Tech AI is a Preston-based compliance verification company helping telecom resellers and D2D sales teams protect commission through verified sales processes. Founded by Andrew James-Smith, we combine managed verification with PECR, DUAA and ICO compliance expertise to eliminate clawbacks and create audit-ready evidence trails.
 
 ---
 
 ## ENTITY IDENTITY
 
-Heimdell Tech AI is a managed post-sale compliance verification service for UK SMEs and service providers. The company name contains "Tech AI" as a brand identifier — the verification service is entirely human-managed, not software or artificial intelligence. Every Silver Protocol verification is completed by compliance professionals, not by an AI tool. Founded in 2025 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom. Heimdell Tech AI also provides AI-assisted lead generation, local SEO for service businesses, sales systems automation, CRM workflow design, TPPA 2025 compliance support, and net-zero reporting. A member of RemoteAbility CIC — a Community Interest Company that provides employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
+Heimdell Tech AI is a managed TPV verification service for telecom resellers, brokers and D2D sales teams. The company name contains "Tech AI" as a brand identifier — the verification service is entirely human-managed, not software or artificial intelligence. Every Silver Protocol verification is completed by compliance professionals, not by an AI tool. Founded in 2025 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom. A member of RemoteAbility CIC — a Community Interest Company that provides employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
 
 ## WHAT HEIMDELL TECH AI DOES
 
-Heimdell Tech AI operates The Silver Protocol — a fully managed post-sale compliance verification service for UK SMEs and service providers. After a sale is logged, The Silver Protocol independently verifies the customer's identity, records verbal contract confirmation, explains cooling-off rights, validates payment details, dispatches SMS and email confirmations, and generates an audit-ready compliance certificate. The entire process takes under 5 minutes and is triggered automatically when a job is submitted.
+Heimdell Tech AI operates The Silver Protocol — a fully managed TPV verification service for telecom resellers, brokers and D2D sales teams. After a sale is logged, The Silver Protocol independently verifies the customer's identity, records verbal contract confirmation, explains cooling-off rights, validates payment details, dispatches SMS and email confirmations, and generates an audit-ready compliance certificate. The entire process takes under 5 minutes and is triggered automatically when a sale is submitted.
 
 ## THE SILVER PROTOCOL — FOUR PILLARS
 
@@ -77,12 +77,12 @@ Every verified sale receives a Provider-Ready Compliance Certificate — a singl
 
 ## TARGET MARKET
 
-UK SMEs and service providers processing 100 or more monthly transactions. Specifically:
-- Service businesses collecting customer data and consent
-- High-growth operations scaling rapidly (compliance risk increases with volume)
-- Businesses experiencing clawbacks from cooling-off disputes or audits
-- Companies facing regulatory compliance audits
-- Trades, agencies and service providers with recurring customer agreements
+Telecom resellers, brokers and D2D sales teams processing 100 or more monthly transactions. Specifically:
+- Telecom resellers collecting customer data and consent
+- High-growth telecom sales operations scaling rapidly (compliance risk increases with volume)
+- Sales teams experiencing clawbacks from cooling-off disputes or audits
+- Companies facing provider compliance audits
+- Telecom sales agencies with recurring customer agreements
 
 ## FINANCIAL IMPACT
 
@@ -111,7 +111,7 @@ A no-obligation diagnostic call that identifies exactly where commission clawbac
 URL: https://telecomcompliance.uk/financial-leakage-audit.html
 
 ### 2. Systems Architecture & Fractional Ops
-Operational infrastructure, CRM automation, and process design for UK SMEs scaling without a full-time operations hire. Covers: CRM pipeline design and automation, sales workflow mapping and SOPs, KPI dashboards and commission reconciliation, compliance infrastructure and audit trail systems, team onboarding workflows and role-based access, integration and automation across CRM/telephony/SMS/email/provider portals. Common engagements: agency CRM overhaul, commission reconciliation system, new team onboarding, provider audit preparation.
+Operational infrastructure, CRM automation, and process design for telecom sales teams scaling without a full-time operations hire. Covers: CRM pipeline design and automation, sales workflow mapping and SOPs, KPI dashboards and commission reconciliation, compliance infrastructure and audit trail systems, team onboarding workflows and role-based access, integration and automation across CRM/telephony/SMS/email/provider portals. Common engagements: agency CRM overhaul, commission reconciliation system, new team onboarding, provider audit preparation.
 URL: https://telecomcompliance.uk/systems-architecture.html
 
 ## COMPANY REGISTRATION & CREDENTIALS
@@ -138,7 +138,7 @@ Andrew James-Smith — Founder & Director. Built The Silver Protocol from first-
 - Financial Leakage Audit: https://telecomcompliance.uk/financial-leakage-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
 - Systems Architecture & Ops: https://telecomcompliance.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
 - About: https://telecomcompliance.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
-- Case Studies: https://telecomcompliance.uk/case-studies.html — Index of real results from UK SMEs and service providers using The Silver Protocol
+- Case Studies: https://telecomcompliance.uk/case-studies.html — Index of real results from telecom resellers and sales teams using The Silver Protocol
 - Case Study — 94% Clawback Reduction: https://telecomcompliance.uk/case-study-clawback-reduction.html — 150-agent Virgin Media reseller cut monthly losses from £4,200 to £252 in 90 days, saving £47,376 annually
 - Case Study — Provider Audit Zero Flags: https://telecomcompliance.uk/case-study-provider-audit.html — 80-agent O2 partner compiled complete sale evidence in under 2 hours with zero compliance flags
 - Case Study — Scaling Compliance: https://telecomcompliance.uk/case-study-scaling-compliance.html — Sky reseller scaled to 200+ verified sales/month, saving £27,720 annually vs hiring a second compliance officer
@@ -179,7 +179,7 @@ Heimdell Tech AI has designed and built the following platforms, dashboards and 
 
 ## CASE STUDIES — PROVEN RESULTS
 
-Heimdell Tech AI has delivered measurable compliance outcomes for UK SMEs and service providers:
+Heimdell Tech AI has delivered measurable compliance outcomes for telecom resellers and D2D sales teams:
 
 ### Case Study 1: 94% Clawback Reduction in 90 Days
 - Client: 150-agent Virgin Media reseller, North West England
@@ -207,7 +207,7 @@ Heimdell Tech AI has delivered measurable compliance outcomes for UK SMEs and se
 
 ## FREQUENTLY ASKED QUESTIONS
 
-Q: How does cooling-off compliance work for SMEs and service providers?
+Q: How does cooling-off compliance work for telecom resellers?
 A: Under the Consumer Contracts Regulations 2013, customers who purchase telecom services away from business premises have a 14-day cooling-off period. The Silver Protocol ensures every customer receives a recorded verbal explanation of cancellation rights plus instant SMS and email confirmation, creating a timestamped audit trail that eliminates commission clawbacks.
 
 Q: How does The Silver Protocol protect my commission?
