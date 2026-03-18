@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
     <!-- SEO Meta -->
-    <title>Telecom Compliance Consultant Preston UK | TPV Verification Calls | Heimdell Tech AI</title>
-    <meta name="description" content="UK telecom compliance consultant. TPV verification calls for resellers and D2D teams. Audit-ready certificates that prevent clawbacks. Book a free audit.">
+    <title>Third Party Verification (TPV) | Preston Telecom Resellers & Brokers | Heimdell Tech AI</title>
+    <meta name="description" content="UK telecom compliance consultant. TPV verification calls for resellers and D2D teams. Audit-ready certificates that prevent clawbacks. Free Risk Reduction Audit.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://telecomcompliance.uk/">
     <link rel="alternate" hreflang="en-gb" href="https://telecomcompliance.uk/">
@@ -1957,6 +1957,172 @@
             margin-top: 2px;
         }
 
+        /* ===== SIMPLIFIED HERO ===== */
+        .hero-simple {
+            padding: 180px 0 100px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-simple-content {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-simple h1 {
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 800;
+            color: #FFFFFF;
+            line-height: 1.15;
+            margin-bottom: 24px;
+            text-shadow: 0 0 40px rgba(218, 165, 32, 0.3);
+        }
+
+        .hero-simple .hero-sub {
+            font-size: clamp(1rem, 2vw, 1.35rem);
+            color: rgba(255, 255, 255, 0.85);
+            max-width: 700px;
+            margin: 0 auto 32px;
+            line-height: 1.6;
+        }
+
+        .hero-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            padding: 10px 20px;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .hero-tag:hover {
+            border-color: rgba(255, 215, 0, 0.6);
+            background: rgba(255, 215, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .hero-tag-more {
+            width: 44px;
+            padding: 10px;
+            text-align: center;
+            cursor: default;
+            font-weight: 700;
+        }
+
+        .hero-tagline {
+            font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+            color: rgba(255, 255, 255, 0.75);
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        .hero-simple .hero-ctas {
+            justify-content: center;
+            margin-bottom: 60px;
+        }
+
+        .hero-simple .btn-primary {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            border: none;
+            padding: 16px 32px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 10px;
+            box-shadow: 0 8px 30px rgba(99, 102, 241, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .hero-simple .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(99, 102, 241, 0.5);
+        }
+
+        .hero-simple .btn-primary span {
+            margin-left: 8px;
+        }
+
+        .hero-simple .btn-secondary {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 16px 32px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 10px;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .hero-simple .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .hero-simple .btn-secondary .play-icon {
+            margin-right: 8px;
+            font-size: 0.8em;
+        }
+
+        .hero-benefits {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+
+        .hero-benefit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .hero-benefit-icon {
+            font-size: 1.8rem;
+            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
+        }
+
+        .hero-benefit-text {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.85);
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .hero-simple {
+                padding: 140px 0 80px;
+            }
+
+            .hero-benefits {
+                gap: 40px;
+            }
+
+            .hero-simple .hero-ctas {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero-simple .btn-primary,
+            .hero-simple .btn-secondary {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+
         /* ===== HOW IT WORKS ===== */
         .how-it-works {
             background: var(--dark);
@@ -3744,7 +3910,7 @@
     </nav>
 
     <!-- ===== HERO ===== -->
-    <section class="hero" id="hero">
+    <section class="hero hero-simple" id="hero">
         <!-- Animated Grid Background -->
         <div class="hero-grid" aria-hidden="true"></div>
         
@@ -3756,107 +3922,43 @@
             <div class="hero-shape hero-shape-4"></div>
             <div class="hero-shape hero-shape-5"></div>
         </div>
-        
-        <div class="hero-watermark" aria-hidden="true">
-            <picture><source srcset="heimdell-tech-ai-silver-protocol-logo.webp" type="image/webp"><img src="heimdell-tech-ai-silver-protocol-logo.png" alt="" width="600" height="600"></picture>
-        </div>
-        <div class="container hero-inner">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="dot"></span>
-                    For Telecom Resellers, Brokers &amp; D2D Sales Teams
+
+        <div class="container">
+            <div class="hero-simple-content">
+                <h1>Third Party Verification for<br>Preston Telecom Resellers &amp; Brokers</h1>
+
+                <p class="hero-sub">Protect your commission. Get sales over the line. Prove every deal was compliant. Stop money leaking from your pipeline.</p>
+
+                <div class="hero-tags">
+                    <span class="hero-tag">TPV Calls</span>
+                    <span class="hero-tag">Consent Capture</span>
+                    <span class="hero-tag">Audit Trails</span>
+                    <span class="hero-tag">ID Verification</span>
+                    <span class="hero-tag">Compliance Certs</span>
+                    <span class="hero-tag hero-tag-more" title="And more...">?</span>
                 </div>
 
-                <h1>Third-Party Verification (TPV) &amp; <span class="highlight">Telecom Compliance Verification</span></h1>
-
-                <p class="hero-sub">Post-sale verification calls that confirm customer consent, Direct Debit confirmation and contract terms. Protect every sale with recorded proof. <a href="services/third-party-verification.html" style="color:#fff;text-decoration:underline;">Learn about our Third-Party Verification (TPV) service &rarr;</a></p>
-
-                <p class="positioning-line" style="font-size:0.95rem;color:rgba(255,255,255,0.9);line-height:1.7;margin:16px 0;font-weight:500;"><a href="services/third-party-verification.html" style="color:rgba(255,255,255,0.95);text-decoration:underline;">Third-Party Verification (TPV)</a> is how telecom resellers protect commission. We make compliance verification calls within 24 hours of every sale to confirm the customer genuinely agreed. Our <a href="services/third-party-verification.html" style="color:rgba(255,255,255,0.95);text-decoration:underline;">telecom sales verification</a> process records identity confirmation, key contract terms, cooling-off rights and payment authority. Each call creates a timestamped audit trail that satisfies provider requirements. You receive a compliance certificate for every verified sale&mdash;defensible evidence that prevents clawbacks.</p>
-
-                <p class="hero-position"><strong>This is not software you have to run.</strong> We run it for you. Our team makes independent TPV calls after each sale. We capture timestamped consent by recorded call and SMS. We lock the outcome into your CRM. You get a provider-ready compliance certificate for every deal. No training required. No system to maintain.</p>
-
-                <p class="atomic-answer" style="font-size:0.88rem;color:rgba(255,255,255,0.8);line-height:1.6;margin-top:8px;text-shadow:0 0 12px rgba(255,255,255,0.4), 0 0 20px rgba(255,255,255,0.2);"><strong style="text-shadow:0 0 15px rgba(255,255,255,0.6);">Heimdell Tech AI is a managed TPV service for telecom sales.</strong> We operate The Telecom Verification Protocol on your behalf. For every customer, we make an independent verification call, confirm the sale details, explain the fourteen-day cooling-off period and document consent. We send SMS and email confirmations with timestamps. You get a PDF compliance certificate that satisfies providers and regulators. Works for ten sales a month or ten thousand.</p>
+                <p class="hero-tagline">Managed verification. No software to run. No training required. Just protected sales.</p>
 
                 <div class="hero-ctas">
-                    <a href="https://calendar.app.google/RkvNpLrVynEA3V8Y6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Book Free Clawback Audit</a>
-                    <a href="regulatory-risk-assessment.html" class="btn btn-secondary btn-lg">Book a Verification Audit</a>
+                    <a href="https://calendar.app.google/RkvNpLrVynEA3V8Y6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Free Risk Reduction Audit <span>&rarr;</span></a>
+                    <a href="regulatory-risk-assessment.html" class="btn btn-secondary btn-lg"><span class="play-icon">&#9655;</span> Contact us</a>
                 </div>
 
-                <div class="hero-stats">
-                    <div>
-                        <div class="hero-stat-number">4%</div>
-                        <div class="hero-stat-label">Turnover fine exposure</div>
+                <div class="hero-benefits">
+                    <div class="hero-benefit">
+                        <span class="hero-benefit-icon">&#128737;</span>
+                        <span class="hero-benefit-text">Commission protection</span>
                     </div>
-                    <div>
-                        <div class="hero-stat-number">30 days</div>
-                        <div class="hero-stat-label">ICO complaint deadline</div>
+                    <div class="hero-benefit">
+                        <span class="hero-benefit-icon">&#9889;</span>
+                        <span class="hero-benefit-text">No workflow disruption</span>
                     </div>
-                    <div>
-                        <div class="hero-stat-number">100%</div>
-                        <div class="hero-stat-label">Compliance automated</div>
+                    <div class="hero-benefit">
+                        <span class="hero-benefit-icon">&#128200;</span>
+                        <span class="hero-benefit-text">Audit-ready in 24hrs</span>
                     </div>
                 </div>
-            </div>
-
-            <div class="hero-visual">
-                <div class="hero-card">
-                    <div class="hero-card-header">
-                        <div class="hero-card-icon">&#128737;</div>
-                        <div>
-                            <div class="hero-card-title">Your Compliance &mdash; Automated</div>
-                            <div class="hero-card-sub">For telecom resellers and brokers</div>
-                        </div>
-                    </div>
-                    <ul class="checklist">
-                        <li>
-                            <span class="check">&#10003;</span>
-                            Consent captured &amp; documented automatically
-                        </li>
-                        <li>
-                            <span class="check">&#10003;</span>
-                            Customer data collection compliant
-                        </li>
-                        <li>
-                            <span class="check">&#10003;</span>
-                            30-day ICO deadline met every time
-                        </li>
-                        <li>
-                            <span class="check">&#10003;</span>
-                            Audit-ready records always available
-                        </li>
-                        <li>
-                            <span class="check">&#10003;</span>
-                            Formal complaint process in place
-                        </li>
-                        <li>
-                            <span class="check">&#10003;</span>
-                            Data Act 2025 obligations covered
-                        </li>
-                        <li>
-                            <span class="check">&#10003;</span>
-                            Works for 10 jobs or 10,000
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Call Centre Image -->
-        <div class="container">
-            <div class="hero-callcentre">
-                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80" alt="Professional TPV team verifying telecom sales for resellers and brokers" width="1200" height="630" loading="lazy">
-            </div>
-        </div>
-
-        <!-- Digital Shield Statement -->
-        <div class="container" style="margin-top:48px;">
-            <div style="max-width:900px; margin:0 auto; background:linear-gradient(135deg, rgba(139,92,246,0.1) 0%, rgba(45,27,105,0.2) 100%); border:2px solid rgba(139,92,246,0.3); border-radius:20px; padding:40px 48px; text-align:center;">
-                <p style="font-size:1.25rem; line-height:1.8; color:var(--text-primary); margin:0;">
-                    <strong style="color:#F87171;">Most telecom resellers are one failed audit or one disputed sale away from losing their commission.</strong>
-                </p>
-                <p style="font-size:1.15rem; line-height:1.8; color:rgba(255,255,255,0.9); margin:20px 0 0 0;">
-                    Heimdell Tech AI doesn&rsquo;t just give you a PDF of rules; we give you the <strong style="color:var(--purple-accent);">Digital Shield</strong>. We automate your T&amp;Cs, your cooling-off notices, and your data logs so you can focus on the job, knowing your revenue is protected.
-                </p>
             </div>
         </div>
     </section>
@@ -3961,45 +4063,7 @@
 
             <div style="text-align:center; margin-top:48px;">
                 <p style="color:rgba(255,255,255,0.9); font-size:1.05rem; max-width:700px; margin:0 auto 24px;">The regulatory landscape has changed. Your compliance approach must change with it. Start with a free audit to see exactly where your business is exposed.</p>
-                <a href="https://calendar.app.google/RkvNpLrVynEA3V8Y6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Get Your Free 15-Minute Financial Leakage Audit</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== HOW IT WORKS ===== -->
-    <section class="how-it-works section" id="how-it-works">
-        <div class="container">
-            <div class="how-it-works-header">
-                <span class="section-label">How It Works</span>
-                <h2>Telecom Verification Call Workflow</h2>
-                <p class="atomic-answer" style="background:var(--dark-card);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:16px 20px;margin:16px auto 0;max-width:720px;font-size:0.95rem;line-height:1.7;color:var(--text-secondary);">After every telecom sale, we make an independent verification call to your customer. We confirm identity, explain the contract terms and cooling-off rights, and record their verbal consent. You receive a timestamped compliance certificate and the outcome is logged directly to your CRM.</p>
-            </div>
-            <div class="how-it-works-grid">
-                <div class="step-card">
-                    <div class="step-number">1</div>
-                    <h4>Sale Submitted</h4>
-                    <p>Your sales team closes the deal and submits customer details to our system via CRM sync, API or manual entry.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">2</div>
-                    <h4>Verification Triggered</h4>
-                    <p>Our TPV system activates within minutes and queues an outbound verification call to the customer.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">3</div>
-                    <h4>Compliance Call</h4>
-                    <p>An independent agent calls the customer to verify identity, confirm price and contract term, and explain the 14-day cooling-off period.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">4</div>
-                    <h4>Consent Recorded</h4>
-                    <p>The customer's verbal agreement is recorded, timestamped and stored. SMS and email confirmation dispatched instantly.</p>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">5</div>
-                    <h4>Certificate + CRM Log</h4>
-                    <p>A provider-ready compliance certificate is generated and the verification outcome syncs to your CRM automatically.</p>
-                </div>
+                <a href="https://calendar.app.google/RkvNpLrVynEA3V8Y6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Free Risk Reduction Audit</a>
             </div>
         </div>
     </section>
@@ -4040,64 +4104,6 @@
                 </div>
             </div>
             <p style="text-align:center;color:var(--text-muted);font-size:0.9rem;margin-top:32px;max-width:700px;margin-left:auto;margin-right:auto;">We support telecom resellers, brokers and D2D sales teams across the UK, including agencies based in Preston, Lancashire and across the North West.</p>
-        </div>
-    </section>
-
-    <!-- ===== CONCEPT EXPLAINER VISUAL ===== -->
-    <section style="padding:60px 0;background:var(--dark-card);border-top:1px solid var(--dark-border);border-bottom:1px solid var(--dark-border);">
-        <div class="container" style="max-width:900px;text-align:center;">
-            <span class="section-label">The Framework</span>
-            <h2 style="margin-bottom:24px;">The Telecom Verification Protocol Four-Pillar Framework</h2>
-            <p style="color:var(--text-secondary);max-width:700px;margin:0 auto 32px;">Our managed TPV verification operates on four interconnected pillars: Audit, Implement, Automate and Monitor. Each pillar builds on the previous to create a complete protection cycle for telecom sales teams.</p>
-            <picture>
-                <source srcset="images/silver-protocol-four-pillar-audit-automation-framework.webp" type="image/webp">
-                <img src="images/silver-protocol-four-pillar-audit-automation-framework.png" 
-                     alt="The Telecom Verification Protocol Four-Pillar Framework diagram showing the cyclical TPV verification process: Audit and Assess identifies gaps, Implement Solutions deploys fixes, Automate Processes removes manual work, Monitor and Optimise ensures ongoing protection for telecom sales teams" 
-                     width="800" height="800" loading="lazy" 
-                     style="width:100%;max-width:700px;height:auto;border-radius:16px;border:1px solid var(--dark-border);">
-            </picture>
-            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:16px;">The Four-Pillar Audit and Automation Framework — Heimdell Tech AI</p>
-        </div>
-    </section>
-
-    <!-- ===== MANAGED, NOT DIY ===== -->
-    <section style="padding:60px 0;background:linear-gradient(135deg, rgba(52,211,153,0.08) 0%, rgba(45,27,105,0.12) 100%);border-top:1px solid var(--dark-border);border-bottom:1px solid var(--dark-border);">
-        <div class="container" style="max-width:900px;">
-            <div style="text-align:center;margin-bottom:40px;">
-                <span class="section-label" style="background:var(--gold);color:#fff;">Our Approach</span>
-                <h2 style="margin-top:16px;">Managed, Not DIY</h2>
-                <p style="color:var(--text-secondary);max-width:700px;margin:16px auto 0;">We manage the protocol that prevents clawbacks. This is not software you run yourself. We operate it on your behalf.</p>
-            </div>
-            <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:24px;">
-                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:16px;padding:28px;display:flex;gap:16px;align-items:flex-start;">
-                    <div style="font-size:1.8rem;flex-shrink:0;">&#128269;</div>
-                    <div>
-                        <h4 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:8px;">We Run Verification at Point of Sale</h4>
-                        <p style="color:var(--text-secondary);font-size:0.92rem;margin:0;">Our team contacts your customer after the sale to verify identity, confirm terms and capture consent. You do not need to train staff or learn new systems.</p>
-                    </div>
-                </div>
-                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:16px;padding:28px;display:flex;gap:16px;align-items:flex-start;">
-                    <div style="font-size:1.8rem;flex-shrink:0;">&#128221;</div>
-                    <div>
-                        <h4 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:8px;">We Create the Audit Trail</h4>
-                        <p style="color:var(--text-secondary);font-size:0.92rem;margin:0;">Voice recordings, SMS confirmations, email timestamps. Every touchpoint is logged and stored. You have evidence that holds up to provider audits and ICO enquiries.</p>
-                    </div>
-                </div>
-                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:16px;padding:28px;display:flex;gap:16px;align-items:flex-start;">
-                    <div style="font-size:1.8rem;flex-shrink:0;">&#128274;</div>
-                    <div>
-                        <h4 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:8px;">We Lock Outcomes Into Your CRM</h4>
-                        <p style="color:var(--text-secondary);font-size:0.92rem;margin:0;">Verification status, timestamps and certificate links are synced directly to your customer records. No manual entry. No missed updates.</p>
-                    </div>
-                </div>
-                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:16px;padding:28px;display:flex;gap:16px;align-items:flex-start;">
-                    <div style="font-size:1.8rem;flex-shrink:0;">&#128196;</div>
-                    <div>
-                        <h4 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:8px;">You Get a Provider-Ready Certificate</h4>
-                        <p style="color:var(--text-secondary);font-size:0.92rem;margin:0;">A PDF compliance certificate for every verified job. When a provider questions a sale, you have the evidence ready. When a customer disputes, you have proof.</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -4372,121 +4378,6 @@
         </div>
     </section>
 
-    <!-- ===== WHY US ===== -->
-    <section class="why-us" id="why-us" style="padding:80px 0; background:linear-gradient(135deg, #0a1628 0%, #1a2d4a 100%);">
-        <div class="container">
-            <div style="text-align:center; max-width:800px; margin:0 auto 50px;">
-                <span class="section-label">Why Heimdell</span>
-                <h2 style="color:#fff;">The UK Firm Built for Telecom Sales Compliance</h2>
-                <p class="section-desc" style="margin:0 auto; color:rgba(255,255,255,0.8);">Enterprise protection shouldn&rsquo;t require enterprise budgets. We built Heimdell for telecom resellers and D2D sales teams.</p>
-            </div>
-
-            <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:40px; max-width:1000px; margin:0 auto;">
-
-                <!-- Point 1: We serve the overlooked -->
-                <div style="background:rgba(255,255,255,0.05); border-radius:16px; padding:40px; border:1px solid rgba(255,255,255,0.1);">
-                    <div style="width:60px; height:60px; background:linear-gradient(135deg, #00d4ff 0%, #0099cc 100%); border-radius:12px; display:flex; align-items:center; justify-content:center; margin-bottom:24px; font-size:28px;">&#128736;</div>
-                    <h3 style="color:#fff; font-size:1.4rem; margin-bottom:16px;">We Serve Telecom Sales Teams</h3>
-                    <p style="color:rgba(255,255,255,0.8); line-height:1.7; margin-bottom:20px;">Most compliance firms only talk to the &ldquo;Big Fish.&rdquo; They want contracts worth six figures, not a telecom reseller asking about provider audits.</p>
-                    <p style="color:rgba(255,255,255,0.9); line-height:1.7;"><strong>We bring enterprise-grade verification to telecom resellers, brokers, and D2D sales teams.</strong> The same protection that national providers spend millions on &mdash; now accessible to any telecom sales operation.</p>
-                </div>
-
-                <!-- Point 2: Working system, not a PDF -->
-                <div style="background:rgba(255,255,255,0.05); border-radius:16px; padding:40px; border:1px solid rgba(255,255,255,0.1);">
-                    <div style="width:60px; height:60px; background:linear-gradient(135deg, #00d4ff 0%, #0099cc 100%); border-radius:12px; display:flex; align-items:center; justify-content:center; margin-bottom:24px; font-size:28px;">&#9881;</div>
-                    <h3 style="color:#fff; font-size:1.4rem; margin-bottom:16px;">A Working System, Not a PDF of Rules</h3>
-                    <p style="color:rgba(255,255,255,0.8); line-height:1.7; margin-bottom:20px;">Other firms hand you a 50-page compliance manual and wish you luck. Then they invoice you anyway when regulations change.</p>
-                    <p style="color:rgba(255,255,255,0.9); line-height:1.7;"><strong>We are the only UK firm that doesn&rsquo;t just give you a PDF of rules &mdash; we give you a working system that handles the 2026 PECR and DUAA requirements for you.</strong> Automated. Updated. Done.</p>
-                </div>
-
-            </div>
-
-            <div style="text-align:center; margin-top:50px;">
-                <div style="display:inline-flex; gap:30px; flex-wrap:wrap; justify-content:center;">
-                    <div style="text-align:center;">
-                        <div style="font-size:2.5rem; font-weight:700; color:#00d4ff;">100%</div>
-                        <div style="color:rgba(255,255,255,0.7); font-size:0.9rem;">Automated Compliance</div>
-                    </div>
-                    <div style="text-align:center;">
-                        <div style="font-size:2.5rem; font-weight:700; color:#00d4ff;">0</div>
-                        <div style="color:rgba(255,255,255,0.7); font-size:0.9rem;">PDFs to Read</div>
-                    </div>
-                    <div style="text-align:center;">
-                        <div style="font-size:2.5rem; font-weight:700; color:#00d4ff;">2026</div>
-                        <div style="color:rgba(255,255,255,0.7); font-size:0.9rem;">Regulations Covered</div>
-                    </div>
-                    <div style="text-align:center;">
-                        <div style="font-size:2.5rem; font-weight:700; color:#00d4ff;">Any</div>
-                        <div style="color:rgba(255,255,255,0.7); font-size:0.9rem;">Business Size</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== HOW IT WORKS ===== -->
-    <section class="process" id="process">
-        <div class="container">
-            <div style="text-align:center; max-width:680px; margin:0 auto;">
-                <span class="section-label">How It Works</span>
-                <h2>Telecom Verification Call Workflow</h2>
-                <p class="atomic-answer" style="background:var(--dark-card);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:16px 20px;margin:16px auto 24px;max-width:720px;font-size:0.95rem;line-height:1.7;color:var(--text-secondary);text-align:left;">After every telecom sale, we make an independent verification call to your customer. We confirm identity, explain the contract terms and cooling-off rights, and record their verbal consent. You receive a timestamped compliance certificate and the outcome is logged directly to your CRM.</p>
-            </div>
-
-            <div class="process-steps">
-                <div class="process-step">
-                    <div class="process-step-num">1</div>
-                    <h4>Sale Submitted</h4>
-                    <p>Your sales team closes the deal and submits customer details via CRM sync or API.</p>
-                </div>
-                <div class="process-step">
-                    <div class="process-step-num">2</div>
-                    <h4>Verification Triggered</h4>
-                    <p>Our TPV system activates within minutes and queues an outbound call to the customer.</p>
-                </div>
-                <div class="process-step">
-                    <div class="process-step-num">3</div>
-                    <h4>Compliance Call</h4>
-                    <p>An independent agent confirms identity, price, contract term and cooling-off rights.</p>
-                </div>
-                <div class="process-step">
-                    <div class="process-step-num">4</div>
-                    <h4>Consent Recorded</h4>
-                    <p>Verbal agreement recorded and timestamped. SMS and email confirmation sent instantly.</p>
-                </div>
-                <div class="process-step">
-                    <div class="process-step-num">5</div>
-                    <h4>Certificate + CRM Log</h4>
-                    <p>Provider-ready compliance certificate generated and verification synced to your CRM.</p>
-                </div>
-            </div>
-
-            <div class="process-outcomes">
-                <div class="process-outcome">
-                    <div class="process-outcome-icon">&#128100;</div>
-                    <div>
-                        <h4>Works for Any Sales Team Size</h4>
-                        <p>Whether you’re a telecom reseller or a 50-person agency, The Telecom Verification Protocol scales to your operation without adding complexity.</p>
-                    </div>
-                </div>
-                <div class="process-outcome">
-                    <div class="process-outcome-icon">&#128176;</div>
-                    <div>
-                        <h4>Prevent Commission Clawbacks</h4>
-                        <p>Documented proof of customer agreement eliminates &ldquo;I never hired you&rdquo; and &ldquo;That&rsquo;s not the price we agreed&rdquo; disputes.</p>
-                    </div>
-                </div>
-                <div class="process-outcome">
-                    <div class="process-outcome-icon">&#128737;</div>
-                    <div>
-                        <h4>Provider Audit Ready</h4>
-                        <p>If Virgin Media, O2 or Sky audits your sales, every record is logged, timestamped and ready to present.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- ===== COMMISSION LEAKAGE CALCULATOR ===== -->
     <section class="calculator" id="calculator">
         <div class="container">
@@ -4548,7 +4439,7 @@
                         </div>
                     </div>
 
-                    <a href="https://calendar.app.google/RkvNpLrVynEA3V8Y6" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%; justify-content:center;">Get Your Free 15-Minute Compliance Audit</a>
+                    <a href="https://calendar.app.google/RkvNpLrVynEA3V8Y6" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%; justify-content:center;">Free Risk Reduction Audit</a>
                 </div>
             </div>
         </div>
@@ -4802,10 +4693,10 @@
         <div class="container">
             <div class="final-cta-card">
                 <h2>If You&rsquo;re Worried About the 2026 Regulations, It&rsquo;s Time to Get Protected.</h2>
-                <p>Book a free 15-minute Compliance Audit. We&rsquo;ll show you exactly where your business is exposed to PECR fines and DUAA 2025 requirements &mdash; and how The Telecom Verification Protocol closes every gap.</p>
+                <p>Book a free Risk Reduction Audit. We&rsquo;ll show you exactly where your business is exposed to PECR fines and DUAA 2025 requirements &mdash; and how The Telecom Verification Protocol closes every gap.</p>
 
                 <div class="final-cta-buttons">
-                    <a href="https://calendar.app.google/RkvNpLrVynEA3V8Y6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Get Your Free 15-Minute Compliance Audit</a>
+                    <a href="https://calendar.app.google/RkvNpLrVynEA3V8Y6" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Free Risk Reduction Audit</a>
                     <a href="regulatory-risk-assessment.html" class="btn btn-secondary btn-lg">Book a Regulatory Risk Diagnostic</a>
                 </div>
 
