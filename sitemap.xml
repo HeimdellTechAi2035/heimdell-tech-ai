@@ -1,52 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- ===== HOMEPAGE ===== -->
   <url>
     <loc>https://telecomcompliance.uk/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/silver-protocol-four-pillar-audit-automation-framework.png</image:loc>
-      <image:caption>The Telecom Verification Protocol four-pillar audit and automation framework diagram by Heimdell Tech AI</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/portfolio/ai-compliance-assistant-regulatory-checklist-dashboard.png</image:loc>
-      <image:caption>AI Compliance Assistant — regulatory checklist dashboard for UK Housing Act and EU GDPR</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/portfolio/airfix-solutions-pollutant-removal-smart-monitoring.png</image:loc>
-      <image:caption>AirFix Solutions showcasing 97-99% pollutant removal and smart monitoring for UK city council air filtration</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/portfolio/autoflow-smart-ordering-system-ai-stock-recognition.png</image:loc>
-      <image:caption>AutoFlow Smart Ordering System with AI-powered handwritten stock log recognition and real-time reporting</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/portfolio/covert-security-command-center-tppa-2025-compliance.png</image:loc>
-      <image:caption>Security command centre interface showing TPPA 2025 compliance matrix, system health and activity logs</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/portfolio/inventory-pro-stock-management-dashboard.png</image:loc>
-      <image:caption>InventoryPro stock management dashboard with real-time stock-level widgets and system health indicators</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/portfolio/legal-document-analysis-portal-uk-support.png</image:loc>
-      <image:caption>Legal document analysis portal with drag-and-drop upload and UK support service links</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/portfolio/preston-seo-local-search-optimisation-service.png</image:loc>
-      <image:caption>Preston SEO local search optimisation service with 90-day money-back guarantee</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://telecomcompliance.uk/images/portfolio/tppa-2025-compliance-requirements-covert-secure.png</image:loc>
-      <image:caption>TPPA 2025 compliance tracking dashboard for UK telecom providers</image:caption>
-    </image:image>
   </url>
 
-  <!-- ===== CORE LANDING PAGES ===== -->
+  <!-- ===== HTML PAGES ===== -->
+  <url><loc>https://telecomcompliance.uk/404.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://telecomcompliance.uk/about.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/case-studies.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/case-study-clawback-reduction.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/case-study-provider-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/case-study-scaling-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/commission-clawback-prevention.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/compliance-protocol-implementation.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/compliance-protocol-setup.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/financial-leakage-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/get-started.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/ico-gdpr-compliance-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/mission-and-impact.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://telecomcompliance.uk/post-sale-verification-deployment.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/post-sale-verification-system.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/privacy-policy.html</loc><lastmod>2026-03-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://telecomcompliance.uk/regulatory-risk-assessment.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/systems-architecture.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/system-capabilities.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/terms-of-service.html</loc><lastmod>2026-03-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://telecomcompliance.uk/third-party-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/telecom-vendors.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ===== GUIDES ===== -->
+  <url><loc>https://telecomcompliance.uk/guides/ai-network-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/ait-prevention-sop.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/data-use-act-2025.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/ofcom-compliance-checklist.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/ofcom-general-conditions-guide.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/one-touch-switch-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/pecr-telecom-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/telecom-compliance-glossary.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/telecoms-access-review-2026.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/telecoms-security-act.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/uk-gdpr-telecom-providers.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/guides/uk-telecom-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ===== SERVICES ===== -->
+  <url><loc>https://telecomcompliance.uk/services/ai-appointment-booking-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-chatbot-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-content-writing-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-crm-integration-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-customer-service-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-document-processing-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-email-marketing-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-inventory-management-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-invoicing-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-lead-generation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-quality-control-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-receptionist-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-sales-automation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ai-social-media-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/business-automation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/conversion-rate-optimisation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ecommerce-seo-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/geo-optimisation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/google-business-profile-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/hr-automation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/index.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/local-seo-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/ppc-management-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/review-management-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/telecom-provider-audit-preparation.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/telecom-sales-compliance-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/third-party-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://telecomcompliance.uk/services/tpv-telecom-contracts.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+</urlset>
   <url>
     <loc>https://telecomcompliance.uk/third-party-verification.html</loc>
     <lastmod>2026-03-19</lastmod>
