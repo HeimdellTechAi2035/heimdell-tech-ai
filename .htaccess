@@ -1,0 +1,27 @@
+# 301 Permanent Redirects for Consolidated Pages
+# ================================================
+
+# Redirect Post-Sale Verification pages to Third Party Verification
+Redirect 301 /post-sale-verification-system.html /third-party-verification.html
+Redirect 301 /services/third-party-verification.html /third-party-verification.html
+Redirect 301 /services/telecom-sales-compliance-verification.html /third-party-verification.html
+
+# Redirect Financial Leakage Audit pages to Commission Clawback Audit
+Redirect 301 /financial-leakage-audit.html /commission-clawback-audit.html
+Redirect 301 /case-study-clawback-reduction.html /commission-clawback-audit.html
+
+# Standard security and performance headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Cache control for static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType application/json "access plus 1 week"
+</IfModule>
