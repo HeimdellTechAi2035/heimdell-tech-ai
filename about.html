@@ -371,7 +371,7 @@
                 HEIMDELL TECH AI
             </a>
             <div class="nav-site-links" id="navLinks"><a href="index.html">Home</a><a href="third-party-verification.html">TPV Services</a><a href="commission-clawback-audit.html">Clawback Audit</a><a href="case-studies.html">Case Studies</a><a href="about.html">About</a></div><a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a>
-            <div class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+            <div class="nav-hamburger" id="navHamburger" role="button" tabindex="0" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </div>
         </div>
@@ -409,7 +409,7 @@
         <div class="container" style="max-width:900px;">
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;">
                 <div>
-                    <h3 style="color:var(--gold);font-size:1rem;font-weight:700;margin-bottom:16px;text-transform:uppercase;letter-spacing:0.5px;">About TELECOM COMPLIANCE</h3>
+                    <h2 style="color:var(--gold);font-size:1rem;font-weight:700;margin-bottom:16px;text-transform:uppercase;letter-spacing:0.5px;">About TELECOM COMPLIANCE</h2>
                     <ul style="list-style:none;padding:0;margin:0;font-size:0.95rem;line-height:1.8;color:var(--text-secondary);">
                         <li style="margin-bottom:8px;">&#10003; Founded by Andrew James-Smith</li>
                         <li style="margin-bottom:8px;">&#10003; Based in Preston, Lancashire</li>
@@ -419,7 +419,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 style="color:var(--gold);font-size:1rem;font-weight:700;margin-bottom:16px;text-transform:uppercase;letter-spacing:0.5px;">What We Do</h3>
+                    <h2 style="color:var(--gold);font-size:1rem;font-weight:700;margin-bottom:16px;text-transform:uppercase;letter-spacing:0.5px;">What We Do</h2>
                     <ul style="list-style:none;padding:0;margin:0;font-size:0.95rem;line-height:1.8;color:var(--text-secondary);">
                         <li style="margin-bottom:8px;">&#8226; PECR &amp; DUAA compliance verification</li>
                         <li style="margin-bottom:8px;">&#8226; T&amp;C and cooling-off documentation</li>
@@ -749,6 +749,11 @@
     <script>
     document.getElementById('navHamburger').addEventListener('click', function() {
         document.getElementById('navLinks').classList.toggle('active');
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+    });
+    document.getElementById('navHamburger').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this.click(); }
     });
     </script>
 

@@ -196,7 +196,7 @@
     </style>
 </head>
 <body>
-    <nav class="nav-bar"><div class="nav-bar-inner"><a href="../index.html"><img src="../heimdell-tech-ai-silver-protocol-logo.png" alt="Heimdell Tech Ai - TPV Verification for Telecom Resellers" width="36" height="36"> HEIMDELL TECH AI</a><div class="nav-site-links"><a href="../index.html">Home</a><a href="../third-party-verification.html">TPV Services</a><a href="../commission-clawback-audit.html">Clawback Audit</a><a href="../case-studies.html">Case Studies</a><a href="../about.html">About</a></div><a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a><div class="nav-hamburger" id="navHamburger"><span></span><span></span><span></span></div></div></nav>
+    <nav class="nav-bar"><div class="nav-bar-inner"><a href="../index.html"><img src="../heimdell-tech-ai-silver-protocol-logo.png" alt="Heimdell Tech Ai - TPV Verification for Telecom Resellers" width="36" height="36"> HEIMDELL TECH AI</a><div class="nav-site-links"><a href="../index.html">Home</a><a href="../third-party-verification.html">TPV Services</a><a href="../commission-clawback-audit.html">Clawback Audit</a><a href="../case-studies.html">Case Studies</a><a href="../about.html">About</a></div><a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a><div class="nav-hamburger" id="navHamburger" role="button" tabindex="0" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></div></div></nav>
 
     <section class="service-hero">
         <div class="container">
@@ -351,7 +351,17 @@
 
     
 
-<footer class="footer"><div class="container"><p>&copy; 2026 Heimdell Tech Ai. All rights reserved.</p><p style="margin:8px 0;font-size:0.9rem;">11 Lower Croft, Preston, PR1 9DJ | <a href="tel:+447414909674">+44 7414 909674</a> | <a href="mailto:contact@telecomcompliance.uk">contact@telecomcompliance.uk</a></p><p><a href="../index.html">Home</a><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy</a></p><p>Registered in England &amp; Wales 16478408</p></div></footer>
+<footer class="footer"><div class="container"><p>&copy; 2026 Heimdell Tech Ai. All rights reserved.</p><p style="margin:8px 0;font-size:0.9rem;">11 Lower Croft, Preston, PR1 9DJ | <a href="tel:+447414909674">+44 7414 909674</a> | <a href="mailto:contact@telecomcompliance.uk">contact@telecomcompliance.uk</a></p><p><a href="../index.html">Home</a><a href="../about.html">About</a><a href="../privacy-policy.html">Privacy</a><a href="../terms-of-service.html">Terms</a></p><p>Registered in England &amp; Wales 16478408</p></div></footer>
+    <script>
+    document.getElementById('navHamburger').addEventListener('click', function() {
+        document.getElementById('navLinks').classList.toggle('active');
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+    });
+    document.getElementById('navHamburger').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this.click(); }
+    });
+    </script>
     <script src="../cookie-consent.min.js" defer></script>
 </body>
 </html>

@@ -200,7 +200,7 @@
                 HEIMDELL TECH AI
             </a>
             <div class="nav-site-links" id="navLinks"><a href="index.html">Small Resellers</a><a href="high-volume-partners.html">High-Volume Partners</a><a href="telecom-vendors.html">Telecom Vendors</a><a href="https://www.linkedin.com/in/andrew-j-72b96a312" target="_blank" rel="noopener noreferrer">LinkedIn</a></div><a href="tel:+447414909674" class="nav-cta-btn">&#9742; Call Now</a>
-            <div class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+            <div class="nav-hamburger" id="navHamburger" role="button" tabindex="0" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </div>
         </div>
@@ -216,12 +216,17 @@
         <p id="speakable-entity"><strong>TELECOM COMPLIANCE</strong> (Company 16478408, England &amp; Wales) is a managed post-sale compliance verification service for telecom resellers, founded in 2025 by Andrew James-Smith in Preston, Lancashire. TELECOM COMPLIANCE operates The Telecom Verification Protocol &mdash; an 8-step human-managed verification process covering voice-log authentication, CRM audit locks, identity verification, and Ofcom-ready compliance certificates for providers including Virgin Media, O2, and Sky.</p>
         <p>The page you requested no longer exists. TELECOM COMPLIANCE&rsquo;s full service details, commission leakage calculator, and compliance FAQ are available on the homepage. &ldquo;Tech AI&rdquo; is a brand name &mdash; every Telecom Verification Protocol verification is completed by compliance professionals, not software.</p>
         <a href="index.html" class="btn">&#8592; Return to The Telecom Verification Protocol Homepage</a>
-        <p class="meta-line"><a href="about.html">About the Founder</a> &middot; <a href="https://www.linkedin.com/in/andrew-j-72b96a312">LinkedIn</a> &middot; D-U-N-S 233836391 &middot; ICO ZC079121</p>
+        <p class="meta-line"><a href="about.html">About the Founder</a> &middot; <a href="https://www.linkedin.com/in/andrew-j-72b96a312">LinkedIn</a> &middot; <a href="privacy-policy.html">Privacy</a> &middot; <a href="terms-of-service.html">Terms</a> &middot; D-U-N-S 233836391 &middot; ICO ZC079121</p>
     </div>
 
     <script>
     document.getElementById('navHamburger').addEventListener('click', function() {
         document.getElementById('navLinks').classList.toggle('active');
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+    });
+    document.getElementById('navHamburger').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this.click(); }
     });
     </script>
 
