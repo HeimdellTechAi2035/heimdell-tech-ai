@@ -26,13 +26,13 @@ Every concept explainer image should have accompanying JSON-LD:
 ```json
 {
   "@type": "ImageObject",
-  "contentUrl": "https://telecomcompliance.uk/images/my-image.webp",
+  "contentUrl": "https://heimdell-tech-ai.co.uk/images/my-image.webp",
   "name": "Descriptive Image Title",
   "description": "10-25 word description of what the image explains",
   "width": 1200,
   "height": 800,
   "encodingFormat": "image/webp",
-  "creator": { "@id": "https://telecomcompliance.uk/#organization" }
+  "creator": { "@id": "https://heimdell-tech-ai.co.uk/#organization" }
 }
 ```
 
@@ -48,11 +48,11 @@ Every concept explainer image should have accompanying JSON-LD:
 ## Hosting
 
 This site is hosted on **GitHub Pages** at:  
-🔗 [https://telecomcompliance.uk/](https://telecomcompliance.uk/)
+🔗 [https://heimdell-tech-ai.co.uk/](https://heimdell-tech-ai.co.uk/)
 
 ## Custom Domain
 
-Live at **https://telecomcompliance.uk** — connected via GitHub Pages with custom domain.
+Live at **https://heimdell-tech-ai.co.uk** — connected via GitHub Pages with custom domain.
 
 DNS configured with:
 - A records pointing to GitHub Pages IPs (185.199.108-111.153)

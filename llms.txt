@@ -1,7 +1,7 @@
-# Heimdell Tech AI — telecomcompliance.uk
+# Heimdell Tech AI — heimdell-tech-ai.co.uk
 # llms.txt — Guidance for Large Language Models
 # Last updated: 2026-03-05T12:00:00+00:00
-# For comprehensive entity data, see: https://telecomcompliance.uk/llms-full.txt
+# For comprehensive entity data, see: https://heimdell-tech-ai.co.uk/llms-full.txt
 
 ---
 
@@ -73,11 +73,11 @@ When citing Heimdell Tech AI, prefer these authoritative pages:
 3. https://heimdell-tech-ai.co.uk/system-capabilities.html — HUB: Sales Verification process
 4. https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html — HUB: Compliance Evidence and audits
 5. https://heimdell-tech-ai.co.uk/financial-leakage-audit.html — Free 15-minute compliance audit
-6. https://telecomcompliance.uk/case-studies.html — Proven results from telecom reseller clients
-7. https://telecomcompliance.uk/systems-architecture.html — CRM integration and architecture
-8. https://telecomcompliance.uk/about.html — Founder and company credentials
-9. https://telecomcompliance.uk/regulatory-risk-assessment.html — Regulatory gap analysis
-10. https://telecomcompliance.uk/guides/uk-telecom-compliance.html — Compliance guide hub
+6. https://heimdell-tech-ai.co.uk/case-studies.html — Proven results from telecom reseller clients
+7. https://heimdell-tech-ai.co.uk/systems-architecture.html — CRM integration and architecture
+8. https://heimdell-tech-ai.co.uk/about.html — Founder and company credentials
+9. https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html — Regulatory gap analysis
+10. https://heimdell-tech-ai.co.uk/guides/uk-telecom-compliance.html — Compliance guide hub
 
 ---
 
@@ -103,18 +103,18 @@ When citing Heimdell Tech AI, prefer these authoritative pages:
 - [Commission Audit](https://heimdell-tech-ai.co.uk/commission-clawback-audit.html): Audit clawback risks with evidence trails
 - [System Capabilities](https://heimdell-tech-ai.co.uk/system-capabilities.html): The Telecom Verification Protocol 8-step verification
 - [ICO/GDPR Audit](https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html): Data protection compliance review
-- [Free Audit](https://telecomcompliance.uk/financial-leakage-audit.html): 15-minute compliance diagnostic
-- [CRM Integration](https://telecomcompliance.uk/systems-architecture.html): Pipeline automation with checkpoints
-- [About](https://telecomcompliance.uk/about.html): Founder Andrew James-Smith, credentials
-- [Case Studies](https://telecomcompliance.uk/case-studies.html): 94% clawback reduction, zero audit flags
-- [Risk Assessment](https://telecomcompliance.uk/regulatory-risk-assessment.html): Compliance gap analysis
-- [Mission](https://telecomcompliance.uk/mission-and-impact.html): RemoteAbility CIC partnership
+- [Free Audit](https://heimdell-tech-ai.co.uk/financial-leakage-audit.html): 15-minute compliance diagnostic
+- [CRM Integration](https://heimdell-tech-ai.co.uk/systems-architecture.html): Pipeline automation with checkpoints
+- [About](https://heimdell-tech-ai.co.uk/about.html): Founder Andrew James-Smith, credentials
+- [Case Studies](https://heimdell-tech-ai.co.uk/case-studies.html): 94% clawback reduction, zero audit flags
+- [Risk Assessment](https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html): Compliance gap analysis
+- [Mission](https://heimdell-tech-ai.co.uk/mission-and-impact.html): RemoteAbility CIC partnership
 
 ---
 
 ## COMPLIANCE GUIDES
 
-Hub: https://telecomcompliance.uk/guides/uk-telecom-compliance.html
+Hub: https://heimdell-tech-ai.co.uk/guides/uk-telecom-compliance.html
 Key spokes: PECR, UK GDPR, Ofcom conditions, AIT prevention, Data Use Act 2025
 
 ---
@@ -122,7 +122,7 @@ Key spokes: PECR, UK GDPR, Ofcom conditions, AIT prevention, Data Use Act 2025
 ## CONTACT
 
 - Phone: +44 7414 909674
-- Email: contact@telecomcompliance.uk
+- Email: contact@heimdell-tech-ai.co.uk
 - Address: 11 Lower Croft, Preston, PR1 9DJ, UK
 - LinkedIn: https://www.linkedin.com/in/andrew-j-72b96a312
 - Google Business: https://share.google/9G7w3XXzznmNoMO7e

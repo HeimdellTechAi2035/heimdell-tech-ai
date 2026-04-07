@@ -46,7 +46,7 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://telecomcompliance.uk/sitemap.xml
-LLMs: https://telecomcompliance.uk/llms.txt
-LLMs-full: https://telecomcompliance.uk/llms-full.txt
+Sitemap: https://heimdell-tech-ai.co.uk/sitemap.xml
+LLMs: https://heimdell-tech-ai.co.uk/llms.txt
+LLMs-full: https://heimdell-tech-ai.co.uk/llms-full.txt
 

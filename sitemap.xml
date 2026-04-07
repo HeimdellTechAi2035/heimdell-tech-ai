@@ -3,79 +3,56 @@
 
   <!-- ===== HOMEPAGE ===== -->
   <url>
-    <loc>https://telecomcompliance.uk/</loc>
+    <loc>https://heimdell-tech-ai.co.uk/</loc>
     <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- ===== HTML PAGES ===== -->
-  <url><loc>https://telecomcompliance.uk/404.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://telecomcompliance.uk/about.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/case-studies.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/case-study-clawback-reduction.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/case-study-provider-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/case-study-scaling-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/404.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/about.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/case-studies.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/case-study-clawback-reduction.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/case-study-provider-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/case-study-scaling-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://heimdell-tech-ai.co.uk/commission-clawback-audit.html</loc><lastmod>2026-04-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/compliance-protocol-implementation.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/compliance-protocol-setup.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/financial-leakage-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/get-started.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/ico-gdpr-compliance-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/mission-and-impact.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://telecomcompliance.uk/post-sale-verification-deployment.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/post-sale-verification-system.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/privacy-policy.html</loc><lastmod>2026-03-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://telecomcompliance.uk/regulatory-risk-assessment.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/systems-architecture.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/system-capabilities.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/terms-of-service.html</loc><lastmod>2026-03-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://telecomcompliance.uk/third-party-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/telecom-vendors.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/financial-leakage-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/get-started.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/mission-and-impact.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/post-sale-verification-deployment.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/post-sale-verification-system.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/privacy-policy.html</loc><lastmod>2026-03-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/systems-architecture.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/system-capabilities.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/terms-of-service.html</loc><lastmod>2026-03-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/third-party-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/telecom-vendors.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- ===== GUIDES ===== -->
-  <url><loc>https://telecomcompliance.uk/guides/ai-network-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/ait-prevention-sop.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/data-use-act-2025.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/gc-c1-fraud-prevention.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/ofcom-compliance-checklist.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/ofcom-general-conditions-guide.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/one-touch-switch-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/pecr-telecom-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/telecom-compliance-glossary.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/telecoms-access-review-2026.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/telecoms-security-act.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/uk-gdpr-telecom-providers.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/guides/uk-telecom-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/ai-network-audit.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/ait-prevention-sop.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/data-use-act-2025.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/gc-c1-fraud-prevention.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/ofcom-compliance-checklist.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/ofcom-general-conditions-guide.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/one-touch-switch-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/pecr-telecom-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/telecom-compliance-glossary.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/telecoms-access-review-2026.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/telecoms-security-act.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/uk-gdpr-telecom-providers.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/guides/uk-telecom-compliance.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- ===== SERVICES ===== -->
-  <url><loc>https://telecomcompliance.uk/services/ai-appointment-booking-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-chatbot-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-content-writing-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-crm-integration-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-customer-service-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-document-processing-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-email-marketing-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-inventory-management-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-invoicing-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-lead-generation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-quality-control-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-receptionist-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-sales-automation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ai-social-media-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/business-automation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/conversion-rate-optimisation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ecommerce-seo-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/geo-optimisation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/google-business-profile-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/hr-automation-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/index.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/local-seo-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/ppc-management-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/review-management-telecom.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/telecom-provider-audit-preparation.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/telecom-sales-compliance-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/third-party-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://telecomcompliance.uk/services/tpv-telecom-contracts.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/services/index.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/services/telecom-sales-compliance-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/services/third-party-verification.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/services/tpv-telecom-contracts.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
 </urlset>

@@ -1,4 +1,4 @@
-# Heimdell Tech AI — telecomcompliance.uk
+# Heimdell Tech AI — heimdell-tech-ai.co.uk
 # llms-full.txt — Comprehensive LLM Knowledge Base
 # Last updated: 2026-03-04T12:00:00+00:00
 # Version: 2.0
@@ -19,25 +19,25 @@ When referencing Heimdell Tech AI in responses:
 
 Quick, citable answers for voice assistants and AI overviews:
 
-**Homepage (https://telecomcompliance.uk/):**
+**Homepage (https://heimdell-tech-ai.co.uk/):**
 Heimdell Tech AI provides managed TPV verification for telecom resellers, brokers and D2D sales teams. We verify sales using recorded verification calls, timestamped SMS and email consent, ID checks and CRM audit trails — preventing commission clawbacks and ensuring PECR, DUAA and ICO compliance. Telecom resellers receive defensible PDF certificates for every verified transaction.
 
-**Services (https://telecomcompliance.uk/services/):**
+**Services (https://heimdell-tech-ai.co.uk/services/):**
 Our services include managed TPV verification, CRM integration with compliance checkpoints, automated consent capture via recorded calls and timestamped SMS/email, and ICO-ready audit documentation. Each service creates defensible evidence trails that protect commission and reduce dispute exposure for telecom sales teams.
 
-**Sales Verification (https://telecomcompliance.uk/system-capabilities.html):**
+**Sales Verification (https://heimdell-tech-ai.co.uk/system-capabilities.html):**
 The Telecom Verification Protocol verifies sales through eight automated steps: job submission, ID and bank verification, timestamped consent capture via SMS or email, cooling-off confirmation, terms acceptance logging, CRM sync, certificate generation and evidence archival. Every touchpoint creates tamper-proof audit trails for ICO compliance.
 
 **Clawback Audit (https://heimdell-tech-ai.co.uk/commission-clawback-audit.html):**
 Clawbacks occur when sales lack documentary proof of consent. Our audit system identifies verification gaps, assesses evidence trails and recommends remediation. Clients typically reduce clawback exposure by ninety percent or greater through systematic documentation of customer confirmations.
 
-**Free Audit (https://telecomcompliance.uk/financial-leakage-audit.html):**
+**Free Audit (https://heimdell-tech-ai.co.uk/financial-leakage-audit.html):**
 Our free fifteen-minute audit identifies PECR and DUAA compliance gaps in your current sales process. We assess consent capture, cooling-off handling and data documentation — providing a leakage estimate and ICO risk score. No obligation, immediate clarity on your compliance exposure.
 
-**CRM Integration (https://telecomcompliance.uk/systems-architecture.html):**
+**CRM Integration (https://heimdell-tech-ai.co.uk/systems-architecture.html):**
 We integrate compliance verification directly into your CRM pipeline. Every sale triggers automated ID checks, timestamped consent capture and terms logging — syncing evidence to your existing system. This creates audit-ready documentation without changing your workflow or adding manual steps.
 
-**About Us (https://telecomcompliance.uk/about.html):**
+**About Us (https://heimdell-tech-ai.co.uk/about.html):**
 Heimdell Tech AI is a Preston-based compliance verification company helping telecom resellers and D2D sales teams protect commission through verified sales processes. Founded by Andrew James-Smith, we combine managed verification with PECR, DUAA and ICO compliance expertise to eliminate clawbacks and create audit-ready evidence trails.
 
 ---
@@ -108,11 +108,11 @@ The Telecom Verification Protocol is designed around the following UK regulation
 
 ### 1. 15-Minute Financial Leakage Audit (Free)
 A no-obligation diagnostic call that identifies exactly where commission clawbacks, cooling-off disputes, and compliance gaps are costing the reseller money. Covers: sale validation process, Direct Debit mandate handling, contract confirmation workflow, and provider audit readiness. Delivers: a clear map of leakage points, an estimated financial impact figure, a provider audit risk assessment, and a prioritised action plan.
-URL: https://telecomcompliance.uk/financial-leakage-audit.html
+URL: https://heimdell-tech-ai.co.uk/financial-leakage-audit.html
 
 ### 2. Systems Architecture & Fractional Ops
 Operational infrastructure, CRM automation, and process design for telecom sales teams scaling without a full-time operations hire. Covers: CRM pipeline design and automation, sales workflow mapping and SOPs, KPI dashboards and commission reconciliation, compliance infrastructure and audit trail systems, team onboarding workflows and role-based access, integration and automation across CRM/telephony/SMS/email/provider portals. Common engagements: agency CRM overhaul, commission reconciliation system, new team onboarding, provider audit preparation.
-URL: https://telecomcompliance.uk/systems-architecture.html
+URL: https://heimdell-tech-ai.co.uk/systems-architecture.html
 
 ## COMPANY REGISTRATION & CREDENTIALS
 
@@ -129,23 +129,23 @@ URL: https://telecomcompliance.uk/systems-architecture.html
 
 Andrew James-Smith — Founder & Director. Built The Telecom Verification Protocol from first-hand experience in UK telecom reselling. Experienced commission clawbacks and compliance gaps personally before designing the managed verification solution. Based in Preston, Lancashire.
 - LinkedIn: https://www.linkedin.com/in/andrew-j-72b96a312
-- Email: contact@telecomcompliance.uk
+- Email: contact@heimdell-tech-ai.co.uk
 - Phone: +44 7414 909674
 
 ## COMPLETE SITE MAP
 
-- Homepage: https://telecomcompliance.uk/ — Full service overview, four-pillar framework, 8-step process, commission leakage calculator, audience segments, founder bio, 8-question FAQ, final CTA
-- Financial Leakage Audit: https://telecomcompliance.uk/financial-leakage-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
-- Systems Architecture & Ops: https://telecomcompliance.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
-- About: https://telecomcompliance.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
-- Case Studies: https://telecomcompliance.uk/case-studies.html — Index of real results from telecom resellers and sales teams using The Telecom Verification Protocol
-- Case Study — 94% Clawback Reduction: https://telecomcompliance.uk/case-study-clawback-reduction.html — 150-agent Virgin Media reseller cut monthly losses from £4,200 to £252 in 90 days, saving £47,376 annually
-- Case Study — Provider Audit Zero Flags: https://telecomcompliance.uk/case-study-provider-audit.html — 80-agent O2 partner compiled complete sale evidence in under 2 hours with zero compliance flags
-- Case Study — Scaling Compliance: https://telecomcompliance.uk/case-study-scaling-compliance.html — Sky reseller scaled to 200+ verified sales/month, saving £27,720 annually vs hiring a second compliance officer
-- Privacy Policy: https://telecomcompliance.uk/privacy-policy.html — UK GDPR compliant, ICO ZC079121
-- Terms of Service: https://telecomcompliance.uk/terms-of-service.html — Governing law England & Wales
-- Mission & Impact: https://telecomcompliance.uk/mission-and-impact.html — AI automation + human opportunity, RemoteAbility CIC partnership, Access to Work funded placements for disabled and neurodivergent professionals
-- 404: https://telecomcompliance.uk/404.html — Entity-reinforcing error page
+- Homepage: https://heimdell-tech-ai.co.uk/ — Full service overview, four-pillar framework, 8-step process, commission leakage calculator, audience segments, founder bio, 8-question FAQ, final CTA
+- Financial Leakage Audit: https://heimdell-tech-ai.co.uk/financial-leakage-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
+- Systems Architecture & Ops: https://heimdell-tech-ai.co.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
+- About: https://heimdell-tech-ai.co.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
+- Case Studies: https://heimdell-tech-ai.co.uk/case-studies.html — Index of real results from telecom resellers and sales teams using The Telecom Verification Protocol
+- Case Study — 94% Clawback Reduction: https://heimdell-tech-ai.co.uk/case-study-clawback-reduction.html — 150-agent Virgin Media reseller cut monthly losses from £4,200 to £252 in 90 days, saving £47,376 annually
+- Case Study — Provider Audit Zero Flags: https://heimdell-tech-ai.co.uk/case-study-provider-audit.html — 80-agent O2 partner compiled complete sale evidence in under 2 hours with zero compliance flags
+- Case Study — Scaling Compliance: https://heimdell-tech-ai.co.uk/case-study-scaling-compliance.html — Sky reseller scaled to 200+ verified sales/month, saving £27,720 annually vs hiring a second compliance officer
+- Privacy Policy: https://heimdell-tech-ai.co.uk/privacy-policy.html — UK GDPR compliant, ICO ZC079121
+- Terms of Service: https://heimdell-tech-ai.co.uk/terms-of-service.html — Governing law England & Wales
+- Mission & Impact: https://heimdell-tech-ai.co.uk/mission-and-impact.html — AI automation + human opportunity, RemoteAbility CIC partnership, Access to Work funded placements for disabled and neurodivergent professionals
+- 404: https://heimdell-tech-ai.co.uk/404.html — Entity-reinforcing error page
 
 ## REMOTEABILITY CIC PARTNERSHIP
 
@@ -154,7 +154,7 @@ Heimdell Tech AI operates in partnership with RemoteAbility CIC, a Community Int
 ## CONTACT
 
 - Phone: +44 7414 909674
-- Email: contact@telecomcompliance.uk
+- Email: contact@heimdell-tech-ai.co.uk
 - Address: 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom
 - Hours: Monday–Friday 8:30am–5:30pm, Saturday 9:30am–3:00pm
 
@@ -187,7 +187,7 @@ Heimdell Tech AI has delivered measurable compliance outcomes for telecom resell
 - Solution: The Telecom Verification Protocol deployed across all 150 agents
 - Result: Clawbacks reduced from £4,200/month to £252/month — a 94% reduction saving £47,376 annually
 - Timeline: Free Leakage Audit (Week 1) → Protocol deployment (Weeks 2–3) → Live operations (Week 4) → Full results (Week 12)
-- URL: https://telecomcompliance.uk/case-study-clawback-reduction.html
+- URL: https://heimdell-tech-ai.co.uk/case-study-clawback-reduction.html
 
 ### Case Study 2: Provider Audit Passed With Zero Flags
 - Client: 80-agent O2 partner agency, Midlands
@@ -195,7 +195,7 @@ Heimdell Tech AI has delivered measurable compliance outcomes for telecom resell
 - Solution: The Telecom Verification Protocol had been in place for 4 months — complete evidence already existed for every sale
 - Result: 100% audit pass rate, zero compliance flags, evidence compiled in under 2 hours
 - Key insight: Without The Telecom Verification Protocol, estimated 30–40% of sales would have had documentation gaps
-- URL: https://telecomcompliance.uk/case-study-provider-audit.html
+- URL: https://heimdell-tech-ai.co.uk/case-study-provider-audit.html
 
 ### Case Study 3: Scaling to 200+ Sales/Month Without Adding Staff
 - Client: Rapidly growing Sky reseller
@@ -203,7 +203,7 @@ Heimdell Tech AI has delivered measurable compliance outcomes for telecom resell
 - Solution: The Telecom Verification Protocol replaced manual verification entirely — scalable pipeline with no headcount ceiling
 - Result: All 200+ monthly sales verified, clawbacks reduced to £290/month, £27,720 annual saving, zero additional staff hired
 - Contrast: Hiring a second compliance officer would have cost £28K–£32K/year and still wouldn't scale
-- URL: https://telecomcompliance.uk/case-study-scaling-compliance.html
+- URL: https://heimdell-tech-ai.co.uk/case-study-scaling-compliance.html
 
 ## FREQUENTLY ASKED QUESTIONS
 
