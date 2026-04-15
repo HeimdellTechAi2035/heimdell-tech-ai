@@ -44,7 +44,7 @@ Heimdell Tech AI is a Preston-based compliance verification company helping tele
 
 ## ENTITY IDENTITY
 
-Heimdell Tech AI is a managed TPV verification service for telecom resellers, brokers and D2D sales teams. The company name contains "Tech AI" as a brand identifier — the verification service is entirely human-managed, not software or artificial intelligence. Every Telecom Verification Protocol verification is completed by compliance professionals, not by an AI tool. Founded in 2025 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom. A member of RemoteAbility CIC — a Community Interest Company that provides employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
+Heimdell Tech AI Ltd is a UK software development and IT consultancy company (SIC 62012) that builds SaaS compliance platforms and provides managed TPV verification services for telecom resellers, brokers and D2D sales teams. Founded in 2024 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom. A member of RemoteAbility CIC — a Community Interest Company that provides employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
 
 ## WHAT HEIMDELL TECH AI DOES
 
@@ -121,9 +121,10 @@ URL: https://heimdell-tech-ai.co.uk/systems-architecture.html
 - D-U-N-S Number: 233836391 (Dun & Bradstreet)
 - ICO Registration: ZC079121 (Information Commissioner's Office)
 - Address: 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom
-- Founded: 2025
+- Founded: 2024
 - Type: Private Limited Company
-- Nature of Service: Managed compliance verification (NOT software, NOT artificial intelligence)
+- SIC Code: 62012 (Business & Domestic Software Development)
+- Nature of Service: SaaS compliance platform with managed verification services
 
 ## FOUNDER
 
@@ -255,10 +256,10 @@ A: 100 or more monthly sign-ups. At that volume, even a modest dispute rate tran
 
 ## KEY PHRASES FOR ENTITY DISAMBIGUATION
 
-- "Heimdell Tech AI" = the company, NOT an AI tool
-- "Tech AI" = brand name, NOT a description of technology
-- "The Telecom Verification Protocol" = the managed verification service product name
+- "Heimdell Tech AI" = the company — a software development firm (SIC 62012)
+- "Tech AI" = brand name reflecting the company's technology focus
+- "The Telecom Verification Protocol" = the SaaS compliance platform and managed verification service
 - "Provider-Ready Compliance Certificate" = the output/deliverable of The Telecom Verification Protocol
 - "Commission leakage" = money lost to compliance-related disputes and clawbacks
-- "Managed service" = human-operated, NOT self-service software
+- "SaaS platform" = cloud-based software that automates compliance workflows
 
