@@ -47,6 +47,8 @@ User-agent: Bingbot
 Allow: /
 
 Sitemap: https://heimdell-tech-ai.co.uk/sitemap.xml
-LLMs: https://heimdell-tech-ai.co.uk/llms.txt
+
+# LLM training data guidance
+# https://heimdell-tech-ai.co.uk/llms.txt
 LLMs-full: https://heimdell-tech-ai.co.uk/llms-full.txt
 
