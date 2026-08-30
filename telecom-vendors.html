@@ -60,11 +60,7 @@
         "@type": "Service",
         "name": "Channel Integrity & Brand Protection for Telecom Networks",
         "description": "Independent 3rd-party channel verification for telecom networks. Ensure every deal entering your network is 100% compliant with Ofcom General Conditions.",
-        "provider": {
-            "@type": "Organization",
-            "name": "Telecom Compliance",
-            "url": "https://heimdell-tech-ai.co.uk/"
-        },
+        "provider": { "@id": "https://heimdell-tech-ai.co.uk/#organization" },
         "serviceType": "Third Party Verification (TPV)",
         "areaServed": "GB",
         "audience": {
@@ -92,7 +88,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://heimdell-tech-ai.co.uk/#organization",
-        "name": "Telecom Compliance",
+        "name": "Heimdell Tech Ai Ltd",
         "url": "https://heimdell-tech-ai.co.uk/",
         "telephone": "+44-7418-008279",
         "email": "contact@heimdell-tech-ai.co.uk",
@@ -110,7 +106,6 @@
             "latitude": "53.7587",
             "longitude": "-2.6972"
         },
-        "hasMap": "https://maps.google.com/?cid=YOUR_GOOGLE_CID",
         "founder": {
             "@type": "Person",
             "name": "Andrew James-Smith",
@@ -120,7 +115,13 @@
             "@type": "Country",
             "name": "United Kingdom"
         },
-        "knowsAbout": ["Ofcom General Conditions", "Third Party Verification", "Channel Compliance", "PECR 2003", "UK GDPR"]
+        "knowsAbout": [
+            "Ofcom General Conditions",
+            "Third Party Verification",
+            "Channel Compliance",
+            "PECR 2003",
+            "UK GDPR"
+        ]
     }
     </script>
 
@@ -167,7 +168,7 @@
             --green-dark: #059669;
         }
         html { font-size: 16px; scroll-behavior: smooth; }
-        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.7; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.7; text-align: center; }
         .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
         a { color: var(--gold-light); text-decoration: none; }
         a:hover { color: var(--gold); }
@@ -241,6 +242,88 @@
         footer a { color: var(--text-secondary); font-size: 0.85rem; margin: 0 8px; }
         footer a:hover { color: var(--gold); }
     </style>
+
+    <!-- JSON-LD: FAQPage (added) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is a telecom network liable when its reseller channel mis-sells to customers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ofcom has directly fined providers for mis-selling and 'slamming' carried out through their sales channels — cases like Guaranteed Telecom and Met Technologies show enforcement action lands on the entity responsible for the customer relationship, not just the individual salesperson. Because reseller conduct reflects on the network's regulatory standing and billing system, networks increasingly use independent verification to catch mis-selling before it reaches their books, rather than relying solely on reseller self-reporting."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What should a telecom network check before signing a new reseller or channel partner agreement?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Due diligence before onboarding a reseller typically covers licensing, regulatory compliance history, financial stability, and data protection practices, with ongoing obligations written into the channel partner agreement rather than checked only once. Many networks also build in independent verification of the reseller's sales conduct after go-live, since pre-signing due diligence can't catch mis-selling that starts once the partner is actively selling."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why isn't automated QA call-monitoring enough to police a reseller channel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Automated QA and call-scoring tools typically sample only a small percentage of calls — most contact centres review just 1-5% of interactions — which leaves most reseller-customer conversations unchecked. Independent third-party verification closes that gap by checking every deal rather than a sample, which matters when the reseller itself controls what gets flagged for internal review."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a network terminate a reseller's contract for repeated compliance failures, and what evidence does it need?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — channel partner agreements typically allow suspension or termination for serious or repeated compliance breaches, but enforcing that requires documented evidence rather than the reseller's own account of what happened. Independent, recorded verification of individual sales calls gives a network defensible, third-party evidence it can act on, rather than relying on the reseller's self-reported compliance data."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What's the difference between a channel partner scorecard and independent third-party verification?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A channel partner scorecard tracks performance metrics the reseller self-reports — deal volume, conversion rates, certification status — while independent verification is a neutral, direct check of what actually happened on the sales call itself. Scorecards measure output; independent verification confirms the underlying sale was conducted compliantly, which a self-reported scorecard can't validate on its own."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are resellers held to the same Ofcom General Conditions as the network they sell for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — resellers and smaller providers are subject to Ofcom's General Conditions in the same way as network operators; being a channel partner rather than a network doesn't exempt a reseller from consumer protection and sales conduct rules. Most wholesale and channel agreements require resellers to maintain that compliance as a condition of continuing to sell on the network, which is why networks increasingly verify it independently rather than taking it on trust."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why would a network pay for independent verification instead of relying on the reseller's own compliance reporting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Independent verification removes the conflict of interest inherent in a reseller marking its own homework — the reseller has a commercial incentive to under-report problems with its own sales. A neutral third party calling the customer directly verifies what was actually agreed and disclosed, giving the network evidence it can trust for its own regulatory standing rather than the reseller's word alone."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is channel and vendor compliance verification priced for telecom networks?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Channel and vendor compliance programmes are custom-quoted per network rather than sold on a fixed price list, because scope depends on the size of the reseller channel, verification volume, and reporting requirements. This differs from the credit-based pricing used for individual resellers and call centres, reflecting that a network-level programme is a bespoke service covering an entire channel, not a single account."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is 'slamming' and how can a network detect it happening inside its reseller channel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Slamming is switching a customer's service without valid consent — an aggressive form of mis-selling that Ofcom has fined providers for, including cases involving elderly and vulnerable customers. Independent verification calls placed to the customer directly, separate from the reseller's own sales process, are what surface unauthorised switches before they show up as a customer complaint or an Ofcom investigation."
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
 
@@ -268,6 +351,7 @@
             <span class="badge">&#128737; For Telecom Networks</span>
             <h1>Channel Integrity &amp; Brand Protection for Telecom Networks.</h1>
             <p class="subtitle">Ensure every deal entering your network is 100% compliant. We provide an independent safety net between your resellers and your customers, identifying mis-selling before it reaches your billing system.</p>
+            <p style="font-size:0.92rem;color:var(--text-secondary);margin-top:12px;">Channel &amp; vendor compliance programmes are custom-quoted per network. <a href="pricing.html" style="color:var(--gold);font-weight:600;">See full pricing &rarr;</a></p>
             <a href="https://calendar.app.google/E9pkh4r8XczvniGCA" target="_blank" rel="noopener noreferrer" class="cta-btn">Secure Your Channel Performance &rarr;</a>
         </div>
     </section>
@@ -374,7 +458,52 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    
+    <!-- FAQ -->
+    <section style="padding:64px 0;">
+        <div class="container" style="max-width:800px;">
+            <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.8rem;text-align:center;margin-bottom:32px;color:var(--text-primary);">Frequently Asked Questions</h2>
+
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Is a telecom network liable when its reseller channel mis-sells to customers?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Ofcom has directly fined providers for mis-selling and 'slamming' carried out through their sales channels — cases like Guaranteed Telecom and Met Technologies show enforcement action lands on the entity responsible for the customer relationship, not just the individual salesperson. Because reseller conduct reflects on the network's regulatory standing and billing system, networks increasingly use independent verification to catch mis-selling before it reaches their books, rather than relying solely on reseller self-reporting.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">What should a telecom network check before signing a new reseller or channel partner agreement?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Due diligence before onboarding a reseller typically covers licensing, regulatory compliance history, financial stability, and data protection practices, with ongoing obligations written into the channel partner agreement rather than checked only once. Many networks also build in independent verification of the reseller's sales conduct after go-live, since pre-signing due diligence can't catch mis-selling that starts once the partner is actively selling.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Why isn't automated QA call-monitoring enough to police a reseller channel?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Automated QA and call-scoring tools typically sample only a small percentage of calls — most contact centres review just 1-5% of interactions — which leaves most reseller-customer conversations unchecked. Independent third-party verification closes that gap by checking every deal rather than a sample, which matters when the reseller itself controls what gets flagged for internal review.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Can a network terminate a reseller's contract for repeated compliance failures, and what evidence does it need?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Yes — channel partner agreements typically allow suspension or termination for serious or repeated compliance breaches, but enforcing that requires documented evidence rather than the reseller's own account of what happened. Independent, recorded verification of individual sales calls gives a network defensible, third-party evidence it can act on, rather than relying on the reseller's self-reported compliance data.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">What's the difference between a channel partner scorecard and independent third-party verification?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">A channel partner scorecard tracks performance metrics the reseller self-reports — deal volume, conversion rates, certification status — while independent verification is a neutral, direct check of what actually happened on the sales call itself. Scorecards measure output; independent verification confirms the underlying sale was conducted compliantly, which a self-reported scorecard can't validate on its own.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Are resellers held to the same Ofcom General Conditions as the network they sell for?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Yes — resellers and smaller providers are subject to Ofcom's General Conditions in the same way as network operators; being a channel partner rather than a network doesn't exempt a reseller from consumer protection and sales conduct rules. Most wholesale and channel agreements require resellers to maintain that compliance as a condition of continuing to sell on the network, which is why networks increasingly verify it independently rather than taking it on trust.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Why would a network pay for independent verification instead of relying on the reseller's own compliance reporting?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Independent verification removes the conflict of interest inherent in a reseller marking its own homework — the reseller has a commercial incentive to under-report problems with its own sales. A neutral third party calling the customer directly verifies what was actually agreed and disclosed, giving the network evidence it can trust for its own regulatory standing rather than the reseller's word alone.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">How is channel and vendor compliance verification priced for telecom networks?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Channel and vendor compliance programmes are custom-quoted per network rather than sold on a fixed price list, because scope depends on the size of the reseller channel, verification volume, and reporting requirements. This differs from the credit-based pricing used for individual resellers and call centres, reflecting that a network-level programme is a bespoke service covering an entire channel, not a single account.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">What is 'slamming' and how can a network detect it happening inside its reseller channel?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Slamming is switching a customer's service without valid consent — an aggressive form of mis-selling that Ofcom has fined providers for, including cases involving elderly and vulnerable customers. Independent verification calls placed to the customer directly, separate from the reseller's own sales process, are what surface unauthorised switches before they show up as a customer complaint or an Ofcom investigation.</p>
+                </div>
+        </div>
+    </section>
+
+<footer>
         <div class="container">
             <p>&copy; 2026 Heimdell Tech Ai Ltd. Registered in England &amp; Wales. Company No. <a href="https://find-and-update.company-information.service.gov.uk/company/16478408" target="_blank" rel="noopener noreferrer">16478408</a>. Registered Office: 11 Lower Croft, Preston, PR1 9DJ. ICO Reg: <a href="https://ico.org.uk/ESDWebPages/Entry/ZC079121" target="_blank" rel="noopener noreferrer">ZC079121</a>.</p>
             <p>

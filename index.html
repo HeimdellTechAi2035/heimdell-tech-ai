@@ -57,23 +57,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet"></noscript>
 
-    <!-- JSON-LD: Telecompliance ProfessionalService -->
+    <!-- JSON-LD: Organization (canonical entity anchor) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": ["ProfessionalService", "LocalBusiness"],
       "@id": "https://heimdell-tech-ai.co.uk/#organization",
       "name": "Heimdell Tech Ai",
-      "alternateName": ["Telecom Compliance", "The Telecom Verification Protocol", "TPV Verification", "Telecom Compliance Consultant Preston"],
+      "alternateName": ["Heimdell Tech Ai Ltd", "Telecom Compliance", "The Telecom Verification Protocol", "TPV Verification", "Telecom Compliance Consultant Preston"],
       "legalName": "Heimdell Tech Ai Ltd",
       "url": "https://heimdell-tech-ai.co.uk/",
       "logo": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
       "image": "https://heimdell-tech-ai.co.uk/images/silver-protocol-four-pillar-audit-automation-framework.png",
-      "description": "UK software development and IT consultancy firm (SIC 62012) providing SaaS compliance platforms and managed TPV verification for telecom resellers, brokers and D2D sales teams. Verifiable telecom sales compliance through recorded customer confirmation, timestamped consent capture and audit-ready certificates.",
-      "foundingDate": "2024",
+      "description": "UK software development and IT consultancy firm (SIC 62012, 62020) providing SaaS compliance platforms and managed TPV verification for telecom resellers, brokers and D2D sales teams. Verifiable telecom sales compliance through recorded customer confirmation, timestamped consent capture and audit-ready certificates.",
+      "foundingDate": "2025-05-28",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Preston, Lancashire, United Kingdom"
+      },
       "founder": {
         "@type": "Person",
+        "@id": "https://heimdell-tech-ai.co.uk/about.html#person",
         "name": "Andrew James-Smith",
+        "jobTitle": "Founder & Director",
         "url": "https://heimdell-tech-ai.co.uk/about.html"
       },
       "address": {
@@ -118,6 +124,8 @@
         "https://share.google/9G7w3XXzznmNoMO7e",
         "https://heimdelltechai.freeindex.co.uk/",
         "https://www.yell.com/biz/heimdell-tech-ai-ltd-preston-10996575/",
+        "https://maps.apple.com/place?place-id=IA2EF75DF5D3018CA",
+        "https://www.wikidata.org/wiki/Q138773250",
         "https://find-and-update.company-information.service.gov.uk/company/16478408",
         "https://ico.org.uk/ESDWebPages/Entry/ZC079121"
       ],
@@ -127,11 +135,14 @@
         "Compliance Audit Trails",
         "Timestamped Consent Capture",
         "PECR 2003",
-        "Data Use and Access Act 2025",
+        "Data (Use and Access) Act 2025",
         "UK GDPR",
         "ICO Compliance",
         "Consumer Contracts Regulations 2013",
-        "ID Verification for Telecom Sales"
+        "ID Verification for Telecom Sales",
+        "Ofcom General Conditions",
+        "CRM Workflow Design",
+        "Sales Systems Automation"
       ],
       "areaServed": [
         {
@@ -147,23 +158,9 @@
           "name": "Preston"
         }
       ],
-      "priceRange": "??",
+      "priceRange": "££",
       "currenciesAccepted": "GBP",
       "paymentAccepted": "Bank Transfer, Direct Debit",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Compliance Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "The Telecom Verification Protocol",
-              "description": "A managed third-party verification (TPV) system for telecom resellers"
-            }
-          }
-        ]
-      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -181,65 +178,78 @@
           "value": "233836391"
         }
       ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "0",
-        "reviewCount": "0",
-        "bestRating": "5",
-        "worstRating": "1"
+      "member": {
+        "@type": "Organization",
+        "name": "RemoteAbility CIC",
+        "url": "https://remoteability.org",
+        "description": "Community Interest Company providing employment pathways for disabled and neurodivergent professionals through Access to Work funded placements"
       },
+      "mentions": [
+        {
+          "@type": "GovernmentOrganization",
+          "@id": "https://www.ofcom.org.uk/#organization",
+          "name": "Ofcom",
+          "alternateName": "Office of Communications",
+          "url": "https://www.ofcom.org.uk",
+          "description": "The UK communications regulator responsible for broadcasting, telecommunications and postal industries",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Ofcom",
+            "https://www.wikidata.org/wiki/Q1139498"
+          ]
+        },
+        {
+          "@type": "GovernmentOrganization",
+          "@id": "https://ico.org.uk/#organization",
+          "name": "Information Commissioner's Office",
+          "alternateName": "ICO",
+          "url": "https://ico.org.uk",
+          "description": "The UK's independent authority set up to uphold information rights under GDPR and Data Protection Act 2018",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Information_Commissioner%27s_Office",
+            "https://www.wikidata.org/wiki/Q3308237"
+          ]
+        },
+        {
+          "@type": "GovernmentOrganization",
+          "@id": "https://www.gov.uk/government/organisations/companies-house#organization",
+          "name": "Companies House",
+          "url": "https://www.gov.uk/government/organisations/companies-house",
+          "description": "UK government agency responsible for company registration and business information",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Companies_House",
+            "https://www.wikidata.org/wiki/Q1757237"
+          ]
+        }
+      ],
+      "isRelatedTo": [
+        {
+          "@type": "Legislation",
+          "name": "Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013",
+          "url": "https://www.legislation.gov.uk/uksi/2013/3134/contents",
+          "legislationIdentifier": "uksi/2013/3134"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Payment Services Regulations 2017",
+          "url": "https://www.legislation.gov.uk/uksi/2017/752/contents",
+          "legislationIdentifier": "uksi/2017/752"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Privacy and Electronic Communications Regulations 2003",
+          "url": "https://www.legislation.gov.uk/uksi/2003/2426/contents",
+          "legislationIdentifier": "uksi/2003/2426"
+        },
+        {
+          "@type": "Legislation",
+          "name": "UK GDPR",
+          "url": "https://www.legislation.gov.uk/eur/2016/679/contents",
+          "description": "General Data Protection Regulation as retained in UK law"
+        }
+      ],
       "hasMap": "https://maps.google.com/?q=11+Lower+Croft,+Preston,+PR1+9DJ"
     }
     </script>
-
-        <!-- JSON-LD: Heimdell Tech Ai Ltd (canonical, Wikidata/ICO/Companies House, OfferCatalog) -->
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "@id": "https://heimdell-tech-ai.co.uk/#organization",
-            "name": "Heimdell Tech Ai Ltd",
-            "url": "https://heimdell-tech-ai.co.uk",
-            "logo": "https://heimdell-tech-ai.co.uk/logo.png",
-            "image": "https://heimdell-tech-ai.co.uk/og-image.jpg",
-            "description": "UK software development and IT consultancy firm (SIC 62012) providing SaaS compliance platforms, managed TPV verification and commission clawback prevention for telecom resellers.",
-            "telephone": "+44-7418-008279",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "11 Lower Croft",
-                "addressLocality": "Preston",
-                "postalCode": "PR1 9DJ",
-                "addressCountry": "GB"
-            },
-            "sameAs": [
-                "https://www.wikidata.org/wiki/Q138773250",
-                "https://ico.org.uk/ESDWebPages/Entry/ZC079121",
-                "https://find-and-update.company-information.service.gov.uk/company/16478408"
-            ],
-            "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Telecom Compliance Services",
-                "itemListElement": [
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Managed Third Party Verification (TPV)",
-                            "description": "Automated and manual TPV to ensure Ofcom GC C1 compliance."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Commission Clawback Prevention",
-                            "description": "Risk mitigation strategies for telecom resellers to stop revenue loss."
-                        }
-                    }
-                ]
-            }
-        }
-        </script>
 
     <!-- JSON-LD: Service Schema -->
     <script type="application/ld+json">
@@ -252,96 +262,11 @@
         "name": "Third-Party Verification (TPV)",
         "alternateName": "The Telecom Verification Protocol",
         "description": "Managed TPV calls for UK telecom resellers. We make independent verification calls to confirm customer consent, explain contract terms, verify cooling-off rights and document Direct Debit authorisation. Each call creates a timestamped audit trail and compliance certificate that protects your commission.",
-        "provider": {
-            "@type": "ProfessionalService",
-            "@id": "https://heimdell-tech-ai.co.uk/#organization",
-            "name": "Heimdell Tech Ai",
-            "url": "https://heimdell-tech-ai.co.uk/",
-            "logo": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
-            "image": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
-            "telephone": "+44-7418-008279",
-            "priceRange": "??",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+44-7418-008279",
-                "contactType": "sales",
-                "areaServed": "GB",
-                "availableLanguage": "English"
-            },
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "11 Lower Croft",
-                "addressLocality": "Preston",
-                "addressRegion": "Lancashire",
-                "postalCode": "PR1 9DJ",
-                "addressCountry": "GB"
-            },
-            "sameAs": [
-                "https://www.linkedin.com/in/andrew-j-72b96a312",
-                "https://www.linkedin.com/in/andrew-j-72b96a312",
-                "https://www.facebook.com/profile.php?id=61579858422337"
-            ],
-            "founder": {
-                "@type": "Person",
-                "name": "Andrew James-Smith",
-                "jobTitle": "Founder & Director",
-                "url": "https://heimdell-tech-ai.co.uk/about.html",
-                "image": "https://heimdell-tech-ai.co.uk/images/andrew-james-smith-founder-heimdell-tech-ai.png",
-                "sameAs": [
-                    "https://www.linkedin.com/in/andrew-j-72b96a312",
-                    "https://www.facebook.com/profile.php?id=61579858422337"
-                ]
-            },
-            "openingHoursSpecification": [
-                {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-                    "opens": "08:30",
-                    "closes": "17:30"
-                },
-                {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": ["Saturday"],
-                    "opens": "09:30",
-                    "closes": "15:00"
-                }
-            ],
-            "duns": "233836391",
-            "identifier": [
-                {
-                    "@type": "PropertyValue",
-                    "name": "Companies House Registration",
-                    "value": "16478408"
-                },
-                {
-                    "@type": "PropertyValue",
-                    "name": "ICO Registration",
-                    "value": "ZC079121"
-                }
-            ]
+        "provider": { "@id": "https://heimdell-tech-ai.co.uk/#organization" },
+        "areaServed": {
+            "@type": "Country",
+            "name": "United Kingdom"
         },
-        "areaServed": [
-            {
-                "@type": "Country",
-                "name": "United Kingdom"
-            },
-            {
-                "@type": "City",
-                "name": "Manchester"
-            },
-            {
-                "@type": "City",
-                "name": "Liverpool"
-            },
-            {
-                "@type": "City",
-                "name": "Birmingham"
-            },
-            {
-                "@type": "City",
-                "name": "London"
-            }
-        ],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Telecom Sales Compliance Services",
@@ -392,33 +317,10 @@
         "operatingSystem": "Web-Based / Cloud",
         "applicationCategory": "BusinessApplication",
         "description": "An AI-powered automation system for telecom sales compliance. Reduces compliance admin from hours to minutes. Automates PECR compliance, DUAA 2025 requirements, and ICO audit preparation with Glass Box accountability.",
-        "offers": [
-            {
-                "@type": "Offer",
-                "name": "Setup Fee",
-                "price": "1000",
-                "priceCurrency": "GBP",
-                "description": "One-time implementation and integration fee"
-            },
-            {
-                "@type": "Offer",
-                "name": "Monthly Retainer",
-                "price": "800",
-                "priceCurrency": "GBP",
-                "priceSpecification": {
-                    "@type": "UnitPriceSpecification",
-                    "price": "800",
-                    "priceCurrency": "GBP",
-                    "unitCode": "MON",
-                    "billingDuration": "P1M"
-                },
-                "description": "Ongoing managed compliance verification service"
-            }
-        ],
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "12"
+        "offers": {
+            "@type": "Offer",
+            "url": "https://heimdell-tech-ai.co.uk/pricing.html",
+            "description": "Pay-as-you-go verification credits — see full pricing for current rates."
         },
         "featureList": [
             "Automated Ofcom General Conditions Auditing",
@@ -432,12 +334,7 @@
             "Reduces audit preparation from 20 hours to 5 minutes"
         ],
         "softwareVersion": "2026.1.0",
-        "author": {
-            "@type": "Organization",
-            "name": "Heimdell Tech Ai",
-            "url": "https://heimdell-tech-ai.co.uk/",
-            "legalName": "Heimdell Tech Ai"
-        },
+        "author": { "@id": "https://heimdell-tech-ai.co.uk/#organization" },
         "releaseNotes": "Version 2026.1.0 introduces Neural Regulatory Mapping, automated Ofcom GC auditing, and Glass Box accountability for all automated decisions."
     }
     </script>
@@ -453,7 +350,7 @@
                 "name": "What is third party verification in telecoms?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Third party verification (TPV) is an independent process that confirms a customer has genuinely agreed to a telecom contract. It captures proof of identity, informed consent, and the exact terms accepted ? creating a legally defensible record that protects both the provider and the customer."
+                    "text": "Third party verification (TPV) is an independent process that confirms a customer has genuinely agreed to a telecom contract. It captures proof of identity, informed consent, and the exact terms accepted — creating a legally defensible record that protects both the provider and the customer."
                 }
             },
             {
@@ -461,7 +358,7 @@
                 "name": "Why does third party verification matter for telecom sales?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Without verified proof of consent, sales are vulnerable to disputes, chargebacks, and regulatory penalties. TPV creates an unbroken chain of evidence from the moment of sale through to payment ? turning every transaction into a protected asset rather than a liability."
+                    "text": "Without verified proof of consent, sales are vulnerable to disputes, chargebacks, and regulatory penalties. TPV creates an unbroken chain of evidence from the moment of sale through to payment — turning every transaction into a protected asset rather than a liability."
                 }
             },
             {
@@ -469,7 +366,7 @@
                 "name": "How does your third party verification service work?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Our fully managed service integrates directly into your sales workflow. We validate customer identity, capture explicit consent with timestamps, generate audit-ready certificates, log delivery confirmations, and sync everything to your CRM ? all without slowing down your sales process."
+                    "text": "Our fully managed service integrates directly into your sales workflow. We validate customer identity, capture explicit consent with timestamps, generate audit-ready certificates, log delivery confirmations, and sync everything to your CRM — all without slowing down your sales process."
                 }
             },
             {
@@ -485,7 +382,7 @@
                 "name": "How does TPV prevent disputed sales and clawbacks?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Disputes arise when customers claim they never agreed to a contract or were misled about terms. Our service captures time-stamped, identity-verified consent with a full audit trail ? giving you concrete proof to defend against disputes and recover revenue that would otherwise be clawed back."
+                    "text": "Disputes arise when customers claim they never agreed to a contract or were misled about terms. Our service captures time-stamped, identity-verified consent with a full audit trail — giving you concrete proof to defend against disputes and recover revenue that would otherwise be clawed back."
                 }
             },
             {
@@ -501,7 +398,7 @@
                 "name": "Will third party verification slow down our sales process?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "No. Our system is designed for speed and seamless integration. Verification takes seconds, runs automatically within your existing workflow, and syncs directly to your CRM. Your sales team keeps moving ? with every sale now protected by verified proof of consent."
+                    "text": "No. Our system is designed for speed and seamless integration. Verification takes seconds, runs automatically within your existing workflow, and syncs directly to your CRM. Your sales team keeps moving — with every sale now protected by verified proof of consent."
                 }
             },
             {
@@ -509,7 +406,7 @@
                 "name": "What makes your TPV service different from compliance software?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "We are not a software tool you manage yourself. We provide a fully managed service that handles verification, evidence capture, certificate generation, and audit preparation for you. The result is revenue protection, dispute prevention, and legal proof ? not just a compliance checkbox."
+                    "text": "We are not a software tool you manage yourself. We provide a fully managed service that handles verification, evidence capture, certificate generation, and audit preparation for you. The result is revenue protection, dispute prevention, and legal proof — not just a compliance checkbox."
                 }
             }
         ]
@@ -523,7 +420,7 @@
         "@type": "WebSite",
         "@id": "https://heimdell-tech-ai.co.uk/#website",
         "url": "https://heimdell-tech-ai.co.uk/",
-        "name": "HEIMDELL TECH AI ? TPV Verification for Telecom Sales",
+        "name": "HEIMDELL TECH AI — TPV Verification for Telecom Sales",
         "alternateName": ["Telecom Compliance", "The Telecom Verification Protocol"],
         "description": "Commission protection and TPV verification for telecom resellers and D2D sales teams. Timestamped consent, recorded verification calls, audit trails and provider-ready certificates.",
         "publisher": { "@id": "https://heimdell-tech-ai.co.uk/#organization" },
@@ -545,7 +442,7 @@
     }
     </script>
 
-    <!-- JSON-LD: HowTo ? The Telecom Verification Protocol verification process -->
+    <!-- JSON-LD: HowTo — The Telecom Verification Protocol verification process -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -561,7 +458,7 @@
             { "@type": "HowToStep", "position": 5, "name": "Consent Documented", "text": "Customer agreement captured and timestamped with proof of delivery." },
             { "@type": "HowToStep", "position": 6, "name": "30-Day Shield Active", "text": "Every customer informed how to make a complaint and how to access their data from day one." },
             { "@type": "HowToStep", "position": 7, "name": "Audit Trail Created", "text": "Complete digital record created ready for ICO, insurers or disputes." },
-            { "@type": "HowToStep", "position": 8, "name": "You Get Paid", "text": "No disputes, no chargebacks, no 'I never agreed to that' ? just clean revenue." }
+            { "@type": "HowToStep", "position": 8, "name": "You Get Paid", "text": "No disputes, no chargebacks, no 'I never agreed to that' — just clean revenue." }
         ]
     }
     </script>
@@ -582,182 +479,6 @@
     }
     </script>
 
-    <!-- JSON-LD: Organization (canonical entity anchor) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://heimdell-tech-ai.co.uk/#organization",
-        "name": "HEIMDELL TECH AI",
-        "alternateName": "HEIMDELL TECH AI Ltd",
-        "url": "https://heimdell-tech-ai.co.uk/",
-        "logo": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
-        "image": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
-        "description": "TELECOM COMPLIANCE operates The Telecom Verification Protocol ? a managed third-party verification (TPV) system for telecom resellers. The company name contains 'Tech AI' as a brand identifier; the service is entirely human-managed.",
-        "telephone": "+44-7418-008279",
-        "email": "andrew@heimdell-tech-ai.co.uk",
-        "priceRange": "??",
-        "areaServed": {
-            "@type": "Country",
-            "name": "United Kingdom"
-        },
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "11 Lower Croft",
-            "addressLocality": "Preston",
-            "addressRegion": "Lancashire",
-            "postalCode": "PR1 9DJ",
-            "addressCountry": "GB"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 53.7632,
-            "longitude": -2.7031
-        },
-        "founder": {
-            "@type": "Person",
-            "@id": "https://heimdell-tech-ai.co.uk/about.html#person",
-            "name": "Andrew James-Smith",
-            "jobTitle": "Founder & Director",
-            "url": "https://heimdell-tech-ai.co.uk/about.html"
-        },
-        "foundingDate": "2025",
-        "foundingLocation": {
-            "@type": "Place",
-            "name": "Preston, Lancashire, United Kingdom"
-        },
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+44-7418-008279",
-            "contactType": "sales",
-            "areaServed": "GB",
-            "availableLanguage": "English"
-        },
-        "openingHoursSpecification": [
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-                "opens": "08:30",
-                "closes": "17:30"
-            },
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Saturday"],
-                "opens": "09:30",
-                "closes": "15:00"
-            }
-        ],
-        "sameAs": [
-            "https://www.linkedin.com/in/andrew-j-72b96a312",
-            "https://www.linkedin.com/in/andrew-j-72b96a312",
-            "https://www.facebook.com/profile.php?id=61579858422337",
-            "https://find-and-update.company-information.service.gov.uk/company/16478408",
-            "https://share.google/9G7w3XXzznmNoMO7e",
-            "https://heimdelltechai.freeindex.co.uk/",
-            "https://www.yell.com/biz/heimdell-tech-ai-ltd-preston-10996575/",
-            "https://maps.apple.com/place?place-id=IA2EF75DF5D3018CA",
-            "https://ico.org.uk/ESDWebPages/Entry/ZC079121"
-        ],
-        "duns": "233836391",
-        "identifier": [
-            {
-                "@type": "PropertyValue",
-                "name": "Companies House Registration",
-                "value": "16478408"
-            },
-            {
-                "@type": "PropertyValue",
-                "name": "ICO Registration",
-                "value": "ZC079121"
-            }
-        ],
-        "knowsAbout": [
-            "Telecom Sales Compliance",
-            "Data Protection",
-            "PECR 2003",
-            "DUAA 2025",
-            "Consumer Contracts Regulations 2013",
-            "ICO Compliance",
-            "Telecom Sales Data Handling",
-            "AI Lead Generation",
-            "Local SEO for Service Businesses",
-            "TPPA 2025 Compliance",
-            "Sales Systems Automation",
-            "CRM Workflow Design",
-            "Net Zero Reporting"
-        ],
-        "member": {
-            "@type": "Organization",
-            "name": "RemoteAbility CIC",
-            "url": "https://remoteability.org",
-            "description": "Community Interest Company providing employment pathways for disabled and neurodivergent professionals through Access to Work funded placements"
-        },
-        "mentions": [
-            {
-                "@type": "GovernmentOrganization",
-                "@id": "https://www.ofcom.org.uk/#organization",
-                "name": "Ofcom",
-                "alternateName": "Office of Communications",
-                "url": "https://www.ofcom.org.uk",
-                "description": "The UK communications regulator responsible for broadcasting, telecommunications and postal industries",
-                "sameAs": [
-                    "https://en.wikipedia.org/wiki/Ofcom",
-                    "https://www.wikidata.org/wiki/Q1139498"
-                ]
-            },
-            {
-                "@type": "GovernmentOrganization",
-                "@id": "https://ico.org.uk/#organization",
-                "name": "Information Commissioner's Office",
-                "alternateName": "ICO",
-                "url": "https://ico.org.uk",
-                "description": "The UK's independent authority set up to uphold information rights under GDPR and Data Protection Act 2018",
-                "sameAs": [
-                    "https://en.wikipedia.org/wiki/Information_Commissioner%27s_Office",
-                    "https://www.wikidata.org/wiki/Q3308237"
-                ]
-            },
-            {
-                "@type": "GovernmentOrganization",
-                "@id": "https://www.gov.uk/government/organisations/companies-house#organization",
-                "name": "Companies House",
-                "url": "https://www.gov.uk/government/organisations/companies-house",
-                "description": "UK government agency responsible for company registration and business information",
-                "sameAs": [
-                    "https://en.wikipedia.org/wiki/Companies_House",
-                    "https://www.wikidata.org/wiki/Q1757237"
-                ]
-            }
-        ],
-        "isRelatedTo": [
-            {
-                "@type": "Legislation",
-                "name": "Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013",
-                "url": "https://www.legislation.gov.uk/uksi/2013/3134/contents",
-                "legislationIdentifier": "uksi/2013/3134"
-            },
-            {
-                "@type": "Legislation",
-                "name": "Payment Services Regulations 2017",
-                "url": "https://www.legislation.gov.uk/uksi/2017/752/contents",
-                "legislationIdentifier": "uksi/2017/752"
-            },
-            {
-                "@type": "Legislation",
-                "name": "Privacy and Electronic Communications Regulations 2003",
-                "url": "https://www.legislation.gov.uk/uksi/2003/2426/contents",
-                "legislationIdentifier": "uksi/2003/2426"
-            },
-            {
-                "@type": "Legislation",
-                "name": "UK GDPR",
-                "url": "https://www.legislation.gov.uk/eur/2016/679/contents",
-                "description": "General Data Protection Regulation as retained in UK law"
-            }
-        ]
-    }
-    </script>
-
     <!-- JSON-LD: ImageObject (Four-Pillar Diagram) -->
     <script type="application/ld+json">
     {
@@ -765,7 +486,7 @@
         "@type": "ImageObject",
         "contentUrl": "https://heimdell-tech-ai.co.uk/images/silver-protocol-four-pillar-audit-automation-framework.png",
         "name": "The Telecom Verification Protocol Four-Pillar Audit and Automation Framework",
-        "description": "Diagram showing the four pillars of The Telecom Verification Protocol managed TPV verification cycle: Audit and Assess, Implement Solutions, Automate Processes, and Monitor and Optimise ? designed by HEIMDELL TECH AI for telecom sales compliance.",
+        "description": "Diagram showing the four pillars of The Telecom Verification Protocol managed TPV verification cycle: Audit and Assess, Implement Solutions, Automate Processes, and Monitor and Optimise — designed by HEIMDELL TECH AI for telecom sales compliance.",
         "width": 800,
         "height": 800,
         "encodingFormat": "image/png",
@@ -781,7 +502,7 @@
         "@type": "WebPage",
         "@id": "https://heimdell-tech-ai.co.uk/#webpage",
         "url": "https://heimdell-tech-ai.co.uk/",
-        "name": "The Telecom Verification Protocol ? Telecom Sales Compliance | Preston, Lancashire",
+        "name": "The Telecom Verification Protocol — Telecom Sales Compliance | Preston, Lancashire",
         "description": "TPV verification for telecom resellers and D2D sales teams. The Telecom Verification Protocol verifies customer identity, documents consent, handles data requests automatically and generates provider-ready compliance documentation.",
         "isPartOf": { "@id": "https://heimdell-tech-ai.co.uk/#website" },
         "about": { "@id": "https://heimdell-tech-ai.co.uk/#service" },
@@ -795,62 +516,7 @@
     }
     </script>
 
-    <!-- JSON-LD: LocalBusiness Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://heimdell-tech-ai.co.uk/#localbusiness",
-        "name": "Heimdell Tech Ai",
-        "legalName": "Heimdell Tech Ai Ltd",
-        "url": "https://heimdell-tech-ai.co.uk/",
-        "logo": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
-        "image": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
-        "description": "UK software development and IT consultancy firm (SIC 62012) providing SaaS compliance platforms and managed TPV verification for telecom resellers and D2D sales teams.",
-        "telephone": "+447418008279",
-        "email": "andrew@heimdell-tech-ai.co.uk",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "11 Lower Croft",
-            "addressLocality": "Preston",
-            "addressRegion": "Lancashire",
-            "postalCode": "PR1 9DJ",
-            "addressCountry": "GB"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "53.7587",
-            "longitude": "-2.6972"
-        },
-        "areaServed": {
-            "@type": "Country",
-            "name": "United Kingdom"
-        },
-        "priceRange": "??",
-        "currenciesAccepted": "GBP",
-        "paymentAccepted": "Bank Transfer, Direct Debit",
-        "openingHoursSpecification": [
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                "opens": "08:30",
-                "closes": "17:30"
-            },
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": "Saturday",
-                "opens": "09:30",
-                "closes": "15:00"
-            }
-        ],
-        "sameAs": [
-            "https://www.linkedin.com/in/andrew-j-72b96a312",
-            "https://www.facebook.com/profile.php?id=61579858422337"
-        ]
-    }
-    </script>
-
-    <!-- JSON-LD: Service ? Regulatory Risk Assessment -->
+    <!-- JSON-LD: Service — Regulatory Risk Assessment -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -872,7 +538,7 @@
     }
     </script>
 
-    <!-- JSON-LD: Service ? ICO & GDPR Compliance Audit -->
+    <!-- JSON-LD: Service — ICO & GDPR Compliance Audit -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -894,7 +560,7 @@
     }
     </script>
 
-    <!-- JSON-LD: Service ? Commission Clawback Prevention -->
+    <!-- JSON-LD: Service — Commission Clawback Prevention -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -964,6 +630,7 @@
             background: var(--dark);
             color: var(--text-primary);
             line-height: 1.7;
+            text-align: center;
             -webkit-font-smoothing: antialiased;
             overflow-x: hidden !important;
             width: 100%;
@@ -3707,7 +3374,7 @@
                 <picture><source srcset="heimdell-tech-ai-silver-protocol-logo.webp" type="image/webp"><img src="heimdell-tech-ai-silver-protocol-logo.png" alt="Heimdell Tech Ai - TPV Verification for Telecom Resellers" width="36" height="36"></picture>
                 HEIMDELL TECH AI
             </a>
-            <div class="nav-site-links" id="navLinks"><a href="index.html">Home</a><a href="third-party-verification.html">TPV Services</a><a href="commission-clawback-audit.html">Clawback Audit</a><a href="case-studies.html">Case Studies</a><a href="about.html">About</a></div><a href="tel:+447418008279" class="nav-cta-btn">&#9742; Call Now</a>
+            <div class="nav-site-links" id="navLinks"><a href="index.html">Home</a><a href="services/index.html">Services</a><a href="pricing.html">Pricing</a><a href="third-party-verification.html">TPV Services</a><a href="commission-clawback-audit.html">Clawback Audit</a><a href="case-studies.html">Case Studies</a><a href="about.html">About</a></div><a href="tel:+447418008279" class="nav-cta-btn">&#9742; Call Now</a>
             <div class="nav-hamburger" id="navHamburger" role="button" tabindex="0" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </div>
@@ -3790,7 +3457,7 @@
                 <!-- Trust Signal Blockquote -->
                 <blockquote class="trust-signal" style="background:rgba(255,255,255,0.1);border-left:4px solid #34D399;border-radius:8px;padding:20px 24px;margin:24px auto 0;max-width:600px;text-align:left;">
                     <p style="color:#fff;font-size:1rem;font-weight:600;margin:0 0 8px;line-height:1.6;"><strong>Guaranteed 24-hour business day turnaround</strong> on all verification calls. Based in Preston, Lancashire with on-site audit support across the North West.</p>
-                    <cite style="color:rgba(255,255,255,0.7);font-size:0.85rem;font-style:normal;">Operating since 2024 � ICO Registered: ZC079121 � Companies House: 16478408</cite>
+                    <cite style="color:rgba(255,255,255,0.7);font-size:0.85rem;font-style:normal;">Operating since 2024 — ICO Registered: ZC079121 — Companies House: 16478408</cite>
                 </blockquote>
             </div>
             <div style="display:flex;justify-content:center;gap:24px;flex-wrap:wrap;">
@@ -4033,7 +3700,7 @@
                 <div class="trust-text">
                     <span class="section-label">Trust &amp; Mission</span>
                     <h2>Protecting Telecom Sales Revenue at Scale</h2>
-                    <p>Telecom Compliance exists for one reason: to ensure every legitimate sale your team closes is fully verified, properly documented and permanently defensible. We operate a managed TPV service ? independent from your operation, aligned entirely with your commercial interest.</p>
+                    <p>Telecom Compliance exists for one reason: to ensure every legitimate sale your team closes is fully verified, properly documented and permanently defensible. We operate a managed TPV service — independent from your operation, aligned entirely with your commercial interest.</p>
                     <p>Our service eliminates disputed contracts, reduces regulatory exposure and creates an unbroken chain of evidence from the moment a deal is agreed to the moment payment is banked.</p>
                     <p id="speakable-definition" style="background:var(--dark-card);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:20px 24px;margin-top:24px;font-size:0.95rem;line-height:1.8;"><strong>Telecom Compliance</strong> (Companies House 16478408, Preston, UK) operates a managed third-party verification (TPV) system for telecom resellers, brokers and D2D sales teams. We independently verify every contract, producing audit-ready certificates that include identity validation, recorded consent capture, contract terms acknowledgement under Consumer Contracts Regulations 2013, payment mandate verification, and timestamped delivery logs. Designed for telecom sales teams and agencies.</p>
                 </div>
@@ -4087,7 +3754,7 @@
     </section>
 
 
-    <!-- ===== HOW IT WORKS ? 3 STEPS ===== -->
+    <!-- ===== HOW IT WORKS — 3 STEPS ===== -->
     <section class="pillars" id="protocol">
         <div class="container">
             <div style="text-align:center; max-width:700px; margin:0 auto 48px;">
@@ -4250,7 +3917,7 @@
                     <span class="founder-role">Founder &amp; Director, Telecom Compliance</span>
                     <p>I built The Telecom Verification Protocol because I&rsquo;ve lived the problem it solves. After years working with telecom sales teams, I saw first-hand how compliance gaps and undocumented customer interactions were silently destroying revenue &mdash; not because salespeople were doing anything wrong, but because there was no system in place to prove they weren&rsquo;t.</p>
                     <p>Disputes would surface weeks after a job. Customer complaints went unanswered because there was no recorded evidence, no timestamped confirmations, and no audit trail. The business was being eroded by a problem nobody was actively solving &mdash; and the ICO was starting to pay attention.</p>
-                    <p>So I built the solution myself. The Telecom Verification Protocol is the managed TPV layer I wished existed when I was losing commission to preventable disputes. Every feature ? from independent verification calls to automated T&Cs to recorded consent capture ? was designed to close the exact gaps that telecom sales teams face every day. <a href="about.html">Read the full story &rarr;</a></p>
+                    <p>So I built the solution myself. The Telecom Verification Protocol is the managed TPV layer I wished existed when I was losing commission to preventable disputes. Every feature — from independent verification calls to automated T&Cs to recorded consent capture — was designed to close the exact gaps that telecom sales teams face every day. <a href="about.html">Read the full story &rarr;</a></p>
                     <div class="founder-social">
                         <a href="https://www.linkedin.com/in/andrew-j-72b96a312" target="_blank" rel="noopener noreferrer">
                             &#128279; LinkedIn
@@ -4500,6 +4167,7 @@
                 <div class="footer-col">
                     <h5>Our Services</h5>
                     <ul>
+                        <li><a href="services/index.html">All Services</a></li>
                         <li><a href="third-party-verification.html">TPV Verification</a></li>
                         <li><a href="financial-leakage-audit.html">Financial Leakage Audit</a></li>
                         <li><a href="financial-leakage-audit.html">Free Audit</a></li>

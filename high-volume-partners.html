@@ -60,11 +60,7 @@
         "@type": "Service",
         "name": "High-Volume TPV Verification",
         "description": "High-velocity third-party verification for call centres and large telecom brokerages. Bulk processing with 24-hour turnaround, instant compliance certificates, and bulletproof audit trails.",
-        "provider": {
-            "@type": "Organization",
-            "name": "Telecom Compliance",
-            "url": "https://heimdell-tech-ai.co.uk/"
-        },
+        "provider": { "@id": "https://heimdell-tech-ai.co.uk/#organization" },
         "serviceType": "Third Party Verification (TPV)",
         "areaServed": "GB",
         "audience": {
@@ -92,7 +88,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://heimdell-tech-ai.co.uk/#organization",
-        "name": "Telecom Compliance",
+        "name": "Heimdell Tech Ai Ltd",
         "url": "https://heimdell-tech-ai.co.uk/",
         "telephone": "+44-7418-008279",
         "email": "contact@heimdell-tech-ai.co.uk",
@@ -110,7 +106,6 @@
             "latitude": "53.7587",
             "longitude": "-2.6972"
         },
-        "hasMap": "https://maps.google.com/?cid=YOUR_GOOGLE_CID",
         "founder": {
             "@type": "Person",
             "name": "Andrew James-Smith",
@@ -120,7 +115,13 @@
             "@type": "Country",
             "name": "United Kingdom"
         },
-        "knowsAbout": ["Ofcom General Conditions", "Third Party Verification", "Commission Clawback Prevention", "PECR 2003", "UK GDPR"]
+        "knowsAbout": [
+            "Ofcom General Conditions",
+            "Third Party Verification",
+            "Commission Clawback Prevention",
+            "PECR 2003",
+            "UK GDPR"
+        ]
     }
     </script>
 
@@ -167,7 +168,7 @@
             --green-dark: #059669;
         }
         html { font-size: 16px; scroll-behavior: smooth; }
-        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.7; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.7; text-align: center; }
         .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
         a { color: var(--gold-light); text-decoration: none; }
         a:hover { color: var(--gold); }
@@ -234,6 +235,104 @@
         footer a { color: var(--text-secondary); font-size: 0.85rem; margin: 0 8px; }
         footer a:hover { color: var(--gold); }
     </style>
+
+    <!-- JSON-LD: FAQPage (added) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is outsourcing sales verification cheaper than hiring an in-house compliance team once you're processing thousands of deals a month?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For most high-volume operations, outsourcing verification costs less than building an in-house compliance department once you factor in recruitment, training, supervision, and technology overhead. An in-house team carries fixed costs that don't flex with deal volume, while a managed service like our High-Volume Partner Program is billed per verification credit (from £0.16 at volume), so cost scales directly with what you're actually processing."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How fast can a large batch of sales verifications be turned around?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our High-Volume Partner Program guarantees a 24-business-hour turnaround on verification batches, regardless of volume. A surge of hundreds or thousands of deals in a single day doesn't create a backlog — every deal is verified and certified within one business day so commission isn't left exposed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does outsourcing verification transfer our regulatory responsibility to the verification provider?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No — outsourcing verification does not remove a call centre or brokerage's own regulatory responsibility under Ofcom's General Conditions; it strengthens your ability to meet it. Independent third-party verification creates a defensible, provider-ready audit trail showing you took reasonable steps to ensure compliant sales, which is what protects you if a provider or Ofcom investigates."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can verification capacity scale up or down with our deal volume without renegotiating a contract?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — the High-Volume Partner Program is built to flex with your pipeline, whether you're processing 500 deals one month and 5,000 the next. Because verification is a managed service rather than an in-house team, capacity scales with volume instead of requiring you to hire, train, or stand down compliance staff to match demand."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does bulk pricing work for high-volume verification credits?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Bulk verification credits are priced on a sliding scale, starting from £0.16 per credit at high volume, so the per-deal cost falls as monthly volume rises. This mirrors standard bulk verification pricing elsewhere in the industry, where heavier usage tiers unlock lower unit rates rather than a flat per-call fee."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Will high-volume verification integrate with our existing CRM or dialler, or do we need to change systems?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No new systems are required — compliance certificates and call recordings sync directly into your existing CRM, with no manual uploading or duplicate data entry. This matters at scale because manual handoffs between a verification vendor and internal systems are the biggest source of delay and error once volume climbs into the thousands."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if deal volume spikes unexpectedly, such as during a new campaign launch?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The High-Volume Partner Program is designed to absorb volume spikes without a drop in turnaround, because verification capacity isn't tied to a fixed in-house headcount. This is the practical advantage of a managed verification service over an internal team: capacity can flex by orders of magnitude in weeks, which is much harder to do through recruitment and training for an internal compliance function."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can third-party verification catch a single rogue sales agent inside a large team before it triggers a provider audit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — independent verification calls every customer directly, so a single agent misrepresenting a sale is caught deal-by-deal rather than surfacing only after a pattern shows up in a provider's own audit. Catching mis-selling at the point of sale, before it reaches the provider's billing system, is what stops one rogue agent from becoming a company-wide clawback event."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What's the difference between call-monitoring QA software and full independent verification of every deal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "QA software typically samples a small fraction of calls — most contact centres review only 1-5% of interactions — while independent third-party verification checks every deal before it's submitted. That gap matters at volume: a small QA sample can miss a systematic mis-selling pattern for weeks, whereas verifying 100% of deals catches it in the next batch."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do we still need our own compliance staff once we're doing 10,000+ deals a month?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No — the High-Volume Partner Program is built as a fully managed service specifically so operations at this scale don't need to build an internal compliance department. We act as your outsourced verification function, handling the calls, evidence, and reporting, so you keep the commission without added headcount or software costs."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is verification evidence stored so it can be produced quickly during a provider audit at high volume?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Every verified deal generates an instant, provider-ready compliance certificate with recorded consent, stored directly in your CRM alongside the deal record. At high volume this matters because a provider audit can request evidence for hundreds of contracts at once, and having certificates already filed against each deal avoids a scramble to locate recordings after the fact."
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
 
@@ -261,6 +360,7 @@
             <span class="badge">&#128200; High-Volume Partners</span>
             <h1>Stop Systematic Clawbacks Across Your High-Volume Deal Flow.</h1>
             <p class="subtitle">When you&rsquo;re processing thousands of deals, a single compliance gap is a six-figure liability. We provide high-velocity, independent TPV that keeps your revenue secure and your audit trail bulletproof.</p>
+            <p style="font-size:0.92rem;color:var(--text-secondary);margin-top:12px;">Bulk verification credits run from £0.16 per credit at high volume. <a href="pricing.html" style="color:var(--gold);font-weight:600;">See full pricing &rarr;</a></p>
             <a href="https://calendar.app.google/E9pkh4r8XczvniGCA" target="_blank" rel="noopener noreferrer" class="cta-btn">Request a High-Volume Risk Audit &rarr;</a>
         </div>
     </section>
@@ -377,7 +477,60 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    
+    <!-- FAQ -->
+    <section style="padding:64px 0;">
+        <div class="container" style="max-width:800px;">
+            <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.8rem;text-align:center;margin-bottom:32px;color:var(--text-primary);">Frequently Asked Questions</h2>
+
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Is outsourcing sales verification cheaper than hiring an in-house compliance team once you're processing thousands of deals a month?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">For most high-volume operations, outsourcing verification costs less than building an in-house compliance department once you factor in recruitment, training, supervision, and technology overhead. An in-house team carries fixed costs that don't flex with deal volume, while a managed service like our High-Volume Partner Program is billed per verification credit (from £0.16 at volume), so cost scales directly with what you're actually processing.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">How fast can a large batch of sales verifications be turned around?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Our High-Volume Partner Program guarantees a 24-business-hour turnaround on verification batches, regardless of volume. A surge of hundreds or thousands of deals in a single day doesn't create a backlog — every deal is verified and certified within one business day so commission isn't left exposed.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Does outsourcing verification transfer our regulatory responsibility to the verification provider?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">No — outsourcing verification does not remove a call centre or brokerage's own regulatory responsibility under Ofcom's General Conditions; it strengthens your ability to meet it. Independent third-party verification creates a defensible, provider-ready audit trail showing you took reasonable steps to ensure compliant sales, which is what protects you if a provider or Ofcom investigates.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Can verification capacity scale up or down with our deal volume without renegotiating a contract?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Yes — the High-Volume Partner Program is built to flex with your pipeline, whether you're processing 500 deals one month and 5,000 the next. Because verification is a managed service rather than an in-house team, capacity scales with volume instead of requiring you to hire, train, or stand down compliance staff to match demand.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">How does bulk pricing work for high-volume verification credits?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Bulk verification credits are priced on a sliding scale, starting from £0.16 per credit at high volume, so the per-deal cost falls as monthly volume rises. This mirrors standard bulk verification pricing elsewhere in the industry, where heavier usage tiers unlock lower unit rates rather than a flat per-call fee.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Will high-volume verification integrate with our existing CRM or dialler, or do we need to change systems?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">No new systems are required — compliance certificates and call recordings sync directly into your existing CRM, with no manual uploading or duplicate data entry. This matters at scale because manual handoffs between a verification vendor and internal systems are the biggest source of delay and error once volume climbs into the thousands.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">What happens if deal volume spikes unexpectedly, such as during a new campaign launch?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">The High-Volume Partner Program is designed to absorb volume spikes without a drop in turnaround, because verification capacity isn't tied to a fixed in-house headcount. This is the practical advantage of a managed verification service over an internal team: capacity can flex by orders of magnitude in weeks, which is much harder to do through recruitment and training for an internal compliance function.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Can third-party verification catch a single rogue sales agent inside a large team before it triggers a provider audit?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Yes — independent verification calls every customer directly, so a single agent misrepresenting a sale is caught deal-by-deal rather than surfacing only after a pattern shows up in a provider's own audit. Catching mis-selling at the point of sale, before it reaches the provider's billing system, is what stops one rogue agent from becoming a company-wide clawback event.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">What's the difference between call-monitoring QA software and full independent verification of every deal?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">QA software typically samples a small fraction of calls — most contact centres review only 1-5% of interactions — while independent third-party verification checks every deal before it's submitted. That gap matters at volume: a small QA sample can miss a systematic mis-selling pattern for weeks, whereas verifying 100% of deals catches it in the next batch.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">Do we still need our own compliance staff once we're doing 10,000+ deals a month?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">No — the High-Volume Partner Program is built as a fully managed service specifically so operations at this scale don't need to build an internal compliance department. We act as your outsourced verification function, handling the calls, evidence, and reporting, so you keep the commission without added headcount or software costs.</p>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;margin-bottom:20px;text-align:left;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:10px;">How is verification evidence stored so it can be produced quickly during a provider audit at high volume?</h3>
+                    <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;line-height:1.7;">Every verified deal generates an instant, provider-ready compliance certificate with recorded consent, stored directly in your CRM alongside the deal record. At high volume this matters because a provider audit can request evidence for hundreds of contracts at once, and having certificates already filed against each deal avoids a scramble to locate recordings after the fact.</p>
+                </div>
+        </div>
+    </section>
+
+<footer>
         <div class="container">
             <p>&copy; 2026 Heimdell Tech Ai Ltd. Registered in England &amp; Wales. Company No. <a href="https://find-and-update.company-information.service.gov.uk/company/16478408" target="_blank" rel="noopener noreferrer">16478408</a>. Registered Office: 11 Lower Croft, Preston, PR1 9DJ. ICO Reg: <a href="https://ico.org.uk/ESDWebPages/Entry/ZC079121" target="_blank" rel="noopener noreferrer">ZC079121</a>.</p>
             <p>

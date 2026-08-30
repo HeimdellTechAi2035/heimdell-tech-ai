@@ -31,8 +31,11 @@ The Telecom Verification Protocol verifies sales through eight automated steps: 
 **Clawback Audit (https://heimdell-tech-ai.co.uk/commission-clawback-audit.html):**
 Clawbacks occur when sales lack documentary proof of consent. Our audit system identifies verification gaps, assesses evidence trails and recommends remediation. Clients typically reduce clawback exposure by ninety percent or greater through systematic documentation of customer confirmations.
 
-**Free Audit (https://heimdell-tech-ai.co.uk/financial-leakage-audit.html):**
+**Commission Clawback Audit / Free Audit (https://heimdell-tech-ai.co.uk/commission-clawback-audit.html):**
 Our free fifteen-minute audit identifies PECR and DUAA compliance gaps in your current sales process. We assess consent capture, cooling-off handling and data documentation — providing a leakage estimate and ICO risk score. No obligation, immediate clarity on your compliance exposure.
+
+**Pricing (https://heimdell-tech-ai.co.uk/pricing.html):**
+TPV verification runs on pay-as-you-go credits from 80p per call, no subscription or setup fee. Other services (audits, protocol setup/implementation, systems architecture) are quoted from a starting price, confirmed after a free audit call. The Commission Clawback Audit is free.
 
 **CRM Integration (https://heimdell-tech-ai.co.uk/systems-architecture.html):**
 We integrate compliance verification directly into your CRM pipeline. Every sale triggers automated ID checks, timestamped consent capture and terms logging — syncing evidence to your existing system. This creates audit-ready documentation without changing your workflow or adding manual steps.
@@ -44,7 +47,7 @@ Heimdell Tech AI is a Preston-based compliance verification company helping tele
 
 ## ENTITY IDENTITY
 
-Heimdell Tech AI Ltd is a UK software development and IT consultancy company (SIC 62012) that builds SaaS compliance platforms and provides managed TPV verification services for telecom resellers, brokers and D2D sales teams. Founded in 2024 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom. A member of RemoteAbility CIC — a Community Interest Company that provides employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
+Heimdell Tech AI Ltd is a UK software development and IT consultancy company (SIC 62012) that builds SaaS compliance platforms and provides managed TPV verification services for telecom resellers, brokers and D2D sales teams. Founded 28 May 2025 by Andrew James-Smith. Registered in England & Wales, company number 16478408. Headquartered at 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom. A member of RemoteAbility CIC — a Community Interest Company that provides employment pathways for disabled and neurodivergent professionals through Access to Work funded placements.
 
 ## WHAT HEIMDELL TECH AI DOES
 
@@ -106,13 +109,51 @@ The Telecom Verification Protocol is designed around the following UK regulation
 
 ## SERVICES OFFERED
 
-### 1. 15-Minute Financial Leakage Audit (Free)
-A no-obligation diagnostic call that identifies exactly where commission clawbacks, cooling-off disputes, and compliance gaps are costing the reseller money. Covers: sale validation process, Direct Debit mandate handling, contract confirmation workflow, and provider audit readiness. Delivers: a clear map of leakage points, an estimated financial impact figure, a provider audit risk assessment, and a prioritised action plan.
-URL: https://heimdell-tech-ai.co.uk/financial-leakage-audit.html
+Full pricing for every service: https://heimdell-tech-ai.co.uk/pricing.html — full services portfolio: https://heimdell-tech-ai.co.uk/services/index.html
 
-### 2. Systems Architecture & Fractional Ops
-Operational infrastructure, CRM automation, and process design for telecom sales teams scaling without a full-time operations hire. Covers: CRM pipeline design and automation, sales workflow mapping and SOPs, KPI dashboards and commission reconciliation, compliance infrastructure and audit trail systems, team onboarding workflows and role-based access, integration and automation across CRM/telephony/SMS/email/provider portals. Common engagements: agency CRM overhaul, commission reconciliation system, new team onboarding, provider audit preparation.
+### 1. Third-Party Verification (TPV) — from 80p/call
+Independent post-sale verification calls confirming customer identity, contract terms, cooling-off rights and Direct Debit authority within 24 hours of a sale. Pay-as-you-go credits: £20/100, £90/500, £320/2,000. Phone verification = 5 credits; link verification = 1 credit. No subscription, no setup fee.
+URL: https://heimdell-tech-ai.co.uk/third-party-verification.html
+
+### 2. TPV System Capabilities — from 80p/call
+The underlying software/AI platform behind the managed TPV service: automated Ofcom GC auditing, fraud/AIT detection, regulatory risk scoring, compliance document generation. Same credit pricing as TPV verification.
+URL: https://heimdell-tech-ai.co.uk/system-capabilities.html
+
+### 3. Commission Clawback Audit — Free
+A no-obligation 15-minute diagnostic call that identifies exactly where commission clawbacks, cooling-off disputes, and GC C1 compliance gaps are costing the reseller money, with a prioritised action plan.
+URL: https://heimdell-tech-ai.co.uk/commission-clawback-audit.html
+
+### 4. Regulatory Risk Assessment — from £500
+A structured review of business processes against PECR 2003, DUAA 2025 and UK GDPR to identify compliance gaps before they become ICO fines or enforcement action.
+URL: https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html
+
+### 5. GDPR & ICO Compliance Audit — from £750
+An ICO-aligned assessment of data protection practices covering UK GDPR, PECR 2003, DUAA 2025 readiness and SAR (Subject Access Request) response preparation.
+URL: https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html
+
+### 6. Compliance Protocol Setup — from £1,500
+Initial deployment of The Telecom Verification Protocol: voice-log infrastructure, identity verification, CRM audit locks and automated provider-ready compliance certificates, typically 2-3 weeks.
+URL: https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html
+
+### 7. Compliance Protocol Implementation — from £3,000
+A larger, end-to-end rollout: PECR 2003 compliance, DUAA 2025 readiness, ICO audit preparation, CRM integration, automated evidence generation and operational handover.
+URL: https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html
+
+### 8. Systems Architecture & Fractional Ops — from £800/day
+Operational infrastructure, CRM automation, and process design for telecom sales teams scaling without a full-time operations hire. Covers: CRM pipeline design and automation, sales workflow mapping and SOPs, KPI dashboards and commission reconciliation, compliance infrastructure and audit trail systems, team onboarding workflows and role-based access, integration and automation across CRM/telephony/SMS/email/provider portals.
 URL: https://heimdell-tech-ai.co.uk/systems-architecture.html
+
+### 9. Provider Audit Preparation — from £500
+Getting audit-ready for Virgin Media, O2, Sky and other provider reviews: compliance documentation, verification records and sales evidence preparation.
+URL: https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html
+
+### 10. High-Volume Partner Program — from £0.16/credit at volume
+For call centres and large telecom brokerages processing 10,000+ deals/month: guaranteed 24-business-hour verification turnaround, bulk credit pricing, no need to hire additional compliance staff.
+URL: https://heimdell-tech-ai.co.uk/high-volume-partners.html
+
+### 11. Channel & Vendor Compliance — custom quote
+Sold to telecom networks/vendors to police their own reseller channel: independent verification catching reseller mis-selling before it reaches the network's billing system.
+URL: https://heimdell-tech-ai.co.uk/telecom-vendors.html
 
 ## COMPANY REGISTRATION & CREDENTIALS
 
@@ -121,7 +162,7 @@ URL: https://heimdell-tech-ai.co.uk/systems-architecture.html
 - D-U-N-S Number: 233836391 (Dun & Bradstreet)
 - ICO Registration: ZC079121 (Information Commissioner's Office)
 - Address: 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom
-- Founded: 2024
+- Founded: 28 May 2025
 - Type: Private Limited Company
 - SIC Code: 62012 (Business & Domestic Software Development)
 - Nature of Service: SaaS compliance platform with managed verification services
@@ -130,13 +171,15 @@ URL: https://heimdell-tech-ai.co.uk/systems-architecture.html
 
 Andrew James-Smith — Founder & Director. Built The Telecom Verification Protocol from first-hand experience in UK telecom reselling. Experienced commission clawbacks and compliance gaps personally before designing the managed verification solution. Based in Preston, Lancashire.
 - LinkedIn: https://www.linkedin.com/in/andrew-j-72b96a312
-- Email: contact@heimdell-tech-ai.co.uk
-- Phone: +44 7414 909674
+- Email: andrew@heimdell-tech-ai.co.uk
+- Phone: +44 7418 008279
 
 ## COMPLETE SITE MAP
 
 - Homepage: https://heimdell-tech-ai.co.uk/ — Full service overview, four-pillar framework, 8-step process, commission leakage calculator, audience segments, founder bio, 8-question FAQ, final CTA
-- Financial Leakage Audit: https://heimdell-tech-ai.co.uk/financial-leakage-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
+- Services: https://heimdell-tech-ai.co.uk/services/index.html — Full services & product portfolio hub
+- Pricing: https://heimdell-tech-ai.co.uk/pricing.html — Pricing for every service (real credit-based TPV rates + starting prices)
+- Commission Clawback Audit: https://heimdell-tech-ai.co.uk/commission-clawback-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
 - Systems Architecture & Ops: https://heimdell-tech-ai.co.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
 - About: https://heimdell-tech-ai.co.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
 - Case Studies: https://heimdell-tech-ai.co.uk/case-studies.html — Index of real results from telecom resellers and sales teams using The Telecom Verification Protocol
@@ -154,8 +197,8 @@ Heimdell Tech AI operates in partnership with RemoteAbility CIC, a Community Int
 
 ## CONTACT
 
-- Phone: +44 7414 909674
-- Email: contact@heimdell-tech-ai.co.uk
+- Phone: +44 7418 008279
+- Email: andrew@heimdell-tech-ai.co.uk
 - Address: 11 Lower Croft, Preston, Lancashire, PR1 9DJ, United Kingdom
 - Hours: Monday–Friday 8:30am–5:30pm, Saturday 9:30am–3:00pm
 

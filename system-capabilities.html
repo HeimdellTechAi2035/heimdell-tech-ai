@@ -73,33 +73,10 @@
             "name": "Telecompliance AI System Documentation",
             "url": "https://heimdell-tech-ai.co.uk/system-capabilities.html"
         },
-        "offers": [
-            {
-                "@type": "Offer",
-                "name": "Setup Fee",
-                "price": "1000",
-                "priceCurrency": "GBP",
-                "description": "One-time implementation and integration fee"
-            },
-            {
-                "@type": "Offer",
-                "name": "Monthly Retainer",
-                "price": "800",
-                "priceCurrency": "GBP",
-                "priceSpecification": {
-                    "@type": "UnitPriceSpecification",
-                    "price": "800",
-                    "priceCurrency": "GBP",
-                    "unitCode": "MON",
-                    "billingDuration": "P1M"
-                },
-                "description": "Ongoing managed compliance verification service"
-            }
-        ],
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "ratingCount": "12"
+        "offers": {
+            "@type": "Offer",
+            "url": "https://heimdell-tech-ai.co.uk/pricing.html",
+            "description": "Pay-as-you-go verification credits, from 80p per phone verification. No subscription, no setup fee."
         },
         "featureList": [
             "Automated Ofcom General Conditions Auditing",
@@ -113,12 +90,7 @@
             "Reduces audit preparation from 20 hours to 5 minutes"
         ],
         "softwareVersion": "2026.1.0",
-        "author": {
-            "@type": "Organization",
-            "name": "Heimdell Tech Ai",
-            "url": "https://heimdell-tech-ai.co.uk/",
-            "legalName": "Heimdell Tech Ai Ltd"
-        }
+        "author": { "@id": "https://heimdell-tech-ai.co.uk/#organization" }
     }
     </script>
 
@@ -209,6 +181,94 @@
                     "@type": "Answer",
                     "text": "Yes. Telecompliance AI implements Human-in-the-Loop (HITL) triggers for high-risk decisions like service suspension, automatically pausing and generating Decision Justification Briefs for human approval. This fulfils Article 22 of the Data Protection Act requirements."
                 }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the verification platform integrate with our CRM or sales software?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — verification requests and results sync with your existing sales workflow rather than requiring a separate standalone tool. Each verification's outcome (confirmed, failed or unreachable) is logged and made available to feed back into your CRM or order system."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is AI-assisted call recording and analysis GDPR and PECR compliant?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — verification calls are recorded on a clear lawful basis (consent and legitimate business interest for compliance and dispute resolution), with the recording purpose disclosed to the customer on the call. Recordings are stored securely, consistent with UK GDPR and PECR requirements for electronic communications."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the system stop a verification recording from being edited or tampered with after the call?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Each recording is locked and time-stamped at the point of capture, with the resulting compliance certificate tied to that specific, unedited recording. This creates a verifiable record that can't be quietly altered after the fact, which is what gives it weight in a provider audit or dispute."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the platform transcribe verification calls automatically?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Verification calls are recorded in full, and the platform can produce a written record of the call alongside the audio to make reviewing evidence faster during an audit or dispute. The audio recording remains the primary evidence; the transcript is a convenience layer on top of it."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How are verification credits tracked and billed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Credits are deducted automatically each time a verification runs — 5 credits for a phone verification, 1 credit for a link verification — with no manual invoicing step. You top up credits as needed (£20/100, £90/500, £320/2,000) and can see usage as verifications are completed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the system check that every required disclosure is actually covered on the call?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — verification calls follow a structured process covering identity confirmation, contract terms, cooling-off rights and Direct Debit authority, so a call isn't marked as verified unless each of those points is addressed. This guards against incomplete or rushed verifications being logged as valid."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What technical metadata does the platform log alongside the call recording?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Alongside the audio recording, the platform logs the call timestamp, duration, and the outcome of each disclosure point covered, all attached to the resulting compliance certificate. This metadata is what makes a single verification record searchable and auditable rather than just an audio file."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the platform support digital or link-based verification as well as phone calls?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — alongside full phone verification, the platform supports a lighter-touch link verification option at 1 credit per use, versus 5 credits for a phone call. This gives resellers a faster option for lower-risk verifications while keeping phone verification as the more thorough method."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is verification data stored securely?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — call recordings, transcripts and compliance certificates are stored securely rather than kept as loose local files, so they remain accessible and intact when needed for a provider audit or dispute months later."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can multiple sales agents or office locations use the platform under one account?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — the platform is built to handle verification requests from multiple agents or sales locations feeding into the same account, with credits shared centrally rather than needing a separate account per agent or office."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens in the system when a verification fails or the customer's answers don't match the contract?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A failed or mismatched verification is logged as such rather than silently discarded, flagging the sale for follow-up instead of letting it pass through as confirmed. That failed-verification record is itself useful evidence — it shows the sale was checked and didn't hold up, rather than never being checked at all."
+                }
             }
         ]
     }
@@ -229,17 +289,19 @@
         "creator": { "@id": "https://heimdell-tech-ai.co.uk/#organization" },
         "copyrightHolder": { "@id": "https://heimdell-tech-ai.co.uk/#organization" }
     }
-        <!-- JSON-LD: LocalBusiness Reference -->
+    </script>
+
+    <!-- JSON-LD: LocalBusiness Reference -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://heimdell-tech-ai.co.uk/#organization",
-        "name": "Telecom Compliance",
+        "name": "Heimdell Tech Ai Ltd",
         "url": "https://heimdell-tech-ai.co.uk/",
         "telephone": "+44-7418-008279",
         "email": "contact@heimdell-tech-ai.co.uk",
-        "priceRange": "��",
+        "priceRange": "££",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "11 Lower Croft",
@@ -253,7 +315,6 @@
             "latitude": "53.7587",
             "longitude": "-2.6972"
         },
-        "hasMap": "https://maps.google.com/?cid=YOUR_GOOGLE_CID",
         "founder": {
             "@type": "Person",
             "name": "Andrew James-Smith",
@@ -263,7 +324,13 @@
             "@type": "Country",
             "name": "United Kingdom"
         },
-        "knowsAbout": ["Ofcom General Conditions", "Third Party Verification", "Commission Clawback Prevention", "PECR 2003", "UK GDPR"]
+        "knowsAbout": [
+            "Ofcom General Conditions",
+            "Third Party Verification",
+            "Commission Clawback Prevention",
+            "PECR 2003",
+            "UK GDPR"
+        ]
     }
     </script>
 
@@ -286,7 +353,7 @@
             --transition: 0.3s ease;
         }
         html { font-size: 16px; scroll-behavior: smooth; }
-        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--dark); color: var(--text-primary); line-height: 1.7; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--dark); color: var(--text-primary); line-height: 1.7; text-align: center; }
         .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
         a { color: var(--gold); text-decoration: none; }
         a:hover { color: var(--gold-light); text-decoration: underline; }
@@ -406,6 +473,7 @@
                 HEIMDELL TECH AI
             </a>
             <div class="nav-links" id="navLinks">
+                <a href="services/index.html">Services</a><a href="pricing.html">Pricing</a>
                 <a href="financial-leakage-audit.html">Leakage Audit</a>
                 <a href="financial-leakage-audit.html">Compliance Protocol</a>
                 <a href="systems-architecture.html">Systems &amp; Ops</a>
@@ -430,7 +498,7 @@
                 <p>Audit prep used to take twenty hours. Now it takes five minutes. Our SaaS compliance platform checks every sale against Ofcom rules. We spot fraud patterns as they happen. We create the documents your provider needs. Fully managed — we handle the complexity so you don't have to.</p>
             </div>
 
-            <p class="atomic-answer" style="font-size:0.88rem;color:rgba(255,255,255,0.75);max-width:680px;margin:0 auto;"><strong>What is The Telecom Verification Protocol?</strong> A SaaS compliance platform with managed third-party verification (TPV) for telecom resellers, built by Heimdell Tech Ai Ltd (Preston, Lancashire). We handle Ofcom reporting, fraud detection and risk audits on your behalf. It costs eight hundred pounds a month with a one thousand pound setup fee. Simple to use. Nothing to maintain.</p>
+            <p class="atomic-answer" style="font-size:0.88rem;color:rgba(255,255,255,0.75);max-width:680px;margin:0 auto;"><strong>What is The Telecom Verification Protocol?</strong> A SaaS compliance platform with managed third-party verification (TPV) for telecom resellers, built by Heimdell Tech Ai Ltd (Preston, Lancashire). We handle Ofcom reporting, fraud detection and risk audits on your behalf. It runs on pay-as-you-go verification credits, from 80p per phone verification, with no subscription or setup fee. Simple to use. Nothing to maintain.</p>
         </div>
     </section>
 
@@ -480,11 +548,11 @@
             <picture>
                 <source srcset="images/eight-step-compliance-verification-process-silver-protocol.webp" type="image/webp">
                 <img src="images/eight-step-compliance-verification-process-silver-protocol.png" 
-                     alt="Eight-step compliance verification process flowchart showing how The Telecom Verification Protocol validates customer identity, captures consent, confirms contract terms, documents cooling-off rights, verifies payment mandate, logs CRM data, generates audit certificates and monitors for compliance gaps � designed for telecom resellers and D2D sales teams" 
+                     alt="Eight-step compliance verification process flowchart showing how The Telecom Verification Protocol validates customer identity, captures consent, confirms contract terms, documents cooling-off rights, verifies payment mandate, logs CRM data, generates audit certificates and monitors for compliance gaps — designed for telecom resellers and D2D sales teams" 
                      width="1200" height="800" loading="lazy" 
                      style="width:100%;max-width:800px;height:auto;border-radius:16px;border:1px solid var(--dark-border);">
             </picture>
-            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:16px;">The Eight-Step Verification Process � The Telecom Verification Protocol</p>
+            <p style="color:var(--text-muted);font-size:0.85rem;margin-top:16px;">The Eight-Step Verification Process — The Telecom Verification Protocol</p>
         </div>
     </section>
 
@@ -658,20 +726,21 @@
     <section class="section">
         <div class="container" style="text-align:center;">
             <h2>Pricing</h2>
-            <p style="color:var(--text-secondary);margin-bottom:32px;">Transparent pricing with measurable ROI. Reduces audit prep from 20 hours to 5 minutes.</p>
+            <p style="color:var(--text-secondary);margin-bottom:32px;">Pay-as-you-go verification credits. No subscription, no setup fee. Reduces audit prep from 20 hours to 5 minutes.</p>
 
             <div class="cards-grid" style="max-width:600px;margin:0 auto;">
                 <div class="card" style="text-align:center;">
-                    <h3>Setup Fee</h3>
-                    <div style="font-size:2.2rem;font-weight:700;color:var(--gold);margin:16px 0;">&pound;1,000</div>
-                    <p>One-time implementation, integration, and configuration</p>
+                    <h3>Phone Verification</h3>
+                    <div style="font-size:2.2rem;font-weight:700;color:var(--gold);margin:16px 0;">from 80p<span style="font-size:1rem;color:var(--text-muted);">/call</span></div>
+                    <p>5 credits per call. Bulk packs from £0.16 per credit &mdash; no monthly minimum.</p>
                 </div>
                 <div class="card" style="text-align:center;">
-                    <h3>Monthly Retainer</h3>
-                    <div style="font-size:2.2rem;font-weight:700;color:var(--gold);margin:16px 0;">&pound;800<span style="font-size:1rem;color:var(--text-muted);">/month</span></div>
-                    <p>Ongoing managed compliance, monitoring, and certification</p>
+                    <h3>Link Verification</h3>
+                    <div style="font-size:2.2rem;font-weight:700;color:var(--gold);margin:16px 0;">from 16p<span style="font-size:1rem;color:var(--text-muted);">/link</span></div>
+                    <p>1 credit per link. Same credit packs, same rates, no separate setup.</p>
                 </div>
             </div>
+            <p style="margin-top:24px;"><a href="pricing.html" style="color:var(--gold);font-weight:600;">See full pricing &rarr;</a></p>
         </div>
     </section>
 
@@ -743,6 +812,106 @@
                         </div>
                     </div>
                 </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>Does the verification platform integrate with our CRM or sales software?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes — verification requests and results sync with your existing sales workflow rather than requiring a separate standalone tool. Each verification's outcome (confirmed, failed or unreachable) is logged and made available to feed back into your CRM or order system.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>Is AI-assisted call recording and analysis GDPR and PECR compliant?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes — verification calls are recorded on a clear lawful basis (consent and legitimate business interest for compliance and dispute resolution), with the recording purpose disclosed to the customer on the call. Recordings are stored securely, consistent with UK GDPR and PECR requirements for electronic communications.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How does the system stop a verification recording from being edited or tampered with after the call?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Each recording is locked and time-stamped at the point of capture, with the resulting compliance certificate tied to that specific, unedited recording. This creates a verifiable record that can't be quietly altered after the fact, which is what gives it weight in a provider audit or dispute.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>Does the platform transcribe verification calls automatically?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Verification calls are recorded in full, and the platform can produce a written record of the call alongside the audio to make reviewing evidence faster during an audit or dispute. The audio recording remains the primary evidence; the transcript is a convenience layer on top of it.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>How are verification credits tracked and billed?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Credits are deducted automatically each time a verification runs — 5 credits for a phone verification, 1 credit for a link verification — with no manual invoicing step. You top up credits as needed (£20/100, £90/500, £320/2,000) and can see usage as verifications are completed.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>Does the system check that every required disclosure is actually covered on the call?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes — verification calls follow a structured process covering identity confirmation, contract terms, cooling-off rights and Direct Debit authority, so a call isn't marked as verified unless each of those points is addressed. This guards against incomplete or rushed verifications being logged as valid.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>What technical metadata does the platform log alongside the call recording?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Alongside the audio recording, the platform logs the call timestamp, duration, and the outcome of each disclosure point covered, all attached to the resulting compliance certificate. This metadata is what makes a single verification record searchable and auditable rather than just an audio file.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>Does the platform support digital or link-based verification as well as phone calls?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes — alongside full phone verification, the platform supports a lighter-touch link verification option at 1 credit per use, versus 5 credits for a phone call. This gives resellers a faster option for lower-risk verifications while keeping phone verification as the more thorough method.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>Is verification data stored securely?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes — call recordings, transcripts and compliance certificates are stored securely rather than kept as loose local files, so they remain accessible and intact when needed for a provider audit or dispute months later.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>Can multiple sales agents or office locations use the platform under one account?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes — the platform is built to handle verification requests from multiple agents or sales locations feeding into the same account, with credits shared centrally rather than needing a separate account per agent or office.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h4>What happens in the system when a verification fails or the customer's answers don't match the contract?</h4>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">A failed or mismatched verification is logged as such rather than silently discarded, flagging the sale for follow-up instead of letting it pass through as confirmed. That failed-verification record is itself useful evidence — it shows the sale was checked and didn't hold up, rather than never being checked at all.</div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

@@ -1,0 +1,46 @@
+{
+  "name": "Heimdell Tech AI Assistant",
+  "description": "Answers questions about Heimdell Tech Ai Ltd — a UK software development and IT consultancy firm (Preston, Lancashire) whose flagship product is a telecom third-party verification (TPV) compliance platform — covering services, pricing, service areas, expertise and policies.",
+  "version": "1.0.0",
+  "documentationUrl": "https://heimdell-tech-ai.co.uk/llms-full.txt",
+  "iconUrl": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
+  "provider": {
+    "organization": "Heimdell Tech Ai Ltd",
+    "url": "https://heimdell-tech-ai.co.uk/"
+  },
+  "supportedInterfaces": [
+    {
+      "url": "https://heimdell-tech-ai.co.uk/api/a2a/v1",
+      "protocolBinding": "JSONRPC",
+      "protocolVersion": "1.0"
+    }
+  ],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "extendedAgentCard": false
+  },
+  "defaultInputModes": ["text/plain", "application/json"],
+  "defaultOutputModes": ["text/plain", "application/json"],
+  "securitySchemes": {},
+  "security": [],
+  "skills": [
+    {
+      "id": "faq-knowledge",
+      "name": "Company knowledge and FAQ",
+      "description": "Answers factual questions about Heimdell Tech Ai's services, pricing, service areas, expertise and policies. Answers are drawn verbatim from a curated knowledge catalogue and returned with source URLs.",
+      "tags": ["faq", "knowledge-base", "telecom", "compliance", "tpv", "uk", "software-development"],
+      "examples": [
+        "What does Heimdell Tech Ai do?",
+        "How is TPV verification priced?",
+        "Do you cover Scotland and Wales?",
+        "What is the Commission Clawback Audit?",
+        "What regulations does the compliance platform address?"
+      ],
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain", "application/json"]
+    }
+  ],
+  "extensions": [],
+  "signatures": []
+}

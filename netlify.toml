@@ -2,7 +2,25 @@
   publish = "."
   command = ""
 
-# Custom 404
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# --- Guard: publish = "." puts netlify/ inside the published root.
+# Without this, function source would be fetchable as a static file.
+[[redirects]]
+  from = "/netlify/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/node_modules/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+# Custom 404 (must remain last so it doesn't shadow function routes or the guards above)
 [[redirects]]
   from = "/*"
   to = "/404.html"
@@ -28,3 +46,25 @@
   for = "*.css"
   [headers.values]
     Cache-Control = "public, max-age=2592000"
+
+# A2A agent card and knowledge catalogue — public, cacheable, CORS-open for agent clients
+[[headers]]
+  for = "/.well-known/agent-card.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/.well-known/ai-catalog.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/knowledge/*"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=600"
