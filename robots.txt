@@ -1,54 +1,27 @@
 User-agent: *
 Allow: /
+Disallow: /404.html
 
 User-agent: GPTBot
 Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Cohere-ai
-Allow: /
-
 User-agent: OAI-SearchBot
 Allow: /
-
-User-agent: GoogleOther
+User-agent: ChatGPT-User
 Allow: /
-
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
 User-agent: Applebot-Extended
 Allow: /
-
 User-agent: Meta-ExternalAgent
 Allow: /
-
 User-agent: Amazonbot
 Allow: /
 
-User-agent: Bytespider
-Allow: /
-
-User-agent: YouBot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
 Sitemap: https://heimdell-tech-ai.co.uk/sitemap.xml
-
-# LLM training data guidance
-# https://heimdell-tech-ai.co.uk/llms.txt
-LLMs-full: https://heimdell-tech-ai.co.uk/llms-full.txt
-
+# LLM guidance: https://heimdell-tech-ai.co.uk/llms.txt and https://heimdell-tech-ai.co.uk/llms-full.txt
