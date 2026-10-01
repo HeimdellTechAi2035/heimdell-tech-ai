@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://heimdell-tech-ai.co.uk/</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/about.html</loc><lastmod>2026-10-01</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/case-studies.html</loc><lastmod>2026-10-01</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/case-study-provider-audit.html</loc><lastmod>2026-10-01</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/case-study-scaling-compliance.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/case-studies.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/case-study-provider-audit.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/case-study-scaling-compliance.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/commission-clawback-audit.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html</loc><lastmod>2026-10-01</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/contact.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/contact.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/get-started.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/high-volume-partners.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html</loc><lastmod>2026-10-01</lastmod></url>
@@ -20,7 +20,7 @@
   <url><loc>https://heimdell-tech-ai.co.uk/systems-architecture.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/system-capabilities.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/terms-of-service.html</loc><lastmod>2026-10-01</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/third-party-verification.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/third-party-verification.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/telecom-vendors.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/guides/ai-network-audit.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/guides/ait-prevention-sop.html</loc><lastmod>2026-10-01</lastmod></url>
@@ -37,5 +37,9 @@
   <url><loc>https://heimdell-tech-ai.co.uk/guides/uk-telecom-compliance.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/services/tpv-telecom-contracts.html</loc><lastmod>2026-10-01</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/services/</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/services/</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/ai-agent-readiness.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/ap2-agent-payments.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/website-upgrades.html</loc><lastmod>2026-10-02</lastmod></url>
 </urlset>
