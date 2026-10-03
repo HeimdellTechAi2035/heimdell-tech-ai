@@ -9,8 +9,8 @@
   "lastUpdated": "2026-10-03",
   "source": "https://heimdell-tech-ai.co.uk/pricing.html",
   "notes": [
-    "Starting prices; exact pricing is confirmed after a free audit call.",
-    "AI agent and website work is custom / bespoke and quoted per project.",
+    "Starting prices; exact pricing is confirmed after a free call.",
+    "Every project is scoped and quoted individually.",
     "TPV credits do not expire; there is no subscription, setup fee or monthly minimum."
   ],
   "services": [
@@ -28,14 +28,45 @@
       }
     },
     {
-      "id": "ai-agent-readiness",
-      "name": "AI agent readiness: A2A, AP2, UCP, MCP, Knowledge Catalog",
+      "id": "ai-agent-readiness-review",
+      "name": "AI agent readiness review",
       "category": "ai-agents-and-websites",
       "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
-      "description": "Implementation of the standards AI agents use. Every project is scoped and quoted individually.",
+      "description": "Scan results explained, with a prioritised fix plan.",
       "price": {
-        "type": "custom",
-        "display": "Custom quote"
+        "type": "from",
+        "amount": 500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £500"
+      }
+    },
+    {
+      "id": "ucp-readiness",
+      "name": "UCP (Universal Commerce Protocol) readiness",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html",
+      "description": "UCP profile check, product data quality and checkout readiness for AI shopping agents.",
+      "price": {
+        "type": "from",
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £1,500"
+      }
+    },
+    {
+      "id": "knowledge-catalog-readiness",
+      "name": "Knowledge Catalog and business data readiness",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html",
+      "description": "Organising and describing business data for Google Cloud Knowledge Catalog and AI agent use.",
+      "price": {
+        "type": "from",
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £1,500"
       }
     },
     {
@@ -45,8 +76,53 @@
       "url": "https://heimdell-tech-ai.co.uk/website-upgrades.html",
       "description": "Structured data, llms.txt, speed and clear pricing so search and AI agents understand your site.",
       "price": {
-        "type": "custom",
-        "display": "Custom quote"
+        "type": "from",
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £1,500"
+      }
+    },
+    {
+      "id": "mcp-servers",
+      "name": "MCP (Model Context Protocol) server",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html",
+      "description": "A scoped, permissioned server that lets AI assistants use your booking, product or knowledge systems safely.",
+      "price": {
+        "type": "from",
+        "amount": 2000,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £2,000"
+      }
+    },
+    {
+      "id": "a2a-implementation",
+      "name": "A2A (Agent2Agent) implementation",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html",
+      "description": "Agent Card, secure endpoint and booking integration so AI agents can discover and book your business.",
+      "price": {
+        "type": "from",
+        "amount": 2500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £2,500"
+      }
+    },
+    {
+      "id": "ap2-agent-payments",
+      "name": "AP2 (Agent Payments Protocol) implementation",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html",
+      "description": "Accept payments from AI agents with verifiable proof of what each customer authorised.",
+      "price": {
+        "type": "from",
+        "amount": 4000,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £4,000"
       }
     },
     {

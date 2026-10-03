@@ -99,42 +99,42 @@
       "id": "ai-agent-readiness",
       "name": "AI Agent Readiness",
       "summary": "A free scan and then fixes to the structured data, product information and policies AI agents rely on to find, trust and buy from a business.",
-      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "Review from £500; implementing a standard from £1,500 to £4,000. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html"
     },
     {
       "id": "a2a-implementation",
       "name": "A2A (Agent2Agent) Protocol Implementation",
       "summary": "Agent Card, secure endpoint and booking integration so AI agents can discover and book a business.",
-      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "From £2,500, quoted per project. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html"
     },
     {
       "id": "ap2-agent-payments",
       "name": "AP2 (Agent Payments Protocol) Implementation",
       "summary": "Accept payments from AI agents with verifiable proof of what each customer authorised.",
-      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "From £4,000, quoted per project. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html"
     },
     {
       "id": "ucp-readiness",
       "name": "UCP (Universal Commerce Protocol) Readiness",
       "summary": "Profile check, product data quality and checkout readiness so AI shopping agents can find and buy from an online shop.",
-      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "From £1,500, quoted per project. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html"
     },
     {
       "id": "mcp-servers",
       "name": "MCP (Model Context Protocol) Servers",
       "summary": "Scoped, permissioned MCP servers that let AI assistants use a business's booking, product or knowledge systems safely.",
-      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "From £2,000, quoted per project. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html"
     },
     {
       "id": "knowledge-catalog-readiness",
       "name": "Knowledge Catalog and Business Data Readiness",
       "summary": "Organising, describing and governing business data for Google Cloud Knowledge Catalog and AI agent use.",
-      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "From £1,500, quoted per project. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html"
     },
     {
@@ -239,7 +239,7 @@
     {
       "id": "pricing-overview",
       "question": "How much does Heimdell Tech Ai charge?",
-      "answer": "AI agent-readiness scan: free. Commission clawback audit (15 minutes): free. TPV phone verification: from 80p per verification, paid as credits (£20 for 100 credits, £90 for 500, £320 for 2,000; a phone verification uses 5 credits, a link verification 1; no subscription, setup fee or minimum). Provider audit preparation and regulatory risk assessment: from £500. GDPR and ICO compliance audit: from £750. Compliance protocol setup: from £1,500. Compliance protocol implementation: from £3,000. Systems architecture and fractional ops: from £800 per day. High-volume partner programme: from £0.16 per credit. AI agent readiness (A2A, AP2, UCP, MCP, Knowledge Catalog), website upgrades and channel and vendor compliance: custom quote. These are starting prices; exact pricing is confirmed after a free audit call.",
+      "answer": "AI agent-readiness scan: free. AI agent readiness review: from £500. UCP readiness and Knowledge Catalog readiness: from £1,500. Website upgrades: from £1,500. MCP server: from £2,000. A2A implementation: from £2,500. AP2 agent payments: from £4,000. Commission clawback audit (15 minutes): free. TPV phone verification: from 80p per verification, paid as credits (£20 for 100 credits, £90 for 500, £320 for 2,000; a phone verification uses 5 credits, a link verification 1; no subscription, setup fee or minimum). Provider audit preparation and regulatory risk assessment: from £500. GDPR and ICO compliance audit: from £750. Compliance protocol setup: from £1,500. Compliance protocol implementation: from £3,000. Systems architecture and fractional ops: from £800 per day. High-volume partner programme: from £0.16 per credit. Channel and vendor compliance: custom quote. These are starting prices; every project is scoped and quoted after a free call.",
       "tags": [
         "pricing",
         "prices",
@@ -274,6 +274,115 @@
         "price feed",
         "pricing api",
         "prices for AI agents"
+      ]
+    },
+    {
+      "id": "pricing-a2a",
+      "question": "How much does an A2A implementation cost?",
+      "answer": "An A2A implementation starts from £2,500. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "pricing",
+        "ai-agents",
+        "quote"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+      "aliases": [
+        "cost of A2A",
+        "A2A price",
+        "agent2agent pricing"
+      ]
+    },
+    {
+      "id": "pricing-ap2",
+      "question": "How much does AP2 agent payments cost?",
+      "answer": "AP2 agent payments start from £4,000. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "pricing",
+        "ai-agents",
+        "quote"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+      "aliases": [
+        "cost of AP2",
+        "AP2 price",
+        "agent payments pricing"
+      ]
+    },
+    {
+      "id": "pricing-ucp",
+      "question": "How much does UCP readiness cost?",
+      "answer": "UCP readiness starts from £1,500. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "pricing",
+        "ai-agents",
+        "quote"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+      "aliases": [
+        "cost of UCP",
+        "UCP price",
+        "universal commerce protocol pricing"
+      ]
+    },
+    {
+      "id": "pricing-mcp",
+      "question": "How much does an MCP server cost?",
+      "answer": "An MCP server starts from £2,000. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "pricing",
+        "ai-agents",
+        "quote"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+      "aliases": [
+        "cost of MCP",
+        "MCP price",
+        "model context protocol pricing"
+      ]
+    },
+    {
+      "id": "pricing-knowledge-catalog",
+      "question": "How much does Knowledge Catalog readiness cost?",
+      "answer": "Knowledge Catalog and business data readiness starts from £1,500. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "pricing",
+        "ai-agents",
+        "quote"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+      "aliases": [
+        "cost of knowledge catalog",
+        "knowledge catalog price"
+      ]
+    },
+    {
+      "id": "pricing-website-upgrades",
+      "question": "How much does a website upgrade cost?",
+      "answer": "Website upgrades for SEO, AI search and AI agents start from £1,500. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "pricing",
+        "ai-agents",
+        "quote"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+      "aliases": [
+        "website upgrade price",
+        "cost of website upgrades"
+      ]
+    },
+    {
+      "id": "pricing-readiness-review",
+      "question": "How much does an AI agent readiness review cost?",
+      "answer": "An AI agent readiness review starts from £500, and the scan itself is free. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "pricing",
+        "ai-agents",
+        "quote"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+      "aliases": [
+        "agent readiness review price",
+        "readiness review cost"
       ]
     },
     {
@@ -350,7 +459,7 @@
     {
       "id": "ai-agent-readiness-cost",
       "question": "How much does AI agent readiness cost?",
-      "answer": "The scan is free. Implementation work is custom and bespoke: every project is scoped and quoted individually, so there is no fixed published price. A quote can be requested at heimdell-tech-ai.co.uk/contact.html.",
+      "answer": "The scan is free. An AI agent readiness review starts from £500, and implementing a standard starts from £1,500 (UCP, Knowledge Catalog), £2,000 (MCP), £2,500 (A2A) or £4,000 (AP2). Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. A quote can be requested at heimdell-tech-ai.co.uk/contact.html.",
       "tags": [
         "ai-agent-readiness",
         "pricing",

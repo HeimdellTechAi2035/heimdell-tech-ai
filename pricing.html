@@ -99,52 +99,60 @@
 
     <!-- JSON-LD: FAQPage — Pricing -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "How much does TPV verification cost?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "TPV phone verification costs from 80p per call, paid as credits with no subscription or setup fee. A phone verification uses 5 credits; credit packs run from £20 for 100 credits (£1.00 per call) down to £320 for 2,000 credits (80p per call). Link verification costs 1 credit."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is there a monthly fee or subscription?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. TPV verification is pay-as-you-go — you buy a credit pack and use it whenever you need it, with no monthly minimum, no subscription and no setup fee."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the commission clawback audit really free?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. The 15-minute commission clawback audit is free, with no obligation to purchase anything afterwards."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is compliance protocol setup and implementation priced?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Compliance protocol setup starts from £1,500 as a one-off project fee. A larger, end-to-end compliance protocol implementation — covering CRM integration and automated evidence trails — starts from £3,000. Exact pricing depends on scope and is confirmed after a free audit call."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do you charge for high-volume or channel partner programmes?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "High-volume partner and channel/vendor compliance programmes are quoted individually and typically run on the same credit model at bulk rates from £0.16 per credit, adjusted for volume and network size."
-                }
-            }
-        ]
+      "@type": "Question",
+      "name": "How much do the AI agent and website services cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The free agent-readiness scan costs nothing. An AI agent readiness review starts from £500. Implementing a standard starts from £1,500 (UCP readiness, Knowledge Catalog readiness), £2,000 (MCP server), £2,500 (A2A) or £4,000 (AP2). Website upgrades start from £1,500. Every project is scoped and quoted individually after a free call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does TPV verification cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TPV phone verification costs from 80p per call, paid as credits with no subscription or setup fee. A phone verification uses 5 credits; credit packs run from £20 for 100 credits (£1.00 per call) down to £320 for 2,000 credits (80p per call). Link verification costs 1 credit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a monthly fee or subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. TPV verification is pay-as-you-go — you buy a credit pack and use it whenever you need it, with no monthly minimum, no subscription and no setup fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the commission clawback audit really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The 15-minute commission clawback audit is free, with no obligation to purchase anything afterwards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is compliance protocol setup and implementation priced?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Compliance protocol setup starts from £1,500 as a one-off project fee. A larger, end-to-end compliance protocol implementation — covering CRM integration and automated evidence trails — starts from £3,000. Exact pricing depends on scope and is confirmed after a free audit call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you charge for high-volume or channel partner programmes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High-volume partner and channel/vendor compliance programmes are quoted individually and typically run on the same credit model at bulk rates from £0.16 per credit, adjusted for volume and network size."
+      }
     }
+  ]
+}
     </script>
 
     <style>
@@ -285,6 +293,33 @@
 
     <hr class="divider">
 
+    <section class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">AI Agents &amp; Websites</span>
+                <h2>Starting prices for AI agent readiness</h2>
+                <p>These are starting prices for one-off projects. Each is scoped and quoted individually after a free call, because the final price depends on your systems and what you need.</p>
+            </div>
+            <div class="table-wrap">
+                <table class="pricing-table">
+                    <thead>
+                        <tr><th>Service</th><th>From</th><th></th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>AI agent-readiness scan</td><td class="price-cell">Free</td><td><a href="/#agentready-scan">Details &rarr;</a></td></tr>
+                        <tr><td>AI agent readiness review</td><td class="price-cell">from &pound;500</td><td><a href="ai-agent-readiness.html">Details &rarr;</a></td></tr>
+                        <tr><td>UCP (Universal Commerce Protocol) readiness</td><td class="price-cell">from &pound;1,500</td><td><a href="ucp-universal-commerce-protocol.html">Details &rarr;</a></td></tr>
+                        <tr><td>Knowledge Catalog and business data readiness</td><td class="price-cell">from &pound;1,500</td><td><a href="knowledge-catalog-readiness.html">Details &rarr;</a></td></tr>
+                        <tr><td>Website upgrades for SEO, AI search and agents</td><td class="price-cell">from &pound;1,500</td><td><a href="website-upgrades.html">Details &rarr;</a></td></tr>
+                        <tr><td>MCP (Model Context Protocol) server</td><td class="price-cell">from &pound;2,000</td><td><a href="mcp-model-context-protocol.html">Details &rarr;</a></td></tr>
+                        <tr><td>A2A (Agent2Agent) implementation</td><td class="price-cell">from &pound;2,500</td><td><a href="a2a-protocol-implementation.html">Details &rarr;</a></td></tr>
+                        <tr><td>AP2 (Agent Payments Protocol) implementation</td><td class="price-cell">from &pound;4,000</td><td><a href="ap2-agent-payments.html">Details &rarr;</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <hr class="divider">
     <section class="section" style="background:var(--dark-surface);">
         <div class="container">
             <div class="section-head">
@@ -319,6 +354,11 @@
     <section class="section" style="max-width:800px;margin:0 auto;">
         <div class="container" style="max-width:800px;">
             <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.6rem;margin-bottom:32px;">Pricing FAQs</h2>
+
+            <div style="margin-bottom:24px;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;text-align:left;">
+                <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">How much do the AI agent and website services cost?</h3>
+                <p style="color:var(--text-secondary);margin:0;font-size:0.95rem;">The free agent-readiness scan costs nothing. An AI agent readiness review starts from &pound;500. Implementing a standard starts from &pound;1,500 (UCP readiness, Knowledge Catalog readiness), &pound;2,000 (MCP server), &pound;2,500 (A2A) or &pound;4,000 (AP2). Website upgrades start from &pound;1,500. Every project is scoped and quoted individually after a free call.</p>
+            </div>
 
             <div style="margin-bottom:24px;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:12px;padding:24px;text-align:left;">
                 <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.05rem;color:var(--text-primary);margin-bottom:12px;">How much does TPV verification cost?</h3>
