@@ -1,18 +1,23 @@
 # Heimdell Tech Ai
 
-> Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025 by Andrew James-Smith. It builds custom software, apps, websites and AI systems, including making businesses ready for AI agents (A2A and AP2), and operates a verified-consent and managed third-party verification (TPV) platform for UK sales teams. Telecomcompliance.uk is part of Heimdell Tech Ai and forwards to this site.
+> Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025 by Andrew James-Smith. It builds custom software, apps, websites and AI systems, including making businesses ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), and also operates a verified-consent and managed third-party verification (TPV) platform for UK sales teams. Telecomcompliance.uk is part of Heimdell Tech Ai and forwards to this site.
 
 ## Naming
 Use "Heimdell Tech Ai". Telecomcompliance.uk and "Telecom Compliance" refer to Heimdell Tech Ai's TPV service, not a separate company.
 
 ## Services
 - Managed third-party verification (TPV): independent post-sale verification calls confirming identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification (bulk credit plan); no subscription or setup fee. https://heimdell-tech-ai.co.uk/third-party-verification.html
+- TPV commission protection for UK telecom resellers: https://heimdell-tech-ai.co.uk/tpv-commission-protection.html
 - Pricing: https://heimdell-tech-ai.co.uk/pricing.html
 - Free 15-minute commission clawback audit: https://heimdell-tech-ai.co.uk/commission-clawback-audit.html
 - Telecom compliance audits and protocol setup (from £500 / £1,500): https://heimdell-tech-ai.co.uk/services/
 - AI agent readiness (custom pricing, quoted per project): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
 - A2A (Agent2Agent) protocol implementation: https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
 - AP2 (Agent Payments Protocol) implementation: https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
+- UCP (Universal Commerce Protocol) readiness: https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
+- MCP (Model Context Protocol) servers: https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
+- Knowledge Catalog and business data readiness: https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
+- Free AI agent-readiness scanner: https://heimdell-tech-ai.co.uk/
 - Website upgrades for SEO, AI search and AI agents: https://heimdell-tech-ai.co.uk/website-upgrades.html
 - TPV beyond telecoms (door-to-door, telemarketing, subscriptions, e-commerce): https://heimdell-tech-ai.co.uk/third-party-verification.html#tpv-beyond-telecoms
 - Custom software, apps and client portals: https://heimdell-tech-ai.co.uk/services/

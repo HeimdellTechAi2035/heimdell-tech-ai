@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-30",
+  "version": "2026-10-03",
   "organisation": {
     "legalName": "Heimdell Tech Ai Ltd",
     "tradingName": "Heimdell Tech Ai",
@@ -27,7 +27,7 @@
     "email": "andrew@heimdell-tech-ai.co.uk",
     "openingHours": "Mon–Fri 08:30–17:30, Sat 09:30–15:00",
     "website": "https://heimdell-tech-ai.co.uk/",
-    "description": "UK software development and IT consultancy firm (SIC 62012, 62020) building SaaS compliance platforms and providing managed third-party verification (TPV) services for telecom resellers, brokers and D2D sales teams. Also builds custom software, apps, client portals, websites and AI systems for clients.",
+    "description": "UK software development and IT consultancy firm (SIC 62012, 62020) in Preston, Lancashire. Helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), builds custom software, apps, client portals, websites and AI systems, and also provides managed third-party verification (TPV) and compliance services for telecom resellers, brokers and D2D sales teams.",
     "member": {
       "name": "RemoteAbility CIC",
       "url": "https://remoteability.org",
@@ -42,6 +42,13 @@
     }
   ],
   "expertise": [
+    "AI agent readiness",
+    "Agent2Agent (A2A) protocol",
+    "Agent Payments Protocol (AP2)",
+    "Universal Commerce Protocol (UCP)",
+    "Model Context Protocol (MCP)",
+    "Google Cloud Knowledge Catalog",
+    "Structured data (schema.org) and llms.txt",
     "Third-Party Verification (TPV) for telecom sales",
     "Commission clawback prevention",
     "PECR 2003 compliance",
@@ -55,11 +62,16 @@
   ],
   "products": {
     "flagship": {
-      "name": "Verified Agreements & TPV Platform",
-      "url": "https://heimdell-tech-ai.co.uk/third-party-verification.html",
-      "description": "Tamper-evident, cryptographically secured records of what terms were presented, who acknowledged them, and which agreement version applied — for subscriptions, sales, payments and contracts. Powers the telecom TPV service offered on this site."
+      "name": "AI Agent Readiness",
+      "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
+      "description": "A free agent-readiness scanner plus implementation of the standards AI agents use (A2A, AP2, UCP, MCP) and the data foundations they rely on, for UK businesses."
     },
     "other": [
+      {
+        "name": "Verified Agreements & TPV Platform",
+        "url": "https://heimdell-tech-ai.co.uk/third-party-verification.html",
+        "description": "Tamper-evident, cryptographically secured records of what terms were presented, who acknowledged them, and which agreement version applied — for subscriptions, sales, payments and contracts. Powers the telecom TPV service offered on this site."
+      },
       {
         "name": "REVdating",
         "url": "https://revdating.co.uk/",
@@ -83,6 +95,48 @@
     ]
   },
   "services": [
+    {
+      "id": "ai-agent-readiness",
+      "name": "AI Agent Readiness",
+      "summary": "A free scan and then fixes to the structured data, product information and policies AI agents rely on to find, trust and buy from a business.",
+      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html"
+    },
+    {
+      "id": "a2a-implementation",
+      "name": "A2A (Agent2Agent) Protocol Implementation",
+      "summary": "Agent Card, secure endpoint and booking integration so AI agents can discover and book a business.",
+      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "url": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html"
+    },
+    {
+      "id": "ap2-agent-payments",
+      "name": "AP2 (Agent Payments Protocol) Implementation",
+      "summary": "Accept payments from AI agents with verifiable proof of what each customer authorised.",
+      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "url": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html"
+    },
+    {
+      "id": "ucp-readiness",
+      "name": "UCP (Universal Commerce Protocol) Readiness",
+      "summary": "Profile check, product data quality and checkout readiness so AI shopping agents can find and buy from an online shop.",
+      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "url": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html"
+    },
+    {
+      "id": "mcp-servers",
+      "name": "MCP (Model Context Protocol) Servers",
+      "summary": "Scoped, permissioned MCP servers that let AI assistants use a business's booking, product or knowledge systems safely.",
+      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "url": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html"
+    },
+    {
+      "id": "knowledge-catalog-readiness",
+      "name": "Knowledge Catalog and Business Data Readiness",
+      "summary": "Organising, describing and governing business data for Google Cloud Knowledge Catalog and AI agent use.",
+      "pricingModel": "Custom / bespoke, quoted per project. The agent-readiness scan is free.",
+      "url": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html"
+    },
     {
       "id": "tpv-verification",
       "name": "Third-Party Verification (TPV)",
@@ -182,6 +236,395 @@
     "note": "No call transcript excerpts are published yet. This section will be populated with real, anonymised excerpts if and when the business chooses to share them."
   },
   "faqs": [
+    {
+      "id": "heimdell-service-area-uk",
+      "question": "Do you cover Scotland and Wales?",
+      "answer": "Yes. Heimdell Tech Ai works with businesses across the whole United Kingdom: England, Scotland, Wales and Northern Ireland. It is based in Preston, Lancashire, and delivers its AI agent readiness, software and TPV compliance services remotely and nationwide.",
+      "tags": [
+        "service-area",
+        "uk",
+        "scotland",
+        "wales",
+        "northern-ireland",
+        "england",
+        "coverage"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/about.html",
+      "aliases": [
+        "where do you operate",
+        "which areas do you cover",
+        "do you work outside England",
+        "are you UK wide",
+        "service area"
+      ]
+    },
+    {
+      "id": "ai-agent-readiness-what-is-ai-agent-readiness",
+      "question": "What is AI agent readiness?",
+      "answer": "AI agent readiness means a business can be found, understood and transacted with by software acting for a customer, such as AI assistants and shopping agents. It covers accurate structured data, clear prices and policies, a simple way to book or buy, and support for open standards such as A2A, AP2, UCP and MCP. Heimdell Tech Ai helps UK businesses get there.",
+      "tags": [
+        "ai-agent-readiness",
+        "ai-agents",
+        "a2a",
+        "ap2",
+        "ucp",
+        "mcp"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
+      "aliases": [
+        "what does agent ready mean",
+        "make my business ready for AI agents",
+        "AI agent ready business"
+      ]
+    },
+    {
+      "id": "ai-agent-readiness-free-scanner",
+      "question": "Is there a free way to check how AI agents see my website?",
+      "answer": "Yes. The free agent-readiness scanner on the Heimdell Tech Ai homepage scores a website out of 100, shows the most important fixes and can email the full report. It only reads publicly available pages.",
+      "tags": [
+        "ai-agent-readiness",
+        "scanner",
+        "free",
+        "ai-agents"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/",
+      "aliases": [
+        "free scan",
+        "website scanner",
+        "agent readiness score",
+        "check my website for AI agents"
+      ]
+    },
+    {
+      "id": "ai-agent-readiness-scanner-checks",
+      "question": "What does the agent-readiness scanner check?",
+      "answer": "It checks whether AI crawlers are blocked in robots.txt, whether there is a sitemap and an llms.txt file, schema.org structured data, whether product data is complete (price, currency, availability, image, identifier), whether policy pages state concrete terms, whether there is a clear booking or checkout path, and whether the site publishes an A2A Agent Card or a UCP profile.",
+      "tags": [
+        "ai-agent-readiness",
+        "scanner",
+        "structured-data",
+        "llms-txt"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/"
+    },
+    {
+      "id": "ai-agent-readiness-cost",
+      "question": "How much does AI agent readiness cost?",
+      "answer": "The scan is free. Implementation work is custom and bespoke: every project is scoped and quoted individually, so there is no fixed published price. A quote can be requested at heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "ai-agent-readiness",
+        "pricing",
+        "quote"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
+      "aliases": [
+        "agent readiness price",
+        "how much for A2A",
+        "cost of AP2 implementation"
+      ]
+    },
+    {
+      "id": "ai-agent-readiness-guarantee",
+      "question": "Can Heimdell Tech Ai guarantee more customers from AI agents?",
+      "answer": "No, and nobody honestly can yet. Heimdell Tech Ai measures how AI assistants describe a business before and after the work and shows the difference.",
+      "tags": [
+        "ai-agent-readiness",
+        "guarantee",
+        "results"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html"
+    },
+    {
+      "id": "ai-agent-readiness-standards-we-work-with",
+      "question": "Which AI agent standards does Heimdell Tech Ai work with?",
+      "answer": "A2A (Agent2Agent), AP2 (Agent Payments Protocol), UCP (Universal Commerce Protocol), MCP (Model Context Protocol) and Google Cloud Knowledge Catalog, together with the structured data and policy foundations they all rely on.",
+      "tags": [
+        "ai-agent-readiness",
+        "a2a",
+        "ap2",
+        "ucp",
+        "mcp",
+        "knowledge-catalog"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
+      "aliases": [
+        "which protocols",
+        "agent protocols you support",
+        "supported standards"
+      ]
+    },
+    {
+      "id": "ai-agent-readiness-a2a-ap2-ucp-mcp-difference",
+      "question": "What is the difference between A2A, AP2, UCP and MCP?",
+      "answer": "A2A lets AI agents talk to each other and hand over tasks. AP2 covers how an agent is authorised to pay on a customer's behalf. UCP covers browsing a catalogue, managing a cart and checking out. MCP connects an AI assistant to tools and data. Knowledge Catalog organises and describes business data so agents can trust it. Most businesses need only one or two of these.",
+      "tags": [
+        "ai-agent-readiness",
+        "a2a",
+        "ap2",
+        "ucp",
+        "mcp",
+        "knowledge-catalog",
+        "comparison"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
+      "aliases": [
+        "A2A vs MCP",
+        "UCP vs AP2",
+        "compare agent protocols"
+      ]
+    },
+    {
+      "id": "ai-agent-readiness-do-i-need-all-standards",
+      "question": "Do I need to support every AI agent standard?",
+      "answer": "No. Most businesses should start with accurate structured data, clear prices and policies and a simple way to book or buy. Standards such as A2A, AP2 and UCP are added where they give a real benefit. Several are still changing, so the current specification is checked before anything is built.",
+      "tags": [
+        "ai-agent-readiness",
+        "advice"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html"
+    },
+    {
+      "id": "ai-agent-readiness-who-for",
+      "question": "Who is AI agent readiness for?",
+      "answer": "UK businesses that customers may find through AI assistants: online shops, hotels and restaurants, clinics and local services, and any business whose prices, availability or policies customers ask about.",
+      "tags": [
+        "ai-agent-readiness",
+        "audience"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html"
+    },
+    {
+      "id": "a2a-what-is-a2a",
+      "question": "What is the A2A (Agent2Agent) protocol?",
+      "answer": "A2A is an open standard that lets AI agents built by different vendors discover each other, exchange messages and hand over tasks. It was launched by Google in 2025, is hosted by the Linux Foundation, and reached version 1.0 in March 2026. Heimdell Tech Ai implements it for UK businesses, from the Agent Card to booking integration.",
+      "tags": [
+        "a2a",
+        "agent2agent",
+        "protocol"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html",
+      "aliases": [
+        "agent to agent protocol",
+        "A2A protocol",
+        "Agent2Agent"
+      ]
+    },
+    {
+      "id": "a2a-agent-card",
+      "question": "What is an A2A Agent Card?",
+      "answer": "An Agent Card is a machine-readable description of what a business or agent can do and how to reach it, published on its own domain. Other agents read it to discover capabilities such as checking availability, requesting a quote or booking an appointment. Heimdell Tech Ai publishes its own at heimdell-tech-ai.co.uk/.well-known/agent-card.json.",
+      "tags": [
+        "a2a",
+        "agent-card",
+        "well-known"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html",
+      "aliases": [
+        "agent card",
+        "agent-card.json"
+      ]
+    },
+    {
+      "id": "a2a-replace-website",
+      "question": "Does A2A replace my website?",
+      "answer": "No. A2A sits alongside your website and booking system and gives AI agents a structured way in.",
+      "tags": [
+        "a2a",
+        "website"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html"
+    },
+    {
+      "id": "ap2-what-is-ap2",
+      "question": "What is AP2 (Agent Payments Protocol)?",
+      "answer": "AP2 is an open protocol, created by Google and donated to the FIDO Alliance in April 2026, that lets an AI agent make a payment on a customer's behalf. It uses signed records of what the customer authorised, so every agent purchase has verifiable proof. Heimdell Tech Ai implements it for UK businesses.",
+      "tags": [
+        "ap2",
+        "agent-payments",
+        "protocol",
+        "fido"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html",
+      "aliases": [
+        "agent payments protocol",
+        "AP2 protocol",
+        "AI agent payments",
+        "how do AI agents pay for things",
+        "can AI agents pay for things",
+        "how AI agents pay",
+        "agents paying"
+      ]
+    },
+    {
+      "id": "ap2-mandates",
+      "question": "What is a mandate in AP2?",
+      "answer": "A mandate is a signed record of what a customer has authorised an AI agent to do, such as what it may buy and any limits. Mandates give each agent purchase tamper-evident proof of authorisation.",
+      "tags": [
+        "ap2",
+        "mandate",
+        "authorisation"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html",
+      "aliases": [
+        "AP2 mandates",
+        "agent payment authorisation",
+        "how does an AI agent get permission to spend"
+      ]
+    },
+    {
+      "id": "ap2-human-not-present",
+      "question": "What is a 'human not present' payment in AP2?",
+      "answer": "AP2 version 0.2, released in April 2026, added 'human not present' payments, where an agent completes a purchase on pre-authorised instructions without the customer being there, for example buying limited-release tickets the moment they go on sale.",
+      "tags": [
+        "ap2",
+        "human-not-present",
+        "payments"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html"
+    },
+    {
+      "id": "ucp-what-is-ucp",
+      "question": "What is the Universal Commerce Protocol (UCP)?",
+      "answer": "UCP is an open standard announced by Google in January 2026 and co-developed with Shopify. It lets AI agents discover a merchant's products, understand what the merchant supports and complete a purchase inside a conversation. Merchants publish a profile, conventionally at /.well-known/ucp. Heimdell Tech Ai checks UCP profiles and the product data behind them.",
+      "tags": [
+        "ucp",
+        "commerce",
+        "protocol",
+        "shopify"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html",
+      "aliases": [
+        "universal commerce protocol",
+        "UCP protocol",
+        "agentic commerce",
+        "how do AI agents buy from my shop",
+        "AI shopping agents"
+      ]
+    },
+    {
+      "id": "ucp-shopify",
+      "question": "Do I need to do anything for UCP if I use Shopify?",
+      "answer": "Shopify stores can publish a UCP profile automatically, so there is often little protocol work to do. The bigger job is usually the quality of product data and the clarity of policies, which is what agents actually read.",
+      "tags": [
+        "ucp",
+        "shopify"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html"
+    },
+    {
+      "id": "ucp-vs-ap2",
+      "question": "Is UCP the same as AP2?",
+      "answer": "No. UCP covers commerce: reading a catalogue, managing a cart and checking out. AP2 covers payments: how an agent is authorised to pay on a customer's behalf. They are designed to work together.",
+      "tags": [
+        "ucp",
+        "ap2",
+        "comparison"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html"
+    },
+    {
+      "id": "mcp-what-is-mcp",
+      "question": "What is the Model Context Protocol (MCP)?",
+      "answer": "MCP is an open standard for connecting AI assistants to tools and data. Anthropic introduced it in late 2024 and donated it to the Agentic AI Foundation, under the Linux Foundation, in December 2025. Heimdell Tech Ai designs and builds MCP servers that expose chosen tools to assistants with permissions the client controls.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "protocol"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html",
+      "aliases": [
+        "model context protocol",
+        "MCP server",
+        "connect AI to my systems"
+      ]
+    },
+    {
+      "id": "mcp-vs-a2a",
+      "question": "How is MCP different from A2A?",
+      "answer": "MCP connects an AI assistant to tools and data, such as a booking system. A2A connects AI agents to each other, so one agent can hand a task to another. They solve different problems and are often used together.",
+      "tags": [
+        "mcp",
+        "a2a",
+        "comparison"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html"
+    },
+    {
+      "id": "mcp-safety",
+      "question": "Is it safe to let an AI assistant use my systems through MCP?",
+      "answer": "It can be, if the connection is designed carefully. Heimdell Tech Ai exposes only the specific tools the client chooses, keeps them read-only unless told otherwise, requires approval for anything that changes data, and logs every request.",
+      "tags": [
+        "mcp",
+        "security",
+        "permissions"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html"
+    },
+    {
+      "id": "knowledge-catalog-what-is",
+      "question": "What is Google Cloud Knowledge Catalog?",
+      "answer": "Knowledge Catalog is Google Cloud's metadata management platform, formerly Dataplex Universal Catalog. It discovers data assets, organises them, and adds business context such as descriptions, glossaries, data quality and lineage so that people and AI agents can find and trust data. Heimdell Tech Ai helps businesses prepare their data for it and for AI agent use.",
+      "tags": [
+        "knowledge-catalog",
+        "google-cloud",
+        "data"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html",
+      "aliases": [
+        "Dataplex Universal Catalog",
+        "knowledge catalogue",
+        "google knowledge catalog"
+      ]
+    },
+    {
+      "id": "knowledge-catalog-dataplex",
+      "question": "Is Knowledge Catalog the same as Dataplex?",
+      "answer": "It is the renamed Dataplex Universal Catalog. Google renamed it in April 2026, and the API, command-line and permission names did not change.",
+      "tags": [
+        "knowledge-catalog",
+        "dataplex"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html"
+    },
+    {
+      "id": "knowledge-catalog-without-google-cloud",
+      "question": "Do I need Google Cloud to make my business data agent-ready?",
+      "answer": "No. The principle is the same on any platform: accurate, structured, well-described facts about your business that agents can read. Heimdell Tech Ai can build that foundation with or without Google Cloud, including structured data, an llms.txt guide and a curated knowledge base.",
+      "tags": [
+        "knowledge-catalog",
+        "business-data",
+        "structured-data"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html"
+    },
+    {
+      "id": "heimdell-what-does-heimdell-do-agents",
+      "question": "What does Heimdell Tech Ai do?",
+      "answer": "Heimdell Tech Ai Ltd is a UK software development and IT consultancy in Preston, Lancashire. It helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), builds custom software, apps, websites and AI systems, and also runs managed third-party verification (TPV) and compliance services for UK telecom sales teams.",
+      "tags": [
+        "company",
+        "services",
+        "ai-agent-readiness",
+        "tpv"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/",
+      "aliases": [
+        "who is Heimdell",
+        "what is Heimdell Tech Ai",
+        "what services do you offer"
+      ]
+    },
+    {
+      "id": "heimdell-still-offers-tpv",
+      "question": "Does Heimdell Tech Ai still offer third-party verification (TPV)?",
+      "answer": "Yes. Heimdell Tech Ai still runs managed third-party verification for UK telecom resellers, brokers and sales teams, with audit-ready certificates from 80p per phone verification. Details are at heimdell-tech-ai.co.uk/tpv-commission-protection.html and /third-party-verification.html.",
+      "tags": [
+        "tpv",
+        "third-party-verification",
+        "services"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/tpv-commission-protection.html"
+    },
     {
       "id": "third-party-verification-what-happens-if-a-customer-refuses-to-complete-the",
       "question": "What happens if a customer refuses to complete the verification call?",

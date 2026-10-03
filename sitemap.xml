@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://heimdell-tech-ai.co.uk/</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/about.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/case-studies.html</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/case-study-provider-audit.html</loc><lastmod>2026-10-02</lastmod></url>
@@ -15,7 +15,7 @@
   <url><loc>https://heimdell-tech-ai.co.uk/mission-and-impact.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/post-sale-verification-deployment.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/pricing.html</loc><lastmod>2026-10-01</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/privacy-policy.html</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/privacy-policy.html</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/systems-architecture.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/system-capabilities.html</loc><lastmod>2026-10-01</lastmod></url>
@@ -38,8 +38,12 @@
   <url><loc>https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/services/tpv-telecom-contracts.html</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/services/</loc><lastmod>2026-10-02</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/ai-agent-readiness.html</loc><lastmod>2026-10-02</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html</loc><lastmod>2026-10-02</lastmod></url>
-  <url><loc>https://heimdell-tech-ai.co.uk/ap2-agent-payments.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/ai-agent-readiness.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/ap2-agent-payments.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://heimdell-tech-ai.co.uk/tpv-commission-protection.html</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://heimdell-tech-ai.co.uk/website-upgrades.html</loc><lastmod>2026-10-02</lastmod></url>
 </urlset>

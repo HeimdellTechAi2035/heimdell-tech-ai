@@ -1,7 +1,7 @@
 {
   "name": "Heimdell Tech AI Assistant",
-  "description": "Answers questions about Heimdell Tech Ai Ltd — a UK software development and IT consultancy firm (Preston, Lancashire) whose flagship product is a telecom third-party verification (TPV) compliance platform — covering services, pricing, service areas, expertise and policies.",
-  "version": "1.0.0",
+  "description": "Answers questions about Heimdell Tech Ai Ltd, a UK software development and IT consultancy (Preston, Lancashire) that helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog) and also runs telecom third-party verification (TPV) compliance services, covering services, pricing, service areas, expertise and policies.",
+  "version": "1.1.0",
   "documentationUrl": "https://heimdell-tech-ai.co.uk/llms-full.txt",
   "iconUrl": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
   "provider": {
@@ -10,7 +10,7 @@
   },
   "supportedInterfaces": [
     {
-      "url": "https://heimdell-tech-ai.co.uk/api/a2a/v1",
+      "url": "https://agent.heimdell-tech-ai.co.uk/a2a/v1",
       "protocolBinding": "JSONRPC",
       "protocolVersion": "1.0"
     }
@@ -20,8 +20,14 @@
     "pushNotifications": false,
     "extendedAgentCard": false
   },
-  "defaultInputModes": ["text/plain", "application/json"],
-  "defaultOutputModes": ["text/plain", "application/json"],
+  "defaultInputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "text/plain",
+    "application/json"
+  ],
   "securitySchemes": {},
   "security": [],
   "skills": [
@@ -29,16 +35,36 @@
       "id": "faq-knowledge",
       "name": "Company knowledge and FAQ",
       "description": "Answers factual questions about Heimdell Tech Ai's services, pricing, service areas, expertise and policies. Answers are drawn verbatim from a curated knowledge catalogue and returned with source URLs.",
-      "tags": ["faq", "knowledge-base", "telecom", "compliance", "tpv", "uk", "software-development"],
+      "tags": [
+        "faq",
+        "knowledge-base",
+        "ai-agents",
+        "a2a",
+        "ap2",
+        "ucp",
+        "mcp",
+        "knowledge-catalog",
+        "uk",
+        "software-development",
+        "telecom",
+        "tpv"
+      ],
       "examples": [
         "What does Heimdell Tech Ai do?",
+        "What is the A2A protocol?",
+        "What is AP2 and how do AI agents pay?",
+        "What is the difference between A2A, AP2, UCP and MCP?",
+        "Is there a free way to check how AI agents see my website?",
         "How is TPV verification priced?",
-        "Do you cover Scotland and Wales?",
-        "What is the Commission Clawback Audit?",
-        "What regulations does the compliance platform address?"
+        "Do you cover Scotland and Wales?"
       ],
-      "inputModes": ["text/plain"],
-      "outputModes": ["text/plain", "application/json"]
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "application/json"
+      ]
     }
   ],
   "extensions": [],
