@@ -29,7 +29,7 @@
     "description": "UK software development and IT consultancy firm (SIC 62012, 62020) in Preston, Lancashire. Helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), builds custom software, apps, client portals, websites and AI systems, and also provides managed third-party verification (TPV) and compliance services for telecom resellers, brokers and D2D sales teams.",
     "member": {
       "name": "RemoteAbility CIC",
-      "url": "https://remoteability.org",
+      "url": "https://remoteability.org.uk",
       "description": "Community Interest Company providing employment pathways for disabled and neurodivergent professionals through Access to Work funded placements."
     }
   },
@@ -73,12 +73,10 @@
       },
       {
         "name": "REVdating",
-        "url": "https://revdating.co.uk/",
         "description": "A dating app for UK motorcycle riders."
       },
       {
         "name": "RoundFlow",
-        "url": "https://greenfixapp.netlify.app/",
         "description": "Round, route and payment management for service businesses."
       },
       {
@@ -1841,6 +1839,122 @@
         "speak to a human",
         "talk to someone"
       ]
+    },
+    {
+      "id": "guide-what-is-a2a",
+      "question": "What is the A2A protocol?",
+      "answer": "The Agent2Agent (A2A) protocol is an open standard that lets one AI agent find another agent or business, see what it can do and send it a task. Google launched it in 2025 and it is now run by the Linux Foundation. A business publishes an Agent Card at /.well-known/agent-card.json. Guide: https://heimdell-tech-ai.co.uk/what-is-a2a-protocol.html",
+      "tags": [
+        "a2a",
+        "protocol",
+        "agents"
+      ],
+      "aliases": [
+        "what is agent2agent",
+        "explain a2a",
+        "a2a meaning"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/what-is-a2a-protocol.html"
+    },
+    {
+      "id": "guide-what-is-ap2",
+      "question": "What is the Agent Payments Protocol (AP2)?",
+      "answer": "AP2 is an open standard from Google, announced in September 2025, that lets an AI agent pay on a customer's behalf. Signed digital mandates (an intent mandate and a cart mandate) record exactly what the customer approved, so the shop, the payment provider and the customer share proof. Guide: https://heimdell-tech-ai.co.uk/what-is-ap2-agent-payments-protocol.html",
+      "tags": [
+        "ap2",
+        "payments",
+        "mandates"
+      ],
+      "aliases": [
+        "what is ap2",
+        "agent payments protocol explained",
+        "what is a mandate",
+        "can ai agents pay"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/what-is-ap2-agent-payments-protocol.html"
+    },
+    {
+      "id": "guide-a2a-mcp-ap2-ucp",
+      "question": "What is the difference between A2A, MCP, AP2 and UCP?",
+      "answer": "MCP connects an AI assistant to tools and data. A2A lets AI agents talk to each other. AP2 lets an agent pay with signed proof of what the customer approved. UCP lets shopping agents browse and buy from online shops. Most businesses need only one or two. Guide: https://heimdell-tech-ai.co.uk/a2a-vs-mcp-vs-ap2-vs-ucp.html",
+      "tags": [
+        "comparison",
+        "a2a",
+        "mcp",
+        "ap2",
+        "ucp"
+      ],
+      "aliases": [
+        "a2a vs mcp",
+        "which protocol do i need",
+        "difference between mcp and a2a",
+        "compare agent protocols"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/a2a-vs-mcp-vs-ap2-vs-ucp.html"
+    },
+    {
+      "id": "guide-readiness-checklist",
+      "question": "How do I get my website ready for AI agents?",
+      "answer": "Make your facts accurate and consistent, put prices and policies in plain text, add structured data, let AI crawlers in, publish an llms.txt file, keep pages fast with short answers at the top, then add the right protocol (MCP, A2A or UCP) and test with real AI questions. Checklist: https://heimdell-tech-ai.co.uk/ai-agent-readiness-checklist-uk.html",
+      "tags": [
+        "checklist",
+        "readiness",
+        "agents"
+      ],
+      "aliases": [
+        "agent readiness checklist",
+        "how to prepare for ai agents",
+        "make my website ai ready"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-readiness-checklist-uk.html"
+    },
+    {
+      "id": "guide-llms-txt",
+      "question": "What are llms.txt, agent-card.json and robots.txt?",
+      "answer": "robots.txt says which crawlers may visit your site. llms.txt is a short Markdown summary of your business for AI systems; it is a proposal rather than an official standard. agent-card.json describes what your business can do for AI agents using A2A. Guide: https://heimdell-tech-ai.co.uk/llms-txt-agent-card-robots-explained.html",
+      "tags": [
+        "llms.txt",
+        "robots",
+        "agent card"
+      ],
+      "aliases": [
+        "what is llms.txt",
+        "what is an agent card",
+        "should i block ai crawlers"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/llms-txt-agent-card-robots-explained.html"
+    },
+    {
+      "id": "guide-agentic-commerce",
+      "question": "What is agentic commerce and what should a small business do?",
+      "answer": "Agentic commerce means AI agents find, compare and buy on a customer's behalf. A small business should first make its products, prices and policies clear and machine-readable, then choose one protocol that fits, keep logs and decide what an agent may do without a person. Guide: https://heimdell-tech-ai.co.uk/agentic-commerce-uk-small-business.html",
+      "tags": [
+        "agentic commerce",
+        "agents",
+        "small business"
+      ],
+      "aliases": [
+        "what is agentic commerce",
+        "will ai agents shop for customers",
+        "ai shopping agents"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/agentic-commerce-uk-small-business.html"
+    },
+    {
+      "id": "case-studies-published",
+      "question": "Do you have case studies or customer testimonials?",
+      "answer": "Not yet. Heimdell Tech Ai has no published client case studies or testimonials. Results will be published only when a named client agrees. You can try the free agent-readiness scan or the free commission clawback audit instead. More: https://heimdell-tech-ai.co.uk/case-studies.html",
+      "tags": [
+        "case studies",
+        "testimonials",
+        "reviews"
+      ],
+      "aliases": [
+        "do you have references",
+        "customer reviews",
+        "proof of results"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/case-studies.html"
     }
   ]
 }

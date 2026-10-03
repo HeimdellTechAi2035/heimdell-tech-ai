@@ -203,10 +203,7 @@ Andrew James-Smith — Founder & Director. Built The Telecom Verification Protoc
 - Commission Clawback Audit: https://heimdell-tech-ai.co.uk/commission-clawback-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
 - Systems Architecture & Ops: https://heimdell-tech-ai.co.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
 - About: https://heimdell-tech-ai.co.uk/about.html — Founder bio, personal story, credentials, contact methods, social profiles
-- Case Studies: https://heimdell-tech-ai.co.uk/case-studies.html — Index of real results from telecom resellers and sales teams using The Telecom Verification Protocol
-- Case Study — 94% Clawback Reduction: https://heimdell-tech-ai.co.uk/case-study-clawback-reduction.html — 150-agent Virgin Media reseller cut monthly losses from £4,200 to £252 in 90 days, saving £47,376 annually
-- Case Study — Provider Audit Zero Flags: https://heimdell-tech-ai.co.uk/case-study-provider-audit.html — 80-agent O2 partner compiled complete sale evidence in under 2 hours with zero compliance flags
-- Case Study — Scaling Compliance: https://heimdell-tech-ai.co.uk/case-study-scaling-compliance.html — Sky reseller scaled to 200+ verified sales/month, saving £27,720 annually vs hiring a second compliance officer
+- Case Studies: https://heimdell-tech-ai.co.uk/case-studies.html — Explains that no verified client case studies are published yet
 - Privacy Policy: https://heimdell-tech-ai.co.uk/privacy-policy.html — UK GDPR compliant, ICO ZC079121
 - Terms of Service: https://heimdell-tech-ai.co.uk/terms-of-service.html — Governing law England & Wales
 - Mission & Impact: https://heimdell-tech-ai.co.uk/mission-and-impact.html — AI automation + human opportunity, RemoteAbility CIC partnership, Access to Work funded placements for disabled and neurodivergent professionals
@@ -241,33 +238,9 @@ Heimdell Tech Ai has designed and built the following platforms, dashboards and 
 7. **Preston SEO Platform** — High-conversion local SEO landing page with AI-driven search optimisation and 90-day ranking guarantee.
 8. **TPPA 2025 Compliance Framework** — End-to-end Martyn's Law compliance framework with risk assessments, emergency plans and training packs.
 
-## CASE STUDIES — PROVEN RESULTS
+## CASE STUDIES AND REVIEWS
 
-Heimdell Tech Ai has delivered measurable compliance outcomes for telecom resellers and D2D sales teams:
-
-### Case Study 1: 94% Clawback Reduction in 90 Days
-- Client: 150-agent Virgin Media reseller, North West England
-- Problem: £4,200/month in commission clawbacks from unverified sign-ups and cooling-off disputes
-- Solution: The Telecom Verification Protocol deployed across all 150 agents
-- Result: Clawbacks reduced from £4,200/month to £252/month — a 94% reduction saving £47,376 annually
-- Timeline: Free Leakage Audit (Week 1) → Protocol deployment (Weeks 2–3) → Live operations (Week 4) → Full results (Week 12)
-- URL: https://heimdell-tech-ai.co.uk/case-study-clawback-reduction.html
-
-### Case Study 2: Provider Audit Passed With Zero Flags
-- Client: 80-agent O2 partner agency, Midlands
-- Problem: Surprise O2 compliance audit with 14 days' notice; no centralised compliance records
-- Solution: The Telecom Verification Protocol had been in place for 4 months — complete evidence already existed for every sale
-- Result: 100% audit pass rate, zero compliance flags, evidence compiled in under 2 hours
-- Key insight: Without The Telecom Verification Protocol, estimated 30–40% of sales would have had documentation gaps
-- URL: https://heimdell-tech-ai.co.uk/case-study-provider-audit.html
-
-### Case Study 3: Scaling to 200+ Sales/Month Without Adding Staff
-- Client: Rapidly growing Sky reseller
-- Problem: Sales volume doubled from 100 to 200+/month in 3 months; one compliance person couldn't keep up; clawbacks climbed to £2,600/month
-- Solution: The Telecom Verification Protocol replaced manual verification entirely — scalable pipeline with no headcount ceiling
-- Result: All 200+ monthly sales verified, clawbacks reduced to £290/month, £27,720 annual saving, zero additional staff hired
-- Contrast: Hiring a second compliance officer would have cost £28K–£32K/year and still wouldn't scale
-- URL: https://heimdell-tech-ai.co.uk/case-study-scaling-compliance.html
+Heimdell Tech Ai has not yet published any verified client case studies or testimonials. Earlier example scenarios with figures were withdrawn because they were not verified client results. Results will be published only with a named client's agreement. See https://heimdell-tech-ai.co.uk/case-studies.html
 
 ## FREQUENTLY ASKED QUESTIONS
 
