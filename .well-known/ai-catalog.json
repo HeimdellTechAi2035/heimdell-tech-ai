@@ -6,11 +6,25 @@
       "type": "application/a2a-agent-card+json",
       "url": "https://heimdell-tech-ai.co.uk/.well-known/agent-card.json",
       "displayName": "Heimdell Tech AI Assistant",
-      "description": "UK software development, IT consultancy and telecom TPV compliance knowledge.",
-      "version": "1.0.0",
-      "tags": ["telecom", "compliance", "tpv", "uk", "software-development"],
-      "publisher": { "name": "Heimdell Tech Ai Ltd", "url": "https://heimdell-tech-ai.co.uk/" },
-      "updatedAt": "2026-08-30T00:00:00Z"
+      "description": "UK software development and IT consultancy: AI agent readiness (A2A, AP2, UCP, MCP, Knowledge Catalog) and telecom TPV compliance knowledge.",
+      "version": "1.1.0",
+      "tags": [
+        "ai-agents",
+        "a2a",
+        "ap2",
+        "ucp",
+        "mcp",
+        "knowledge-catalog",
+        "uk",
+        "software-development",
+        "telecom",
+        "tpv"
+      ],
+      "publisher": {
+        "name": "Heimdell Tech Ai Ltd",
+        "url": "https://heimdell-tech-ai.co.uk/"
+      },
+      "updatedAt": "2026-10-03T12:00:00+00:00"
     }
   ]
 }

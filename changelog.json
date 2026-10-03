@@ -3,7 +3,7 @@
   "pages": {
     "/": {
       "title": "Homepage",
-      "lastUpdated": "2026-03-04",
+      "lastUpdated": "2026-10-03",
       "file": "index.html"
     },
     "/about.html": {
@@ -85,6 +85,46 @@
       "title": "Mission and Impact",
       "lastUpdated": "2026-03-04",
       "file": "mission-and-impact.html"
+    },
+    "/ai-agent-readiness.html": {
+      "title": "AI Agent Readiness",
+      "lastUpdated": "2026-10-03",
+      "file": "ai-agent-readiness.html"
+    },
+    "/a2a-protocol-implementation.html": {
+      "title": "A2A Protocol Implementation",
+      "lastUpdated": "2026-10-03",
+      "file": "a2a-protocol-implementation.html"
+    },
+    "/ap2-agent-payments.html": {
+      "title": "AP2 Agent Payments",
+      "lastUpdated": "2026-10-03",
+      "file": "ap2-agent-payments.html"
+    },
+    "/ucp-universal-commerce-protocol.html": {
+      "title": "UCP Readiness",
+      "lastUpdated": "2026-10-03",
+      "file": "ucp-universal-commerce-protocol.html"
+    },
+    "/mcp-model-context-protocol.html": {
+      "title": "MCP Servers",
+      "lastUpdated": "2026-10-03",
+      "file": "mcp-model-context-protocol.html"
+    },
+    "/knowledge-catalog-readiness.html": {
+      "title": "Knowledge Catalog Readiness",
+      "lastUpdated": "2026-10-03",
+      "file": "knowledge-catalog-readiness.html"
+    },
+    "/tpv-commission-protection.html": {
+      "title": "TPV Commission Protection",
+      "lastUpdated": "2026-10-03",
+      "file": "tpv-commission-protection.html"
+    },
+    "/privacy-policy.html": {
+      "title": "Privacy Policy",
+      "lastUpdated": "2026-10-03",
+      "file": "privacy-policy.html"
     }
   }
 }

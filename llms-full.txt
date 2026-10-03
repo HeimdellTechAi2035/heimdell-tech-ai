@@ -1,7 +1,7 @@
 # Heimdell Tech Ai — heimdell-tech-ai.co.uk
 # llms-full.txt — Comprehensive LLM Knowledge Base
-# Last updated: 2026-03-04T12:00:00+00:00
-# Version: 2.0
+# Last updated: 2026-10-03T12:00:00+00:00
+# Version: 2.1
 
 ---
 
@@ -52,6 +52,20 @@ Heimdell Tech Ai Ltd is a UK software development and IT consultancy company (SI
 ## WHAT HEIMDELL TECH AI DOES
 
 Heimdell Tech Ai operates The Telecom Verification Protocol — a managed third-party verification (TPV) system for telecom resellers, brokers and D2D sales teams. After a sale is logged, The Telecom Verification Protocol independently verifies the customer's identity, records verbal contract confirmation, explains cooling-off rights, validates payment details, dispatches SMS and email confirmations, and generates an audit-ready compliance certificate. The entire process takes under 5 minutes and is triggered automatically when a sale is submitted.
+
+## AI AGENT READINESS AND AGENT STANDARDS
+
+Heimdell Tech Ai helps UK businesses get ready for AI agents: software that finds, compares, books and pays for services on a customer's behalf. A free agent-readiness scanner on the homepage (https://heimdell-tech-ai.co.uk/) scores a website out of 100 and lists the most important fixes. Implementation work is custom and bespoke, quoted per project. Nothing is guaranteed: Heimdell measures how AI assistants describe a business before and after the work.
+
+- A2A (Agent2Agent): open standard, launched by Google in 2025 and hosted by the Linux Foundation (v1.0 in March 2026), that lets AI agents discover each other and hand over tasks. Heimdell builds the Agent Card, endpoint and booking integration. https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
+- AP2 (Agent Payments Protocol): open protocol created by Google and donated to the FIDO Alliance in April 2026; lets an AI agent pay on a customer's behalf using signed records of what the customer authorised. https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
+- UCP (Universal Commerce Protocol): open commerce standard announced by Google in January 2026 and co-developed with Shopify; lets agents browse a catalogue, manage a cart and check out. Merchants publish a profile, conventionally at /.well-known/ucp. https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
+- MCP (Model Context Protocol): open standard for connecting AI assistants to tools and data, introduced by Anthropic in late 2024 and donated to the Agentic AI Foundation (Linux Foundation) in December 2025. Heimdell designs scoped, permissioned MCP servers. https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
+- Knowledge Catalog: Google Cloud's metadata platform, formerly Dataplex Universal Catalog (renamed April 2026), that organises and describes data so AI agents can trust it. Heimdell prepares business data for it and for agent use, with or without Google Cloud. https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
+- Hub page: https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
+- Machine-readable: Agent Card https://heimdell-tech-ai.co.uk/.well-known/agent-card.json, AI catalogue https://heimdell-tech-ai.co.uk/.well-known/ai-catalog.json, knowledge catalogue https://heimdell-tech-ai.co.uk/knowledge/catalogue.json
+
+Telecom third-party verification (TPV) and compliance services remain available: https://heimdell-tech-ai.co.uk/tpv-commission-protection.html and https://heimdell-tech-ai.co.uk/third-party-verification.html
 
 ## THE TELECOM VERIFICATION PROTOCOL — FOUR PILLARS
 
@@ -176,7 +190,14 @@ Andrew James-Smith — Founder & Director. Built The Telecom Verification Protoc
 
 ## COMPLETE SITE MAP
 
-- Homepage: https://heimdell-tech-ai.co.uk/ — Full service overview, four-pillar framework, 8-step process, commission leakage calculator, audience segments, founder bio, 8-question FAQ, final CTA
+- Homepage: https://heimdell-tech-ai.co.uk/ — AI agent standards explained (A2A, AP2, UCP, MCP, Knowledge Catalog), free agent-readiness scanner, how we get a business agent-ready, agent FAQ, all services, about
+- AI Agent Readiness: https://heimdell-tech-ai.co.uk/ai-agent-readiness.html — Hub page for the agent standards and the scanner
+- A2A Protocol Implementation: https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
+- AP2 Agent Payments: https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
+- UCP Readiness: https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
+- MCP Servers: https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
+- Knowledge Catalog Readiness: https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
+- TPV Commission Protection: https://heimdell-tech-ai.co.uk/tpv-commission-protection.html — Telecom TPV pitch, 2026 compliance reality, commission calculator, FAQ (moved from the homepage)
 - Services: https://heimdell-tech-ai.co.uk/services/ — Full services & product portfolio hub
 - Pricing: https://heimdell-tech-ai.co.uk/pricing.html — Pricing for every service (real credit-based TPV rates + starting prices)
 - Commission Clawback Audit: https://heimdell-tech-ai.co.uk/commission-clawback-audit.html — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
