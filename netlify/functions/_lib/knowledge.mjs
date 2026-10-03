@@ -22,7 +22,7 @@ const STOPWORDS = new Set([
 function tokenize(text) {
   return String(text)
     .toLowerCase()
-    .replace(/[^a-z0-9£%\s]/g, ' ')
+    .replace(/[^a-z0-9Â£%\s]/g, ' ')
     .split(/\s+/)
     .filter((t) => t && !STOPWORDS.has(t));
 }

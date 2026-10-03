@@ -10,7 +10,7 @@
   },
   "supportedInterfaces": [
     {
-      "url": "https://heimdell-tech-ai.co.uk/api/a2a/v1",
+      "url": "https://agent.heimdell-tech-ai.co.uk/a2a/v1",
       "protocolBinding": "JSONRPC",
       "protocolVersion": "1.0"
     }
