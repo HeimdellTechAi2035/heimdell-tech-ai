@@ -213,6 +213,13 @@
       "summary": "Sold to telecom networks/vendors to police their own reseller channel: independent verification catching reseller mis-selling before it reaches the network's billing system.",
       "pricingModel": "Custom quote per network.",
       "url": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+    },
+    {
+      "id": "website-upgrades",
+      "name": "Website upgrades for SEO, AI search and AI agents",
+      "summary": "Fast, SEO-structured website upgrades: structured data, llms.txt, speed and clear pricing, so Google, ChatGPT and AI agents understand your business.",
+      "pricingModel": "Quoted per project. See https://heimdell-tech-ai.co.uk/pricing.html for current starting prices.",
+      "url": "https://heimdell-tech-ai.co.uk/website-upgrades.html"
     }
   ],
   "policies": [
@@ -1650,6 +1657,44 @@
         "telecom-vendors"
       ],
       "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+    },
+    {
+      "id": "heimdell-chatbot",
+      "question": "Is there a chatbot on your website?",
+      "answer": "Yes. The 'Ask Heimdell' chat on this website answers questions about our services, prices, AI agent standards and telecom compliance. Its answers are pre-written and come from our published knowledge catalogue; it does not use generative AI and it does not store your questions. For anything it cannot answer, contact us at https://heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "chatbot",
+        "assistant",
+        "faq"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/privacy-policy.html#chat",
+      "aliases": [
+        "chatbot",
+        "chat bot",
+        "live chat",
+        "can I chat with someone",
+        "ask heimdell",
+        "virtual assistant"
+      ]
+    },
+    {
+      "id": "heimdell-chatbot-human",
+      "question": "Am I talking to a person or an AI?",
+      "answer": "The chat on this website is an automated assistant that gives pre-written answers from our knowledge catalogue. It is not a person. To speak to a person, email or use the contact page: https://heimdell-tech-ai.co.uk/contact.html.",
+      "tags": [
+        "chatbot",
+        "human",
+        "contact"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/contact.html",
+      "aliases": [
+        "real person",
+        "is this a bot",
+        "human",
+        "are you a robot",
+        "speak to a human",
+        "talk to someone"
+      ]
     }
   ]
 }
