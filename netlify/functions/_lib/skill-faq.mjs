@@ -1,4 +1,4 @@
-import { searchFaqs, getOrganisation } from './knowledge.mjs';
+import { searchKnowledge, getOrganisation } from './knowledge.mjs';
 import { randomUUID } from 'node:crypto';
 
 function textOf(message) {
@@ -9,8 +9,8 @@ function textOf(message) {
 }
 
 export async function handleFaqSkill(message) {
-  const query = textOf(message);
-  const { matches, catalogueVersion } = await searchFaqs(query, 3);
+  const query = textOf(message).slice(0, 500);
+  const { matches, catalogueVersion } = await searchKnowledge(query, 3);
 
   let textPart;
   let confidence;
@@ -23,8 +23,10 @@ export async function handleFaqSkill(message) {
       `You can reach the team directly at ${reach}, or see the full site at ${org.website}.`;
     confidence = 'none';
   } else {
-    textPart = matches.map((m) => m.answer).join('\n\n');
-    confidence = matches[0].score >= 6 ? 'high' : 'medium';
+    const [best, ...rest] = matches;
+    textPart = best.answer;
+    if (rest.length) textPart += `\n\nRelated questions: ${rest.map((m) => m.question).join(' | ')}`;
+    confidence = best.score >= 6 ? 'high' : best.score >= 3 ? 'medium' : 'low';
   }
 
   return {

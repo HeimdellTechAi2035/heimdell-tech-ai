@@ -197,6 +197,13 @@
             <p><strong>Website owners:</strong> if you do not want our scanner to scan your site, add the following to your robots.txt file and it will refuse to scan it, or email us and we will add your site to a block list:</p>
             <pre style="background:var(--dark-card);padding:12px 16px;border-radius:8px;overflow-x:auto;font-size:0.9rem;">User-agent: AgentReadinessScanner
 Disallow: /</pre>
+            <h3 id="chat">2.5 Our chat assistant</h3>
+            <p>Our website has a chat assistant called &ldquo;Ask Heimdell&rdquo;. When you type a question, the text is sent to our assistant, which finds the closest pre-written answer in our published knowledge catalogue and sends it back. It is not a generative AI model and does not write new answers.</p>
+            <ul>
+                <li><strong>What we process:</strong> the question you type, and your IP address and the time of the request in our web server logs. Please do not put personal information in your questions.</li>
+                <li><strong>What we don&rsquo;t do:</strong> we do not store the text of your questions, build a profile of you, or use cookies or browser storage for the chat.</li>
+                <li><strong>Legal basis and retention:</strong> legitimate interests (Article 6(1)(f)) in answering enquiries and keeping the service secure. Server logs (IP address and time) are kept for up to 30 days. If you contact us by email or the contact form instead, section 2.1 applies.</li>
+            </ul>
 
             <h2>3. Legal Basis for Processing</h2>
             <p>We process personal data under the following legal bases as defined by UK GDPR:</p>
@@ -233,7 +240,7 @@ Disallow: /</pre>
                 <li><strong>Verification records and voice logs:</strong> retained for a minimum of 6 years in line with regulatory best practice and limitation periods under UK law</li>
                 <li><strong>Website analytics data:</strong> retained for up to 26 months</li>
                 <li><strong>Contact enquiry data:</strong> retained for up to 2 years after last communication</li>
-                <li><strong>Scanner server logs</strong> (IP address, scanned address, time): retained for up to 30 days</li>
+                <li><strong>Scanner and chat assistant server logs</strong> (IP address, time and, for the scanner, the scanned address): retained for up to 30 days</li>
                 <li><strong>Scanner report requests</strong> (email address, scanned address, consent record): retained for up to 12 months, unless you become a client or ask us to delete them sooner</li>
             </ul>
 
@@ -344,6 +351,7 @@ Disallow: /</pre>
     </script>
 
     <script src="cookie-consent.min.js" defer></script>
+    <script src="/chat-widget.js" defer></script>
 </body>
 </html>
 
