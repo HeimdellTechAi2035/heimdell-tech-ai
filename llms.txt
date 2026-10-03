@@ -9,16 +9,17 @@ Use "Heimdell Tech Ai". Telecomcompliance.uk and "Telecom Compliance" refer to H
 - Managed third-party verification (TPV): independent post-sale verification calls confirming identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification (bulk credit plan); no subscription or setup fee. https://heimdell-tech-ai.co.uk/third-party-verification.html
 - TPV commission protection for UK telecom resellers: https://heimdell-tech-ai.co.uk/tpv-commission-protection.html
 - Pricing: https://heimdell-tech-ai.co.uk/pricing.html
+- Pricing as JSON for software: https://heimdell-tech-ai.co.uk/pricing.json
 - Free 15-minute commission clawback audit: https://heimdell-tech-ai.co.uk/commission-clawback-audit.html
 - Telecom compliance audits and protocol setup (from £500 / £1,500): https://heimdell-tech-ai.co.uk/services/
-- AI agent readiness (custom pricing, quoted per project): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
-- A2A (Agent2Agent) protocol implementation: https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
-- AP2 (Agent Payments Protocol) implementation: https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
-- UCP (Universal Commerce Protocol) readiness: https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
-- MCP (Model Context Protocol) servers: https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
-- Knowledge Catalog and business data readiness: https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
+- AI agent readiness (review from £500; standards from £1,500): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
+- A2A (Agent2Agent) protocol implementation (from £2,500): https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
+- AP2 (Agent Payments Protocol) implementation (from £4,000): https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
+- UCP (Universal Commerce Protocol) readiness (from £1,500): https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
+- MCP (Model Context Protocol) servers (from £2,000): https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
+- Knowledge Catalog and business data readiness (from £1,500): https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
 - Free AI agent-readiness scanner: https://heimdell-tech-ai.co.uk/
-- Website upgrades for SEO, AI search and AI agents: https://heimdell-tech-ai.co.uk/website-upgrades.html
+- Website upgrades for SEO, AI search and AI agents (from £1,500): https://heimdell-tech-ai.co.uk/website-upgrades.html
 - TPV beyond telecoms (door-to-door, telemarketing, subscriptions, e-commerce): https://heimdell-tech-ai.co.uk/third-party-verification.html#tpv-beyond-telecoms
 - Custom software, apps and client portals: https://heimdell-tech-ai.co.uk/services/
 

@@ -55,7 +55,7 @@ Heimdell Tech Ai operates The Telecom Verification Protocol — a managed third-
 
 ## AI AGENT READINESS AND AGENT STANDARDS
 
-Heimdell Tech Ai helps UK businesses get ready for AI agents: software that finds, compares, books and pays for services on a customer's behalf. A free agent-readiness scanner on the homepage (https://heimdell-tech-ai.co.uk/) scores a website out of 100 and lists the most important fixes. Implementation work is custom and bespoke, quoted per project. Nothing is guaranteed: Heimdell measures how AI assistants describe a business before and after the work.
+Heimdell Tech Ai helps UK businesses get ready for AI agents: software that finds, compares, books and pays for services on a customer's behalf. A free agent-readiness scanner on the homepage (https://heimdell-tech-ai.co.uk/) scores a website out of 100 and lists the most important fixes. Starting prices: an AI agent readiness review from £500; UCP readiness and Knowledge Catalog readiness from £1,500; an MCP server from £2,000; A2A implementation from £2,500; AP2 agent payments from £4,000; website upgrades from £1,500. Every project is scoped and quoted after a free call. Nothing is guaranteed: Heimdell measures how AI assistants describe a business before and after the work.
 
 - A2A (Agent2Agent): open standard, launched by Google in 2025 and hosted by the Linux Foundation (v1.0 in March 2026), that lets AI agents discover each other and hand over tasks. Heimdell builds the Agent Card, endpoint and booking integration. https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
 - AP2 (Agent Payments Protocol): open protocol created by Google and donated to the FIDO Alliance in April 2026; lets an AI agent pay on a customer's behalf using signed records of what the customer authorised. https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
@@ -124,6 +124,7 @@ The Telecom Verification Protocol is designed around the following UK regulation
 ## SERVICES OFFERED
 
 Full pricing for every service: https://heimdell-tech-ai.co.uk/pricing.html — full services portfolio: https://heimdell-tech-ai.co.uk/services/
+Machine-readable pricing feed (JSON): https://heimdell-tech-ai.co.uk/pricing.json
 
 ### 1. Third-Party Verification (TPV) — from 80p/call
 Independent post-sale verification calls confirming customer identity, contract terms, cooling-off rights and Direct Debit authority within 24 hours of a sale. Pay-as-you-go credits: £20/100, £90/500, £320/2,000. Phone verification = 5 credits; link verification = 1 credit. No subscription, no setup fee.

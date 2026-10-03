@@ -1,0 +1,289 @@
+{
+  "name": "Heimdell Tech Ai: services and prices",
+  "publisher": {
+    "name": "Heimdell Tech Ai Ltd",
+    "url": "https://heimdell-tech-ai.co.uk/",
+    "companiesHouse": "16478408"
+  },
+  "currency": "GBP",
+  "lastUpdated": "2026-10-03",
+  "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+  "notes": [
+    "Starting prices; exact pricing is confirmed after a free call.",
+    "Every project is scoped and quoted individually.",
+    "TPV credits do not expire; there is no subscription, setup fee or monthly minimum."
+  ],
+  "services": [
+    {
+      "id": "agent-readiness-scan",
+      "name": "AI agent-readiness scan",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/#agentready-scan",
+      "description": "Instant score out of 100 and a prioritised fix list for any public website.",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "currency": "GBP",
+        "display": "Free"
+      }
+    },
+    {
+      "id": "ai-agent-readiness-review",
+      "name": "AI agent readiness review",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
+      "description": "Scan results explained, with a prioritised fix plan.",
+      "price": {
+        "type": "from",
+        "amount": 500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £500"
+      }
+    },
+    {
+      "id": "ucp-readiness",
+      "name": "UCP (Universal Commerce Protocol) readiness",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html",
+      "description": "UCP profile check, product data quality and checkout readiness for AI shopping agents.",
+      "price": {
+        "type": "from",
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £1,500"
+      }
+    },
+    {
+      "id": "knowledge-catalog-readiness",
+      "name": "Knowledge Catalog and business data readiness",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html",
+      "description": "Organising and describing business data for Google Cloud Knowledge Catalog and AI agent use.",
+      "price": {
+        "type": "from",
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £1,500"
+      }
+    },
+    {
+      "id": "website-upgrades",
+      "name": "Website upgrades for SEO, AI search and agents",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/website-upgrades.html",
+      "description": "Structured data, llms.txt, speed and clear pricing so search and AI agents understand your site.",
+      "price": {
+        "type": "from",
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £1,500"
+      }
+    },
+    {
+      "id": "mcp-servers",
+      "name": "MCP (Model Context Protocol) server",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html",
+      "description": "A scoped, permissioned server that lets AI assistants use your booking, product or knowledge systems safely.",
+      "price": {
+        "type": "from",
+        "amount": 2000,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £2,000"
+      }
+    },
+    {
+      "id": "a2a-implementation",
+      "name": "A2A (Agent2Agent) implementation",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html",
+      "description": "Agent Card, secure endpoint and booking integration so AI agents can discover and book your business.",
+      "price": {
+        "type": "from",
+        "amount": 2500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £2,500"
+      }
+    },
+    {
+      "id": "ap2-agent-payments",
+      "name": "AP2 (Agent Payments Protocol) implementation",
+      "category": "ai-agents-and-websites",
+      "url": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html",
+      "description": "Accept payments from AI agents with verifiable proof of what each customer authorised.",
+      "price": {
+        "type": "from",
+        "amount": 4000,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £4,000"
+      }
+    },
+    {
+      "id": "tpv-phone-verification",
+      "name": "Third-party verification (TPV), per phone verification",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/tpv-commission-protection.html",
+      "description": "Independent verification calls with audit-ready certificates. Pay-as-you-go credits, no subscription or setup fee.",
+      "price": {
+        "type": "from",
+        "amount": 0.8,
+        "currency": "GBP",
+        "unit": "phone verification",
+        "display": "from 80p per verification"
+      }
+    },
+    {
+      "id": "commission-clawback-audit",
+      "name": "Commission clawback audit (15 minutes)",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html",
+      "description": "Free 15-minute audit of where a telecom reseller is exposed to commission clawbacks.",
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "currency": "GBP",
+        "display": "Free"
+      }
+    },
+    {
+      "id": "provider-audit-preparation",
+      "name": "Provider audit preparation",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html",
+      "description": "Preparing evidence and processes for a telecom provider audit.",
+      "price": {
+        "type": "from",
+        "amount": 500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £500"
+      }
+    },
+    {
+      "id": "regulatory-risk-assessment",
+      "name": "Regulatory risk assessment",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html",
+      "description": "Identify PECR and DUAA compliance gaps before the regulator does.",
+      "price": {
+        "type": "from",
+        "amount": 500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £500"
+      }
+    },
+    {
+      "id": "gdpr-ico-compliance-audit",
+      "name": "GDPR and ICO compliance audit",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html",
+      "description": "ICO-aligned UK GDPR and PECR assessment for telecom sales teams.",
+      "price": {
+        "type": "from",
+        "amount": 750,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £750"
+      }
+    },
+    {
+      "id": "compliance-protocol-setup",
+      "name": "Compliance protocol setup",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html",
+      "description": "Initial deployment of the core verification protocol.",
+      "price": {
+        "type": "from",
+        "amount": 1500,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £1,500"
+      }
+    },
+    {
+      "id": "compliance-protocol-implementation",
+      "name": "Compliance protocol implementation",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html",
+      "description": "End-to-end rollout with CRM integration and automated evidence trails.",
+      "price": {
+        "type": "from",
+        "amount": 3000,
+        "currency": "GBP",
+        "unit": "project",
+        "display": "from £3,000"
+      }
+    },
+    {
+      "id": "systems-architecture",
+      "name": "Systems architecture and fractional ops",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/systems-architecture.html",
+      "description": "Fractional systems and operations support.",
+      "price": {
+        "type": "from",
+        "amount": 800,
+        "currency": "GBP",
+        "unit": "day",
+        "display": "from £800 per day"
+      }
+    },
+    {
+      "id": "high-volume-partners",
+      "name": "High-volume partner programme",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/high-volume-partners.html",
+      "description": "Bulk third-party verification for high-volume telecom sales.",
+      "price": {
+        "type": "from",
+        "amount": 0.16,
+        "currency": "GBP",
+        "unit": "credit",
+        "display": "from £0.16 per credit (bulk)"
+      }
+    },
+    {
+      "id": "channel-vendor-compliance",
+      "name": "Channel and vendor compliance",
+      "category": "telecom-compliance",
+      "url": "https://heimdell-tech-ai.co.uk/telecom-vendors.html",
+      "description": "Independent channel verification for UK telecom networks.",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    }
+  ],
+  "tpvCredits": {
+    "phoneVerificationCredits": 5,
+    "linkVerificationCredits": 1,
+    "packs": [
+      {
+        "credits": 100,
+        "price": 20,
+        "pricePerCredit": 0.2,
+        "pricePerPhoneVerification": 1.0
+      },
+      {
+        "credits": 500,
+        "price": 90,
+        "pricePerCredit": 0.18,
+        "pricePerPhoneVerification": 0.9
+      },
+      {
+        "credits": 2000,
+        "price": 320,
+        "pricePerCredit": 0.16,
+        "pricePerPhoneVerification": 0.8
+      }
+    ]
+  }
+}
