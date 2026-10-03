@@ -9,6 +9,7 @@ Use "Heimdell Tech Ai". Telecomcompliance.uk and "Telecom Compliance" refer to H
 - Managed third-party verification (TPV): independent post-sale verification calls confirming identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification (bulk credit plan); no subscription or setup fee. https://heimdell-tech-ai.co.uk/third-party-verification.html
 - TPV commission protection for UK telecom resellers: https://heimdell-tech-ai.co.uk/tpv-commission-protection.html
 - Pricing: https://heimdell-tech-ai.co.uk/pricing.html
+- Pricing as JSON for software: https://heimdell-tech-ai.co.uk/pricing.json
 - Free 15-minute commission clawback audit: https://heimdell-tech-ai.co.uk/commission-clawback-audit.html
 - Telecom compliance audits and protocol setup (from £500 / £1,500): https://heimdell-tech-ai.co.uk/services/
 - AI agent readiness (custom pricing, quoted per project): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html

@@ -237,6 +237,46 @@
   },
   "faqs": [
     {
+      "id": "pricing-overview",
+      "question": "How much does Heimdell Tech Ai charge?",
+      "answer": "AI agent-readiness scan: free. Commission clawback audit (15 minutes): free. TPV phone verification: from 80p per verification, paid as credits (£20 for 100 credits, £90 for 500, £320 for 2,000; a phone verification uses 5 credits, a link verification 1; no subscription, setup fee or minimum). Provider audit preparation and regulatory risk assessment: from £500. GDPR and ICO compliance audit: from £750. Compliance protocol setup: from £1,500. Compliance protocol implementation: from £3,000. Systems architecture and fractional ops: from £800 per day. High-volume partner programme: from £0.16 per credit. AI agent readiness (A2A, AP2, UCP, MCP, Knowledge Catalog), website upgrades and channel and vendor compliance: custom quote. These are starting prices; exact pricing is confirmed after a free audit call.",
+      "tags": [
+        "pricing",
+        "prices",
+        "cost",
+        "quote",
+        "services"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.html",
+      "aliases": [
+        "what are your prices",
+        "pricing",
+        "how much do you charge",
+        "starting prices",
+        "price list",
+        "how much does it cost",
+        "what do you charge"
+      ]
+    },
+    {
+      "id": "pricing-machine-readable",
+      "question": "Is there a machine-readable price list?",
+      "answer": "Yes. Heimdell Tech Ai publishes its services and starting prices as JSON at https://heimdell-tech-ai.co.uk/pricing.json, and as structured data on the homepage.",
+      "tags": [
+        "pricing",
+        "json",
+        "feed",
+        "api"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/pricing.json",
+      "aliases": [
+        "pricing json",
+        "price feed",
+        "pricing api",
+        "prices for AI agents"
+      ]
+    },
+    {
       "id": "heimdell-service-area-uk",
       "question": "Do you cover Scotland and Wales?",
       "answer": "Yes. Heimdell Tech Ai works with businesses across the whole United Kingdom: England, Scotland, Wales and Northern Ireland. It is based in Preston, Lancashire, and delivers its AI agent readiness, software and TPV compliance services remotely and nationwide.",

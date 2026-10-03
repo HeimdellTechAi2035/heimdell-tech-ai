@@ -124,6 +124,7 @@ The Telecom Verification Protocol is designed around the following UK regulation
 ## SERVICES OFFERED
 
 Full pricing for every service: https://heimdell-tech-ai.co.uk/pricing.html — full services portfolio: https://heimdell-tech-ai.co.uk/services/
+Machine-readable pricing feed (JSON): https://heimdell-tech-ai.co.uk/pricing.json
 
 ### 1. Third-Party Verification (TPV) — from 80p/call
 Independent post-sale verification calls confirming customer identity, contract terms, cooling-off rights and Direct Debit authority within 24 hours of a sale. Pay-as-you-go credits: £20/100, £90/500, £320/2,000. Phone verification = 5 credits; link verification = 1 credit. No subscription, no setup fee.
