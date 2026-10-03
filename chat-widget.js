@@ -187,10 +187,15 @@
   function tok(text) { return String(text).toLowerCase().replace(/[^a-z0-9£%\s]/g, ' ').split(/\s+/).filter(function (t) { return t && !STOP[t]; }).map(stem); }
   function localSearch(q, limit) {
     var qt = tok(q); if (!qt.length || !entries.length) return [];
+    var wantsPrice = /\b(cost|costs|price|prices|pricing|priced|how much|charge|charges|fee|fees|quote|quotes|afford|expensive|cheap|budget)\b/i.test(q);
+    var wantsCompare = /\b(vs|versus|difference|differences|different|compare|compared|comparison|between|better)\b/i.test(q);
     var set = {}; qt.forEach(function (t) { set[t] = 1; });
     var bump = function (txt, w) { var s = 0; tok(txt).forEach(function (t) { if (set[t]) s += w; }); return s; };
     return entries.map(function (e) {
       var s = bump(e.question, 3) + bump(e.answer, 1) + (e.aliases || []).reduce(function (a, x) { return a + bump(x, 3); }, 0) + (e.tags || []).reduce(function (a, x) { return a + bump(x, 2); }, 0);
+      // price and comparison answers only lead when the question is about price / comparing (mirrors the assistant)
+      if (!wantsPrice && (e.tags || []).indexOf('pricing') > -1) s = s * 0.5;
+      if (!wantsCompare && (e.tags || []).indexOf('comparison') > -1) s = s * 0.5;
       return { e: e, s: s };
     }).filter(function (x) { return x.s > 0; }).sort(function (a, b) { return b.s - a.s; }).slice(0, limit)
       .map(function (x) { return { id: x.e.id, question: x.e.question, answer: x.e.answer, source: x.e.source, score: x.s }; });
