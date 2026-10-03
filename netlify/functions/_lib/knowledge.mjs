@@ -61,6 +61,13 @@ function score(queryTokens, fields) {
   return s;
 }
 
+const PRICE_INTENT = /\b(cost|costs|price|prices|pricing|priced|how much|charge|charges|fee|fees|quote|quotes|afford|expensive|cheap|budget)\b/i;
+const COMPARE_INTENT = /\b(vs|versus|difference|differences|different|compare|compared|comparison|between|better)\b/i;
+// Some answers only make sense for a certain kind of question: a price answer should lead for "how much...", a comparison for "what's the difference...".
+// Otherwise they are ranked down, so "what is MCP" gets the definition rather than the cost or a comparison.
+const INTENT_TAGS = [['pricing', PRICE_INTENT], ['comparison', COMPARE_INTENT]];
+const intentFactor = (entry, query) => INTENT_TAGS.reduce((f, [tag, re]) => ((entry.tags || []).includes(tag) && !re.test(query) ? f * 0.5 : f), 1);
+
 const join = (arr) => arr.filter(Boolean).join(', ');
 
 // Turns every section of the catalogue (not just the FAQs) into answerable entries, so the assistant knows all of it.
@@ -140,7 +147,7 @@ export async function searchKnowledge(query, limit = 3) {
   const qTokens = tokenize(query);
   if (qTokens.length === 0) return { matches: [], catalogueVersion: catalogue.version };
 
-  const scored = entries.map((e) => ({ e, s: score(qTokens, e) * e.weight }));
+  const scored = entries.map((e) => ({ e, s: score(qTokens, e) * e.weight * intentFactor(e, query) }));
   scored.sort((a, b) => b.s - a.s);
   const matches = scored
     .filter((x) => x.s > 0)
