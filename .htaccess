@@ -8,7 +8,9 @@ Redirect 301 /services/telecom-sales-compliance-verification.html /third-party-v
 
 # Redirect Financial Leakage Audit pages to Commission Clawback Audit
 Redirect 301 /financial-leakage-audit.html /commission-clawback-audit.html
-Redirect 301 /case-study-clawback-reduction.html /commission-clawback-audit.html
+Redirect 301 /case-study-clawback-reduction.html /case-studies.html
+Redirect 301 /case-study-provider-audit.html /case-studies.html
+Redirect 301 /case-study-scaling-compliance.html /case-studies.html
 
 # Standard security and performance headers
 <IfModule mod_headers.c>
