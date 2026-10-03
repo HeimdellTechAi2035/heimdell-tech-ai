@@ -16,6 +16,7 @@
     <meta name="description" content="AIT prevention standard operating procedure. Detection thresholds, escalation matrix and Ofcom templates.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://heimdell-tech-ai.co.uk/guides/ait-prevention-sop.html">
+    <link rel="alternate" hreflang="en-gb" href="https://heimdell-tech-ai.co.uk/guides/ait-prevention-sop.html">
     <meta name="author" content="Andrew James-Smith">
 
     <!-- Open Graph -->
@@ -39,58 +40,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
 
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What traffic thresholds indicate AIT fraud?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Key AIT detection thresholds: >50 calls per hour to a single international destination, >£500 daily international spend per customer (reseller customer baseline), >90% answer rate to premium destinations (normal is 30-40%), calls outside business hours to high-risk prefixes (Cuba +53, Somalia +252, Latvia +371 premium ranges)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How quickly must AIT incidents be contained?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Industry best practice under Ofcom GC C1: detect within 15 minutes, contain within 30 minutes, customer notification within 1 hour, Ofcom notification within 24 hours for major incidents (>£10,000 or >1,000 calls). Failure to contain promptly may constitute failure to take 'reasonable steps' under GC C1."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When must I report AIT to Ofcom?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Report to Ofcom when: financial loss exceeds £10,000, more than 1,000 fraudulent calls originated, fraud involves CLI spoofing of UK public services, or you identify a new fraud vector not on industry watchlists. Use the Ofcom enforcement contact form or email enforcement@ofcom.org.uk."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What evidence must be retained for AIT incidents?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Retain for minimum 3 years: CDR records showing fraud traffic, alert timestamps and response actions, containment decision logs, customer communications, Ofcom/TUFF notifications, post-incident review documents. Store in tamper-evident format for regulatory evidence."
-                }
-            }
-        ]
+      "@type": "Question",
+      "name": "What traffic thresholds indicate AIT fraud?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key AIT detection thresholds: >50 calls per hour to a single international destination, >£500 daily international spend per customer (reseller customer baseline), >90% answer rate to premium destinations (normal is 30-40%), calls outside business hours to high-risk prefixes (Cuba +53, Somalia +252, Latvia +371 premium ranges)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly must AIT incidents be contained?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Industry best practice under Ofcom GC C1: detect within 15 minutes, contain within 30 minutes, customer notification within 1 hour, Ofcom notification within 24 hours for major incidents (>£10,000 or >1,000 calls). Failure to contain promptly may constitute failure to take 'reasonable steps' under GC C1."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When must I report AIT to Ofcom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Report to Ofcom when: financial loss exceeds £10,000, more than 1,000 fraudulent calls originated, fraud involves CLI spoofing of UK public services, or you identify a new fraud vector not on industry watchlists. Use the Ofcom enforcement contact form or email enforcement@ofcom.org.uk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What evidence must be retained for AIT incidents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Retain for minimum 3 years: CDR records showing fraud traffic, alert timestamps and response actions, containment decision logs, customer communications, Ofcom/TUFF notifications, post-incident review documents. Store in tamper-evident format for regulatory evidence."
+      }
     }
-    </script>
+  ]
+}</script>
 
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heimdell-tech-ai.co.uk/"},
-            {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://heimdell-tech-ai.co.uk/guides/"},
-            {"@type": "ListItem", "position": 3, "name": "AIT Prevention SOP", "item": "https://heimdell-tech-ai.co.uk/guides/ait-prevention-sop.html"}
-        ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://heimdell-tech-ai.co.uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Guides",
+      "item": "https://heimdell-tech-ai.co.uk/guides/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "AIT Prevention SOP",
+      "item": "https://heimdell-tech-ai.co.uk/guides/ait-prevention-sop.html"
     }
-    </script>
+  ]
+}</script>
 
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -161,8 +173,7 @@
         .footer a { color: var(--text-secondary); font-size: 0.85rem; margin: 0 8px; }
     </style>
     <!-- JSON-LD: WebPage reference -->
-    <script type="application/ld+json">
-{
+    <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://heimdell-tech-ai.co.uk/guides/ait-prevention-sop.html#webpage",
@@ -176,12 +187,20 @@
   },
   "publisher": {
     "@id": "https://heimdell-tech-ai.co.uk/#organization"
-  }
-}
-    </script>
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".quick-answer"
+    ]
+  },
+  "dateModified": "2026-10-03T09:00:00+00:00"
+}</script>
 </head>
 <body>
     <nav class="nav-bar"><div class="nav-bar-inner"><a href="/"><img src="../heimdell-tech-ai-silver-protocol-logo.png" alt="Heimdell Tech Ai - TPV Verification for Telecom Resellers" width="36" height="36"> HEIMDELL TECH AI</a><div class="nav-site-links"><a href="/">Home</a><a href="/services/">Services</a><a href="../pricing.html">Pricing</a><a href="../third-party-verification.html">TPV Services</a><a href="../commission-clawback-audit.html">Clawback Audit</a><a href="/ai-agent-readiness.html">AI Agents</a><a href="../case-studies.html">Case Studies</a><a href="../about.html">About</a><a href="../contact.html">Contact</a></div><a href="/contact.html" class="nav-cta-btn">Contact Us</a><div class="nav-hamburger" role="button" tabindex="0" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></div></div></nav>
+<main id="main">
 
     <article>
         <header class="article-hero">
@@ -189,6 +208,7 @@
                 <span class="badge">Operational SOP</span>
                 <h1>AIT Prevention Standard Operating Procedure</h1>
                 <p class="subtitle">Step-by-step fraud detection and response for UK communication providers under Ofcom GC C1.</p>
+            <div class="quick-answer" style="border-left:4px solid #c9a24d;background:#f5f3ff;color:#2d1b69;border-radius:8px;padding:14px 18px;margin:18px auto;max-width:820px;text-align:left;"><p style="margin:0;"><strong>Quick answer:</strong> AIT, or artificial inflation of traffic, is fraud that pumps up call or message volumes to earn revenue. This procedure sets detection thresholds, an escalation path and Ofcom reporting templates for telecom resellers.</p></div>
                 <p class="article-meta">By <strong>Andrew James-Smith</strong> | Updated February 2026 | Reference Document</p>
             </div>
         </header>
@@ -510,7 +530,7 @@ Date: [DD/MM/YYYY]
             <a href="https://calendar.app.google/E9pkh4r8XczvniGCA" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:14px 32px;background:var(--gold);color:#fff;font-weight:600;border-radius:10px;text-decoration:none;">Book Your Free Audit &rarr;</a>
         </div>
     </section>
-
+</main>
 <footer class="footer">
         <div class="container">
             <p>&copy; 2026 Heimdell Tech Ai Ltd. Registered in England &amp; Wales. Company No. <a href="https://find-and-update.company-information.service.gov.uk/company/16478408" target="_blank" rel="noopener noreferrer">16478408</a>. Registered Office: 11 Lower Croft, Preston, PR1 9DJ. ICO Reg: <a href="https://ico.org.uk/ESDWebPages/Entry/ZC079121" target="_blank" rel="noopener noreferrer">ZC079121</a>.</p>

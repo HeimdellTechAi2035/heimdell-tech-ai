@@ -16,6 +16,7 @@
     <meta name="description" content="TSA 2021 compliance guide. Tier 1, 2, 3 requirements, security duties and NCSC guidance.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://heimdell-tech-ai.co.uk/guides/telecoms-security-act.html">
+    <link rel="alternate" hreflang="en-gb" href="https://heimdell-tech-ai.co.uk/guides/telecoms-security-act.html">
     <meta name="author" content="Andrew James-Smith">
     <meta name="geo.region" content="GB">
 
@@ -41,102 +42,112 @@
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
     <link rel="help" type="text/plain" href="/llms.txt" title="LLM guidance for Heimdell Tech Ai">
 
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Telecoms Security Act 2021: Tier 1, 2, and 3 Compliance Requirements",
+  "description": "Complete guide to Telecoms Security Act compliance for UK communication providers, covering Tier 1, 2, and 3 specific requirements.",
+  "url": "https://heimdell-tech-ai.co.uk/guides/telecoms-security-act.html",
+  "datePublished": "2026-02-26",
+  "dateModified": "2026-02-26",
+  "author": {
+    "@type": "Person",
+    "name": "Andrew James-Smith",
+    "url": "https://heimdell-tech-ai.co.uk/about.html"
+  },
+  "publisher": {
+    "@id": "https://heimdell-tech-ai.co.uk/#organization"
+  },
+  "isPartOf": {
+    "@type": "Article",
+    "name": "UK Telecom Compliance Guide 2026",
+    "url": "https://heimdell-tech-ai.co.uk/guides/uk-telecom-compliance.html",
+    "dateModified": "2026-10-03T09:00:00+00:00"
+  },
+  "about": [
     {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Telecoms Security Act 2021: Tier 1, 2, and 3 Compliance Requirements",
-        "description": "Complete guide to Telecoms Security Act compliance for UK communication providers, covering Tier 1, 2, and 3 specific requirements.",
-        "url": "https://heimdell-tech-ai.co.uk/guides/telecoms-security-act.html",
-        "datePublished": "2026-02-26",
-        "dateModified": "2026-02-26",
-        "author": {
-            "@type": "Person",
-            "name": "Andrew James-Smith",
-            "url": "https://heimdell-tech-ai.co.uk/about.html"
-        },
-        "publisher": {
-            "@id": "https://heimdell-tech-ai.co.uk/#organization"
-        },
-        "isPartOf": {
-            "@type": "Article",
-            "name": "UK Telecom Compliance Guide 2026",
-            "url": "https://heimdell-tech-ai.co.uk/guides/uk-telecom-compliance.html"
-        },
-        "about": [
-            {
-                "@type": "Legislation",
-                "name": "Telecommunications (Security) Act 2021",
-                "legislationIdentifier": "c. 31"
-            },
-            {
-                "@type": "Thing",
-                "name": "Network Security"
-            },
-            {
-                "@type": "GovernmentOrganization",
-                "name": "Ofcom",
-                "sameAs": "https://www.wikidata.org/wiki/Q1140498"
-            },
-            {
-                "@type": "GovernmentOrganization",
-                "name": "NCSC",
-                "sameAs": "https://www.wikidata.org/wiki/Q30628685"
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Legislation",
+      "name": "Telecommunications (Security) Act 2021",
+      "legislationIdentifier": "c. 31"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heimdell-tech-ai.co.uk/"},
-            {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://heimdell-tech-ai.co.uk/guides/"},
-            {"@type": "ListItem", "position": 3, "name": "Telecoms Security Act", "item": "https://heimdell-tech-ai.co.uk/guides/telecoms-security-act.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Thing",
+      "name": "Network Security"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is the Telecoms Security Act 2021?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The Telecommunications (Security) Act 2021 establishes a new security framework for UK public telecoms networks. It gives Ofcom enforcement powers and sets out security duties that providers must follow, with requirements varying by tier based on provider size and criticality."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Which tier does my telecom company fall into?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tier 1: Largest providers with gross annual revenue >£1 billion. Tier 2: Medium providers with revenue between £50 million and £1 billion. Tier 3: Smaller providers with revenue below £50 million. Tier classification affects which Code of Practice measures are mandatory vs. recommended."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What are the penalties for non-compliance with TSA 2021?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ofcom can issue fines up to 10% of relevant annual turnover for serious security breaches. Continuing contraventions can attract daily penalties of £100,000. Directors may also face personal liability for persistent non-compliance."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the relationship between TSA and NCSC guidance?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The National Cyber Security Centre (NCSC) provides technical guidance that informs TSA compliance. The Electronic Communications (Security Measures) Regulations 2022 and Code of Practice translate NCSC standards into specific provider obligations."
-                }
-            }
-        ]
+      "@type": "GovernmentOrganization",
+      "name": "Ofcom",
+      "sameAs": "https://www.wikidata.org/wiki/Q1140498"
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "name": "NCSC",
+      "sameAs": "https://www.wikidata.org/wiki/Q30628685"
     }
-    </script>
+  ]
+}</script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://heimdell-tech-ai.co.uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Guides",
+      "item": "https://heimdell-tech-ai.co.uk/guides/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Telecoms Security Act",
+      "item": "https://heimdell-tech-ai.co.uk/guides/telecoms-security-act.html"
+    }
+  ]
+}</script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Telecoms Security Act 2021?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Telecommunications (Security) Act 2021 establishes a new security framework for UK public telecoms networks. It gives Ofcom enforcement powers and sets out security duties that providers must follow, with requirements varying by tier based on provider size and criticality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which tier does my telecom company fall into?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tier 1: Largest providers with gross annual revenue >£1 billion. Tier 2: Medium providers with revenue between £50 million and £1 billion. Tier 3: Smaller providers with revenue below £50 million. Tier classification affects which Code of Practice measures are mandatory vs. recommended."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the penalties for non-compliance with TSA 2021?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ofcom can issue fines up to 10% of relevant annual turnover for serious security breaches. Continuing contraventions can attract daily penalties of £100,000. Directors may also face personal liability for persistent non-compliance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the relationship between TSA and NCSC guidance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The National Cyber Security Centre (NCSC) provides technical guidance that informs TSA compliance. The Electronic Communications (Security Measures) Regulations 2022 and Code of Practice translate NCSC standards into specific provider obligations."
+      }
+    }
+  ]
+}</script>
 
     <style>
         :root {
@@ -401,8 +412,7 @@
         }
     </style>
     <!-- JSON-LD: WebPage reference -->
-    <script type="application/ld+json">
-{
+    <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://heimdell-tech-ai.co.uk/guides/telecoms-security-act.html#webpage",
@@ -416,9 +426,16 @@
   },
   "publisher": {
     "@id": "https://heimdell-tech-ai.co.uk/#organization"
-  }
-}
-    </script>
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".quick-answer"
+    ]
+  },
+  "dateModified": "2026-10-03T09:00:00+00:00"
+}</script>
 </head>
 <body>
     <header>
@@ -440,8 +457,10 @@
                 <span>/</span>
                 <span>Telecoms Security Act</span>
             </nav>
+<main id="main">
             <h1>Telecoms Security Act 2021: Tier 1, 2 & 3 Requirements</h1>
             <p class="subtitle">Complete compliance guide for UK communication providers. Understand your tier classification, mandatory security duties, and implementation deadlines.</p>
+            <div class="quick-answer" style="border-left:4px solid #c9a24d;background:#f5f3ff;color:#2d1b69;border-radius:8px;padding:14px 18px;margin:18px auto;max-width:820px;text-align:left;"><p style="margin:0;"><strong>Quick answer:</strong> The Telecoms Security Act 2021 requires UK providers to protect their networks, with duties that scale by tier (1, 2 or 3). This guide explains each tier's requirements and the NCSC guidance behind them.</p></div>
         </div>
     </section>
 
@@ -727,7 +746,7 @@
             <a href="https://calendar.app.google/E9pkh4r8XczvniGCA" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:14px 32px;background:var(--gold);color:#fff;font-weight:600;border-radius:10px;text-decoration:none;">Book Your Free Audit &rarr;</a>
         </div>
     </section>
-
+</main>
 <footer>
         <div class="footer-content">
             <div class="footer-links">

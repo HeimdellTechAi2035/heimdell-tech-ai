@@ -23,7 +23,7 @@
       "postalCode": "PR1 9DJ",
       "addressCountry": "GB"
     },
-    "email": "andrew@heimdell-tech-ai.co.uk",
+    "email": "contact@heimdell-tech-ai.co.uk",
     "openingHours": "Mon–Fri 08:30–17:30, Sat 09:30–15:00",
     "website": "https://heimdell-tech-ai.co.uk/",
     "description": "UK software development and IT consultancy firm (SIC 62012, 62020) in Preston, Lancashire. Helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), builds custom software, apps, client portals, websites and AI systems, and also provides managed third-party verification (TPV) and compliance services for telecom resellers, brokers and D2D sales teams.",
@@ -83,12 +83,10 @@
       },
       {
         "name": "E-Responder",
-        "url": "https://fieldmedicapp.uk/",
         "description": "A FREC3 emergency response platform for emergency response and healthcare teams."
       },
       {
         "name": "CTSA",
-        "url": "https://martins-law-framework.website/",
         "description": "Counter-Terrorism Security Audits to help venues implement Martyn's Law."
       }
     ]

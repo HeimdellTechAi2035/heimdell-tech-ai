@@ -31,8 +31,16 @@ Use "Heimdell Tech Ai". Telecomcompliance.uk and "Telecom Compliance" refer to H
 - One Touch Switch: https://heimdell-tech-ai.co.uk/guides/one-touch-switch-compliance.html
 
 ## Contact
-11 Lower Croft, Preston, Lancashire PR1 9DJ · andrew@heimdell-tech-ai.co.uk · Mon–Fri 08:30–17:30, Sat 09:30–15:00
+11 Lower Croft, Preston, Lancashire PR1 9DJ · contact@heimdell-tech-ai.co.uk · Mon–Fri 08:30–17:30, Sat 09:30–15:00
 Contact page: https://heimdell-tech-ai.co.uk/contact.html
 
 ## Citation
 Cite as "Heimdell Tech Ai" with the page URL.
+
+## Plain-English guides to AI agent standards
+- What is the A2A protocol?: https://heimdell-tech-ai.co.uk/what-is-a2a-protocol.html
+- What is AP2 (Agent Payments Protocol)?: https://heimdell-tech-ai.co.uk/what-is-ap2-agent-payments-protocol.html
+- A2A vs MCP vs AP2 vs UCP compared: https://heimdell-tech-ai.co.uk/a2a-vs-mcp-vs-ap2-vs-ucp.html
+- AI agent readiness checklist for UK businesses: https://heimdell-tech-ai.co.uk/ai-agent-readiness-checklist-uk.html
+- llms.txt, agent-card.json and robots.txt explained: https://heimdell-tech-ai.co.uk/llms-txt-agent-card-robots-explained.html
+- Agentic commerce: a UK small business guide: https://heimdell-tech-ai.co.uk/agentic-commerce-uk-small-business.html
