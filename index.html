@@ -61,31 +61,96 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["Organization", "ProfessionalService"],
+  "@type": [
+    "Organization",
+    "ProfessionalService"
+  ],
   "@id": "https://heimdell-tech-ai.co.uk/#organization",
   "name": "Heimdell Tech Ai",
   "legalName": "Heimdell Tech Ai Ltd",
-  "alternateName": ["Telecomcompliance.uk", "Heimdell"],
+  "alternateName": [
+    "Telecomcompliance.uk",
+    "Heimdell"
+  ],
   "url": "https://heimdell-tech-ai.co.uk/",
   "logo": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
   "image": "https://heimdell-tech-ai.co.uk/images/silver-protocol-four-pillar-audit-automation-framework.png",
-  "description": "UK software development and IT consultancy (SIC 62012) in Preston, Lancashire. Builds custom software, apps, websites and AI systems, and operates a verified-consent and managed third-party verification (TPV) platform for UK sales teams.",
+  "description": "UK software development and IT consultancy (SIC 62012) in Preston, Lancashire. Helps businesses become AI agent-ready with A2A, AP2, UCP and MCP implementation and a free agent-readiness scanner; builds custom software, apps, websites and AI systems; and operates a verified-consent and managed third-party verification (TPV) platform for UK sales teams.",
+  "knowsAbout": [
+    "AI agent readiness",
+    "Agent2Agent (A2A) protocol",
+    "Agent Payments Protocol (AP2)",
+    "Universal Commerce Protocol (UCP)",
+    "Model Context Protocol (MCP)",
+    "Google Knowledge Catalog",
+    "Structured data (schema.org)",
+    "Third-party verification (TPV)"
+  ],
   "foundingDate": "2025-05-28",
-  "founder": { "@type": "Person", "@id": "https://heimdell-tech-ai.co.uk/about.html#person", "name": "Andrew James-Smith", "jobTitle": "Founder & Director" },
+  "founder": {
+    "@type": "Person",
+    "@id": "https://heimdell-tech-ai.co.uk/about.html#person",
+    "name": "Andrew James-Smith",
+    "jobTitle": "Founder & Director"
+  },
   "telephone": "+447418008279",
   "email": "andrew@heimdell-tech-ai.co.uk",
-  "address": { "@type": "PostalAddress", "streetAddress": "11 Lower Croft", "addressLocality": "Preston", "addressRegion": "Lancashire", "postalCode": "PR1 9DJ", "addressCountry": "GB" },
-  "geo": { "@type": "GeoCoordinates", "latitude": 53.7587, "longitude": -2.6972 },
-  "areaServed": [{ "@type": "Country", "name": "United Kingdom" }],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "11 Lower Croft",
+    "addressLocality": "Preston",
+    "addressRegion": "Lancashire",
+    "postalCode": "PR1 9DJ",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 53.7587,
+    "longitude": -2.6972
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    }
+  ],
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:30", "closes": "17:30" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:30", "closes": "15:00" }
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:30",
+      "closes": "17:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:30",
+      "closes": "15:00"
+    }
   ],
   "priceRange": "££",
   "identifier": [
-    { "@type": "PropertyValue", "propertyID": "Companies House", "value": "16478408" },
-    { "@type": "PropertyValue", "propertyID": "ICO Registration", "value": "ZC079121" },
-    { "@type": "PropertyValue", "propertyID": "D-U-N-S", "value": "233836391" }
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Companies House",
+      "value": "16478408"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ICO Registration",
+      "value": "ZC079121"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "D-U-N-S",
+      "value": "233836391"
+    }
   ],
   "sameAs": [
     "https://www.linkedin.com/company/heimdell-tech-ai",
@@ -97,7 +162,14 @@
     "https://find-and-update.company-information.service.gov.uk/company/16478408",
     "https://ico.org.uk/ESDWebPages/Entry/ZC079121"
   ],
-  "contactPoint": { "@type": "ContactPoint", "contactType": "sales", "telephone": "+447418008279", "email": "andrew@heimdell-tech-ai.co.uk", "areaServed": "GB", "availableLanguage": "en-GB" }
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "telephone": "+447418008279",
+    "email": "andrew@heimdell-tech-ai.co.uk",
+    "areaServed": "GB",
+    "availableLanguage": "en-GB"
+  }
 }
     </script>
 
@@ -157,6 +229,75 @@
         }
     }
     </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://heimdell-tech-ai.co.uk/#agent-readiness-service",
+      "name": "AI Agent Readiness (A2A, AP2, UCP, MCP)",
+      "serviceType": "AI agent readiness",
+      "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
+      "provider": {
+        "@id": "https://heimdell-tech-ai.co.uk/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Customers are starting to let AI agents find, book and pay for services. Heimdell Tech Ai makes UK businesses agent-ready with A2A, AP2 and verified consent."
+    },
+    {
+      "@type": "Service",
+      "@id": "https://heimdell-tech-ai.co.uk/#a2a-service",
+      "name": "A2A Protocol Implementation",
+      "serviceType": "Agent2Agent (A2A) protocol implementation",
+      "url": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html",
+      "provider": {
+        "@id": "https://heimdell-tech-ai.co.uk/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Let AI agents discover and book your business. Heimdell Tech Ai implements the open Agent2Agent (A2A) protocol, from Agent Card to booking integration."
+    },
+    {
+      "@type": "Service",
+      "@id": "https://heimdell-tech-ai.co.uk/#ap2-service",
+      "name": "AP2 Agent Payments Implementation",
+      "serviceType": "Agent Payments Protocol (AP2) implementation",
+      "url": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html",
+      "provider": {
+        "@id": "https://heimdell-tech-ai.co.uk/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "Accept payments from AI agents safely. Heimdell Tech Ai implements Google's Agent Payments Protocol (AP2) with verifiable proof of what each customer authorised."
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://heimdell-tech-ai.co.uk/#agent-scanner",
+      "name": "AI Agent-Readiness Scanner",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any (web browser)",
+      "url": "https://heimdell-tech-ai.co.uk/#agentready-scan",
+      "provider": {
+        "@id": "https://heimdell-tech-ai.co.uk/#organization"
+      },
+      "description": "Free tool that scores how easily AI agents can find, read and trust a website, with a prioritised fix list.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "GBP"
+      }
+    }
+  ]
+}
+    </script>
 
     <!-- JSON-LD: SoftwareApplication Schema -->
     <script type="application/ld+json">
@@ -191,76 +332,124 @@
 
     <!-- JSON-LD: FAQPage Schema -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is third party verification in telecoms?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Third party verification (TPV) is an independent process that confirms a customer has genuinely agreed to a telecom contract. It captures proof of identity, informed consent, and the exact terms accepted — creating a legally defensible record that protects both the provider and the customer."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Why does third party verification matter for telecom sales?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Without verified proof of consent, sales are vulnerable to disputes, chargebacks, and regulatory penalties. TPV creates an unbroken chain of evidence from the moment of sale through to payment — turning every transaction into a protected asset rather than a liability."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does your third party verification service work?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Our fully managed service integrates directly into your sales workflow. We validate customer identity, capture explicit consent with timestamps, generate audit-ready certificates, log delivery confirmations, and sync everything to your CRM — all without slowing down your sales process."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What telecom compliance regulations require third party verification?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "UK telecom providers must comply with Ofcom's General Conditions, including rules on mis-selling, contract transparency, and customer consent. TPV helps demonstrate compliance with these requirements and provides documented evidence in case of regulatory audit or customer complaint."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does TPV prevent disputed sales and clawbacks?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Disputes arise when customers claim they never agreed to a contract or were misled about terms. Our service captures time-stamped, identity-verified consent with a full audit trail — giving you concrete proof to defend against disputes and recover revenue that would otherwise be clawed back."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What evidence does your system capture for audits?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Every verification generates a complete evidence package: customer identity validation, recorded consent, contract terms presented, timestamps, IP and device data, delivery logs, and a tamper-proof compliance certificate. All records are indexed, searchable, and ready for regulator or legal review."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Will third party verification slow down our sales process?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Our system is designed for speed and seamless integration. Verification takes seconds, runs automatically within your existing workflow, and syncs directly to your CRM. Your sales team keeps moving — with every sale now protected by verified proof of consent."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What makes your TPV service different from compliance software?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We are not a software tool you manage yourself. We provide a fully managed service that handles verification, evidence capture, certificate generation, and audit preparation for you. The result is revenue protection, dispute prevention, and legal proof — not just a compliance checkbox."
-                }
-            }
-        ]
+      "@type": "Question",
+      "name": "What is third party verification in telecoms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Third party verification (TPV) is an independent process that confirms a customer has genuinely agreed to a telecom contract. It captures proof of identity, informed consent, and the exact terms accepted — creating a legally defensible record that protects both the provider and the customer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does third party verification matter for telecom sales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Without verified proof of consent, sales are vulnerable to disputes, chargebacks, and regulatory penalties. TPV creates an unbroken chain of evidence from the moment of sale through to payment — turning every transaction into a protected asset rather than a liability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does your third party verification service work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our fully managed service integrates directly into your sales workflow. We validate customer identity, capture explicit consent with timestamps, generate audit-ready certificates, log delivery confirmations, and sync everything to your CRM — all without slowing down your sales process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What telecom compliance regulations require third party verification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "UK telecom providers must comply with Ofcom's General Conditions, including rules on mis-selling, contract transparency, and customer consent. TPV helps demonstrate compliance with these requirements and provides documented evidence in case of regulatory audit or customer complaint."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does TPV prevent disputed sales and clawbacks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Disputes arise when customers claim they never agreed to a contract or were misled about terms. Our service captures time-stamped, identity-verified consent with a full audit trail — giving you concrete proof to defend against disputes and recover revenue that would otherwise be clawed back."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What evidence does your system capture for audits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every verification generates a complete evidence package: customer identity validation, recorded consent, contract terms presented, timestamps, IP and device data, delivery logs, and a tamper-proof compliance certificate. All records are indexed, searchable, and ready for regulator or legal review."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will third party verification slow down our sales process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Our system is designed for speed and seamless integration. Verification takes seconds, runs automatically within your existing workflow, and syncs directly to your CRM. Your sales team keeps moving — with every sale now protected by verified proof of consent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes your TPV service different from compliance software?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are not a software tool you manage yourself. We provide a fully managed service that handles verification, evidence capture, certificate generation, and audit preparation for you. The result is revenue protection, dispute prevention, and legal proof — not just a compliance checkbox."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does it mean for a business to be AI agent-ready?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AI agent-ready business is one that software acting for a customer, such as an AI assistant or shopping agent, can find, understand and transact with. That means accurate structured data about your products, services, prices and policies, a clear way to book or buy, and, increasingly, support for open standards such as A2A and AP2."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the A2A (Agent2Agent) protocol?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A2A is an open standard that lets AI agents built by different vendors discover each other, exchange messages and hand over tasks. It is governed by the Linux Foundation, and version 1.0 was released in March 2026. A business publishes an Agent Card that describes what it offers and how to reach it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is AP2 and how do AI agents pay for things?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AP2 (Agent Payments Protocol) is an open protocol, created by Google and donated to the FIDO Alliance in April 2026, that lets an AI agent make a payment on a customer's behalf. It uses signed mandates that record exactly what the customer authorised, so every agent purchase has verifiable proof."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are UCP, MCP and Knowledge Catalog?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "UCP (Universal Commerce Protocol) lets agents browse a catalogue, manage a cart and check out. MCP (Model Context Protocol) connects AI assistants to tools and data such as booking systems. Knowledge Catalog is Google Cloud's service, formerly Dataplex Universal Catalog, that gives AI agents governed business context about data. All three depend on accurate, structured business information, which is where we start."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to support every AI agent standard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Most businesses should start with accurate structured data, clear prices and policies, and a simple way to book or buy. Standards such as A2A, AP2 and UCP are then added where they give a real benefit for your sector. Several of these standards are still changing, so we check the current specification before we build anything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you guarantee more customers from AI agents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, and nobody honestly can yet. What we can do is measure how AI assistants find and describe your business before and after our work, and show you the difference. The free scanner at the top of this page gives you a starting score."
+      }
     }
+  ]
+}
     </script>
 
     <!-- JSON-LD: WebSite + Speakable + SearchAction -->
@@ -326,23 +515,34 @@
 
     <!-- JSON-LD: WebPage -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://heimdell-tech-ai.co.uk/#webpage",
+  "url": "https://heimdell-tech-ai.co.uk/",
+  "name": "AI Agent Readiness for UK Businesses | Heimdell Tech Ai",
+  "description": "Get your business ready for AI agents. Free agent-readiness scan, plus A2A, AP2, UCP and MCP implementation for UK businesses. Managed TPV also available.",
+  "isPartOf": {
+    "@id": "https://heimdell-tech-ai.co.uk/#website"
+  },
+  "about": [
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://heimdell-tech-ai.co.uk/#webpage",
-        "url": "https://heimdell-tech-ai.co.uk/",
-        "name": "AI Agent Readiness for UK Businesses | Heimdell Tech Ai",
-        "description": "Get your business ready for AI agents. Free agent-readiness scan, plus A2A, AP2, UCP and MCP implementation for UK businesses. Managed TPV also available.",
-        "isPartOf": { "@id": "https://heimdell-tech-ai.co.uk/#website" },
-        "about": { "@id": "https://heimdell-tech-ai.co.uk/#service" },
-        "inLanguage": "en-GB",
-        "datePublished": "2025-10-01T08:00:00+00:00",
-        "dateModified": "2026-08-31T09:00:00+00:00",
-        "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": [".hero-sub", ".hero-position", ".atomic-answer", "#speakable-definition"]
-        }
+      "@id": "https://heimdell-tech-ai.co.uk/#agent-readiness-service"
     }
+  ],
+  "inLanguage": "en-GB",
+  "datePublished": "2025-10-01T08:00:00+00:00",
+  "dateModified": "2026-08-31T09:00:00+00:00",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero-sub",
+      ".hero-position",
+      ".atomic-answer",
+      "#speakable-definition"
+    ]
+  }
+}
     </script>
 
     <!-- JSON-LD: Service — Regulatory Risk Assessment -->
@@ -3297,6 +3497,143 @@
                     </figure>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <!-- ===== AI AGENT STANDARDS (homepage SEO focus) ===== -->
+    <section id="agent-standards" style="background:var(--dark-surface);padding:64px 0;border-bottom:1px solid var(--dark-border);">
+        <div class="container" style="max-width:1050px;">
+            <div style="text-align:center;max-width:760px;margin:0 auto 36px;">
+                <span class="section-label">AI Agent Standards</span>
+                <h2 style="font-family:'Space Grotesk',sans-serif;">The AI Agent Standards Your Business Needs to Know in 2026</h2>
+                <p class="section-desc" style="margin:0 auto;">AI assistants and shopping agents are starting to find, compare, book and pay for services on behalf of customers. A handful of open standards decide whether they can find and trust your business. Here is what each one does and how Heimdell Tech Ai helps.</p>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;">
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:14px;padding:24px;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.15rem;color:var(--gold);margin:0 0 10px;">A2A (Agent2Agent protocol)</h3>
+                    <p style="margin:0 0 14px;font-size:0.95rem;line-height:1.65;color:var(--text-secondary);">An open standard, governed by the Linux Foundation, that lets AI agents from different vendors discover each other, exchange messages and hand over tasks. Version 1.0 arrived in March 2026. Your business publishes an Agent Card that says what you offer and how to book it. We build and test the Agent Card and the booking integration.</p>
+                    <a href="/a2a-protocol-implementation.html" style="color:var(--gold);font-weight:600;font-size:0.92rem;">A2A protocol implementation &rarr;</a>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:14px;padding:24px;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.15rem;color:var(--gold);margin:0 0 10px;">AP2 (Agent Payments Protocol)</h3>
+                    <p style="margin:0 0 14px;font-size:0.95rem;line-height:1.65;color:var(--text-secondary);">Google&#x27;s open protocol for letting AI agents pay on a customer&#x27;s behalf, using signed mandates that record exactly what the customer authorised. Google donated AP2 to the FIDO Alliance in April 2026. We help you accept agent payments with verifiable proof of every authorisation.</p>
+                    <a href="/ap2-agent-payments.html" style="color:var(--gold);font-weight:600;font-size:0.92rem;">AP2 agent payments &rarr;</a>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:14px;padding:24px;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.15rem;color:var(--gold);margin:0 0 10px;">UCP (Universal Commerce Protocol)</h3>
+                    <p style="margin:0 0 14px;font-size:0.95rem;line-height:1.65;color:var(--text-secondary);">A commerce standard that lets agents browse your catalogue, manage a cart and check out. Many Shopify stores already publish a UCP profile; other platforms have to set one up. We check your profile and your product data so agents can read both.</p>
+                    <a href="/ai-agent-readiness.html" style="color:var(--gold);font-weight:600;font-size:0.92rem;">AI agent readiness &rarr;</a>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:14px;padding:24px;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.15rem;color:var(--gold);margin:0 0 10px;">MCP (Model Context Protocol)</h3>
+                    <p style="margin:0 0 14px;font-size:0.95rem;line-height:1.65;color:var(--text-secondary);">An open standard for connecting AI assistants to tools and data, such as your booking system, product database or knowledge base. We help you expose the right information safely, with permissions you control.</p>
+                    <a href="/ai-agent-readiness.html" style="color:var(--gold);font-weight:600;font-size:0.92rem;">AI agent readiness &rarr;</a>
+                </div>
+                <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:14px;padding:24px;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.15rem;color:var(--gold);margin:0 0 10px;">Knowledge Catalog</h3>
+                    <p style="margin:0 0 14px;font-size:0.95rem;line-height:1.65;color:var(--text-secondary);">Google Cloud&#x27;s Knowledge Catalog, formerly Dataplex Universal Catalog, gives AI agents governed, searchable context about business data. The same principle applies to any business: clean, structured, accurate facts about your products, prices and policies. We prepare that foundation.</p>
+                    <a href="/ai-agent-readiness.html" style="color:var(--gold);font-weight:600;font-size:0.92rem;">AI agent readiness &rarr;</a>
+                </div>
+            </div>
+            <p style="margin:28px 0 0;font-size:0.85rem;color:var(--text-muted);text-align:center;">Sources: <a href="https://opensource.googleblog.com/2026/04/a-year-of-open-collaboration-celebrating-the-anniversary-of-a2a.html" target="_blank" rel="noopener noreferrer" style="color:var(--gold);">A2A one-year update</a> &middot; <a href="https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/" target="_blank" rel="noopener noreferrer" style="color:var(--gold);">AP2 and the FIDO Alliance</a> &middot; <a href="https://cloud.google.com/blog/products/data-analytics/introducing-the-google-cloud-knowledge-catalog" target="_blank" rel="noopener noreferrer" style="color:var(--gold);">Google Cloud Knowledge Catalog</a>. These standards are still evolving, so we check the current specification before we build.</p>
+        </div>
+    </section>
+
+    <section id="agent-process" style="background:var(--dark-card);padding:64px 0;border-bottom:1px solid var(--dark-border);">
+        <div class="container" style="max-width:1050px;">
+            <div style="text-align:center;max-width:700px;margin:0 auto 32px;">
+                <h2 style="font-family:'Space Grotesk',sans-serif;">How We Get Your Business Agent-Ready</h2>
+                <p class="section-desc" style="margin:0 auto;">Three steps, in plain English, with no jargon in the way.</p>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;">
+                <div style="background:var(--dark-surface);border-radius:14px;padding:24px;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.1rem;color:var(--gold);margin:0 0 8px;">1. Free agent-readiness scan</h3>
+                    <p style="margin:0;font-size:0.95rem;line-height:1.65;color:var(--text-secondary);">Enter your website in the scanner at the top of this page. You get a score and the most important fixes, based on what AI agents can and cannot read on your site. <a href="#agentready-scan" style="color:var(--gold);font-weight:600;">Run the scan &uarr;</a></p>
+                </div>
+                <div style="background:var(--dark-surface);border-radius:14px;padding:24px;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.1rem;color:var(--gold);margin:0 0 8px;">2. Fix and implement</h3>
+                    <p style="margin:0;font-size:0.95rem;line-height:1.65;color:var(--text-secondary);">We fix the structured data, product information and policies agents rely on, then add the standards that suit your business, such as an A2A Agent Card or AP2 payments. <a href="/ai-agent-readiness.html" style="color:var(--gold);font-weight:600;">See how &rarr;</a></p>
+                </div>
+                <div style="background:var(--dark-surface);border-radius:14px;padding:24px;">
+                    <h3 style="font-family:'Space Grotesk',sans-serif;font-size:1.1rem;color:var(--gold);margin:0 0 8px;">3. Check it keeps working</h3>
+                    <p style="margin:0;font-size:0.95rem;line-height:1.65;color:var(--text-secondary);">Standards change quickly. We re-test your site and see how AI assistants describe your business, so you can see the improvement and catch problems early.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="agent-faq">
+        <div class="container">
+            <div style="text-align:center; max-width:680px; margin:0 auto;">
+                <span class="section-label">Frequently Asked Questions</span>
+                <h2>AI Agent Readiness &mdash; Frequently Asked Questions</h2>
+                <p class="section-desc" style="margin:0 auto;">Straight answers about A2A, AP2, UCP, MCP and getting your business ready for AI agents.</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3 style="font-size:1.05rem;">What does it mean for a business to be AI agent-ready?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">An AI agent-ready business is one that software acting for a customer, such as an AI assistant or shopping agent, can find, understand and transact with. That means accurate structured data about your products, services, prices and policies, a clear way to book or buy, and, increasingly, support for open standards such as A2A and AP2.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3 style="font-size:1.05rem;">What is the A2A (Agent2Agent) protocol?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">A2A is an open standard that lets AI agents built by different vendors discover each other, exchange messages and hand over tasks. It is governed by the Linux Foundation, and version 1.0 was released in March 2026. A business publishes an Agent Card that describes what it offers and how to reach it.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3 style="font-size:1.05rem;">What is AP2 and how do AI agents pay for things?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">AP2 (Agent Payments Protocol) is an open protocol, created by Google and donated to the FIDO Alliance in April 2026, that lets an AI agent make a payment on a customer&#x27;s behalf. It uses signed mandates that record exactly what the customer authorised, so every agent purchase has verifiable proof.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3 style="font-size:1.05rem;">What are UCP, MCP and Knowledge Catalog?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">UCP (Universal Commerce Protocol) lets agents browse a catalogue, manage a cart and check out. MCP (Model Context Protocol) connects AI assistants to tools and data such as booking systems. Knowledge Catalog is Google Cloud&#x27;s service, formerly Dataplex Universal Catalog, that gives AI agents governed business context about data. All three depend on accurate, structured business information, which is where we start.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3 style="font-size:1.05rem;">Do I need to support every AI agent standard?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">No. Most businesses should start with accurate structured data, clear prices and policies, and a simple way to book or buy. Standards such as A2A, AP2 and UCP are then added where they give a real benefit for your sector. Several of these standards are still changing, so we check the current specification before we build anything.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3 style="font-size:1.05rem;">Can you guarantee more customers from AI agents?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">No, and nobody honestly can yet. What we can do is measure how AI assistants find and describe your business before and after our work, and show you the difference. The free scanner at the top of this page gives you a starting score.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TPV (secondary service) ===== -->
+    <section id="tpv-also" style="background:linear-gradient(135deg, #1a0b3a 0%, #2D1B69 100%);padding:44px 0;text-align:center;">
+        <div class="container" style="max-width:820px;">
+            <h2 style="font-family:'Space Grotesk',sans-serif;font-size:1.5rem;color:#ffffff;margin:0 0 12px;">Also From Heimdell: Third-Party Verification (TPV) for UK Telecom Sales Teams</h2>
+            <p style="margin:0;font-size:1rem;line-height:1.7;color:rgba(255,255,255,0.88);">We also run managed third-party verification and verified-consent software that protects UK telecom resellers and brokers from commission clawbacks. The details are below, and on our <a href="/third-party-verification.html" style="color:#34D399;">third-party verification page</a>.</p>
         </div>
     </section>
 
