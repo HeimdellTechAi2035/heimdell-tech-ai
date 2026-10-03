@@ -17,9 +17,10 @@ export async function handleFaqSkill(message) {
 
   if (matches.length === 0) {
     const org = await getOrganisation();
+    const reach = org.telephone ? `${org.email} or ${org.telephone}` : org.email;
     textPart =
       `I don't have a specific answer for that in Heimdell Tech Ai's knowledge catalogue. ` +
-      `You can reach the team directly at ${org.email} or ${org.telephone}, or see the full site at ${org.website}.`;
+      `You can reach the team directly at ${reach}, or see the full site at ${org.website}.`;
     confidence = 'none';
   } else {
     textPart = matches.map((m) => m.answer).join('\n\n');
