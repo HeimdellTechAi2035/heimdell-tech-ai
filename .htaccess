@@ -2,12 +2,12 @@
 # ================================================
 
 # Redirect Post-Sale Verification pages to Third Party Verification
-Redirect 301 /post-sale-verification-system.html /third-party-verification.html
-Redirect 301 /services/third-party-verification.html /third-party-verification.html
-Redirect 301 /services/telecom-sales-compliance-verification.html /third-party-verification.html
+Redirect 301 /post-sale-verification-system.html https://telecomcompliance.uk/third-party-verification
+Redirect 301 /services/third-party-verification.html https://telecomcompliance.uk/third-party-verification
+Redirect 301 /services/telecom-sales-compliance-verification.html https://telecomcompliance.uk/third-party-verification
 
 # Redirect Financial Leakage Audit pages to Commission Clawback Audit
-Redirect 301 /financial-leakage-audit.html /commission-clawback-audit.html
+Redirect 301 /financial-leakage-audit.html https://telecomcompliance.uk/commission-clawback-audit
 Redirect 301 /case-study-clawback-reduction.html /case-studies.html
 Redirect 301 /case-study-provider-audit.html /case-studies.html
 Redirect 301 /case-study-scaling-compliance.html /case-studies.html
