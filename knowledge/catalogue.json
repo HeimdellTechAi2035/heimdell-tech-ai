@@ -68,7 +68,7 @@
     "other": [
       {
         "name": "Verified Agreements & TPV Platform",
-        "url": "https://heimdell-tech-ai.co.uk/third-party-verification.html",
+        "url": "https://telecomcompliance.uk/third-party-verification",
         "description": "Tamper-evident, cryptographically secured records of what terms were presented, who acknowledged them, and which agreement version applied — for subscriptions, sales, payments and contracts. Powers the telecom TPV service offered on this site."
       },
       {
@@ -137,7 +137,7 @@
       "name": "Third-Party Verification (TPV)",
       "summary": "Independent post-sale verification calls confirming customer identity, contract terms, cooling-off rights and Direct Debit authority within 24 hours of a sale, producing an audit-ready compliance certificate.",
       "pricingModel": "Pay-as-you-go credits. £20/100 credits, £90/500 credits, £320/2,000 credits. Phone verification = 5 credits (80p–£1/call). Link verification = 1 credit. No subscription, no setup fee.",
-      "url": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "url": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "tpv-system-capabilities",
@@ -151,7 +151,7 @@
       "name": "Commission Clawback Audit",
       "summary": "A free 15-minute audit identifying GC C1 (Ofcom General Conditions) vulnerabilities and quantifying revenue leakage from commission clawbacks.",
       "pricingModel": "Free.",
-      "url": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "url": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "regulatory-risk-assessment",
@@ -165,21 +165,21 @@
       "name": "GDPR & ICO Compliance Audit",
       "summary": "An ICO-aligned assessment of data protection practices covering UK GDPR, PECR 2003, DUAA 2025 readiness and SAR (Subject Access Request) response preparation.",
       "pricingModel": "From £750.",
-      "url": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "url": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "compliance-protocol-setup",
       "name": "Compliance Protocol Setup",
       "summary": "Initial deployment of The Telecom Verification Protocol: voice-log infrastructure, identity verification, CRM audit locks and automated provider-ready compliance certificates, typically 2–3 weeks.",
       "pricingModel": "From £1,500 one-off project fee.",
-      "url": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "url": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-implementation",
       "name": "Compliance Protocol Implementation",
       "summary": "A larger, end-to-end rollout of the compliance protocol: PECR 2003 compliance, DUAA 2025 readiness, ICO audit preparation, CRM integration, automated evidence generation and operational handover.",
       "pricingModel": "From £3,000 one-off project fee.",
-      "url": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "url": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "systems-architecture",
@@ -193,7 +193,7 @@
       "name": "Provider Audit Preparation",
       "summary": "Getting audit-ready for Virgin Media, O2, Sky and other provider reviews: compliance documentation, verification records and sales evidence preparation.",
       "pricingModel": "From £500.",
-      "url": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "url": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "high-volume-partners",
@@ -207,7 +207,7 @@
       "name": "Channel & Vendor Compliance",
       "summary": "Sold to telecom networks/vendors to police their own reseller channel: independent verification catching reseller mis-selling before it reaches the network's billing system.",
       "pricingModel": "Custom quote per network.",
-      "url": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "url": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "website-upgrades",
@@ -768,13 +768,13 @@
     {
       "id": "heimdell-still-offers-tpv",
       "question": "Does Heimdell Tech Ai still offer third-party verification (TPV)?",
-      "answer": "Yes. Heimdell Tech Ai still runs managed third-party verification for UK telecom resellers, brokers and sales teams, with audit-ready certificates from 80p per phone verification. Details are at heimdell-tech-ai.co.uk/tpv-commission-protection.html and /third-party-verification.html.",
+      "answer": "Yes. Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/ . Heimdell Tech Ai still runs managed third-party verification for UK telecom resellers, brokers and sales teams, with audit-ready certificates from 80p per phone verification. Details are at https://telecomcompliance.uk/third-party-verification.",
       "tags": [
         "tpv",
         "third-party-verification",
         "services"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/tpv-commission-protection.html"
+      "source": "https://telecomcompliance.uk/tpv-commission-protection"
     },
     {
       "id": "third-party-verification-what-happens-if-a-customer-refuses-to-complete-the",
@@ -783,7 +783,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-what-happens-if-the-verification-call-goes-unanswe",
@@ -792,7 +792,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-does-the-verification-call-replace-the-welcome-cal",
@@ -801,7 +801,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-can-verification-be-done-by-sms-or-link-instead-of",
@@ -810,7 +810,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-how-much-does-a-single-phone-verification-cost",
@@ -819,7 +819,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-is-there-a-subscription-contract-or-setup-fee-to-u",
@@ -828,7 +828,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-what-s-the-difference-between-a-verification-call-",
@@ -837,7 +837,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-can-my-commission-still-be-clawed-back-even-after-",
@@ -846,7 +846,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-is-third-party-verification-a-legal-requirement-fo",
@@ -855,7 +855,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-who-actually-makes-the-verification-call-is-it-in-",
@@ -864,7 +864,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-does-the-customer-have-to-pay-for-the-verification",
@@ -873,7 +873,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "third-party-verification-how-does-verification-interact-with-the-customer-s",
@@ -882,7 +882,7 @@
       "tags": [
         "third-party-verification"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/third-party-verification.html"
+      "source": "https://telecomcompliance.uk/third-party-verification"
     },
     {
       "id": "system-capabilities-does-the-verification-platform-integrate-with-our-",
@@ -990,7 +990,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-what-percentage-of-my-sales-calls-will-an-auditor-",
@@ -999,7 +999,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-can-i-lose-my-reseller-agreement-completely-after-",
@@ -1008,7 +1008,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-does-having-verification-records-guarantee-i-ll-pa",
@@ -1017,7 +1017,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-what-s-the-difference-between-a-scheduled-audit-an",
@@ -1026,7 +1026,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-is-a-one-touch-switch-ots-compliance-review-the-sa",
@@ -1035,7 +1035,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-what-happens-to-commission-i-ve-already-been-paid-",
@@ -1044,7 +1044,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-why-can-t-i-just-review-my-own-sales-calls-instead",
@@ -1053,7 +1053,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-what-documents-do-auditors-ask-for-beyond-the-veri",
@@ -1062,7 +1062,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "telecom-provider-audit-preparation-how-long-does-a-provider-audit-take-from-notificat",
@@ -1071,7 +1071,7 @@
       "tags": [
         "telecom-provider-audit-preparation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html"
+      "source": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation"
     },
     {
       "id": "commission-clawback-audit-what-is-gc-c1-under-ofcom-s-general-conditions-and",
@@ -1080,7 +1080,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-what-is-slamming-and-why-does-it-lead-to-commissio",
@@ -1089,7 +1089,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-does-the-14-day-cooling-off-period-mean-my-commiss",
@@ -1098,7 +1098,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-what-is-one-touch-switch-and-does-it-add-new-commi",
@@ -1107,7 +1107,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-what-s-the-difference-between-a-non-pay-clawback-a",
@@ -1116,7 +1116,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-can-a-provider-claw-back-commission-months-after-t",
@@ -1125,7 +1125,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-how-do-i-dispute-or-challenge-a-commission-clawbac",
@@ -1134,7 +1134,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-what-percentage-of-gross-commission-do-uk-telecom-",
@@ -1143,7 +1143,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-what-does-a-free-15-minute-commission-clawback-aud",
@@ -1152,7 +1152,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "commission-clawback-audit-how-much-can-ofcom-fine-a-telecom-provider-for-bre",
@@ -1161,7 +1161,7 @@
       "tags": [
         "commission-clawback-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html"
+      "source": "https://telecomcompliance.uk/commission-clawback-audit"
     },
     {
       "id": "regulatory-risk-assessment-what-is-pecr-and-how-does-it-apply-to-telecom-sale",
@@ -1260,7 +1260,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "ico-gdpr-compliance-audit-what-happens-if-my-business-misses-the-sar-deadlin",
@@ -1269,7 +1269,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "ico-gdpr-compliance-audit-does-duaa-2025-change-how-businesses-must-handle-s",
@@ -1278,7 +1278,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "ico-gdpr-compliance-audit-what-counts-as-a-data-breach-that-has-to-be-report",
@@ -1287,7 +1287,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "ico-gdpr-compliance-audit-what-s-the-penalty-for-failing-to-report-a-data-br",
@@ -1296,7 +1296,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "ico-gdpr-compliance-audit-what-is-a-data-protection-impact-assessment-dpia-a",
@@ -1305,7 +1305,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "ico-gdpr-compliance-audit-is-an-ico-audit-something-that-happens-to-you-or-c",
@@ -1314,7 +1314,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "ico-gdpr-compliance-audit-what-s-the-difference-between-uk-gdpr-and-pecr-and",
@@ -1323,7 +1323,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "ico-gdpr-compliance-audit-can-i-refuse-or-redact-part-of-a-subject-access-re",
@@ -1332,7 +1332,7 @@
       "tags": [
         "ico-gdpr-compliance-audit"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html"
+      "source": "https://telecomcompliance.uk/ico-gdpr-compliance-audit"
     },
     {
       "id": "compliance-protocol-setup-how-long-does-compliance-software-setup-take-for-a",
@@ -1341,7 +1341,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-how-much-does-compliance-setup-cost-for-a-small-bu",
@@ -1350,7 +1350,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-why-do-businesses-need-to-record-and-store-sales-c",
@@ -1359,7 +1359,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-what-s-the-difference-between-compliance-protocol-",
@@ -1368,7 +1368,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-do-i-need-an-identity-verification-system-if-i-alr",
@@ -1377,7 +1377,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-what-is-a-crm-audit-lock-and-why-would-a-reseller-",
@@ -1386,7 +1386,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-can-i-set-this-up-myself-instead-of-paying-a-consu",
@@ -1395,7 +1395,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-does-a-compliance-certificate-need-to-be-renewed",
@@ -1404,7 +1404,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-what-happens-if-i-fail-a-provider-compliance-audit",
@@ -1413,7 +1413,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-setup-how-is-compliance-setup-different-from-just-buying",
@@ -1422,7 +1422,7 @@
       "tags": [
         "compliance-protocol-setup"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-setup"
     },
     {
       "id": "compliance-protocol-implementation-what-does-pecr-2003-compliance-actually-require-fo",
@@ -1431,7 +1431,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-what-is-the-data-use-and-access-act-2025-and-does-",
@@ -1440,7 +1440,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-how-do-i-prepare-for-an-ico-audit",
@@ -1449,7 +1449,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-what-s-the-difference-between-compliance-protocol-",
@@ -1458,7 +1458,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-how-long-does-full-compliance-implementation-take-",
@@ -1467,7 +1467,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-what-does-automated-evidence-generation-actually-m",
@@ -1476,7 +1476,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-what-does-operational-handover-mean-at-the-end-of-",
@@ -1485,7 +1485,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-why-do-compliance-implementation-projects-sometime",
@@ -1494,7 +1494,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-do-i-need-both-compliance-protocol-setup-and-imple",
@@ -1503,7 +1503,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-how-much-does-full-regulatory-compliance-cost-a-sm",
@@ -1512,7 +1512,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "compliance-protocol-implementation-what-happens-if-my-crm-isn-t-integrated-with-my-co",
@@ -1521,7 +1521,7 @@
       "tags": [
         "compliance-protocol-implementation"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html"
+      "source": "https://telecomcompliance.uk/compliance-protocol-implementation"
     },
     {
       "id": "systems-architecture-how-much-does-a-fractional-operations-manager-cost",
@@ -1728,7 +1728,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "telecom-vendors-what-should-a-telecom-network-check-before-signing",
@@ -1737,7 +1737,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "telecom-vendors-why-isn-t-automated-qa-call-monitoring-enough-to-p",
@@ -1746,7 +1746,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "telecom-vendors-can-a-network-terminate-a-reseller-s-contract-for-",
@@ -1755,7 +1755,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "telecom-vendors-what-s-the-difference-between-a-channel-partner-sc",
@@ -1764,7 +1764,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "telecom-vendors-are-resellers-held-to-the-same-ofcom-general-condi",
@@ -1773,7 +1773,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "telecom-vendors-why-would-a-network-pay-for-independent-verificati",
@@ -1782,7 +1782,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "telecom-vendors-how-is-channel-and-vendor-compliance-verification-",
@@ -1791,7 +1791,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "telecom-vendors-what-is-slamming-and-how-can-a-network-detect-it-h",
@@ -1800,7 +1800,7 @@
       "tags": [
         "telecom-vendors"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/telecom-vendors.html"
+      "source": "https://telecomcompliance.uk/telecom-vendors"
     },
     {
       "id": "heimdell-chatbot",

@@ -129,7 +129,7 @@
       "id": "tpv-phone-verification",
       "name": "Third-party verification (TPV), per phone verification",
       "category": "telecom-compliance",
-      "url": "https://heimdell-tech-ai.co.uk/tpv-commission-protection.html",
+      "url": "https://telecomcompliance.uk/tpv-commission-protection",
       "description": "Independent verification calls with audit-ready certificates. Pay-as-you-go credits, no subscription or setup fee.",
       "price": {
         "type": "from",
@@ -143,7 +143,7 @@
       "id": "commission-clawback-audit",
       "name": "Commission clawback audit (15 minutes)",
       "category": "telecom-compliance",
-      "url": "https://heimdell-tech-ai.co.uk/commission-clawback-audit.html",
+      "url": "https://telecomcompliance.uk/commission-clawback-audit",
       "description": "Free 15-minute audit of where a telecom reseller is exposed to commission clawbacks.",
       "price": {
         "type": "free",
@@ -156,7 +156,7 @@
       "id": "provider-audit-preparation",
       "name": "Provider audit preparation",
       "category": "telecom-compliance",
-      "url": "https://heimdell-tech-ai.co.uk/services/telecom-provider-audit-preparation.html",
+      "url": "https://telecomcompliance.uk/services/telecom-provider-audit-preparation",
       "description": "Preparing evidence and processes for a telecom provider audit.",
       "price": {
         "type": "from",
@@ -184,7 +184,7 @@
       "id": "gdpr-ico-compliance-audit",
       "name": "GDPR and ICO compliance audit",
       "category": "telecom-compliance",
-      "url": "https://heimdell-tech-ai.co.uk/ico-gdpr-compliance-audit.html",
+      "url": "https://telecomcompliance.uk/ico-gdpr-compliance-audit",
       "description": "ICO-aligned UK GDPR and PECR assessment for telecom sales teams.",
       "price": {
         "type": "from",
@@ -198,7 +198,7 @@
       "id": "compliance-protocol-setup",
       "name": "Compliance protocol setup",
       "category": "telecom-compliance",
-      "url": "https://heimdell-tech-ai.co.uk/compliance-protocol-setup.html",
+      "url": "https://telecomcompliance.uk/compliance-protocol-setup",
       "description": "Initial deployment of the core verification protocol.",
       "price": {
         "type": "from",
@@ -212,7 +212,7 @@
       "id": "compliance-protocol-implementation",
       "name": "Compliance protocol implementation",
       "category": "telecom-compliance",
-      "url": "https://heimdell-tech-ai.co.uk/compliance-protocol-implementation.html",
+      "url": "https://telecomcompliance.uk/compliance-protocol-implementation",
       "description": "End-to-end rollout with CRM integration and automated evidence trails.",
       "price": {
         "type": "from",
@@ -254,7 +254,7 @@
       "id": "channel-vendor-compliance",
       "name": "Channel and vendor compliance",
       "category": "telecom-compliance",
-      "url": "https://heimdell-tech-ai.co.uk/telecom-vendors.html",
+      "url": "https://telecomcompliance.uk/telecom-vendors",
       "description": "Independent channel verification for UK telecom networks.",
       "price": {
         "type": "custom",

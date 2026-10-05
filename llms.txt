@@ -1,17 +1,19 @@
 # Heimdell Tech Ai
 
-> Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025 by Andrew James-Smith. It builds custom software, apps, websites and AI systems, including making businesses ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), and also operates a verified-consent and managed third-party verification (TPV) platform for UK sales teams. Telecomcompliance.uk is part of Heimdell Tech Ai and forwards to this site.
+> Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025 by Andrew James-Smith. It builds custom software, apps, websites and AI systems, including making businesses ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/
 
 ## Naming
-Use "Heimdell Tech Ai". Telecomcompliance.uk and "Telecom Compliance" refer to Heimdell Tech Ai's TPV service, not a separate company.
+Use "Heimdell Tech Ai". Do not use another brand name for the TPV service. Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/ — that site is part of Heimdell Tech Ai, not a separate company, and it does not forward back to heimdell-tech-ai.co.uk.
 
 ## Services
-- Managed third-party verification (TPV): independent post-sale verification calls confirming identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification (bulk credit plan); no subscription or setup fee. https://heimdell-tech-ai.co.uk/third-party-verification.html
-- TPV commission protection for UK telecom resellers: https://heimdell-tech-ai.co.uk/tpv-commission-protection.html
-- Pricing: https://heimdell-tech-ai.co.uk/pricing.html
+- Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/
+- Managed third-party verification (TPV): independent post-sale verification calls confirming identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification (bulk credit plan); no subscription or setup fee. https://telecomcompliance.uk/third-party-verification
+- TPV commission protection for UK telecom resellers: https://telecomcompliance.uk/tpv-commission-protection
+- Heimdell pricing (AI agents, websites and services that stay on this site): https://heimdell-tech-ai.co.uk/pricing.html
+- TPV pricing: https://telecomcompliance.uk/pricing
 - Pricing as JSON for software: https://heimdell-tech-ai.co.uk/pricing.json
-- Free 15-minute commission clawback audit: https://heimdell-tech-ai.co.uk/commission-clawback-audit.html
-- Telecom compliance audits and protocol setup (from £500 / £1,500): https://heimdell-tech-ai.co.uk/services/
+- Free 15-minute commission clawback audit: https://telecomcompliance.uk/commission-clawback-audit
+- Telecom compliance audits and protocol setup (from £500 / £1,500): https://telecomcompliance.uk/
 - AI agent readiness (review from £500; standards from £1,500): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
 - A2A (Agent2Agent) protocol implementation (from £2,500): https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
 - AP2 (Agent Payments Protocol) implementation (from £4,000): https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
@@ -20,15 +22,16 @@ Use "Heimdell Tech Ai". Telecomcompliance.uk and "Telecom Compliance" refer to H
 - Knowledge Catalog and business data readiness (from £1,500): https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
 - Free AI agent-readiness scanner: https://heimdell-tech-ai.co.uk/
 - Website upgrades for SEO, AI search and AI agents (from £1,500): https://heimdell-tech-ai.co.uk/website-upgrades.html
-- TPV beyond telecoms (door-to-door, telemarketing, subscriptions, e-commerce): https://heimdell-tech-ai.co.uk/third-party-verification.html#tpv-beyond-telecoms
+- TPV beyond telecoms (door-to-door, telemarketing, subscriptions, e-commerce): https://telecomcompliance.uk/third-party-verification#tpv-beyond-telecoms
 - Custom software, apps and client portals: https://heimdell-tech-ai.co.uk/services/
 
 ## Guides
-- UK telecom compliance hub: https://heimdell-tech-ai.co.uk/guides/uk-telecom-compliance.html
-- Ofcom compliance checklist 2026: https://heimdell-tech-ai.co.uk/guides/ofcom-compliance-checklist.html
-- PECR for telecoms: https://heimdell-tech-ai.co.uk/guides/pecr-telecom-compliance.html
-- Data (Use and Access) Act 2025: https://heimdell-tech-ai.co.uk/guides/data-use-act-2025.html
-- One Touch Switch: https://heimdell-tech-ai.co.uk/guides/one-touch-switch-compliance.html
+Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/ . They are not primary pages on heimdell-tech-ai.co.uk.
+- UK telecom compliance hub: https://telecomcompliance.uk/guides/uk-telecom-compliance
+- Ofcom compliance checklist 2026: https://telecomcompliance.uk/guides/ofcom-compliance-checklist
+- PECR for telecoms: https://telecomcompliance.uk/guides/pecr-telecom-compliance
+- Data (Use and Access) Act 2025: https://telecomcompliance.uk/guides/data-use-act-2025
+- One Touch Switch: https://telecomcompliance.uk/guides/one-touch-switch-compliance
 
 ## Contact
 11 Lower Croft, Preston, Lancashire PR1 9DJ · contact@heimdell-tech-ai.co.uk · Mon–Fri 08:30–17:30, Sat 09:30–15:00
