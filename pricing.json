@@ -34,11 +34,8 @@
       "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
       "description": "Scan results explained, with a prioritised fix plan.",
       "price": {
-        "type": "from",
-        "amount": 500,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £500"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -48,11 +45,8 @@
       "url": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html",
       "description": "UCP profile check, product data quality and checkout readiness for AI shopping agents.",
       "price": {
-        "type": "from",
-        "amount": 1500,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £1,500"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -62,11 +56,8 @@
       "url": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html",
       "description": "Organising and describing business data for Google Cloud Knowledge Catalog and AI agent use.",
       "price": {
-        "type": "from",
-        "amount": 1500,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £1,500"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
