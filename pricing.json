@@ -6,7 +6,7 @@
     "companiesHouse": "16478408"
   },
   "currency": "GBP",
-  "lastUpdated": "2026-10-03",
+  "lastUpdated": "2026-10-08",
   "source": "https://heimdell-tech-ai.co.uk/pricing.html",
   "notes": [
     "Starting prices; exact pricing is confirmed after a free call.",
@@ -34,11 +34,8 @@
       "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
       "description": "Scan results explained, with a prioritised fix plan.",
       "price": {
-        "type": "from",
-        "amount": 500,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £500"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -48,11 +45,8 @@
       "url": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html",
       "description": "UCP profile check, product data quality and checkout readiness for AI shopping agents.",
       "price": {
-        "type": "from",
-        "amount": 1500,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £1,500"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -62,11 +56,8 @@
       "url": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html",
       "description": "Organising and describing business data for Google Cloud Knowledge Catalog and AI agent use.",
       "price": {
-        "type": "from",
-        "amount": 1500,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £1,500"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -90,11 +81,8 @@
       "url": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html",
       "description": "A scoped, permissioned server that lets AI assistants use your booking, product or knowledge systems safely.",
       "price": {
-        "type": "from",
-        "amount": 2000,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £2,000"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -104,11 +92,8 @@
       "url": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html",
       "description": "Agent Card, secure endpoint and booking integration so AI agents can discover and book your business.",
       "price": {
-        "type": "from",
-        "amount": 2500,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £2,500"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -118,11 +103,8 @@
       "url": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html",
       "description": "Accept payments from AI agents with verifiable proof of what each customer authorised.",
       "price": {
-        "type": "from",
-        "amount": 4000,
-        "currency": "GBP",
-        "unit": "project",
-        "display": "from £4,000"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -229,11 +211,8 @@
       "url": "https://heimdell-tech-ai.co.uk/systems-architecture.html",
       "description": "Fractional systems and operations support.",
       "price": {
-        "type": "from",
-        "amount": 800,
-        "currency": "GBP",
-        "unit": "day",
-        "display": "from £800 per day"
+        "type": "custom",
+        "display": "Custom quote"
       }
     },
     {
@@ -243,11 +222,8 @@
       "url": "https://heimdell-tech-ai.co.uk/high-volume-partners.html",
       "description": "Bulk third-party verification for high-volume telecom sales.",
       "price": {
-        "type": "from",
-        "amount": 0.16,
-        "currency": "GBP",
-        "unit": "credit",
-        "display": "from £0.16 per credit (bulk)"
+        "type": "custom",
+        "display": "From 80p per phone verification (£320 for 2,000 credits); larger volumes: custom quote"
       }
     },
     {
@@ -256,6 +232,50 @@
       "category": "telecom-compliance",
       "url": "https://telecomcompliance.uk/telecom-vendors",
       "description": "Independent channel verification for UK telecom networks.",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    },
+    {
+      "id": "custom-software",
+      "name": "Custom software and SaaS",
+      "category": "software",
+      "url": "https://heimdell-tech-ai.co.uk/services/",
+      "description": "Bespoke software and multi-tenant SaaS platforms.",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    },
+    {
+      "id": "apps",
+      "name": "Apps",
+      "category": "software",
+      "url": "https://heimdell-tech-ai.co.uk/services/",
+      "description": "Native and progressive web apps, plus Google Workspace apps.",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    },
+    {
+      "id": "client-portals",
+      "name": "Client portals",
+      "category": "software",
+      "url": "https://heimdell-tech-ai.co.uk/services/",
+      "description": "Secure branded login portals for customers.",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    },
+    {
+      "id": "ai-systems",
+      "name": "AI systems",
+      "category": "software",
+      "url": "https://heimdell-tech-ai.co.uk/services/",
+      "description": "AI-assisted tooling and automation built into software.",
       "price": {
         "type": "custom",
         "display": "Custom quote"
@@ -281,7 +301,6 @@
       {
         "credits": 2000,
         "price": 320,
-        "pricePerCredit": 0.16,
         "pricePerPhoneVerification": 0.8
       }
     ]

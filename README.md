@@ -1,4 +1,4 @@
-# Heimdell Tech AI – The Telecom Verification Protocol Landing Page
+# Heimdell Tech Ai – The Telecom Verification Protocol Landing Page
 
 A managed third-party verification (TPV) system for telecom resellers, brokers and D2D sales teams.
 
@@ -63,7 +63,7 @@ DNS configured with:
 ```
 ├── index.html      # Main landing page (self-contained HTML/CSS/JS)
 ├── 404.html        # Custom 404 page
-├── logo.png        # Heimdell Tech AI logo
+├── logo.png        # Heimdell Tech Ai logo
 ├── .nojekyll       # Prevents Jekyll processing on GitHub Pages
 ├── .gitignore      # Git ignore rules
 └── README.md       # This file

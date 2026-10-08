@@ -5,9 +5,9 @@
       "identifier": "urn:air:heimdell-tech-ai.co.uk:agent:assistant",
       "type": "application/a2a-agent-card+json",
       "url": "https://heimdell-tech-ai.co.uk/.well-known/agent-card.json",
-      "displayName": "Heimdell Tech AI Assistant",
-      "description": "UK software development and IT consultancy: AI agent readiness (A2A, AP2, UCP, MCP, Knowledge Catalog). Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/.",
-      "version": "1.1.1",
+      "displayName": "Heimdell Tech Ai Assistant",
+      "description": "UK software development and IT consultancy: AI agent readiness (A2A, AP2, UCP, MCP, Knowledge Catalog). The readiness review, UCP, Knowledge Catalog, A2A, AP2, MCP and systems architecture are a custom quote. The agent-readiness scan is free. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/.",
+      "version": "1.1.3",
       "tags": [
         "ai-agents",
         "a2a",
@@ -24,7 +24,7 @@
         "name": "Heimdell Tech Ai Ltd",
         "url": "https://heimdell-tech-ai.co.uk/"
       },
-      "updatedAt": "2026-10-05T09:11:00+00:00"
+      "updatedAt": "2026-10-08T18:40:00+00:00"
     }
   ]
 }

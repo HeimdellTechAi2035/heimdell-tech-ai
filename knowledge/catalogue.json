@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-03",
+  "version": "2026-10-08",
   "organisation": {
     "legalName": "Heimdell Tech Ai Ltd",
     "tradingName": "Heimdell Tech Ai",
@@ -94,49 +94,49 @@
       "id": "ai-agent-readiness",
       "name": "AI Agent Readiness",
       "summary": "A free scan and then fixes to the structured data, product information and policies AI agents rely on to find, trust and buy from a business.",
-      "pricingModel": "Review from £500; implementing a standard from £1,500 to £4,000. The agent-readiness scan is free.",
+      "pricingModel": "Custom quote. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html"
     },
     {
       "id": "a2a-implementation",
       "name": "A2A (Agent2Agent) Protocol Implementation",
       "summary": "Agent Card, secure endpoint and booking integration so AI agents can discover and book a business.",
-      "pricingModel": "From £2,500, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "Custom quote. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html"
     },
     {
       "id": "ap2-agent-payments",
       "name": "AP2 (Agent Payments Protocol) Implementation",
       "summary": "Accept payments from AI agents with verifiable proof of what each customer authorised.",
-      "pricingModel": "From £4,000, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "Custom quote. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/ap2-agent-payments.html"
     },
     {
       "id": "ucp-readiness",
       "name": "UCP (Universal Commerce Protocol) Readiness",
       "summary": "Profile check, product data quality and checkout readiness so AI shopping agents can find and buy from an online shop.",
-      "pricingModel": "From £1,500, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "Custom quote. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html"
     },
     {
       "id": "mcp-servers",
       "name": "MCP (Model Context Protocol) Servers",
       "summary": "Scoped, permissioned MCP servers that let AI assistants use a business's booking, product or knowledge systems safely.",
-      "pricingModel": "From £2,000, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "Custom quote. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html"
     },
     {
       "id": "knowledge-catalog-readiness",
       "name": "Knowledge Catalog and Business Data Readiness",
       "summary": "Organising, describing and governing business data for Google Cloud Knowledge Catalog and AI agent use.",
-      "pricingModel": "From £1,500, quoted per project. The agent-readiness scan is free.",
+      "pricingModel": "Custom quote. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html"
     },
     {
       "id": "tpv-verification",
       "name": "Third-Party Verification (TPV)",
       "summary": "Independent post-sale verification calls confirming customer identity, contract terms, cooling-off rights and Direct Debit authority within 24 hours of a sale, producing an audit-ready compliance certificate.",
-      "pricingModel": "Pay-as-you-go credits. £20/100 credits, £90/500 credits, £320/2,000 credits. Phone verification = 5 credits (80p–£1/call). Link verification = 1 credit. No subscription, no setup fee.",
+      "pricingModel": "Pay-as-you-go credits. £20/100 credits, £90/500 credits, £320/2,000 credits. Phone verification = 5 credits (From 80p per call). Link verification = 1 credit. No subscription, no setup fee.",
       "url": "https://telecomcompliance.uk/third-party-verification"
     },
     {
@@ -185,7 +185,7 @@
       "id": "systems-architecture",
       "name": "Systems Architecture & Fractional Ops",
       "summary": "CRM automation, compliance workflow design, KPI dashboards and provider audit infrastructure for reseller agencies scaling beyond 100 monthly sign-ups.",
-      "pricingModel": "From £800/day.",
+      "pricingModel": "Custom quote.",
       "url": "https://heimdell-tech-ai.co.uk/systems-architecture.html"
     },
     {
@@ -199,7 +199,7 @@
       "id": "high-volume-partners",
       "name": "High-Volume Partner Program",
       "summary": "For call centres and large telecom brokerages processing 10,000+ deals/month: guaranteed 24-business-hour verification turnaround, bulk credit pricing, no need to hire additional compliance staff.",
-      "pricingModel": "Bulk credit pricing from £0.16/credit at volume.",
+      "pricingModel": "From 80p per phone verification (£320 for 2,000 credits); larger volumes: custom quote",
       "url": "https://heimdell-tech-ai.co.uk/high-volume-partners.html"
     },
     {
@@ -213,8 +213,36 @@
       "id": "website-upgrades",
       "name": "Website upgrades for SEO, AI search and AI agents",
       "summary": "Fast, SEO-structured website upgrades: structured data, llms.txt, speed and clear pricing, so Google, ChatGPT and AI agents understand your business.",
-      "pricingModel": "Quoted per project. See https://heimdell-tech-ai.co.uk/pricing.html for current starting prices.",
+      "pricingModel": "From £1,500, quoted per project. The agent-readiness scan is free.",
       "url": "https://heimdell-tech-ai.co.uk/website-upgrades.html"
+    },
+    {
+      "id": "custom-software",
+      "name": "Custom Software and SaaS",
+      "summary": "Bespoke software and multi-tenant SaaS platforms designed around a client's workflow.",
+      "pricingModel": "Custom quote.",
+      "url": "https://heimdell-tech-ai.co.uk/services/"
+    },
+    {
+      "id": "apps",
+      "name": "Apps",
+      "summary": "Native and progressive web apps for iOS and Android, plus Google Workspace apps and integrations.",
+      "pricingModel": "Custom quote.",
+      "url": "https://heimdell-tech-ai.co.uk/services/"
+    },
+    {
+      "id": "client-portals",
+      "name": "Client Portals",
+      "summary": "Secure, branded login portals so customers can manage accounts, bookings or service history.",
+      "pricingModel": "Custom quote.",
+      "url": "https://heimdell-tech-ai.co.uk/services/"
+    },
+    {
+      "id": "ai-systems",
+      "name": "AI Systems",
+      "summary": "AI-assisted tooling and automation built into software, from internal operations to customer-facing features.",
+      "pricingModel": "Custom quote.",
+      "url": "https://heimdell-tech-ai.co.uk/services/"
     }
   ],
   "policies": [
@@ -241,7 +269,7 @@
     {
       "id": "pricing-overview",
       "question": "How much does Heimdell Tech Ai charge?",
-      "answer": "AI agent-readiness scan: free. AI agent readiness review: from £500. UCP readiness and Knowledge Catalog readiness: from £1,500. Website upgrades: from £1,500. MCP server: from £2,000. A2A implementation: from £2,500. AP2 agent payments: from £4,000. Commission clawback audit (15 minutes): free. TPV phone verification: from 80p per verification, paid as credits (£20 for 100 credits, £90 for 500, £320 for 2,000; a phone verification uses 5 credits, a link verification 1; no subscription, setup fee or minimum). Provider audit preparation and regulatory risk assessment: from £500. GDPR and ICO compliance audit: from £750. Compliance protocol setup: from £1,500. Compliance protocol implementation: from £3,000. Systems architecture and fractional ops: from £800 per day. High-volume partner programme: from £0.16 per credit. Channel and vendor compliance: custom quote. These are starting prices; every project is scoped and quoted after a free call.",
+      "answer": "AI agent-readiness scan: free. AI agent readiness review, UCP readiness, Knowledge Catalog readiness, A2A, AP2 and MCP: Custom quote. Website upgrades: from £1,500. Commission clawback audit (15 minutes): free. TPV phone verification: from 80p per verification, paid as credits (£20 for 100 credits, £90 for 500, £320 for 2,000; a phone verification uses 5 credits, a link verification 1; no subscription, setup fee or minimum). Provider audit preparation and regulatory risk assessment: from £500. GDPR and ICO compliance audit: from £750. Compliance protocol setup: from £1,500. Compliance protocol implementation: from £3,000. Systems architecture and fractional ops: Custom quote. High-volume partner programme: From 80p per phone verification (£320 for 2,000 credits); larger volumes: custom quote. Channel and vendor compliance: custom quote. Published starting prices are confirmed after a free call; AI services are quoted individually.",
       "tags": [
         "pricing",
         "prices",
@@ -281,7 +309,7 @@
     {
       "id": "pricing-a2a",
       "question": "How much does an A2A implementation cost?",
-      "answer": "An A2A implementation starts from £2,500. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "answer": "An A2A implementation is a custom quote. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
       "tags": [
         "pricing",
         "ai-agents",
@@ -297,7 +325,7 @@
     {
       "id": "pricing-ap2",
       "question": "How much does AP2 agent payments cost?",
-      "answer": "AP2 agent payments start from £4,000. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "answer": "AP2 agent payments are a custom quote. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
       "tags": [
         "pricing",
         "ai-agents",
@@ -313,7 +341,7 @@
     {
       "id": "pricing-ucp",
       "question": "How much does UCP readiness cost?",
-      "answer": "UCP readiness starts from £1,500. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "answer": "UCP readiness is a custom quote. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
       "tags": [
         "pricing",
         "ai-agents",
@@ -329,7 +357,7 @@
     {
       "id": "pricing-mcp",
       "question": "How much does an MCP server cost?",
-      "answer": "An MCP server starts from £2,000. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "answer": "An MCP server is a custom quote. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
       "tags": [
         "pricing",
         "ai-agents",
@@ -345,7 +373,7 @@
     {
       "id": "pricing-knowledge-catalog",
       "question": "How much does Knowledge Catalog readiness cost?",
-      "answer": "Knowledge Catalog and business data readiness starts from £1,500. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "answer": "Knowledge Catalog and business data readiness is a custom quote. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
       "tags": [
         "pricing",
         "ai-agents",
@@ -375,7 +403,7 @@
     {
       "id": "pricing-readiness-review",
       "question": "How much does an AI agent readiness review cost?",
-      "answer": "An AI agent readiness review starts from £500, and the scan itself is free. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
+      "answer": "An AI agent readiness review is a custom quote, and the scan itself is free. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. Get a quote at heimdell-tech-ai.co.uk/contact.html.",
       "tags": [
         "pricing",
         "ai-agents",
@@ -461,7 +489,7 @@
     {
       "id": "ai-agent-readiness-cost",
       "question": "How much does AI agent readiness cost?",
-      "answer": "The scan is free. An AI agent readiness review starts from £500, and implementing a standard starts from £1,500 (UCP, Knowledge Catalog), £2,000 (MCP), £2,500 (A2A) or £4,000 (AP2). Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. A quote can be requested at heimdell-tech-ai.co.uk/contact.html.",
+      "answer": "The scan is free. The AI agent readiness review, UCP readiness and Knowledge Catalog readiness are a custom quote, as are A2A, AP2 and MCP. Every project is scoped and quoted individually after a free call, so the final price depends on your systems and what you need. A quote can be requested at heimdell-tech-ai.co.uk/contact.html.",
       "tags": [
         "ai-agent-readiness",
         "pricing",
@@ -815,7 +843,7 @@
     {
       "id": "third-party-verification-how-much-does-a-single-phone-verification-cost",
       "question": "How much does a single phone verification cost?",
-      "answer": "A phone verification costs 5 credits, which works out to roughly 80p–£1 depending on the credit bundle you buy. Credits are sold on a pay-as-you-go basis — £20 for 100 credits, £90 for 500, or £320 for 2,000 — with no subscription or setup fee.",
+      "answer": "A phone verification costs 5 credits, From 80p per phone verification, depending on the credit bundle you buy. Credits are sold on a pay-as-you-go basis — £20 for 100 credits, £90 for 500, or £320 for 2,000 — with no subscription or setup fee.",
       "tags": [
         "third-party-verification"
       ],
@@ -1346,7 +1374,7 @@
     {
       "id": "compliance-protocol-setup-how-much-does-compliance-setup-cost-for-a-small-bu",
       "question": "How much does compliance setup cost for a small business?",
-      "answer": "Compliance Protocol Setup starts from £1,500 as a one-off fee, not an ongoing subscription. Search data on UK small business compliance spend shows wide variation (from a few thousand pounds up to tens of thousands depending on scope), so a fixed one-off fee for a defined deliverable is notably more predictable than open-ended consultancy retainers or DPO-style monthly fees (commonly £500-£2,500/month).",
+      "answer": "Compliance Protocol Setup starts from £1,500 as a one-off fee, not an ongoing subscription. Search data on UK small business compliance spend shows wide variation (from a few thousand pounds up to tens of thousands depending on scope), so a fixed one-off fee for a defined deliverable is notably more predictable than open-ended consultancy retainers or DPO-style monthly fees.",
       "tags": [
         "compliance-protocol-setup"
       ],
@@ -1526,7 +1554,7 @@
     {
       "id": "systems-architecture-how-much-does-a-fractional-operations-manager-cost",
       "question": "How much does a fractional operations manager cost in the UK?",
-      "answer": "UK fractional operations support typically runs £400-£700 per day, with monthly retainers commonly landing between roughly £2,700 and £5,400 for one to two days per week of coverage. Systems Architecture & Fractional Ops is priced from £800/day, positioned within this market range while being scoped specifically to CRM automation, compliance workflow and audit infrastructure for reseller agencies rather than generalist operations management.",
+      "answer": "UK fractional operations support typically runs £400-£700 per day, with monthly retainers commonly landing between roughly £2,700 and £5,400 for one to two days per week of coverage. Systems Architecture and fractional ops is a custom quote, scoped specifically to CRM automation, compliance workflow and audit infrastructure for reseller agencies rather than generalist operations management.",
       "tags": [
         "systems-architecture"
       ],
@@ -1535,7 +1563,7 @@
     {
       "id": "systems-architecture-how-much-does-a-fractional-coo-cost-compared-to-hi",
       "question": "How much does a fractional COO cost compared to hiring full-time?",
-      "answer": "UK fractional COO engagements typically run £700-£2,000 per day versus £120,000-£220,000 in total annual cost for a full-time hire once salary, NI and on-costs are included. Systems Architecture & Fractional Ops is priced from £800/day specifically so reseller agencies scaling past 100 monthly sign-ups can get senior ops and compliance infrastructure support without committing to that full-time cost.",
+      "answer": "UK fractional COO engagements typically run £700-£2,000 per day versus £120,000-£220,000 in total annual cost for a full-time hire once salary, NI and on-costs are included. Systems Architecture and fractional ops is a custom quote specifically so reseller agencies scaling past 100 monthly sign-ups can get senior ops and compliance infrastructure support without committing to that full-time cost.",
       "tags": [
         "systems-architecture"
       ],
@@ -1562,7 +1590,7 @@
     {
       "id": "systems-architecture-is-it-cheaper-to-outsource-operations-or-hire-in-h",
       "question": "Is it cheaper to outsource operations or hire in-house?",
-      "answer": "Outsourced or fractional operations support typically runs 40-60% less than the fully-loaded cost of an equivalent in-house hire once salary, recruitment, benefits and turnover are factored in. Systems Architecture & Fractional Ops applies this model specifically to reseller agencies, delivering CRM automation and compliance infrastructure at a day rate from £800 rather than the cost of a full-time ops hire.",
+      "answer": "Outsourced or fractional operations support typically runs 40-60% less than the fully-loaded cost of an equivalent in-house hire once salary, recruitment, benefits and turnover are factored in. Systems Architecture & Fractional Ops applies this model specifically to reseller agencies, delivering CRM automation and compliance infrastructure on a custom quote rather than the cost of a full-time ops hire.",
       "tags": [
         "systems-architecture"
       ],
@@ -1598,7 +1626,7 @@
     {
       "id": "systems-architecture-how-much-does-crm-integration-cost-and-how-long-do",
       "question": "How much does CRM integration cost and how long does it take?",
-      "answer": "CRM integration timelines commonly range from 2-4 weeks for simple single-pipeline setups up to 8-12 weeks for multi-stage systems with automation and lead scoring, with UK support retainers typically £150-£600 per month depending on complexity. Systems Architecture & Fractional Ops is priced by day rate from £800 rather than a fixed project fee, since scope varies by how much CRM automation, compliance workflow design and dashboard build-out a given agency needs.",
+      "answer": "CRM integration timelines commonly range from 2-4 weeks for simple single-pipeline setups up to 8-12 weeks for multi-stage systems with automation and lead scoring, with UK support retainers typically £150-£600 per month depending on complexity. Systems Architecture and fractional ops is a custom quote rather than a fixed project fee, since scope varies by how much CRM automation, compliance workflow design and dashboard build-out a given agency needs.",
       "tags": [
         "systems-architecture"
       ],
@@ -1625,7 +1653,7 @@
     {
       "id": "high-volume-partners-is-outsourcing-sales-verification-cheaper-than-hir",
       "question": "Is outsourcing sales verification cheaper than hiring an in-house compliance team once you're processing thousands of deals a month?",
-      "answer": "For most high-volume operations, outsourcing verification costs less than building an in-house compliance department once you factor in recruitment, training, supervision, and technology overhead. An in-house team carries fixed costs that don't flex with deal volume, while a managed service like our High-Volume Partner Program is billed per verification credit (from £0.16 at volume), so cost scales directly with what you're actually processing.",
+      "answer": "For most high-volume operations, outsourcing verification costs less than building an in-house compliance department once you factor in recruitment, training, supervision, and technology overhead. An in-house team carries fixed costs that don't flex with deal volume, while a managed service like our High-Volume Partner Program is priced like this: From 80p per phone verification (£320 for 2,000 credits); larger volumes: custom quote.",
       "tags": [
         "high-volume-partners"
       ],
@@ -1661,7 +1689,7 @@
     {
       "id": "high-volume-partners-how-does-bulk-pricing-work-for-high-volume-verific",
       "question": "How does bulk pricing work for high-volume verification credits?",
-      "answer": "Bulk verification credits are priced on a sliding scale, starting from £0.16 per credit at high volume, so the per-deal cost falls as monthly volume rises. This mirrors standard bulk verification pricing elsewhere in the industry, where heavier usage tiers unlock lower unit rates rather than a flat per-call fee.",
+      "answer": "From 80p per phone verification (£320 for 2,000 credits); larger volumes: custom quote",
       "tags": [
         "high-volume-partners"
       ],

@@ -1,7 +1,7 @@
 {
-  "name": "Heimdell Tech AI Assistant",
-  "description": "Answers questions about Heimdell Tech Ai Ltd, a UK software development and IT consultancy (Preston, Lancashire) that helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), covering services, pricing, service areas, expertise and policies. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/.",
-  "version": "1.1.1",
+  "name": "Heimdell Tech Ai Assistant",
+  "description": "Answers questions about Heimdell Tech Ai Ltd, a UK software development and IT consultancy (Preston, Lancashire) that helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), covering services, pricing, service areas, expertise and policies. The AI agent readiness review, UCP, Knowledge Catalog, A2A, AP2, MCP and systems architecture are a custom quote. The agent-readiness scan is free. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/.",
+  "version": "1.1.3",
   "documentationUrl": "https://heimdell-tech-ai.co.uk/llms-full.txt",
   "iconUrl": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
   "provider": {
@@ -34,7 +34,7 @@
     {
       "id": "faq-knowledge",
       "name": "Company knowledge and FAQ",
-      "description": "Answers factual questions about Heimdell Tech Ai's services, pricing, service areas, expertise and policies. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/. Answers are drawn verbatim from a curated knowledge catalogue and returned with source URLs on telecomcompliance.uk for TPV and the telecom guides, and on heimdell-tech-ai.co.uk for everything that remains here.",
+      "description": "Answers factual questions about Heimdell Tech Ai's services, pricing, service areas, expertise and policies. The AI agent readiness review, UCP, Knowledge Catalog, A2A, AP2, MCP and systems architecture are a custom quote. The agent-readiness scan is free. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/. Answers are drawn verbatim from a curated knowledge catalogue and returned with source URLs on telecomcompliance.uk for TPV and the telecom guides, and on heimdell-tech-ai.co.uk for everything that remains here.",
       "tags": [
         "faq",
         "knowledge-base",
