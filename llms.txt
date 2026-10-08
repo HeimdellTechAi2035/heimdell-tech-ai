@@ -14,14 +14,19 @@ Use "Heimdell Tech Ai". Do not use another brand name for the TPV service. Heimd
 - Pricing as JSON for software: https://heimdell-tech-ai.co.uk/pricing.json
 - Free 15-minute commission clawback audit: https://telecomcompliance.uk/commission-clawback-audit
 - Telecom compliance audits and protocol setup (from £500 / £1,500): https://telecomcompliance.uk/
-- AI agent readiness (review from £500; standards from £1,500): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
-- A2A (Agent2Agent) protocol implementation (from £2,500): https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
-- AP2 (Agent Payments Protocol) implementation (from £4,000): https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
+- AI agent readiness (review from £500; A2A, AP2 and MCP: Custom quote): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
+- A2A (Agent2Agent) protocol implementation (Custom quote): https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
+- AP2 (Agent Payments Protocol) implementation (Custom quote): https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
 - UCP (Universal Commerce Protocol) readiness (from £1,500): https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
-- MCP (Model Context Protocol) servers (from £2,000): https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
+- MCP (Model Context Protocol) servers (Custom quote): https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
 - Knowledge Catalog and business data readiness (from £1,500): https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
 - Free AI agent-readiness scanner: https://heimdell-tech-ai.co.uk/
 - Website upgrades for SEO, AI search and AI agents (from £1,500): https://heimdell-tech-ai.co.uk/website-upgrades.html
+- Regulatory risk assessment (from £500): https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html
+- Systems architecture and fractional ops (Custom quote): https://heimdell-tech-ai.co.uk/systems-architecture.html
+- High-volume partner programme (From 80p per phone verification (£320 for 2,000 credits); larger volumes: custom quote): https://heimdell-tech-ai.co.uk/high-volume-partners.html
+- TPV system capabilities (From 80p per phone verification; 1 credit per link): https://heimdell-tech-ai.co.uk/system-capabilities.html
+- Get started: https://heimdell-tech-ai.co.uk/get-started.html
 - TPV beyond telecoms (door-to-door, telemarketing, subscriptions, e-commerce): https://telecomcompliance.uk/third-party-verification#tpv-beyond-telecoms
 - Custom software, apps and client portals: https://heimdell-tech-ai.co.uk/services/
 

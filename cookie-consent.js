@@ -1,8 +1,8 @@
-/* Cookie Consent Bar — Heimdell Tech AI
+/* Cookie Consent Bar — Heimdell Tech Ai
    Injects a GDPR-compliant cookie consent banner.
    When the user clicks "Accept All", they consent to:
      1. Website cookies (analytics, functionality)
-     2. Receiving automated calls from Heimdell Tech AI
+     2. Receiving automated calls from Heimdell Tech Ai
    Consent is stored in localStorage so the bar only shows once. */
 
 (function () {
@@ -78,7 +78,7 @@
     bar.innerHTML = '' +
         '<div class="hcb-text">' +
             'We use cookies to improve your experience on our site. By clicking <strong>"Accept All"</strong>, you also consent to receiving ' +
-            '<strong>automated telephone calls</strong> from Heimdell Tech AI regarding our services, in accordance with UK regulations. ' +
+            '<strong>automated telephone calls</strong> from Heimdell Tech Ai regarding our services, in accordance with UK regulations. ' +
             'You can withdraw consent at any time. ' +
             '<a href="privacy-policy.html">Privacy Policy</a>' +
         '</div>' +
