@@ -17,9 +17,9 @@ Use "Heimdell Tech Ai". Do not use another brand name for the TPV service. Heimd
 - AI agent readiness (Custom quote; the scan is free): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
 - A2A (Agent2Agent) protocol implementation (Custom quote): https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
 - AP2 (Agent Payments Protocol) implementation (Custom quote): https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
-- UCP (Universal Commerce Protocol) readiness (Custom quote): https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
+- UCP (Universal Commerce Protocol) readiness (Custom quote): for UK online shops. UCP, announced by Google in January 2026 and co-developed with Shopify, lets AI agents discover products and check out. Heimdell Tech Ai checks the /.well-known/ucp profile, product data and policies. https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
 - MCP (Model Context Protocol) servers (Custom quote): https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
-- Knowledge Catalog and business data readiness (Custom quote): https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
+- Knowledge Catalog and business data readiness (Custom quote): for UK businesses, on Google Cloud or not. Knowledge Catalog (formerly Dataplex Universal Catalog, renamed April 2026) organises data so AI agents can trust it. Heimdell Tech Ai helps describe and govern that data. https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
 - Free AI agent-readiness scanner: https://heimdell-tech-ai.co.uk/
 - Website upgrades for SEO, AI search and AI agents (from £1,500): https://heimdell-tech-ai.co.uk/website-upgrades.html
 - Regulatory risk assessment (from £500): https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html
