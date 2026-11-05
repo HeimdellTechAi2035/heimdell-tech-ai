@@ -27,14 +27,14 @@
             window.dataLayer = window.dataLayer || [];
             window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
             window.gtag('js', new Date());
-            window.gtag('config', 'G-1WS6V6MJ35', {
+            window.gtag('config', 'G-7TW42K88XS', {
                 send_page_view: false,
                 allow_google_signals: false,
                 allow_ad_personalization_signals: false
             });
             const tag = document.createElement('script');
             tag.async = true;
-            tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-1WS6V6MJ35';
+            tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-7TW42K88XS';
             document.head.append(tag);
         }
         const event = {
