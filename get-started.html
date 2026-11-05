@@ -219,7 +219,7 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
 }
 </style>
 </head>
-<body>
+<body data-readiness-page="confirmation">
 
     <!-- Navigation -->
     <nav class="nav-bar">
@@ -281,7 +281,9 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
             <div class="enquiry-card">
                 <h2>Send Us an Enquiry</h2>
                 <p class="enquiry-intro">Tell us what you need and we&rsquo;ll respond directly.</p>
-                <div id="formSuccess" class="success-message" role="status">Thank you &mdash; your enquiry has been sent successfully.</div>
+                <div id="formSuccess" class="success-message" role="status">Thank you &mdash; your enquiry has been sent successfully.
+                    <p id="readiness-confirmation" hidden><a href="/agent-readiness-next.html">See what to bring to your readiness walkthrough</a>.</p>
+                </div>
                 <form action="https://forms.heimdell-tech-ai.co.uk/heimdell/contact" method="post" accept-charset="UTF-8">
                     <input type="hidden" name="form-name" value="contact">
                     <div class="honeypot" aria-hidden="true">
@@ -370,6 +372,7 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
         });
     </script>
     <script src="cookie-consent.min.js" defer></script>
+    <script src="/assets/readiness/funnel.js" defer></script>
     <script src="/chat-widget.js" defer></script>
 </body>
 </html>
