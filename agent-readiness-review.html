@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free AI Agent Readiness Review | Heimdell Tech Ai</title>
+  <meta name="description" content="See an example AI agent readiness finding and ask Heimdell to walk through what an AI assistant can read or do on your business website.">
+  <link rel="canonical" href="https://heimdell-tech-ai.co.uk/agent-readiness-review.html">
+  <link rel="stylesheet" href="/assets/readiness/funnel.css">
+  <script src="/cookie-consent.min.js" defer></script>
+  <script src="/assets/readiness/funnel.js" defer></script>
+</head>
+<body data-readiness-page="review">
+<header><div class="wrap">
+  <a class="brand" href="/"><img src="/heimdell-tech-ai-silver-protocol-logo.webp" alt="" width="36" height="36"> Heimdell Tech Ai</a>
+  <nav aria-label="Main navigation"><a href="/#agentready-scan" data-funnel-event="scan_cta">Free scanner</a><a href="/ai-agent-readiness.html">AI agent services</a></nav>
+</div></header>
+<main>
+  <section class="hero"><div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Free AI agent readiness walkthrough</p>
+      <h1>Can an AI assistant understand what your business offers?</h1>
+      <p class="lead">See what a visitor&rsquo;s AI assistant can read about your services, pricing or booking steps. We&rsquo;ll help you decide which gap is worth fixing first.</p>
+      <div class="actions"><a class="action" href="#request-review" data-funnel-event="review_cta">Request a free walkthrough</a></div>
+      <p><a id="readiness-decline" href="#worked-example" data-funnel-event="example_cta">See the worked example first</a></p>
+      <p class="muted">Already have your scan? Bring it along. A paid project is quoted separately if you ask us to scope one.</p>
+    </div>
+    <div class="card">
+      <h2>What the scan can tell you</h2>
+      <video controls playsinline preload="none" poster="/assets/readiness/scan-overview.webp" data-funnel-video="overview" aria-label="What the scan can tell you">
+        <source src="/assets/readiness/scan-overview.mp4" type="video/mp4">
+      </video>
+      <details><summary>Read the video transcript</summary><p>Can an AI assistant find your services and the right next step? Run the free scan to see a score and prioritised fixes. If a booking route is unclear, make the next step explicit and check it again. Ask Heimdell to walk through the result with you.</p></details>
+    </div>
+  </div></section>
+
+  <section class="block" id="worked-example"><div class="wrap">
+    <p class="eyebrow">Illustrative example</p>
+    <h2>The service is listed. The booking step is missing.</h2>
+    <div class="cards example">
+      <article class="card"><h3>See what&rsquo;s missing</h3><p>A fictional heating company lists boiler servicing, but the service page gives no usable route to request an appointment.</p></article>
+      <article class="card"><h3>Fix one task first</h3><p>Put the service area and a clear booking or enquiry link on the service page. Start with a task customers already do.</p></article>
+      <article class="card"><h3>Test it again</h3><p>Check that the page exposes the new information and follow the booking link to make sure it reaches the intended next step.</p></article>
+    </div>
+    <p style="margin-top:1rem">That&rsquo;s our approach for a paid project. We check one real customer task, fix the gap and test the journey again.</p>
+    <p>If you leave the booking route unclear, an assistant may describe the service without being able to tell the customer how to book it.</p>
+    <a href="/#agentready-scan" data-funnel-event="scan_cta">Run the free scan on your site</a>
+  </div></section>
+
+  <section class="block"><div class="wrap">
+    <h2>Questions before you book</h2>
+    <details><summary>Do I need A2A, AP2 or MCP?</summary><p>It depends on the task. Clear service and booking information may be the first fix. We discuss integrations when the job you want an agent to do calls for one.</p></details>
+    <details><summary>What will you access?</summary><p>The scan checks public website information. For the first call, bring a public website link and a task you want a customer to complete.</p></details>
+    <details><summary>What does the walkthrough cost?</summary><p>The walkthrough is free. If you want implementation work afterwards, Heimdell will agree the scope and quote it separately.</p></details>
+    <details><summary>Can you guarantee an AI assistant will recommend us?</summary><p>Different assistants use different sources and rules. The walkthrough identifies practical gaps we can inspect and retest on your own site.</p></details>
+  </div></section>
+
+  <section class="block" id="request-review"><div class="wrap">
+    <div class="card form-card">
+      <h2>Request a walkthrough</h2>
+      <p>Send us your website and a way to reply. We&rsquo;ll follow up to arrange the call.</p>
+      <form action="https://forms.heimdell-tech-ai.co.uk/heimdell/contact" method="post" accept-charset="UTF-8" id="readiness-request">
+        <input type="hidden" name="form-name" value="contact">
+        <input type="hidden" name="service" value="AI agent readiness walkthrough">
+        <input type="hidden" name="form-variant" id="readiness-form-variant" value="short">
+        <div hidden aria-hidden="true"><label>Leave this blank <input name="bot-field" tabindex="-1" autocomplete="off"></label></div>
+        <div class="fields">
+          <label>Your name <input name="name" autocomplete="name" maxlength="120" required></label>
+          <label>Work email <input name="email" type="email" autocomplete="email" maxlength="254" required></label>
+          <label>Public website <input name="website" inputmode="url" autocomplete="url" maxlength="250" placeholder="example.co.uk" required></label>
+          <label>What should a customer be able to do? <small id="readiness-goal-hint">(optional)</small>
+            <select name="customer-task" id="readiness-goal">
+              <option value="">Choose a task</option>
+              <option>Find or compare a service</option><option>Request a quote</option><option>Book an appointment</option><option>Buy or pay online</option><option>Something else</option>
+            </select>
+          </label>
+          <label>Anything we should know? <small>(optional)</small><textarea name="message" rows="3" maxlength="1500"></textarea></label>
+        </div>
+        <p style="margin-top:1rem"><button class="action" type="submit">Send my walkthrough request</button></p>
+        <p class="muted">We use these details to respond to your enquiry. <a href="/privacy-policy.html">Privacy policy</a></p>
+      </form>
+      <p>Prefer email? <a href="mailto:contact@heimdell-tech-ai.co.uk?subject=AI%20agent%20readiness%20walkthrough">Contact Heimdell</a>.</p>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap"><p><a href="/">Heimdell Tech Ai</a> <a href="/pricing.html">Pricing</a> <a href="/privacy-policy.html">Privacy</a></p></div></footer>
+</body>
+</html>
