@@ -62,6 +62,18 @@
         }
     }
 
+    function carryCampaign(link) {
+        if (!allowedCampaigns.includes(campaign)) return;
+        const destination = new URL(link.href, location.origin);
+        if (destination.origin !== location.origin || destination.pathname === location.pathname) return;
+        destination.searchParams.set('utm_content', campaign);
+        link.href = destination.href;
+    }
+
+    for (const link of document.querySelectorAll('a[data-funnel-event]')) {
+        carryCampaign(link);
+    }
+
     document.addEventListener('click', event => {
         const stage = event.target.closest('[data-funnel-event]')?.dataset.funnelEvent;
         if (eventNames.has(stage)) track(stage);
@@ -128,7 +140,14 @@
             let result = output.querySelector('.lead');
             new MutationObserver(() => {
                 const nextResult = output.querySelector('.lead');
-                if (nextResult && nextResult !== result) track('scan_completed');
+                if (nextResult && nextResult !== result) {
+                    const nextStep = nextResult.querySelector('a.cta');
+                    if (nextStep) {
+                        nextStep.textContent = 'Or request a free walkthrough';
+                        carryCampaign(nextStep);
+                    }
+                    track('scan_completed');
+                }
                 result = nextResult;
             }).observe(output, { childList: true });
         }
