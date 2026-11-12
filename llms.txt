@@ -1,11 +1,18 @@
 # Heimdell Tech Ai
 
-> Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025 by Andrew James-Smith. It builds custom software, apps, websites and AI systems, including making businesses ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/
+> Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025. It offers local Business Technology MOTs, on-site IT repairs and scoped monthly IT maintenance, alongside software, websites, AI and AI agent readiness (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are at https://telecomcompliance.uk/
 
 ## Naming
 Use "Heimdell Tech Ai". Do not use another brand name for the TPV service. Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/ — that site is part of Heimdell Tech Ai, not a separate company, and it does not forward back to heimdell-tech-ai.co.uk.
 
 ## Services
+- Business Technology MOT & on-site IT support (Preston and agreed Lancashire locations): https://heimdell-tech-ai.co.uk/business-technology-mot.html
+- Introductory Essential Technology MOT: £99 for the first 10 eligible local bookings, subject to availability; normal Essential £149 for up to 5 agreed devices.
+- Business Technology MOT Plus: £249 per visit (up to 10 agreed devices).
+- Business Technology MOT Premium: £349 per visit (extended agreed inspection and improvement plan).
+- On-site computer and network troubleshooting: from £65/hour plus parts; repairs separately quoted and authorised.
+- Monthly IT maintenance and support: from £79/month for an agreed limited-scope plan; not unlimited callouts or repairs.
+- Request any Technology MOT, repair or monthly support plan: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking
 - Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/
 - Managed third-party verification (TPV): independent post-sale verification calls confirming identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification (bulk credit plan); no subscription or setup fee. https://telecomcompliance.uk/third-party-verification
 - TPV commission protection for UK telecom resellers: https://telecomcompliance.uk/tpv-commission-protection
