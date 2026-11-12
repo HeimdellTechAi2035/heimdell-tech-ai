@@ -29,7 +29,7 @@ Quick, citable answers for voice assistants and AI overviews:
 Heimdell Tech Ai helps UK businesses get ready for AI agents, with a free agent-readiness scan and implementation of A2A, AP2, UCP, MCP and Knowledge Catalog. Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/
 
 **Services (https://heimdell-tech-ai.co.uk/services/):**
-Heimdell Tech Ai builds custom software, apps, websites and AI systems. Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/
+Heimdell Tech Ai builds software, apps, websites and AI systems. For Preston/Lancashire businesses it also offers on-site Business Technology MOTs: introductory Essential £99 for first 10 eligible local bookings, standard Essential £149, Plus £249, Premium £349, repairs from £65/hour plus parts, and limited-scope monthly IT maintenance from £79/month. Book: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking. Heimdell TPV and telecom guides are at https://telecomcompliance.uk/
 
 **Sales Verification (https://heimdell-tech-ai.co.uk/system-capabilities.html):**
 The Telecom Verification Protocol verifies sales through eight automated steps: job submission, ID and bank verification, timestamped consent capture via SMS or email, cooling-off confirmation, terms acceptance logging, CRM sync, certificate generation and evidence archival. Every touchpoint creates tamper-proof audit trails for ICO compliance.
@@ -41,7 +41,7 @@ Clawbacks occur when sales lack documentary proof of consent. Our audit system i
 Our free fifteen-minute audit identifies PECR and DUAA compliance gaps in your current sales process. We assess consent capture, cooling-off handling and data documentation — providing a leakage estimate and ICO risk score. No obligation, immediate clarity on your compliance exposure.
 
 **Pricing (https://heimdell-tech-ai.co.uk/pricing.html):**
-TPV verification runs on pay-as-you-go credits from 80p per call, no subscription or setup fee. Other services (audits, protocol setup/implementation, systems architecture) are quoted from a starting price, confirmed after a free audit call. The Commission Clawback Audit is free.
+Business Technology MOT prices are £99 introductory (first 10 eligible local Essential visits, subject to availability), Essential £149, Plus £249, Premium £349. On-site IT troubleshooting from £65/hour plus parts; monthly IT maintenance from £79/month for an agreed support scope. Separately, TPV verification runs on pay-as-you-go credits from 80p/call, with no TPV subscription or setup fee. The Commission Clawback Audit is free.
 
 **CRM Integration (https://heimdell-tech-ai.co.uk/systems-architecture.html):**
 We integrate compliance verification directly into your CRM pipeline. Every sale triggers automated ID checks, timestamped consent capture and terms logging — syncing evidence to your existing system. This creates audit-ready documentation without changing your workflow or adding manual steps.
@@ -132,6 +132,19 @@ The Telecom Verification Protocol is designed around the following UK regulation
 Full pricing for every service: https://heimdell-tech-ai.co.uk/pricing.html — full services portfolio: https://heimdell-tech-ai.co.uk/services/
 Machine-readable pricing feed (JSON): https://heimdell-tech-ai.co.uk/pricing.json
 
+### Local Business Technology MOT, on-site IT repairs and maintenance (Preston/Lancashire)
+
+**What is a Business Technology MOT?** An authorised, evidence-led on-site check of agreed business computers, Wi-Fi, internet connectivity, network equipment, basic cybersecurity hygiene and backup status. Clients receive written findings with priorities; this is not a penetration test or formal security certification.
+- Introductory Essential MOT: £99 per visit for the first 10 eligible local bookings only (subject to availability); standard Essential £149 for up to 5 agreed devices. A typical Essential visit is designed for 60–90 minutes.
+- Business MOT Plus: £249 per visit for up to 10 agreed devices and an expanded checklist.
+- Business MOT Premium: £349 per visit for an extended agreed technology review and AI/workflow improvement opportunities.
+- On-site IT repairs/troubleshooting: from £65 per hour plus parts; repair work separately quoted and authorised, not included in the MOT.
+- Monthly IT maintenance: from £79 per month. Coverage may include agreed periodic checks, update and backup-status review, and an agreed allowance of advice or remote support. **Not unlimited**: callouts, on-site repairs, parts, licences and urgent work are separate unless written into the plan.
+- Initially covering Preston and surrounding Lancashire; visit availability, scope, travel and any applicable VAT confirmed in the final quote.
+- Booking enquiry: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking; full service descriptions: https://heimdell-tech-ai.co.uk/services/
+- Business IT and TPV subscriptions are separate: TPV credits have **no subscription**, while optional ongoing IT support is a scoped monthly service.
+
+
 ### 1. Third-Party Verification (TPV) — from 80p/call
 Independent post-sale verification calls confirming customer identity, contract terms, cooling-off rights and Direct Debit authority within 24 hours of a sale. Pay-as-you-go credits: £20/100, £90/500, £320/2,000. Phone verification = 5 credits; link verification = 1 credit. No subscription, no setup fee.
 URL: https://telecomcompliance.uk/third-party-verification
@@ -209,7 +222,8 @@ Andrew James-Smith — Founder & Director. Built The Telecom Verification Protoc
 - Knowledge Catalog Readiness: https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html — Google Cloud Knowledge Catalog and agent-ready business data for UK firms, on Google Cloud or not. Heimdell Tech Ai helps describe and govern that data. Custom quote.
 - Website upgrades: https://heimdell-tech-ai.co.uk/website-upgrades.html — from £1,500
 - TPV Commission Protection: https://telecomcompliance.uk/tpv-commission-protection — Telecom TPV pitch, 2026 compliance reality, commission calculator, FAQ (moved from the homepage)
-- Services: https://heimdell-tech-ai.co.uk/services/ — Full services & product portfolio hub
+- Services: https://heimdell-tech-ai.co.uk/services/ — Full services portfolio, including all six Technology MOT/IT service prices
+- Business Technology MOT & Repairs: https://heimdell-tech-ai.co.uk/business-technology-mot.html — Local inspections, on-site troubleshooting, monthly support and enquiry form
 - Pricing: https://heimdell-tech-ai.co.uk/pricing.html — Pricing for every service (real credit-based TPV rates + starting prices)
 - Commission Clawback Audit: https://telecomcompliance.uk/commission-clawback-audit — Free diagnostic, 4-area assessment, step-by-step process, target audience, deliverables list
 - Systems Architecture & Ops: https://heimdell-tech-ai.co.uk/systems-architecture.html — Service scope, fractional vs full-time comparison, common engagements, engagement process
