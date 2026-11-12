@@ -1,0 +1,59 @@
+name: Verify Business Technology MOT production enquiry
+
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-business-technology-mot.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  live-form-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Confirm public booking page responds with a booking form
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          curl --retry 3 --retry-delay 3 --fail --silent --show-error --location --max-time 20 \
+            "https://heimdell-tech-ai.co.uk/business-technology-mot.html" \
+            -o /tmp/mot-page.html
+          grep -q 'name="form-name" value="technology-mot"' /tmp/mot-page.html
+          echo "PASS: Public website serves the MOT booking form"
+
+      - name: Confirm forms gateway is reachable
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          curl --retry 3 --retry-delay 3 --fail --silent --show-error --max-time 20 \
+            "https://forms.heimdell-tech-ai.co.uk/health" | grep -q '"status":"ok"'
+          echo "PASS: Forms gateway health endpoint"
+
+      - name: Submit one safe test booking request
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          http_code="$(curl --silent --show-error --max-time 25 --output /tmp/mot-result.html \
+            --dump-header /tmp/mot-headers.txt \
+            --write-out '%{http_code}' \
+            -X POST 'https://forms.heimdell-tech-ai.co.uk/heimdell/technology-mot' \
+            -H 'Origin: https://heimdell-tech-ai.co.uk' \
+            -H 'Content-Type: application/x-www-form-urlencoded' \
+            --data-urlencode 'form-name=technology-mot' \
+            --data-urlencode 'name=Heimdell MOT automated test' \
+            --data-urlencode 'company=HEIMDELL TEST - DO NOT BOOK' \
+            --data-urlencode 'email=mot-smoke-test@example.com' \
+            --data-urlencode 'phone=00000000000' \
+            --data-urlencode 'postcode=PR1 TEST' \
+            --data-urlencode 'device-count=1–5' \
+            --data-urlencode 'service=Advice on best package' \
+            --data-urlencode 'notes=AUTOMATED TEST BOOKING - IGNORE - NEVER CONFIRM AN APPOINTMENT' \
+            --data-urlencode 'enquiry-confirmation=I understand this is an enquiry, not a confirmed appointment')"
+          if [ "$http_code" != 303 ]; then
+            echo "::error::Production enquiry failed with HTTP $http_code"
+            exit 1
+          fi
+          grep -qi 'location: https://heimdell-tech-ai.co.uk/business-technology-mot.html?sent=1' /tmp/mot-headers.txt
+          echo "PASS: Production MOT enquiry accepted and email provider returned success"
