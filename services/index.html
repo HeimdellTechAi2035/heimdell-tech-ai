@@ -12,8 +12,8 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software, Apps &amp; AI Systems, Preston | Heimdell Tech Ai</title>
-    <meta name="description" content="Heimdell Tech Ai builds custom software, apps, client portals, websites and AI systems in Preston. Heimdell TPV and telecom compliance guides are now at telecomcompliance.uk.">
+    <title>Business IT Support, Technology MOTs &amp; Software | Heimdell Tech Ai</title>
+    <meta name="description" content="Heimdell Tech Ai offers on-site Business Technology MOTs from £99, IT repairs at £65/hour and monthly IT maintenance from £79, alongside custom software and AI systems in Lancashire.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://heimdell-tech-ai.co.uk/services/">
     <link rel="alternate" hreflang="en-gb" href="https://heimdell-tech-ai.co.uk/services/">
@@ -23,8 +23,8 @@
     <meta name="geo.placename" content="Preston">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Software, Apps &amp; AI Systems, Preston | Heimdell Tech Ai">
-    <meta property="og:description" content="Heimdell Tech Ai builds custom software, apps, client portals, websites and AI systems in Preston. Heimdell TPV and telecom compliance guides are now at telecomcompliance.uk.">
+    <meta property="og:title" content="Business IT Support, Technology MOTs &amp; Software | Heimdell Tech Ai">
+    <meta property="og:description" content="Heimdell Tech Ai offers on-site Business Technology MOTs from £99, IT repairs at £65/hour and monthly IT maintenance from £79, alongside custom software and AI systems in Lancashire.">
     <meta property="og:site_name" content="Heimdell Tech Ai">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://heimdell-tech-ai.co.uk/services/">
@@ -33,8 +33,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Software, Apps &amp; AI Systems, Preston | Heimdell Tech Ai">
-    <meta name="twitter:description" content="Heimdell Tech Ai builds custom software, apps, client portals, websites and AI systems in Preston. Heimdell TPV and telecom compliance guides are now at telecomcompliance.uk.">
+    <meta name="twitter:title" content="Business IT Support, Technology MOTs &amp; Software | Heimdell Tech Ai">
+    <meta name="twitter:description" content="Heimdell Tech Ai offers on-site Business Technology MOTs from £99, IT repairs at £65/hour and monthly IT maintenance from £79, alongside custom software and AI systems in Lancashire.">
     <meta name="twitter:image" content="https://heimdell-tech-ai.co.uk/images/silver-protocol-four-pillar-audit-automation-framework.png">
 
     <link rel="icon" type="image/png" sizes="32x32" href="../heimdell-tech-ai-silver-protocol-logo.png">
@@ -201,6 +201,36 @@
         "description": "Custom quote.",
         "url": "https://heimdell-tech-ai.co.uk/services/#ai-systems"
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "Service",
+        "name": "Business Technology MOT",
+        "description": "On-site technology health checks; first 10 eligible local Essential bookings £99, standard Essential £149, Plus £249, Premium £349.",
+        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "Service",
+        "name": "On-site IT repairs and troubleshooting",
+        "description": "Technician troubleshooting from £65 per hour plus parts, subject to quotation.",
+        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "Service",
+        "name": "Monthly IT maintenance and support",
+        "description": "Tailored ongoing business IT support plans from £79 per month, with agreed scope and exclusions.",
+        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking"
+      }
     }
   ]
 }</script>
@@ -264,6 +294,34 @@
         .service-card p { font-size: 0.88rem; color: var(--text-muted); margin: 0; }
         .service-card .arrow { color: var(--gold); margin-top: 12px; display: inline-block; font-size: 0.85rem; font-weight: 600; }
 
+
+        /* Business Technology MOT: visible service packages on the main Services page */
+        .mot-offers { background: var(--dark-surface); }
+        .mot-offers .section-head { max-width: 830px; }
+        .mot-offers .intro-offer { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:20px; background:linear-gradient(120deg,#2D1B69,#4A2D8F); color:#fff; border-radius:20px; padding:28px 32px; text-align:left; margin-bottom:24px; }
+        .mot-offers .intro-offer h3 { font:700 1.35rem 'Space Grotesk',sans-serif; margin:4px 0 7px; color:#fff; }
+        .mot-offers .intro-offer p { font-size:.91rem; color:#f3eaff; max-width:620px; }
+        .mot-offers .promo-label { font-size:.74rem; font-weight:800; text-transform:uppercase; letter-spacing:.09em; color:#e5d4ff; }
+        .mot-offers .intro-price { text-align:center; min-width:145px; }
+        .mot-offers .intro-price strong { display:block; font:800 3rem 'Space Grotesk',sans-serif; line-height:1.1; color:#fff; }
+        .mot-offers .intro-price span { font-size:.82rem; color:#f4e9ff; }
+        .mot-tier-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; text-align:left; }
+        .mot-tier { display:flex; flex-direction:column; background:#fff; border:1px solid var(--dark-border); border-radius:16px; padding:27px; }
+        .mot-tier h3,.mot-extra-card h3 { font:700 1.2rem 'Space Grotesk',sans-serif; color:var(--text-primary); margin:0 0 7px; }
+        .mot-tier .mot-amount,.mot-extra-card .mot-amount { font:800 2.2rem 'Space Grotesk',sans-serif; color:var(--purple-deep); margin:5px 0 8px; }
+        .mot-tier .mot-amount small,.mot-extra-card .mot-amount small { font:500 .87rem Inter,sans-serif; color:var(--text-muted); }
+        .mot-tier p,.mot-extra-card p { color:var(--text-secondary); font-size:.91rem; }
+        .mot-tier ul { padding-left:19px; margin:15px 0 21px; color:var(--text-secondary); font-size:.91rem; flex:1; }
+        .mot-tier li { margin-bottom:7px; }
+        .mot-link { display:inline-flex; align-items:center; justify-content:center; text-align:center; padding:11px 16px; border-radius:10px; background:var(--gold); color:#fff!important; font-size:.89rem; font-weight:700; text-decoration:none!important; }
+        .mot-link:hover { background:var(--gold-light); }
+        .mot-extra-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:18px; text-align:left; }
+        .mot-extra-card { border:1px solid var(--dark-border); border-radius:16px; background:#fff; padding:27px; }
+        .mot-extra-card .mot-link { margin-top:15px; }
+        .mot-offers .mot-terms { font-size:.83rem; color:var(--text-secondary); margin:22px auto 0; max-width:960px; }
+        @media (max-width:850px) { .mot-tier-grid { grid-template-columns:1fr; } }
+        @media (max-width:650px) { .mot-extra-grid { grid-template-columns:1fr; } .mot-offers .intro-offer { padding:24px; } .mot-offers .intro-price { text-align:left; } }
+
         .divider { border: none; border-top: 1px solid var(--dark-border); margin: 0; }
 
         .footer { padding: 40px 0; text-align: center; border-top: 1px solid var(--dark-border); }
@@ -295,7 +353,7 @@
       ".quick-answer"
     ]
   },
-  "dateModified": "2026-10-03T09:00:00+00:00"
+  "dateModified": "2026-11-12T15:00:00+00:00"
 }</script>
 <style id="nav-tpv-btn-style">
 a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padding:6px 14px;background:var(--gold);color:#FFFFFF!important;font-size:0.78rem;font-weight:600;border-radius:7px;text-decoration:none!important;white-space:nowrap;line-height:1.2}
@@ -329,8 +387,87 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
     <section class="quick-answer" style="background:linear-gradient(135deg, rgba(139,92,246,0.08) 0%, rgba(45,27,105,0.12) 100%);padding:32px 0;border-bottom:1px solid var(--dark-border);">
         <div class="container" style="max-width:800px;text-align:center;">
             <p style="font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--gold);margin-bottom:12px;">Quick Answer</p>
-            <p style="font-size:1.05rem;line-height:1.75;color:var(--text-primary);margin:0;">We build custom software, apps, client portals, websites and AI systems for clients, and we build our own products &mdash; including a biker dating app, a round &amp; payment management app, an emergency response platform, and a Martyn&rsquo;s Law security audit framework. <a href="https://telecomcompliance.uk/">Heimdell TPV and telecom compliance guides are now at telecomcompliance.uk</a>.</p>
-            <p style="font-size:0.78rem;color:var(--text-muted);margin-top:16px;">Read time: ~4min &middot; Last updated: 2026-08-29</p>
+            <p style="font-size:1.05rem;line-height:1.75;color:var(--text-primary);margin:0;">We provide on-site Business Technology MOTs in Preston and Lancashire (introductory visits £99; standard packages £149, £249 and £349), IT troubleshooting at £65/hour plus parts, and tailored monthly support from £79. We also build custom software, websites, apps and AI systems. <a href="https://telecomcompliance.uk/">Heimdell TPV and telecom compliance guides are at telecomcompliance.uk</a>.</p>
+            <p style="font-size:0.78rem;color:var(--text-muted);margin-top:16px;">Last updated: 2026-11-12</p>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+
+    <!-- Business Technology MOT pricing and ongoing services -->
+    <section class="section mot-offers" id="technology-mot" aria-labelledby="technology-mot-heading">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Business IT services · Preston &amp; Lancashire</span>
+                <h2 id="technology-mot-heading">Technology MOTs, on-site repairs &amp; ongoing IT support</h2>
+                <p>We visit local shops, offices, property businesses, cafés, warehouses and SMEs to check the technology they rely on. Choose an inspection, request practical repairs or ask about a manageable monthly maintenance plan.</p>
+            </div>
+            <div class="intro-offer">
+                <div>
+                    <span class="promo-label">Launch offer · first 10 eligible local bookings</span>
+                    <h3>Essential Business Technology MOT for £99</h3>
+                    <p>Our standard £149 Essential inspection at an introductory £99. On-site checks for up to 5 agreed devices, including connectivity, basic security hygiene and backup status, followed by written findings.</p>
+                </div>
+                <div class="intro-price"><strong>£99</strong><span>introductory visit</span><br><a class="mot-link" style="margin-top:12px;background:#fff;color:#2D1B69!important" href="/business-technology-mot.html#booking">Request launch offer &rarr;</a></div>
+            </div>
+            <div class="mot-tier-grid">
+                <article class="mot-tier">
+                    <h3>Essential Technology MOT</h3>
+                    <div class="mot-amount">£149 <small>/ visit</small></div>
+                    <p>For small shops and offices needing a practical technology health check.</p>
+                    <ul>
+                        <li>Up to 5 agreed devices</li>
+                        <li>Internet, Wi-Fi and core network checks</li>
+                        <li>Basic PC performance and security-hygiene review</li>
+                        <li>Backup status review and written findings</li>
+                        <li>Prioritised recommended next steps</li>
+                    </ul>
+                    <a class="mot-link" href="/business-technology-mot.html#booking">Enquire about Essential &rarr;</a>
+                </article>
+                <article class="mot-tier">
+                    <h3>Business MOT Plus</h3>
+                    <div class="mot-amount">£249 <small>/ visit</small></div>
+                    <p>For businesses with more devices and a wider IT setup.</p>
+                    <ul>
+                        <li>Up to 10 agreed devices</li>
+                        <li>Broader Wi-Fi, network and equipment checks</li>
+                        <li>Expanded security-hygiene and backup checklist</li>
+                        <li>Review of agreed printers and business systems</li>
+                        <li>Prioritised report and improvement recommendations</li>
+                    </ul>
+                    <a class="mot-link" href="/business-technology-mot.html#booking">Enquire about Plus &rarr;</a>
+                </article>
+                <article class="mot-tier">
+                    <h3>Business MOT Premium</h3>
+                    <div class="mot-amount">£349 <small>/ visit</small></div>
+                    <p>For organisations wanting a more detailed improvement plan.</p>
+                    <ul>
+                        <li>Extended review of agreed key systems</li>
+                        <li>Technology resilience and risk priorities</li>
+                        <li>Security, connectivity and backup observations</li>
+                        <li>AI, automation and workflow efficiency opportunities</li>
+                        <li>Written priorities and follow-up recommendations</li>
+                    </ul>
+                    <a class="mot-link" href="/business-technology-mot.html#booking">Enquire about Premium &rarr;</a>
+                </article>
+            </div>
+            <div class="mot-extra-grid">
+                <article class="mot-extra-card">
+                    <h3>🔧 On-site IT repairs &amp; troubleshooting</h3>
+                    <div class="mot-amount">£65 <small>/ hour + parts</small></div>
+                    <p>Support with slow computers, Wi-Fi faults, printer connections, network configuration and suitable minor hardware or cable fixes. Repairs are separately approved and quoted before work starts; inspection fees do not include repair labour.</p>
+                    <a class="mot-link" href="/business-technology-mot.html#booking">Ask about a repair &rarr;</a>
+                </article>
+                <article class="mot-extra-card">
+                    <h3>🛡️ Monthly IT maintenance &amp; support</h3>
+                    <div class="mot-amount">From £79 <small>/ month</small></div>
+                    <p>For businesses wanting regular attention rather than only calling when something breaks. We can agree a tailored schedule of preventative checks, update and backup-status reviews, and practical support advice. Device coverage, support allowances and response arrangements are set in your quotation.</p>
+                    <p style="margin-top:9px"><strong>Not unlimited IT support:</strong> on-site callouts, repairs, parts, licences and emergency work are separate unless explicitly included in the agreed plan.</p>
+                    <a class="mot-link" href="/business-technology-mot.html#booking">Discuss monthly support &rarr;</a>
+                </article>
+            </div>
+            <p class="mot-terms">All prices are starting or standard guide prices; we confirm scope, device count, travel and the total before you commit. The £99 offer is limited to the first 10 eligible local Essential MOT bookings, subject to availability. Repairs and parts are charged separately. Any applicable VAT will be confirmed in the quotation. A Technology MOT is a practical health check, not a penetration test or a formal security certification. <a href="/business-technology-mot.html">See the full checks and request an inspection &rarr;</a></p>
         </div>
     </section>
 
@@ -347,7 +484,7 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
             <div class="services-grid">
                 <a href="../business-technology-mot.html" class="service-card">
                     <h3>🛠️ Business Technology MOT &amp; On-Site IT Repairs</h3>
-                    <p>We visit shops and offices across Preston and Lancashire to check computers, Wi-Fi, networks, basic security and backups. Clear reports, optional repairs and an introductory £99 offer.</p>
+                    <p>We visit shops and offices across Preston and Lancashire to check computers, Wi-Fi, networks, basic security and backups. Written findings, an introductory £99 visit, three MOT packages (£149/£249/£349), repairs at £65/hour plus parts, and monthly support from £79.</p>
                     <span class="arrow">Explore the Technology MOT &rarr;</span>
                 </a>
                 <div class="service-card" id="custom-software" style="cursor:default;">
