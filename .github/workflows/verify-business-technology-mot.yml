@@ -1,6 +1,7 @@
 name: Verify Business Technology MOT production enquiry
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/workflows/verify-business-technology-mot.yml'
