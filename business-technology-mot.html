@@ -217,6 +217,28 @@
   </div>
 </section>
 
+
+<section class="section alt" id="monthly-maintenance" aria-labelledby="maintenance-heading">
+  <div class="wrap two-col">
+    <div>
+      <span class="label">Stay ahead of IT problems</span>
+      <h2 id="maintenance-heading">Monthly IT maintenance &amp; support from £79/month.</h2>
+      <p class="muted" style="margin-top:16px">A one-off MOT identifies what needs attention. An ongoing, agreed-scope maintenance plan helps you keep on top of everyday technology between inspections.</p>
+      <p class="muted">Depending on your requirements, a plan can cover scheduled preventative device checks, update and backup-status reviews, and an agreed allowance of remote support or advice. We'll define the devices, frequency, response arrangements and any included time before you sign up.</p>
+      <a class="btn btn-dark" href="#booking">Discuss monthly support ↗</a>
+    </div>
+    <div class="callout">
+      <h3>Clear scope. No surprise promises.</h3>
+      <ul class="check-list">
+        <li><span class="tick">✓</span><span><strong>From £79/month.</strong> The final price depends on devices and agreed coverage.</span></li>
+        <li><span class="tick">✓</span><span><strong>Planned checks.</strong> A schedule tailored to the IT you use.</span></li>
+        <li><span class="tick">✓</span><span><strong>Practical recommendations.</strong> Visible issues and next steps explained clearly.</span></li>
+        <li><span class="tick">✓</span><span><strong>Written terms.</strong> On-site visits, repairs, parts, licences, urgent callouts and any support allowance are agreed separately, not assumed unlimited.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="section alt" aria-labelledby="faq-heading">
   <div class="wrap">
     <div class="sect-head"><span class="label">Common questions</span><h2 id="faq-heading">Before you book</h2></div>
@@ -225,6 +247,7 @@
       <details><summary>Will you need passwords or access to our computers?</summary><p>We agree access and authorisation in advance. Some checks need a staff member to sign in or supervise access. We will not ask you to email passwords or make changes without permission.</p></details>
       <details><summary>Is this a formal cybersecurity certificate or penetration test?</summary><p>No. It is a practical technology health check and basic cybersecurity-hygiene review, not a penetration test, Cyber Essentials certification, statutory inspection or guarantee that systems are free of vulnerabilities.</p></details>
       <details><summary>What if you identify a problem?</summary><p>We document the finding and recommend next steps. If it is a fault we can safely address, we can give you a separate quote. You decide whether any repair goes ahead.</p></details>
+      <details><summary>Does the £79/month IT plan include unlimited repairs and callouts?</summary><p>No. Monthly plans start from £79 with coverage agreed in writing. Extra on-site visits, repair labour, replacement parts, licences and out-of-hours assistance are not included unless specified in your agreement.</p></details>
       <details><summary>Do you only work with offices?</summary><p>No. We aim to support shops, cafés, salons, professional services, property businesses, warehouses and other small organisations in Preston and the surrounding Lancashire area.</p></details>
     </div>
   </div>
@@ -256,7 +279,7 @@
             <div class="field"><label for="mot-phone">Contact number *</label><input id="mot-phone" name="phone" type="tel" autocomplete="tel" maxlength="45" required></div>
             <div class="field"><label for="mot-postcode">Premises postcode *</label><input id="mot-postcode" name="postcode" type="text" autocomplete="postal-code" maxlength="12" required></div>
             <div class="field"><label for="mot-devices">Approximate devices *</label><select id="mot-devices" name="device-count" required><option value="">Select a range</option><option>1–5</option><option>6–10</option><option>11–20</option><option>21+</option><option>Not sure</option></select></div>
-            <div class="field"><label for="mot-package">Which service interests you? *</label><select id="mot-package" name="service" required><option value="">Select a service</option><option value="Introductory Essential MOT — £99 (subject to availability)">Introductory Essential MOT — £99</option><option value="Essential MOT — £149">Essential MOT — £149</option><option value="Business MOT Plus — £249">Business MOT Plus — £249</option><option value="Business MOT Premium — £349">Business MOT Premium — £349</option><option value="On-site IT Repairs — £65/hour plus parts">On-site IT repairs</option><option value="Advice on best package">Help me choose</option></select></div>
+            <div class="field"><label for="mot-package">Which service interests you? *</label><select id="mot-package" name="service" required><option value="">Select a service</option><option value="Introductory Essential MOT — £99 (subject to availability)">Introductory Essential MOT — £99</option><option value="Essential MOT — £149">Essential MOT — £149</option><option value="Business MOT Plus — £249">Business MOT Plus — £249</option><option value="Business MOT Premium — £349">Business MOT Premium — £349</option><option value="On-site IT Repairs — £65/hour plus parts">On-site IT repairs</option><option value="Monthly IT maintenance — from £79/month">Monthly IT support — from £79/month</option><option value="Advice on best package">Help me choose</option></select></div>
             <div class="field"><label for="mot-date">Preferred date (optional)</label><input id="mot-date" name="preferred-date" type="date"><span class="hint">We will confirm availability.</span></div>
             <div class="field full"><label for="mot-details">What would you like checked? (optional)</label><textarea id="mot-details" name="notes" maxlength="1200" placeholder="e.g. Slow office computers, patchy Wi-Fi, backups, several sites..."></textarea><span class="hint">Please don't include passwords, payment details or other sensitive information.</span></div>
           </div>
@@ -306,7 +329,8 @@
     ["Request Essential MOT", "Introductory Essential MOT — £99 (subject to availability)"],
     ["Request MOT Plus", "Business MOT Plus — £249"],
     ["Request Premium MOT", "Business MOT Premium — £349"],
-    ["Ask about repairs", "On-site IT Repairs — £65/hour plus parts"]
+    ["Ask about repairs", "On-site IT Repairs — £65/hour plus parts"],
+    ["Discuss monthly support", "Monthly IT maintenance — from £79/month"]
   ];
   document.querySelectorAll('a[href="#booking"]').forEach((link) => {
     const chosen = packageButtons.find(([text]) => link.textContent.includes(text));
