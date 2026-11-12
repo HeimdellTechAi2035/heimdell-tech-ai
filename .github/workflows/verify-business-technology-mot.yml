@@ -31,6 +31,20 @@ jobs:
             "https://forms.heimdell-tech-ai.co.uk/health" | grep -q '"status":"ok"'
           echo "PASS: Forms gateway health endpoint"
 
+      - name: Diagnose public route routing
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          for path in "/heimdell/contact" "/heimdell/technology-mot"; do
+            status="$(curl --silent --show-error --max-time 20 --output /tmp/gateway-diagnostic.html --write-out '%{http_code}' "https://forms.heimdell-tech-ai.co.uk${path}")"
+            echo "GET ${path}: HTTP ${status} (expected 405 for recognised POST-only path)"
+            if [ "${path}" = "/heimdell/technology-mot" ] && [ "${status}" != 405 ]; then
+              echo "Route response (first 400 bytes):"
+              head -c 400 /tmp/gateway-diagnostic.html
+              echo
+            fi
+          done
+
       - name: Submit one safe test booking request
         shell: bash
         run: |
