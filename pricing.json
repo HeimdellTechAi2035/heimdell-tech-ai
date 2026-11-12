@@ -6,12 +6,13 @@
     "companiesHouse": "16478408"
   },
   "currency": "GBP",
-  "lastUpdated": "2026-10-08",
+  "lastUpdated": "2026-11-12",
   "source": "https://heimdell-tech-ai.co.uk/pricing.html",
   "notes": [
-    "Starting prices; exact pricing is confirmed after a free call.",
+    "Published guide prices; scope, travel, VAT if applicable, and total cost are confirmed before booking.",
     "Every project is scoped and quoted individually.",
-    "TPV credits do not expire; there is no subscription, setup fee or monthly minimum."
+    "TPV credits do not expire; there is no subscription, setup fee or monthly minimum.",
+    "Technology MOT prices apply to agreed local visits. The first ten eligible Essential MOT bookings may qualify for the £99 introductory price, subject to availability; repairs and maintenance terms are quoted separately."
   ],
   "services": [
     {
@@ -280,6 +281,84 @@
         "type": "custom",
         "display": "Custom quote"
       }
+    },
+    {
+      "id": "business-technology-mot-intro",
+      "name": "Business Technology MOT — introductory Essential",
+      "price": {
+        "type": "fixed",
+        "amount": 99,
+        "currency": "GBP",
+        "unit": "introductory eligible local visit",
+        "display": "£99 (limited launch offer)"
+      },
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "description": "Limited to first 10 eligible local bookings; standard Essential price £149."
+    },
+    {
+      "id": "business-technology-mot-essential",
+      "name": "Business Technology MOT — Essential",
+      "price": {
+        "type": "fixed",
+        "amount": 149,
+        "currency": "GBP",
+        "unit": "standard visit",
+        "display": "£149"
+      },
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "description": "Up to 5 agreed devices."
+    },
+    {
+      "id": "business-technology-mot-plus",
+      "name": "Business Technology MOT — Plus",
+      "price": {
+        "type": "fixed",
+        "amount": 249,
+        "currency": "GBP",
+        "unit": "visit",
+        "display": "£249"
+      },
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "description": "Up to 10 agreed devices."
+    },
+    {
+      "id": "business-technology-mot-premium",
+      "name": "Business Technology MOT — Premium",
+      "price": {
+        "type": "fixed",
+        "amount": 349,
+        "currency": "GBP",
+        "unit": "visit",
+        "display": "£349"
+      },
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "description": "Extended agreed system review."
+    },
+    {
+      "id": "on-site-it-repairs",
+      "name": "On-site IT repairs and troubleshooting",
+      "price": {
+        "type": "from",
+        "amount": 65,
+        "currency": "GBP",
+        "unit": "hour",
+        "display": "£65/hour + parts"
+      },
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
+      "description": "Repairs are separately approved; parts and travel extra where applicable."
+    },
+    {
+      "id": "monthly-it-maintenance",
+      "name": "Monthly IT maintenance and support",
+      "price": {
+        "type": "from",
+        "amount": 79,
+        "currency": "GBP",
+        "unit": "month",
+        "display": "from £79/month"
+      },
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
+      "description": "Starting price for a written, limited-scope support plan; not unlimited callouts or repairs."
     }
   ],
   "tpvCredits": {
@@ -290,7 +369,7 @@
         "credits": 100,
         "price": 20,
         "pricePerCredit": 0.2,
-        "pricePerPhoneVerification": 1.0
+        "pricePerPhoneVerification": 1
       },
       {
         "credits": 500,
