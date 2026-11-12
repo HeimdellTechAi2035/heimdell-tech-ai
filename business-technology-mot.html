@@ -63,6 +63,23 @@
     .faq{max-width:850px;margin:0 auto}.faq details{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:10px;padding:0 20px}.faq summary{cursor:pointer;font-weight:700;padding:17px 0}.faq p{color:var(--muted);padding-bottom:14px}
     .final{background:linear-gradient(125deg,#2d1b69,#4e2f94);color:#fff;padding:65px 0;text-align:center}.final p{max-width:700px;margin:15px auto 22px;color:#eee6ff}.final .actions{justify-content:center}.final a{color:inherit}.final .btn-light{color:var(--purple)}
     footer{background:#1d1135;color:#e8ddf5;padding:38px 0;text-align:center;font-size:.83rem}footer a{color:#e8ddf5}footer p{margin:7px 0}
+
+    .booking-wrap{display:grid;grid-template-columns:.77fr 1.23fr;gap:24px;align-items:start}
+    .booking-form{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:var(--shadow)}
+    .form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+    .field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}
+    .field label{font-size:.87rem;font-weight:700;color:var(--ink)}
+    .field input,.field select,.field textarea{width:100%;border:1px solid #ae9bc7;border-radius:9px;background:#fff;color:var(--ink);font:inherit;padding:11px 12px;min-width:0}
+    .field textarea{min-height:100px;resize:vertical}
+    .field input:focus-visible,.field select:focus-visible,.field textarea:focus-visible{outline:3px solid rgba(74,45,143,.32);outline-offset:1px;border-color:var(--purple2)}
+    .field .hint{font-size:.79rem;color:var(--muted)}
+    .privacy-check{display:flex;gap:11px;align-items:flex-start;font-size:.84rem;line-height:1.5;color:var(--muted);margin-top:18px}
+    .privacy-check input{margin-top:5px;flex-shrink:0}
+    .form-submit{border:0;cursor:pointer;font:800 1rem Inter,sans-serif;margin-top:20px}
+    .form-message{padding:16px 18px;border-radius:10px;background:#e7f8ed;border:1px solid #8bc9a5;color:#164d2a;margin-bottom:19px}
+    .honeypot{position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+    @media(max-width:760px){.booking-wrap{grid-template-columns:1fr}.booking-form{padding:23px}}
+    @media(max-width:520px){.form-grid{grid-template-columns:1fr}}
     @media(max-width:970px){.nav-links{gap:9px}.nav-links a{font-size:.74rem}.hero-grid{gap:22px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:760px){.menu-btn{display:block}.nav-inner{flex-wrap:wrap}.nav-links{display:none;flex-basis:100%;width:100%;padding:7px 0 15px;flex-direction:column;align-items:stretch;gap:3px}.nav-links.open{display:flex}.nav-links a{font-size:.93rem;padding:10px}.hero{padding:48px 0 56px}.hero-grid,.two-col{grid-template-columns:1fr}.hero-panel{max-width:440px}.cards,.prices{grid-template-columns:1fr}.section{padding:52px 0}.stat{align-items:flex-start;flex-direction:column;gap:8px}.stat strong{font-size:2.8rem}}
     @media(max-width:520px){.steps{grid-template-columns:1fr}.hero h1{font-size:2.4rem}.wrap{padding:0 17px}.hero .lede{font-size:1rem}.btn{width:100%}}
@@ -76,7 +93,7 @@
     <a class="brand" href="/"><img src="/heimdell-tech-ai-silver-protocol-logo.png" alt="" width="37" height="37">Heimdell Tech Ai</a>
     <button class="menu-btn" id="menuButton" type="button" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
     <nav id="navLinks" class="nav-links" aria-label="Main navigation">
-      <a href="/">Home</a><a href="/services/">Services</a><a href="/pricing.html">Pricing</a><a href="https://telecomcompliance.uk/">TPV</a><a href="/ai-agent-readiness.html">AI Agents</a><a href="/about.html">About</a><a href="/contact.html">Contact</a><a class="nav-action" href="mailto:contact@heimdell-tech-ai.co.uk?subject=Business%20Technology%20MOT%20Booking%20Enquiry">Book an MOT</a>
+      <a href="/">Home</a><a href="/services/">Services</a><a href="/pricing.html">Pricing</a><a href="https://telecomcompliance.uk/">TPV</a><a href="/ai-agent-readiness.html">AI Agents</a><a href="/about.html">About</a><a href="/contact.html">Contact</a><a class="nav-action" href="#booking">Book an MOT</a>
     </nav>
   </div>
 </header>
@@ -88,7 +105,7 @@
       <h1 id="hero-title">Would your business pass a <em>Technology MOT?</em></h1>
       <p class="lede">Slow computers? Unreliable Wi-Fi? Unsure if your backups or security settings are up to scratch? Heimdell visits your premises, checks the technology you rely on, and explains what needs attention — in plain English.</p>
       <div class="buttons">
-        <a class="btn btn-light" href="mailto:contact@heimdell-tech-ai.co.uk?subject=Book%20My%20Business%20Technology%20MOT&amp;body=Business%20name%3A%0APostcode%3A%0AContact%20number%3A%0AApproximate%20number%20of%20computers%3A%0APreferred%20date%3A">Request your £99 MOT ↗</a>
+        <a class="btn btn-light" href="#booking">Request your £99 MOT ↗</a>
         <a class="btn btn-outline" href="#what-we-check">See what we check ↓</a>
       </div>
       <p class="proof">✓ We come to you &nbsp; ✓ Clear written findings &nbsp; ✓ Repairs quoted separately</p>
@@ -169,9 +186,9 @@
   <div class="wrap">
     <div class="sect-head"><span class="label">Simple starting prices</span><h2 id="pricing-heading">Choose the MOT that suits your business.</h2><p>We confirm the device count, included checks, visit time and final price before an appointment.</p></div>
     <div class="prices">
-      <article class="pricing-card featured"><span class="flag">First 10 local bookings: £99</span><h3>Essential MOT</h3><div class="amount">£149 <span>/ standard visit</span></div><p>Ideal for a shop or small office.</p><ul><li>Up to 5 agreed devices</li><li>Core network, Wi-Fi, PC health and security-hygiene checks</li><li>Basic backup review</li><li>Clear written summary and next steps</li></ul><a class="btn btn-dark" href="mailto:contact@heimdell-tech-ai.co.uk?subject=Essential%20Business%20Technology%20MOT%20Enquiry">Request Essential MOT ↗</a></article>
-      <article class="pricing-card"><h3>Business MOT Plus</h3><div class="amount">£249 <span>/ visit</span></div><p>For a busier office with more devices.</p><ul><li>Up to 10 agreed devices</li><li>Broader connectivity and equipment review</li><li>Expanded security and backup checklist</li><li>Prioritised recommendations</li></ul><a class="btn btn-dark" href="mailto:contact@heimdell-tech-ai.co.uk?subject=Business%20MOT%20Plus%20Enquiry">Request MOT Plus ↗</a></article>
-      <article class="pricing-card"><h3>Business MOT Premium</h3><div class="amount">£349 <span>/ visit</span></div><p>For businesses wanting a more detailed improvement plan.</p><ul><li>Extended agreed review of key systems</li><li>Technology risk and improvement priorities</li><li>AI and workflow efficiency opportunities</li><li>Follow-up recommendations</li></ul><a class="btn btn-dark" href="mailto:contact@heimdell-tech-ai.co.uk?subject=Business%20MOT%20Premium%20Enquiry">Request Premium MOT ↗</a></article>
+      <article class="pricing-card featured"><span class="flag">First 10 local bookings: £99</span><h3>Essential MOT</h3><div class="amount">£149 <span>/ standard visit</span></div><p>Ideal for a shop or small office.</p><ul><li>Up to 5 agreed devices</li><li>Core network, Wi-Fi, PC health and security-hygiene checks</li><li>Basic backup review</li><li>Clear written summary and next steps</li></ul><a class="btn btn-dark" href="#booking">Request Essential MOT ↗</a></article>
+      <article class="pricing-card"><h3>Business MOT Plus</h3><div class="amount">£249 <span>/ visit</span></div><p>For a busier office with more devices.</p><ul><li>Up to 10 agreed devices</li><li>Broader connectivity and equipment review</li><li>Expanded security and backup checklist</li><li>Prioritised recommendations</li></ul><a class="btn btn-dark" href="#booking">Request MOT Plus ↗</a></article>
+      <article class="pricing-card"><h3>Business MOT Premium</h3><div class="amount">£349 <span>/ visit</span></div><p>For businesses wanting a more detailed improvement plan.</p><ul><li>Extended agreed review of key systems</li><li>Technology risk and improvement priorities</li><li>AI and workflow efficiency opportunities</li><li>Follow-up recommendations</li></ul><a class="btn btn-dark" href="#booking">Request Premium MOT ↗</a></article>
     </div>
     <p class="notes">Introductory £99 offer applies to the first 10 eligible local Essential MOT bookings, subject to availability. Repairs, replacement parts and out-of-area travel are separate. Any applicable VAT and total charges will be confirmed in your quotation.</p>
   </div>
@@ -185,7 +202,7 @@
       <p class="muted" style="margin-top:16px">A report is useful. Getting your systems running reliably is better. Heimdell also offers on-site IT troubleshooting and practical fixes, with an agreed quote before additional work starts.</p>
       <p><strong>On-site troubleshooting from £65/hour + parts</strong></p>
       <p class="muted">Typical work includes Wi-Fi optimisation, printer connections, basic computer troubleshooting, network configuration and cable replacements. Complex, high-risk or regulated work is outside the standard MOT scope.</p>
-      <a class="btn btn-dark" href="mailto:contact@heimdell-tech-ai.co.uk?subject=On-site%20IT%20Support%20Enquiry">Ask about repairs ↗</a>
+      <a class="btn btn-dark" href="#booking">Ask about repairs ↗</a>
     </div>
     <div class="callout">
       <h3>What you can expect</h3>
@@ -213,12 +230,51 @@
   </div>
 </section>
 
+<section class="section" id="booking" aria-labelledby="booking-heading">
+  <div class="wrap">
+    <div class="sect-head"><span class="label">Booking enquiry</span><h2 id="booking-heading">Request your Business Technology MOT.</h2><p>Tell us a little about your business. We'll contact you to confirm the scope, availability and price before any appointment is booked.</p></div>
+    <div class="booking-wrap">
+      <div class="callout">
+        <h3>What happens next?</h3>
+        <ul class="check-list">
+          <li><span class="tick">1.</span><span>Send us your details using the secure enquiry form.</span></li>
+          <li><span class="tick">2.</span><span>We confirm your business location, device count and suitable inspection package.</span></li>
+          <li><span class="tick">3.</span><span>We'll agree a date and provide the final quotation before visiting.</span></li>
+          <li><span class="tick">4.</span><span>On-site checks and any additional repairs only take place with your permission.</span></li>
+        </ul>
+        <p class="muted" style="margin-top:19px">Prefer email? <a href="mailto:contact@heimdell-tech-ai.co.uk?subject=Business%20Technology%20MOT%20Enquiry">contact@heimdell-tech-ai.co.uk</a></p>
+      </div>
+      <div class="booking-form">
+        <div id="bookingSuccess" class="form-message" role="status" hidden><strong>Enquiry sent.</strong> Thank you — your Business Technology MOT request has been submitted. We'll contact you to discuss the next steps. Your appointment is not yet confirmed.</div>
+        <form id="motBookingForm" action="https://forms.heimdell-tech-ai.co.uk/heimdell/technology-mot" method="post" accept-charset="UTF-8">
+          <input type="hidden" name="form-name" value="technology-mot">
+          <div class="honeypot" aria-hidden="true"><label>Leave this field blank <input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></div>
+          <div class="form-grid">
+            <div class="field"><label for="mot-name">Your name *</label><input id="mot-name" name="name" type="text" autocomplete="name" maxlength="100" required></div>
+            <div class="field"><label for="mot-company">Business name *</label><input id="mot-company" name="company" type="text" autocomplete="organization" maxlength="140" required></div>
+            <div class="field"><label for="mot-email">Business email *</label><input id="mot-email" name="email" type="email" autocomplete="email" maxlength="160" required></div>
+            <div class="field"><label for="mot-phone">Contact number *</label><input id="mot-phone" name="phone" type="tel" autocomplete="tel" maxlength="45" required></div>
+            <div class="field"><label for="mot-postcode">Premises postcode *</label><input id="mot-postcode" name="postcode" type="text" autocomplete="postal-code" maxlength="12" required></div>
+            <div class="field"><label for="mot-devices">Approximate devices *</label><select id="mot-devices" name="device-count" required><option value="">Select a range</option><option>1–5</option><option>6–10</option><option>11–20</option><option>21+</option><option>Not sure</option></select></div>
+            <div class="field"><label for="mot-package">Which service interests you? *</label><select id="mot-package" name="service" required><option value="">Select a service</option><option value="Introductory Essential MOT — £99 (subject to availability)">Introductory Essential MOT — £99</option><option value="Essential MOT — £149">Essential MOT — £149</option><option value="Business MOT Plus — £249">Business MOT Plus — £249</option><option value="Business MOT Premium — £349">Business MOT Premium — £349</option><option value="On-site IT Repairs — £65/hour plus parts">On-site IT repairs</option><option value="Advice on best package">Help me choose</option></select></div>
+            <div class="field"><label for="mot-date">Preferred date (optional)</label><input id="mot-date" name="preferred-date" type="date"><span class="hint">We will confirm availability.</span></div>
+            <div class="field full"><label for="mot-details">What would you like checked? (optional)</label><textarea id="mot-details" name="notes" maxlength="1200" placeholder="e.g. Slow office computers, patchy Wi-Fi, backups, several sites..."></textarea><span class="hint">Please don't include passwords, payment details or other sensitive information.</span></div>
+          </div>
+          <label class="privacy-check"><input type="checkbox" name="enquiry-confirmation" value="I understand this is an enquiry, not a confirmed appointment" required><span>I understand this is a booking request, not a confirmed appointment. Heimdell can contact me about this enquiry. See our <a href="/privacy-policy.html">privacy policy</a>.</span></label>
+          <button class="btn btn-dark form-submit" type="submit">Send my MOT enquiry ↗</button>
+          <p class="muted" style="font-size:.79rem;margin:15px 0 0">No payment is taken through this form. Repairs and additional services are quoted separately.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="final" aria-labelledby="final-heading">
   <div class="wrap">
     <h2 id="final-heading">Your next IT problem could be hiding in plain sight.</h2>
     <p>Book a Business Technology MOT and find out which parts of your everyday technology need attention. First 10 eligible local Essential visits: £99.</p>
     <div class="buttons actions">
-      <a class="btn btn-light" href="mailto:contact@heimdell-tech-ai.co.uk?subject=Book%20My%20Business%20Technology%20MOT">Email to request an MOT ↗</a>
+      <a class="btn btn-light" href="#booking">Email to request an MOT ↗</a>
       <a class="btn btn-outline" href="/contact.html">Contact Heimdell ↗</a>
     </div>
     <p style="font-size:.88rem;margin-top:20px">Or email <a href="mailto:contact@heimdell-tech-ai.co.uk">contact@heimdell-tech-ai.co.uk</a></p>
@@ -238,6 +294,23 @@
   menuButton.addEventListener("click", function () {
     const open = navLinks.classList.toggle("open");
     menuButton.setAttribute("aria-expanded", String(open));
+  });
+  // The forms gateway redirects to ?sent=1 only after its email provider accepts the enquiry.
+  if (new URLSearchParams(window.location.search).get("sent") === "1") {
+    const success = document.getElementById("bookingSuccess");
+    if (success) success.hidden = false;
+  }
+  // Pre-fill the package chosen in the pricing cards.
+  const packageSelect = document.getElementById("mot-package");
+  const packageButtons = [
+    ["Request Essential MOT", "Introductory Essential MOT — £99 (subject to availability)"],
+    ["Request MOT Plus", "Business MOT Plus — £249"],
+    ["Request Premium MOT", "Business MOT Premium — £349"],
+    ["Ask about repairs", "On-site IT Repairs — £65/hour plus parts"]
+  ];
+  document.querySelectorAll('a[href="#booking"]').forEach((link) => {
+    const chosen = packageButtons.find(([text]) => link.textContent.includes(text));
+    if (chosen) link.addEventListener("click", () => { packageSelect.value = chosen[1]; });
   });
 </script>
 <script src="/cookie-consent.min.js" defer></script>
