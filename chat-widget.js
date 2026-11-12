@@ -18,7 +18,7 @@
   var CONTACT = cfg('contact', '/contact.html');
   var PRIVACY = cfg('privacy', '/privacy-policy.html#chat');
   var MAXLEN = 300;
-  var SUGGESTIONS = ['How much does it cost?', 'What is the A2A protocol?', 'Is there a free website scan?', 'Do you still offer TPV?', 'Where are you based?'];
+  var SUGGESTIONS = ['How much is a Business Technology MOT?', 'Do you offer monthly IT support?', 'Can you repair our office computers?', 'What is the A2A protocol?', 'Where are you based?'];
 
   var seq = 0, busy = false, lastSend = 0;
   var ctx = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : 'ctx-' + Math.random().toString(36).slice(2);
@@ -84,7 +84,7 @@
         '<button class="ic" type="button" data-act="close" aria-label="Close chat">Close</button></header>' +
       '<div class="body"><div class="log" role="log" aria-live="polite" aria-relevant="additions"></div>' +
         '<div class="browse" hidden></div></div>' +
-      '<form class="send" autocomplete="off"><input type="text" maxlength="' + MAXLEN + '" aria-label="Your question" placeholder="Ask about services, prices or AI agents"><button type="submit">Send</button></form>' +
+      '<form class="send" autocomplete="off"><input type="text" maxlength="' + MAXLEN + '" aria-label="Your question" placeholder="Ask about MOTs, IT support or AI services"><button type="submit">Send</button></form>' +
       '<footer>Automated assistant giving pre-written answers. It is not legal or compliance advice, so please don\'t enter personal information. ' +
         '<a href="' + PRIVACY + '">Privacy</a> &middot; <a href="' + CONTACT + '">Contact a person</a></footer>' +
     '</section>';
@@ -233,6 +233,7 @@
   }
   function topicOf(src) {
     var s = String(src || '').toLowerCase();
+    if (/business-technology-mot/.test(s)) return 'Business IT MOTs and Support';
     if (/pricing/.test(s)) return 'Pricing';
     if (/ai-agent|a2a|ap2|ucp|mcp|knowledge-catalog|website-upgrades|agent-readiness/.test(s)) return 'AI agents and websites';
     if (/third-party-verification|tpv|system-capabilities|high-volume|post-sale/.test(s)) return 'TPV and verification';
@@ -240,7 +241,7 @@
     if (/systems-architecture/.test(s)) return 'Systems and software';
     return 'About Heimdell';
   }
-  var TOPIC_ORDER = ['AI agents and websites', 'Pricing', 'TPV and verification', 'Telecom compliance', 'Systems and software', 'About Heimdell'];
+  var TOPIC_ORDER = ['Business IT MOTs and Support', 'AI agents and websites', 'Pricing', 'TPV and verification', 'Telecom compliance', 'Systems and software', 'About Heimdell'];
 
   /* ---------- browse view ---------- */
   function openBrowse() {
@@ -304,7 +305,7 @@
   var greeted = false;
   function greet() {
     if (greeted) return; greeted = true;
-    addBot('Hi, I\'m Heimdell\'s assistant. I can answer questions about our services, prices, AI agent standards (A2A, AP2, UCP, MCP, Knowledge Catalog) and telecom compliance. What would you like to know?');
+    addBot('Hi, I\'m Heimdell\'s assistant. Ask about our Business Technology MOTs from £99, local IT repairs from £65/hour, monthly support from £79, or software, AI agent standards and telecom compliance. What would you like to know?');
     addChips(SUGGESTIONS.map(function (t) { return { label: t }; }), function (it) { ask(it.label); });
     loadCatalogue().catch(function () {});   // warm the local copy so the fallback and Topics are instant
   }
