@@ -16,6 +16,7 @@
     <meta name="description" content="Heimdell Tech Ai offers on-site Business Technology MOTs from £99, IT repairs at £65/hour and monthly IT maintenance from £79, alongside custom software and AI systems in Lancashire.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://heimdell-tech-ai.co.uk/services/">
+    <link rel="alternate" type="application/json" href="/pricing.json" title="Heimdell Tech Ai service prices (JSON)">
     <link rel="alternate" hreflang="en-gb" href="https://heimdell-tech-ai.co.uk/services/">
     <meta name="author" content="Andrew James-Smith">
     <link rel="author" href="https://www.linkedin.com/in/andrew-j-72b96a312">
@@ -207,9 +208,48 @@
       "position": 17,
       "item": {
         "@type": "Service",
-        "name": "Business Technology MOT",
-        "description": "On-site technology health checks; first 10 eligible local Essential bookings £99, standard Essential £149, Plus £249, Premium £349.",
-        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+        "@id": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#essential",
+        "name": "Essential Business Technology MOT",
+        "description": "On-site inspection up to five agreed devices with written results; first 10 eligible local visits £99, otherwise £149.",
+        "serviceType": "On-site business IT services",
+        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+        "provider": {
+          "@id": "https://heimdell-tech-ai.co.uk/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Preston"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Lancashire"
+          }
+        ],
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "First 10 eligible local Essential MOT bookings",
+            "description": "Limited launch offer, subject to availability.",
+            "priceCurrency": "GBP",
+            "price": 99,
+            "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
+            "seller": {
+              "@id": "https://heimdell-tech-ai.co.uk/#organization"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Standard Essential MOT",
+            "description": "Up to five agreed devices.",
+            "priceCurrency": "GBP",
+            "price": 149,
+            "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
+            "seller": {
+              "@id": "https://heimdell-tech-ai.co.uk/#organization"
+            }
+          }
+        ]
       }
     },
     {
@@ -217,9 +257,35 @@
       "position": 18,
       "item": {
         "@type": "Service",
-        "name": "On-site IT repairs and troubleshooting",
-        "description": "Technician troubleshooting from £65 per hour plus parts, subject to quotation.",
-        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking"
+        "@id": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#plus",
+        "name": "Business Technology MOT Plus",
+        "description": "Expanded IT inspection for up to ten agreed devices.",
+        "serviceType": "On-site business IT services",
+        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+        "provider": {
+          "@id": "https://heimdell-tech-ai.co.uk/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Preston"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Lancashire"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "name": "Business MOT Plus",
+          "description": "Up to ten agreed devices.",
+          "priceCurrency": "GBP",
+          "price": 249,
+          "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
+          "seller": {
+            "@id": "https://heimdell-tech-ai.co.uk/#organization"
+          }
+        }
       }
     },
     {
@@ -227,9 +293,117 @@
       "position": 19,
       "item": {
         "@type": "Service",
+        "@id": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#premium",
+        "name": "Business Technology MOT Premium",
+        "description": "Extended agreed business IT health review and improvement plan.",
+        "serviceType": "On-site business IT services",
+        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+        "provider": {
+          "@id": "https://heimdell-tech-ai.co.uk/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Preston"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Lancashire"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "name": "Business MOT Premium",
+          "description": "Extended review with confirmed scope.",
+          "priceCurrency": "GBP",
+          "price": 349,
+          "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
+          "seller": {
+            "@id": "https://heimdell-tech-ai.co.uk/#organization"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "Service",
+        "@id": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#repairs",
+        "name": "On-site IT repairs",
+        "description": "Authorised troubleshooting and repair; parts and travel separate.",
+        "serviceType": "On-site business IT services",
+        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+        "provider": {
+          "@id": "https://heimdell-tech-ai.co.uk/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Preston"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Lancashire"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "name": "On-site IT repairs from £65/hour",
+          "description": "Hourly labour starting price, parts separate.",
+          "priceCurrency": "GBP",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "minPrice": 65,
+            "priceCurrency": "GBP",
+            "unitText": "hour"
+          },
+          "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
+          "seller": {
+            "@id": "https://heimdell-tech-ai.co.uk/#organization"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "item": {
+        "@type": "Service",
+        "@id": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#maintenance",
         "name": "Monthly IT maintenance and support",
-        "description": "Tailored ongoing business IT support plans from £79 per month, with agreed scope and exclusions.",
-        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking"
+        "description": "Limited-scope recurring IT maintenance; planned checks and defined exclusions, no unlimited callouts.",
+        "serviceType": "On-site business IT services",
+        "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+        "provider": {
+          "@id": "https://heimdell-tech-ai.co.uk/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Preston"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Lancashire"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "name": "Monthly maintenance from £79/month",
+          "description": "Subject to written scope and agreed support limits.",
+          "priceCurrency": "GBP",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "minPrice": 79,
+            "priceCurrency": "GBP",
+            "unitText": "month"
+          },
+          "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
+          "seller": {
+            "@id": "https://heimdell-tech-ai.co.uk/#organization"
+          }
+        }
       }
     }
   ]
@@ -336,7 +510,7 @@
   "@type": "WebPage",
   "@id": "https://heimdell-tech-ai.co.uk/services/#webpage",
   "url": "https://heimdell-tech-ai.co.uk/services/",
-  "name": "Software, Apps, AI Systems & TPV Platform | Heimdell Tech Ai",
+  "name": "Technology MOTs, IT Support, Software and AI Services | Heimdell Tech Ai",
   "isPartOf": {
     "@type": "WebSite",
     "@id": "https://heimdell-tech-ai.co.uk/#website",
@@ -353,7 +527,13 @@
       ".quick-answer"
     ]
   },
-  "dateModified": "2026-11-12T15:00:00+00:00"
+  "dateModified": "2026-11-12",
+  "description": "Preston and Lancashire Business Technology MOTs from £99, on-site IT repairs at £65/hour plus parts, monthly maintenance from £79 and custom software and AI services.",
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Heimdell Tech Ai services",
+    "url": "https://heimdell-tech-ai.co.uk/services/"
+  }
 }</script>
 <style id="nav-tpv-btn-style">
 a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padding:6px 14px;background:var(--gold);color:#FFFFFF!important;font-size:0.78rem;font-weight:600;border-radius:7px;text-decoration:none!important;white-space:nowrap;line-height:1.2}
