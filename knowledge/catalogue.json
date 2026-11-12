@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-08",
+  "version": "2026-11-12",
   "organisation": {
     "legalName": "Heimdell Tech Ai Ltd",
     "tradingName": "Heimdell Tech Ai",
@@ -26,7 +26,7 @@
     "email": "contact@heimdell-tech-ai.co.uk",
     "openingHours": "Mon–Fri 08:30–17:30, Sat 09:30–15:00",
     "website": "https://heimdell-tech-ai.co.uk/",
-    "description": "UK software development and IT consultancy firm (SIC 62012, 62020) in Preston, Lancashire. Helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), builds custom software, apps, client portals, websites and AI systems, and also provides managed third-party verification (TPV) and compliance services for telecom resellers, brokers and D2D sales teams.",
+    "description": "UK software development and IT consultancy firm in Preston, Lancashire. Provides on-site Business Technology MOT inspections (introductory £99; standard £149/£249/£349), authorised IT repairs from £65/hour plus parts and tailored monthly IT maintenance from £79/month in Preston and agreed Lancashire locations. Also builds custom software, websites, apps, AI systems and agent-readiness solutions (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are at telecomcompliance.uk.",
     "member": {
       "name": "RemoteAbility CIC",
       "url": "https://remoteability.org.uk",
@@ -36,8 +36,8 @@
   "serviceAreas": [
     {
       "name": "United Kingdom",
-      "coverage": "national",
-      "notes": "England, Scotland, Wales and Northern Ireland. Based in Preston, Lancashire."
+      "coverage": "national for digital services",
+      "notes": "Software development, AI and consultancy services offered nationwide; on-site Business Technology MOTs and IT repairs initially cover Preston and surrounding Lancashire locations by agreement. Travel costs and availability are confirmed before booking."
     }
   ],
   "expertise": [
@@ -90,6 +90,48 @@
     ]
   },
   "services": [
+    {
+      "id": "monthly-it-maintenance",
+      "name": "Monthly business IT maintenance and support",
+      "summary": "Tailored ongoing support with agreed preventative device checks, updates and backup-status reviews, and any agreed remote support. Not unlimited: on-site callouts, repairs, parts, licences and emergency work are separate unless the written plan includes them.",
+      "pricingModel": "From £79 per month; scope, device count, support allowance and exclusions agreed in writing.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+    },
+    {
+      "id": "on-site-it-repairs",
+      "name": "On-site IT repairs and troubleshooting",
+      "summary": "Authorised troubleshooting and practical repairs for business computers, Wi-Fi, printers, networks and minor hardware or cabling issues; inspection and repair quotes are separate.",
+      "pricingModel": "£65 per hour plus parts; additional costs and travel confirmed before work.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+    },
+    {
+      "id": "business-technology-mot-premium",
+      "name": "Business Technology MOT Premium",
+      "summary": "Extended agreed review of key business IT systems, technology risks, resilience and AI/workflow opportunities, with a prioritised improvement plan. Scope confirmed before the visit.",
+      "pricingModel": "£349 per visit.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+    },
+    {
+      "id": "business-technology-mot-plus",
+      "name": "Business Technology MOT Plus",
+      "summary": "On-site technology review for up to 10 agreed devices, broader network/equipment and expanded security-hygiene and backup checks, with prioritised written findings.",
+      "pricingModel": "£249 per visit.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+    },
+    {
+      "id": "business-technology-mot-essential",
+      "name": "Essential Business Technology MOT",
+      "summary": "On-site inspection for up to 5 agreed devices, covering basic internet, Wi-Fi, PC health, security hygiene and backup status, with written recommendations. Repairs are separate.",
+      "pricingModel": "£149 per standard visit.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+    },
+    {
+      "id": "business-technology-mot-intro",
+      "name": "Introductory Essential Business Technology MOT",
+      "summary": "Limited launch offer for the first 10 eligible local Essential MOT bookings: authorised on-site technology health check of up to 5 agreed devices, written findings and repair quote options. Booking subject to availability.",
+      "pricingModel": "£99 per visit (limited introductory offer; standard Essential MOT £149).",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+    },
     {
       "id": "ai-agent-readiness",
       "name": "AI Agent Readiness",
@@ -269,7 +311,7 @@
     {
       "id": "pricing-overview",
       "question": "How much does Heimdell Tech Ai charge?",
-      "answer": "AI agent-readiness scan: free. AI agent readiness review, UCP readiness, Knowledge Catalog readiness, A2A, AP2 and MCP: Custom quote. Website upgrades: from £1,500. Commission clawback audit (15 minutes): free. TPV phone verification: from 80p per verification, paid as credits (£20 for 100 credits, £90 for 500, £320 for 2,000; a phone verification uses 5 credits, a link verification 1; no subscription, setup fee or minimum). Provider audit preparation and regulatory risk assessment: from £500. GDPR and ICO compliance audit: from £750. Compliance protocol setup: from £1,500. Compliance protocol implementation: from £3,000. Systems architecture and fractional ops: Custom quote. High-volume partner programme: From 80p per phone verification (£320 for 2,000 credits); larger volumes: custom quote. Channel and vendor compliance: custom quote. Published starting prices are confirmed after a free call; AI services are quoted individually.",
+      "answer": "Business Technology MOTs in Preston and agreed Lancashire locations: first 10 eligible local Essential visits £99 (standard £149), Plus £249, Premium £349. On-site IT repairs/troubleshooting £65/hour plus parts. Tailored monthly IT maintenance starts at £79/month; the plan is not unlimited support, and exclusions are agreed in writing. AI agent-readiness scan: free. AI agent readiness review, UCP, Knowledge Catalog, A2A, AP2 and MCP: custom quote. Website upgrades: from £1,500. Commission clawback audit: free. TPV phone verification: from 80p per verification using pay-as-you-go credits (£20/100, £90/500, £320/2,000; phone call = 5 credits, link verification = 1; no subscription or setup fee for TPV). Provider audit preparation and regulatory risk assessment: from £500. GDPR/ICO audit: from £750. Compliance protocol setup: from £1,500; implementation: from £3,000. Systems architecture and fractional ops: custom quote. All services are subject to quoted scope and terms.",
       "tags": [
         "pricing",
         "prices",
@@ -1983,6 +2025,187 @@
         "proof of results"
       ],
       "source": "https://heimdell-tech-ai.co.uk/case-studies.html"
+    },
+    {
+      "id": "mot-what",
+      "question": "What is a Heimdell Business Technology MOT?",
+      "answer": "It is an on-site, consent-based IT health check for local businesses in Preston and Lancashire. Heimdell checks agreed computers, internet, Wi-Fi, network equipment, security hygiene and backup status, then provides a plain-English report with prioritised next steps. It is not penetration testing or a formal security certificate.",
+      "tags": [
+        "business technology mot",
+        "it health check",
+        "what do you check",
+        "technology inspection",
+        "small business it"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "what is a technology mot",
+        "do you check my computers"
+      ]
+    },
+    {
+      "id": "mot-pricing",
+      "question": "How much does a Business Technology MOT cost?",
+      "answer": "An introductory Essential MOT is £99 for the first 10 eligible local bookings, subject to availability. The standard Essential MOT costs £149 for up to 5 agreed devices; Business MOT Plus is £249 for up to 10 agreed devices; Premium is £349 for an extended agreed review. Final scope, travel, any applicable VAT and charges are confirmed before booking.",
+      "tags": [
+        "mot",
+        "pricing",
+        "£99",
+        "£149",
+        "£249",
+        "£349",
+        "business technology"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "mot prices",
+        "cost to inspect my computers",
+        "is there a £99 mot"
+      ]
+    },
+    {
+      "id": "mot-local",
+      "question": "Where does Heimdell offer on-site Business Technology MOTs?",
+      "answer": "Heimdell initially offers on-site Business Technology MOTs and IT repairs in Preston and surrounding Lancashire locations, subject to availability and a confirmed quotation. Remote software and consultancy services may be available throughout the UK.",
+      "tags": [
+        "preston",
+        "lancashire",
+        "on site",
+        "near me",
+        "area"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "can you visit my shop",
+        "do you cover blackpool or chorley",
+        "what areas do you cover for the mot"
+      ]
+    },
+    {
+      "id": "mot-timing",
+      "question": "How long does a Technology MOT inspection take?",
+      "answer": "An Essential Technology MOT for a small business is designed around a 60–90 minute on-site visit. Larger or more complicated sites may take longer and will be quoted before booking.",
+      "tags": [
+        "mot",
+        "time",
+        "inspection",
+        "duration"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "how long is the visit",
+        "will the inspection take all day"
+      ]
+    },
+    {
+      "id": "mot-scope",
+      "question": "How many devices are covered by each Technology MOT package?",
+      "answer": "The Essential MOT covers up to 5 agreed devices. Business MOT Plus covers up to 10 agreed devices. Premium covers an extended agreed review of key systems, with the exact device and site scope agreed in advance. The limited £99 introductory offer is for an eligible Essential MOT.",
+      "tags": [
+        "mot",
+        "devices",
+        "essential",
+        "plus",
+        "premium"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "5 devices",
+        "10 devices",
+        "how many computers"
+      ]
+    },
+    {
+      "id": "mot-repairs",
+      "question": "Do you fix IT problems during or after a Technology MOT?",
+      "answer": "Heimdell can separately quote authorised on-site IT troubleshooting and practical repairs at £65/hour plus parts. Common work includes Wi-Fi problems, printer connections, slow computers, basic network configuration and cable replacements. Inspection fees do not automatically include repair time, and no changes are made without permission.",
+      "tags": [
+        "it repair",
+        "troubleshooting",
+        "£65",
+        "hour",
+        "fix",
+        "onsite"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "can you fix my wifi",
+        "do you repair computers",
+        "printer not working",
+        "do you do on site repairs"
+      ]
+    },
+    {
+      "id": "mot-monthly-support",
+      "question": "Does Heimdell offer monthly IT maintenance and what does it cost?",
+      "answer": "Yes. Tailored monthly business IT maintenance starts from £79/month. Depending on the written agreement, coverage can include scheduled device checks, update and backup-status reviews and agreed remote support/advice. Device count, visit frequency, support allowance, response arrangements and charges are agreed before starting.",
+      "tags": [
+        "monthly it support",
+        "£79",
+        "maintenance",
+        "recurring",
+        "subscription",
+        "helpdesk"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "is there a monthly IT plan",
+        "monthly support",
+        "can you maintain our office computers"
+      ]
+    },
+    {
+      "id": "mot-no-unlimited",
+      "question": "Does the £79/month IT maintenance plan include unlimited repairs or callouts?",
+      "answer": "No. £79/month is a starting price for an agreed-scope plan, not unlimited IT support. On-site visits, repair labour, replacement parts, software licences and emergency/out-of-hours assistance are billed separately unless explicitly included in the written plan.",
+      "tags": [
+        "monthly it support",
+        "£79",
+        "support",
+        "callouts",
+        "unlimited"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "unlimited support",
+        "are repairs included in the monthly package",
+        "does £79 cover callouts"
+      ]
+    },
+    {
+      "id": "mot-cyber-claim",
+      "question": "Is a Business Technology MOT a cybersecurity audit or certification?",
+      "answer": "No. A Technology MOT includes basic security-hygiene observations, such as checking protective settings where access is authorised. It is not penetration testing, Cyber Essentials certification, a statutory safety inspection or a guarantee that the business has no vulnerabilities.",
+      "tags": [
+        "mot",
+        "cybersecurity",
+        "certification",
+        "penetration test",
+        "scope"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "is it a pen test",
+        "do i get a cyber essentials certificate"
+      ]
+    },
+    {
+      "id": "mot-booking",
+      "question": "How can I book a Business Technology MOT or ask about repairs?",
+      "answer": "Use the enquiry form at https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking, or email contact@heimdell-tech-ai.co.uk. Select the MOT, on-site repair or monthly-support service and provide basic business and device details. This is an enquiry, not a confirmed appointment; Heimdell confirms scope, price and availability first.",
+      "tags": [
+        "mot",
+        "booking",
+        "enquiry",
+        "repair",
+        "monthly support"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "aliases": [
+        "book the £99 MOT",
+        "how to get an IT engineer",
+        "reserve inspection"
+      ]
     }
   ]
 }
