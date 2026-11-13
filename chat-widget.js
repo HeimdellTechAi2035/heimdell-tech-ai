@@ -3,7 +3,7 @@
  *   There is no generative AI: answers are pre-written, curated text.
  * - "Topics" lets visitors browse every FAQ. If the assistant is unreachable, the widget searches the catalogue itself.
  * - No cookies, no localStorage, no analytics. Messages are sent only to the assistant endpoint.
- * Optional script-tag attributes: data-assistant, data-catalogue, data-site, data-contact, data-privacy
+ * Optional script-tag attributes: data-assistant, data-catalogue, data-site, data-contact, data-privacy, data-focus
  */
 (function () {
   'use strict';
@@ -18,7 +18,10 @@
   var CONTACT = cfg('contact', '/contact.html');
   var PRIVACY = cfg('privacy', '/privacy-policy.html#chat');
   var MAXLEN = 300;
-  var SUGGESTIONS = ['How much is a Business Technology MOT?', 'Do you offer monthly IT support?', 'Can you repair our office computers?', 'What is the A2A protocol?', 'Where are you based?'];
+  var MOT_FOCUS = cfg('focus', '') === 'mot';
+  var SUGGESTIONS = MOT_FOCUS
+    ? ['How much is a Business Technology MOT?', 'What is included in the MOT?', 'How do I request a Business Technology MOT?']
+    : ['How much is a Business Technology MOT?', 'Do you offer monthly IT support?', 'Can you repair our office computers?', 'What is the A2A protocol?', 'Where are you based?'];
 
   var seq = 0, busy = false, lastSend = 0;
   var ctx = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : 'ctx-' + Math.random().toString(36).slice(2);
@@ -305,7 +308,9 @@
   var greeted = false;
   function greet() {
     if (greeted) return; greeted = true;
-    addBot('Hi, I\'m Heimdell\'s assistant. Ask about our Business Technology MOTs from £99, local IT repairs from £65/hour, monthly support from £79, or software, AI agent standards and telecom compliance. What would you like to know?');
+    addBot(MOT_FOCUS
+      ? 'Hi, I\'m Heimdell\'s assistant. Ask about the £99 introductory Business Technology MOT, what we check or how to request a visit in Preston and nearby Lancashire.'
+      : 'Hi, I\'m Heimdell\'s assistant. Ask about our Business Technology MOTs from £99, local IT repairs from £65/hour, monthly support from £79, or software, AI agent standards and telecom compliance. What would you like to know?');
     addChips(SUGGESTIONS.map(function (t) { return { label: t }; }), function (it) { ask(it.label); });
     loadCatalogue().catch(function () {});   // warm the local copy so the fallback and Topics are instant
   }

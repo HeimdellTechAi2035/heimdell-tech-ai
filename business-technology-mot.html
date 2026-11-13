@@ -594,8 +594,13 @@
   }
   // Pre-fill the package chosen in the pricing cards.
   const packageSelect = document.getElementById("mot-package");
+  const introductoryPackage = "Introductory Essential MOT — £99 (subject to availability)";
+  if (new URLSearchParams(window.location.search).get("offer") === "launch") {
+    packageSelect.value = introductoryPackage;
+  }
   const packageButtons = [
-    ["Request Essential MOT", "Introductory Essential MOT — £99 (subject to availability)"],
+    ["Request your £99 MOT", introductoryPackage],
+    ["Request Essential MOT", introductoryPackage],
     ["Request MOT Plus", "Business MOT Plus — £249"],
     ["Request Premium MOT", "Business MOT Premium — £349"],
     ["Ask about repairs", "On-site IT Repairs — £65/hour plus parts"],
