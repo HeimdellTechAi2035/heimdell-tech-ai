@@ -330,24 +330,44 @@
   root.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !panel.hidden) { e.stopPropagation(); close(); } });
 
   /* ---------- keep clear of the cookie banner ---------- */
-  var barObs = null;
-  function adjust() {
-    var bar = document.getElementById('heimdell-cookie-bar'), h = 0;
-    if (bar) {
-      // (offsetParent is always null for fixed elements, so measure what is actually on screen instead)
-      var cs = getComputedStyle(bar), r = bar.getBoundingClientRect();
-      if (cs.display !== 'none' && cs.visibility !== 'hidden' && r.height > 0) h = Math.max(0, Math.ceil(window.innerHeight - r.top));
-      if (h > r.height) h = Math.ceil(r.height);
-      if (!barObs && window.MutationObserver) { barObs = new MutationObserver(adjust); barObs.observe(bar, { attributes: true }); bar.addEventListener('transitionend', adjust); }
-    }
-    host.style.bottom = (h ? h + 16 : 20) + 'px';
-    host.style.setProperty('--bar', h + 'px');
+  var cookieBar = null;
+  var barSizeObserver = window.ResizeObserver ? new ResizeObserver(function (entries) {
+    var entry = entries.find(function (item) { return item.target === cookieBar; });
+    if (!entry) return;
+    var size = entry.borderBoxSize && entry.borderBoxSize[0];
+    placeLauncher(Math.ceil(size ? size.blockSize : cookieBar.getBoundingClientRect().height));
+  }) : null;
+
+  function placeLauncher(height) {
+    host.style.bottom = (height ? height + 16 : 20) + 'px';
+    host.style.setProperty('--bar', height + 'px');
+    host.style.visibility = '';
   }
+
+  function syncCookieBar() {
+    var bar = document.getElementById('heimdell-cookie-bar');
+    if (bar === cookieBar) return;
+    if (barSizeObserver && cookieBar) barSizeObserver.unobserve(cookieBar);
+    cookieBar = bar;
+    if (!bar) {
+      placeLauncher(0);
+    } else if (barSizeObserver) {
+      host.style.visibility = 'hidden';
+      barSizeObserver.observe(bar, { box: 'border-box' });
+    } else {
+      requestAnimationFrame(function () {
+        if (bar === cookieBar) placeLauncher(Math.ceil(bar.getBoundingClientRect().height));
+      });
+    }
+  }
+
   function mount() {
-    document.body.appendChild(host); adjust();
-    if (window.MutationObserver) new MutationObserver(adjust).observe(document.body, { childList: true });
-    window.addEventListener('resize', adjust);
-    var n = 0, iv = setInterval(function () { adjust(); if (++n > 100) clearInterval(iv); }, 200);   // follows the banner as it slides in
+    document.body.appendChild(host);
+    syncCookieBar();
+    if (window.MutationObserver) new MutationObserver(syncCookieBar).observe(document.body, { childList: true });
+    if (!barSizeObserver) window.addEventListener('resize', function () {
+      if (cookieBar) placeLauncher(Math.ceil(cookieBar.getBoundingClientRect().height));
+    });
   }
   if (document.body) mount(); else document.addEventListener('DOMContentLoaded', mount);
 })();
