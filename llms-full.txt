@@ -1,7 +1,9 @@
-# Heimdell Tech Ai — heimdell-tech-ai.co.uk
-# llms-full.txt — Comprehensive LLM Knowledge Base
-# Last updated: 2026-10-03T12:00:00+00:00
-# Version: 2.2
+# Heimdell Tech Ai — full knowledge guide
+
+[Site overview and key links](https://heimdell-tech-ai.co.uk/llms.txt) · [Public knowledge catalogue](https://heimdell-tech-ai.co.uk/knowledge/catalogue.json)
+
+Last updated: 2026-11-14
+Version: 2.3
 
 ---
 

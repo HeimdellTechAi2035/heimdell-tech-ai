@@ -2,65 +2,82 @@
 
 > Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025. It offers local Business Technology MOTs, on-site IT repairs and scoped monthly IT maintenance, alongside software, websites, AI and AI agent readiness (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are at https://telecomcompliance.uk/
 
-## Naming
 Use "Heimdell Tech Ai". Do not use another brand name for the TPV service. Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/ — that site is part of Heimdell Tech Ai, not a separate company, and it does not forward back to heimdell-tech-ai.co.uk.
 
-## Services
-- Homepage focus: the on-site Business Technology MOT for local small businesses. The Essential launch visit is for one site and up to five agreed Windows computers, with a written action plan. Request a visit at https://heimdell-tech-ai.co.uk/business-technology-mot.html?offer=launch#booking
-- Business Technology MOT & on-site IT support (Preston and agreed Lancashire locations): https://heimdell-tech-ai.co.uk/business-technology-mot.html
-- Introductory Essential Technology MOT: £99 for the first 10 eligible local bookings, subject to availability; normal Essential £149 for up to 5 agreed devices.
-- Business Technology MOT Plus: £249 per visit (up to 10 agreed devices).
-- Business Technology MOT Premium: £349 per visit (extended agreed inspection and improvement plan).
-- On-site computer and network troubleshooting: from £65/hour plus parts; repairs separately quoted and authorised.
-- Monthly IT maintenance and support: from £79/month for an agreed limited-scope plan; not unlimited callouts or repairs.
-- Full MOT checklist: Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities. https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check
-- AI systems audits (custom quote): Review the AI tools and automations your business uses, what data they can access, who checks their outputs and where errors could affect customers or operations. https://heimdell-tech-ai.co.uk/business-technology-mot.html#ai-audit
-- Cyber security assessments (custom quote): Review agreed accounts, devices and network controls, including access permissions, MFA, patching and backups. Get a prioritised list of gaps and practical fixes. https://heimdell-tech-ai.co.uk/business-technology-mot.html#security-assessment
-- Staff cyber security training (custom quote): Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident. https://heimdell-tech-ai.co.uk/business-technology-mot.html#staff-training
-- Request any Technology MOT, repair, specialist service or monthly support plan: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking
-- Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/
-- Managed third-party verification (TPV): independent post-sale verification calls confirming identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification (bulk credit plan); no subscription or setup fee. https://telecomcompliance.uk/third-party-verification
-- TPV commission protection for UK telecom resellers: https://telecomcompliance.uk/tpv-commission-protection
-- Heimdell pricing (AI agents, websites and services that stay on this site): https://heimdell-tech-ai.co.uk/pricing.html
-- TPV pricing: https://telecomcompliance.uk/pricing
-- Pricing as JSON for software: https://heimdell-tech-ai.co.uk/pricing.json
-- Free 15-minute commission clawback audit: https://telecomcompliance.uk/commission-clawback-audit
-- Telecom compliance audits and protocol setup (from £500 / £1,500): https://telecomcompliance.uk/
-- AI agent readiness (Custom quote; the scan is free): https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
-- A2A (Agent2Agent) protocol implementation (Custom quote): https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
-- AP2 (Agent Payments Protocol) implementation (Custom quote): https://heimdell-tech-ai.co.uk/ap2-agent-payments.html
-- UCP (Universal Commerce Protocol) readiness (Custom quote): for UK online shops. UCP, announced by Google in January 2026 and co-developed with Shopify, lets AI agents discover products and check out. Heimdell Tech Ai checks the /.well-known/ucp profile, product data and policies. https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html
-- MCP (Model Context Protocol) servers (Custom quote): https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
-- Knowledge Catalog and business data readiness (Custom quote): for UK businesses, on Google Cloud or not. Knowledge Catalog (formerly Dataplex Universal Catalog, renamed April 2026) organises data so AI agents can trust it. Heimdell Tech Ai helps describe and govern that data. https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
-- Free AI agent-readiness scanner: https://heimdell-tech-ai.co.uk/ai-agent-readiness.html#agentready-scan
-- Website upgrades for SEO, AI search and AI agents (from £1,500): https://heimdell-tech-ai.co.uk/website-upgrades.html
-- Regulatory risk assessment (from £500): https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html
-- Systems architecture and fractional ops (Custom quote): https://heimdell-tech-ai.co.uk/systems-architecture.html
-- High-volume partner programme (From 80p per phone verification (£320 for 2,000 credits); larger volumes: custom quote): https://heimdell-tech-ai.co.uk/high-volume-partners.html
-- TPV system capabilities (From 80p per phone verification; 1 credit per link): https://heimdell-tech-ai.co.uk/system-capabilities.html
-- Get started: https://heimdell-tech-ai.co.uk/get-started.html
-- TPV beyond telecoms (door-to-door, telemarketing, subscriptions, e-commerce): https://telecomcompliance.uk/third-party-verification#tpv-beyond-telecoms
-- Custom software, apps and client portals: https://heimdell-tech-ai.co.uk/services/
-
-## Guides
-Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/ . They are not primary pages on heimdell-tech-ai.co.uk.
-- UK telecom compliance hub: https://telecomcompliance.uk/guides/uk-telecom-compliance
-- Ofcom compliance checklist 2026: https://telecomcompliance.uk/guides/ofcom-compliance-checklist
-- PECR for telecoms: https://telecomcompliance.uk/guides/pecr-telecom-compliance
-- Data (Use and Access) Act 2025: https://telecomcompliance.uk/guides/data-use-act-2025
-- One Touch Switch: https://telecomcompliance.uk/guides/one-touch-switch-compliance
-
-## Contact
-11 Lower Croft, Preston, Lancashire PR1 9DJ · contact@heimdell-tech-ai.co.uk · Mon–Fri 08:30–17:30, Sat 09:30–15:00
-Contact page: https://heimdell-tech-ai.co.uk/contact.html
-
-## Citation
 Cite as "Heimdell Tech Ai" with the page URL.
 
+## Services
+
+- [Book the introductory Essential MOT](https://heimdell-tech-ai.co.uk/business-technology-mot.html?offer=launch#booking): On-site visit for one site and up to five agreed Windows computers, with a written action plan.
+- [Business Technology MOT & on-site IT support (Preston and agreed Lancashire locations)](https://heimdell-tech-ai.co.uk/business-technology-mot.html)
+- [Introductory Essential Technology MOT](https://heimdell-tech-ai.co.uk/business-technology-mot.html#pricing): £99 for the first 10 eligible local bookings, subject to availability; normal Essential £149 for up to 5 agreed devices.
+- [Business Technology MOT Plus](https://heimdell-tech-ai.co.uk/business-technology-mot.html#pricing): £249 per visit (up to 10 agreed devices).
+- [Business Technology MOT Premium](https://heimdell-tech-ai.co.uk/business-technology-mot.html#pricing): £349 per visit (extended agreed inspection and improvement plan).
+- [On-site computer and network troubleshooting](https://heimdell-tech-ai.co.uk/business-technology-mot.html#pricing): from £65/hour plus parts; repairs separately quoted and authorised.
+- [Monthly IT maintenance and support](https://heimdell-tech-ai.co.uk/business-technology-mot.html#monthly-maintenance): from £79/month for an agreed limited-scope plan; not unlimited callouts or repairs.
+- [Full MOT checklist](https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check): Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities.
+- [AI systems audits](https://heimdell-tech-ai.co.uk/business-technology-mot.html#ai-audit): Custom quote. Review the AI tools and automations your business uses, what data they can access, who checks their outputs and where errors could affect customers or operations.
+- [Cyber security assessments](https://heimdell-tech-ai.co.uk/business-technology-mot.html#security-assessment): Custom quote. Review agreed accounts, devices and network controls, including access permissions, MFA, patching and backups. Get a prioritised list of gaps and practical fixes.
+- [Staff cyber security training](https://heimdell-tech-ai.co.uk/business-technology-mot.html#staff-training): Custom quote. Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident.
+- [Request any Technology MOT, repair, specialist service or monthly support plan](https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking)
+- [Heimdell TPV and telecom compliance guides](https://telecomcompliance.uk/)
+- [Managed third-party verification (TPV)](https://telecomcompliance.uk/third-party-verification): Independent post-sale checks of identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification on the bulk credit plan. No subscription or setup fee.
+- [TPV commission protection for UK telecom resellers](https://telecomcompliance.uk/tpv-commission-protection)
+- [Heimdell pricing (AI agents, websites and services that stay on this site)](https://heimdell-tech-ai.co.uk/pricing.html)
+- [TPV pricing](https://telecomcompliance.uk/pricing)
+- [Pricing as JSON for software](https://heimdell-tech-ai.co.uk/pricing.json)
+- [Free 15-minute commission clawback audit](https://telecomcompliance.uk/commission-clawback-audit)
+- [Telecom compliance audits and protocol setup (from £500 / £1,500)](https://telecomcompliance.uk/)
+- [AI agent readiness (Custom quote; the scan is free)](https://heimdell-tech-ai.co.uk/ai-agent-readiness.html)
+- [A2A (Agent2Agent) protocol implementation (Custom quote)](https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html)
+- [AP2 (Agent Payments Protocol) implementation (Custom quote)](https://heimdell-tech-ai.co.uk/ap2-agent-payments.html)
+- [UCP (Universal Commerce Protocol) readiness](https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html): Custom quote. for UK online shops. UCP, announced by Google in January 2026 and co-developed with Shopify, lets AI agents discover products and check out. Heimdell Tech Ai checks the /.well-known/ucp profile, product data and policies.
+- [MCP (Model Context Protocol) servers (Custom quote)](https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html)
+- [Knowledge Catalog and business data readiness](https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html): Custom quote. for UK businesses, on Google Cloud or not. Knowledge Catalog (formerly Dataplex Universal Catalog, renamed April 2026) organises data so AI agents can trust it. Heimdell Tech Ai helps describe and govern that data.
+- [Free AI agent-readiness scanner](https://heimdell-tech-ai.co.uk/ai-agent-readiness.html#agentready-scan)
+- [Website upgrades for SEO, AI search and AI agents (from £1,500)](https://heimdell-tech-ai.co.uk/website-upgrades.html)
+- [Regulatory risk assessment (from £500)](https://heimdell-tech-ai.co.uk/regulatory-risk-assessment.html)
+- [Systems architecture and fractional ops (Custom quote)](https://heimdell-tech-ai.co.uk/systems-architecture.html)
+- [High-volume partner programme (From 80p per phone verification (£320 for 2,000 credits); larger volumes by custom quote)](https://heimdell-tech-ai.co.uk/high-volume-partners.html)
+- [TPV system capabilities (From 80p per phone verification; 1 credit per link)](https://heimdell-tech-ai.co.uk/system-capabilities.html)
+- [Get started](https://heimdell-tech-ai.co.uk/get-started.html)
+- [TPV beyond telecoms (door-to-door, telemarketing, subscriptions, e-commerce)](https://telecomcompliance.uk/third-party-verification#tpv-beyond-telecoms)
+- [Custom software, apps and client portals](https://heimdell-tech-ai.co.uk/services/)
+
+## Telecom compliance guides
+
+- [UK telecom compliance hub](https://telecomcompliance.uk/guides/uk-telecom-compliance)
+- [Ofcom compliance checklist 2026](https://telecomcompliance.uk/guides/ofcom-compliance-checklist)
+- [PECR for telecoms](https://telecomcompliance.uk/guides/pecr-telecom-compliance)
+- [Data (Use and Access) Act 2025](https://telecomcompliance.uk/guides/data-use-act-2025)
+- [One Touch Switch](https://telecomcompliance.uk/guides/one-touch-switch-compliance)
+
+## Contact and company information
+
+- [Contact Heimdell](https://heimdell-tech-ai.co.uk/contact.html): 11 Lower Croft, Preston, Lancashire PR1 9DJ. contact@heimdell-tech-ai.co.uk. Mon–Fri 08:30–17:30, Sat 09:30–15:00.
+
 ## Plain-English guides to AI agent standards
-- What is the A2A protocol?: https://heimdell-tech-ai.co.uk/what-is-a2a-protocol.html
-- What is AP2 (Agent Payments Protocol)?: https://heimdell-tech-ai.co.uk/what-is-ap2-agent-payments-protocol.html
-- A2A vs MCP vs AP2 vs UCP compared: https://heimdell-tech-ai.co.uk/a2a-vs-mcp-vs-ap2-vs-ucp.html
-- AI agent readiness checklist for UK businesses: https://heimdell-tech-ai.co.uk/ai-agent-readiness-checklist-uk.html
-- llms.txt, agent-card.json and robots.txt explained: https://heimdell-tech-ai.co.uk/llms-txt-agent-card-robots-explained.html
-- Agentic commerce: a UK small business guide: https://heimdell-tech-ai.co.uk/agentic-commerce-uk-small-business.html
+
+- [What is the A2A protocol?](https://heimdell-tech-ai.co.uk/what-is-a2a-protocol.html)
+- [What is AP2 (Agent Payments Protocol)?](https://heimdell-tech-ai.co.uk/what-is-ap2-agent-payments-protocol.html)
+- [A2A vs MCP vs AP2 vs UCP compared](https://heimdell-tech-ai.co.uk/a2a-vs-mcp-vs-ap2-vs-ucp.html)
+- [AI agent readiness checklist for UK businesses](https://heimdell-tech-ai.co.uk/ai-agent-readiness-checklist-uk.html)
+- [llms.txt, agent-card.json and robots.txt explained](https://heimdell-tech-ai.co.uk/llms-txt-agent-card-robots-explained.html)
+- [Agentic commerce: a UK small business guide](https://heimdell-tech-ai.co.uk/agentic-commerce-uk-small-business.html)
+
+## Machine-readable resources
+
+- [Full knowledge guide](https://heimdell-tech-ai.co.uk/llms-full.txt): Detailed service, pricing, policy and FAQ information.
+- [Public knowledge catalogue](https://heimdell-tech-ai.co.uk/knowledge/catalogue.json): Structured company facts, services and FAQs used by Heimdell's assistant.
+- [A2A Agent Card](https://heimdell-tech-ai.co.uk/.well-known/agent-card.json): The public assistant's capabilities and interface.
+- [AI discovery catalogue](https://heimdell-tech-ai.co.uk/.well-known/ai-catalog.json): Discovery entry for Heimdell's assistant.
+- [XML sitemap](https://heimdell-tech-ai.co.uk/sitemap.xml): Index of public canonical pages.
+
+## Optional
+
+- [Homepage](https://heimdell-tech-ai.co.uk/)
+- [About Heimdell](https://heimdell-tech-ai.co.uk/about.html)
+- [Case studies](https://heimdell-tech-ai.co.uk/case-studies.html)
+- [Mission and impact](https://heimdell-tech-ai.co.uk/mission-and-impact.html)
+- [Privacy policy](https://heimdell-tech-ai.co.uk/privacy-policy.html)
+- [Terms of service](https://heimdell-tech-ai.co.uk/terms-of-service.html)
