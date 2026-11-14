@@ -135,6 +135,10 @@ Machine-readable pricing feed (JSON): https://heimdell-tech-ai.co.uk/pricing.jso
 ### Local Business Technology MOT, on-site IT repairs and maintenance (Preston/Lancashire)
 
 **What is a Business Technology MOT?** An authorised, evidence-led on-site check of agreed business computers, Wi-Fi, internet connectivity, network equipment, basic cybersecurity hygiene and backup status. Clients receive written findings with priorities; this is not a penetration test or formal security certification.
+- Full MOT scope: Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities. https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check
+- AI systems audits (custom quote): Review the AI tools and automations your business uses, what data they can access, who checks their outputs and where errors could affect customers or operations. https://heimdell-tech-ai.co.uk/business-technology-mot.html#ai-audit
+- Cyber security assessments (custom quote): Review agreed accounts, devices and network controls, including access permissions, MFA, patching and backups. Get a prioritised list of gaps and practical fixes. https://heimdell-tech-ai.co.uk/business-technology-mot.html#security-assessment
+- Staff cyber security training (custom quote): Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident. https://heimdell-tech-ai.co.uk/business-technology-mot.html#staff-training
 - Introductory Essential MOT: £99 per visit for the first 10 eligible local bookings only (subject to availability); standard Essential £149 for up to 5 agreed devices. A typical Essential visit is designed for 60–90 minutes.
 - Business MOT Plus: £249 per visit for up to 10 agreed devices and an expanded checklist.
 - Business MOT Premium: £349 per visit for an extended agreed technology review and AI/workflow improvement opportunities.
@@ -213,7 +217,7 @@ Andrew James-Smith — Founder & Director. Built The Telecom Verification Protoc
 
 ## COMPLETE SITE MAP
 
-- Homepage: https://heimdell-tech-ai.co.uk/ — AI agent standards explained (A2A, AP2, UCP, MCP, Knowledge Catalog), free agent-readiness scanner, how we get a business agent-ready, agent FAQ, all services, about
+- Homepage: https://heimdell-tech-ai.co.uk/ — Business Technology MOT and specialist services, plus AI agent standards explained (A2A, AP2, UCP, MCP, Knowledge Catalog), free agent-readiness scanner, how we get a business agent-ready, agent FAQ, all services, about
 - AI Agent Readiness: https://heimdell-tech-ai.co.uk/ai-agent-readiness.html — Hub page for the agent standards and the scanner
 - A2A Protocol Implementation: https://heimdell-tech-ai.co.uk/a2a-protocol-implementation.html
 - AP2 Agent Payments: https://heimdell-tech-ai.co.uk/ap2-agent-payments.html

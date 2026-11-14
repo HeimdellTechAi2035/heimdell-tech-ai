@@ -1,7 +1,7 @@
 {
   "name": "Heimdell Tech Ai Assistant",
-  "description": "Answers questions about Heimdell Tech Ai Ltd, a UK software development and IT consultancy (Preston, Lancashire) that helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), covering services, pricing, service areas, expertise and policies. The AI agent readiness review, UCP, Knowledge Catalog, A2A, AP2, MCP and systems architecture are a custom quote. The agent-readiness scan is free. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/. Provides on-site Business Technology MOTs in Preston/Lancashire (introductory £99; standard Essential £149, Plus £249, Premium £349), authorised IT repairs from £65/hour plus parts and monthly IT maintenance from £79/month with agreed exclusions. Booking enquiries: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking.",
-  "version": "1.1.4",
+  "description": "Answers questions about Heimdell Tech Ai Ltd, a UK software development and IT consultancy (Preston, Lancashire) that helps businesses get ready for AI agents (A2A, AP2, UCP, MCP and Knowledge Catalog), covering services, pricing, service areas, expertise and policies. The AI agent readiness review, UCP, Knowledge Catalog, A2A, AP2, MCP and systems architecture are a custom quote. The agent-readiness scan is free. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/. Provides on-site Business Technology MOTs in Preston/Lancashire (introductory £99; standard Essential £149, Plus £249, Premium £349), authorised IT repairs from £65/hour plus parts and monthly IT maintenance from £79/month with agreed exclusions. Booking enquiries: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking. Also covers separate AI systems audits, cyber security assessments and staff cyber security training.",
+  "version": "1.1.5",
   "documentationUrl": "https://heimdell-tech-ai.co.uk/llms-full.txt",
   "iconUrl": "https://heimdell-tech-ai.co.uk/heimdell-tech-ai-silver-protocol-logo.png",
   "provider": {
@@ -34,7 +34,7 @@
     {
       "id": "faq-knowledge",
       "name": "Company knowledge and FAQ",
-      "description": "Answers factual questions about Heimdell Tech Ai's services, pricing, service areas, expertise and policies. The AI agent readiness review, UCP, Knowledge Catalog, A2A, AP2, MCP and systems architecture are a custom quote. The agent-readiness scan is free. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/. Answers are drawn verbatim from a curated knowledge catalogue and returned with source URLs on telecomcompliance.uk for TPV and the telecom guides, and on heimdell-tech-ai.co.uk for everything that remains here. The curated catalogue also covers local Business Technology MOTs, repairs, support plans, prices, scope and bookings.",
+      "description": "Answers factual questions about Heimdell Tech Ai's services, pricing, service areas, expertise and policies. The AI agent readiness review, UCP, Knowledge Catalog, A2A, AP2, MCP and systems architecture are a custom quote. The agent-readiness scan is free. Heimdell TPV (third-party verification) and telecom compliance guides now live at https://telecomcompliance.uk/. Answers are drawn verbatim from a curated knowledge catalogue and returned with source URLs on telecomcompliance.uk for TPV and the telecom guides, and on heimdell-tech-ai.co.uk for everything that remains here. The curated catalogue also covers local Business Technology MOTs, repairs, support plans, prices, scope and bookings. The catalogue includes Ethernet wire testing, Windows and business system checks and standalone AI audits, cyber security assessments and staff training.",
       "tags": [
         "faq",
         "knowledge-base",
@@ -52,7 +52,10 @@
         "on-site-it-repairs",
         "monthly-it-support",
         "preston",
-        "lancashire"
+        "lancashire",
+        "ai-systems-audits",
+        "cyber-security-assessments",
+        "staff-cyber-security-training"
       ],
       "examples": [
         "What does Heimdell Tech Ai do?",
@@ -65,7 +68,12 @@
         "Do you cover Scotland and Wales?",
         "What does the £99 Business Technology MOT cover?",
         "How much are on-site IT repairs?",
-        "Do you offer monthly IT maintenance from £79?"
+        "Do you offer monthly IT maintenance from £79?",
+        "Do you test Ethernet cables and ports?",
+        "What does system testing include?",
+        "Do you offer AI systems audits?",
+        "Do you offer cyber security assessments?",
+        "Do you offer staff cyber security training?"
       ],
       "inputModes": [
         "text/plain"

@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12",
+  "version": "2026-11-14",
   "organisation": {
     "legalName": "Heimdell Tech Ai Ltd",
     "tradingName": "Heimdell Tech Ai",
@@ -26,7 +26,7 @@
     "email": "contact@heimdell-tech-ai.co.uk",
     "openingHours": "Mon–Fri 08:30–17:30, Sat 09:30–15:00",
     "website": "https://heimdell-tech-ai.co.uk/",
-    "description": "UK software development and IT consultancy firm in Preston, Lancashire. Provides on-site Business Technology MOT inspections (introductory £99; standard £149/£249/£349), authorised IT repairs from £65/hour plus parts and tailored monthly IT maintenance from £79/month in Preston and agreed Lancashire locations. Also builds custom software, websites, apps, AI systems and agent-readiness solutions (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are at telecomcompliance.uk.",
+    "description": "UK software development and IT consultancy firm in Preston, Lancashire. Provides on-site Business Technology MOT inspections (introductory £99; standard £149/£249/£349), authorised IT repairs from £65/hour plus parts and tailored monthly IT maintenance from £79/month in Preston and agreed Lancashire locations. Also builds custom software, websites, apps, AI systems and agent-readiness solutions (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are at telecomcompliance.uk. Also offers AI systems audits, cyber security assessments and staff cyber security training under separate quotes.",
     "member": {
       "name": "RemoteAbility CIC",
       "url": "https://remoteability.org.uk",
@@ -121,7 +121,7 @@
     {
       "id": "business-technology-mot-essential",
       "name": "Essential Business Technology MOT",
-      "summary": "On-site inspection for up to 5 agreed devices, covering basic internet, Wi-Fi, PC health, security hygiene and backup status, with written recommendations. Repairs are separate.",
+      "summary": "On-site inspection of one site and up to five agreed devices, with written findings. Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities.",
       "pricingModel": "£149 per standard visit.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
     },
@@ -285,6 +285,27 @@
       "summary": "AI-assisted tooling and automation built into software, from internal operations to customer-facing features.",
       "pricingModel": "Custom quote.",
       "url": "https://heimdell-tech-ai.co.uk/services/"
+    },
+    {
+      "id": "ai-audit",
+      "name": "AI systems audits",
+      "summary": "Review the AI tools and automations your business uses, what data they can access, who checks their outputs and where errors could affect customers or operations.",
+      "pricingModel": "Custom quote; agreed separately from the MOT.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#ai-audit"
+    },
+    {
+      "id": "security-assessment",
+      "name": "Cyber security assessments",
+      "summary": "Review agreed accounts, devices and network controls, including access permissions, MFA, patching and backups. Get a prioritised list of gaps and practical fixes.",
+      "pricingModel": "Custom quote; agreed separately from the MOT.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#security-assessment"
+    },
+    {
+      "id": "staff-training",
+      "name": "Staff cyber security training",
+      "summary": "Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident.",
+      "pricingModel": "Custom quote; agreed separately from the MOT.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#staff-training"
     }
   ],
   "policies": [
@@ -2029,7 +2050,7 @@
     {
       "id": "mot-what",
       "question": "What is a Heimdell Business Technology MOT?",
-      "answer": "It is an on-site, consent-based IT health check for local businesses in Preston and Lancashire. Heimdell checks agreed computers, internet, Wi-Fi, network equipment, security hygiene and backup status, then provides a plain-English report with prioritised next steps. It is not penetration testing or a formal security certificate.",
+      "answer": "A Business Technology MOT is an authorised on-site inspection for local businesses in Preston and Lancashire. Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities.",
       "tags": [
         "business technology mot",
         "it health check",
@@ -2037,7 +2058,7 @@
         "technology inspection",
         "small business it"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check",
       "aliases": [
         "what is a technology mot",
         "do you check my computers"
@@ -2205,6 +2226,94 @@
         "book the £99 MOT",
         "how to get an IT engineer",
         "reserve inspection"
+      ]
+    },
+    {
+      "id": "mot-wire-testing",
+      "question": "Do you test Ethernet cables and ports?",
+      "answer": "Yes. Where agreed, Heimdell uses wiremap testing on selected Ethernet patch leads and accessible cable runs to identify wiring faults. We also check selected ports for link speed and Power over Ethernet where used.",
+      "tags": [
+        "ethernet cable testing",
+        "wiremap",
+        "wire testing",
+        "check ethernet ports",
+        "poe testing"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check",
+      "aliases": [
+        "ethernet cable testing",
+        "wiremap",
+        "wire testing",
+        "check ethernet ports",
+        "poe testing"
+      ]
+    },
+    {
+      "id": "mot-system-testing",
+      "question": "What does system testing include?",
+      "answer": "We check agreed Windows computers for updates, responsiveness, CPU and memory usage, drive-health indicators and relevant crashes. We can also check access to agreed business email, Microsoft 365, tills and core software, plus CCTV connectivity and recording indicators where agreed.",
+      "tags": [
+        "windows system testing",
+        "business system testing",
+        "computer diagnostics",
+        "cctv checks"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check",
+      "aliases": [
+        "windows system testing",
+        "business system testing",
+        "computer diagnostics",
+        "cctv checks"
+      ]
+    },
+    {
+      "id": "ai-audit-faq",
+      "question": "Do you offer AI systems audits?",
+      "answer": "Review the AI tools and automations your business uses, what data they can access, who checks their outputs and where errors could affect customers or operations. Available directly or after an MOT. We agree the scope and quote separately.",
+      "tags": [
+        "ai audit",
+        "ai systems audit",
+        "audit our ai tools"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#ai-audit",
+      "aliases": [
+        "ai audit",
+        "ai systems audit",
+        "audit our ai tools"
+      ]
+    },
+    {
+      "id": "security-assessment-faq",
+      "question": "Do you offer cyber security assessments?",
+      "answer": "Review agreed accounts, devices and network controls, including access permissions, MFA, patching and backups. Get a prioritised list of gaps and practical fixes. Available directly or after an MOT. We agree the scope and quote separately.",
+      "tags": [
+        "security assessment",
+        "cyber security audit",
+        "cybersecurity assessment"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#security-assessment",
+      "aliases": [
+        "security assessment",
+        "cyber security audit",
+        "cybersecurity assessment"
+      ]
+    },
+    {
+      "id": "staff-training-faq",
+      "question": "Do you offer staff cyber security training?",
+      "answer": "Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident. Available directly or after an MOT. We agree the scope and quote separately.",
+      "tags": [
+        "cyber security training",
+        "staff training",
+        "phishing training",
+        "cyber awareness training"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#staff-training",
+      "aliases": [
+        "cyber security training",
+        "staff training",
+        "phishing training",
+        "cyber awareness training"
       ]
     }
   ]

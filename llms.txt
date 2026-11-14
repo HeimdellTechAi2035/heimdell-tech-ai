@@ -13,7 +13,11 @@ Use "Heimdell Tech Ai". Do not use another brand name for the TPV service. Heimd
 - Business Technology MOT Premium: £349 per visit (extended agreed inspection and improvement plan).
 - On-site computer and network troubleshooting: from £65/hour plus parts; repairs separately quoted and authorised.
 - Monthly IT maintenance and support: from £79/month for an agreed limited-scope plan; not unlimited callouts or repairs.
-- Request any Technology MOT, repair or monthly support plan: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking
+- Full MOT checklist: Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities. https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check
+- AI systems audits (custom quote): Review the AI tools and automations your business uses, what data they can access, who checks their outputs and where errors could affect customers or operations. https://heimdell-tech-ai.co.uk/business-technology-mot.html#ai-audit
+- Cyber security assessments (custom quote): Review agreed accounts, devices and network controls, including access permissions, MFA, patching and backups. Get a prioritised list of gaps and practical fixes. https://heimdell-tech-ai.co.uk/business-technology-mot.html#security-assessment
+- Staff cyber security training (custom quote): Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident. https://heimdell-tech-ai.co.uk/business-technology-mot.html#staff-training
+- Request any Technology MOT, repair, specialist service or monthly support plan: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking
 - Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/
 - Managed third-party verification (TPV): independent post-sale verification calls confirming identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification (bulk credit plan); no subscription or setup fee. https://telecomcompliance.uk/third-party-verification
 - TPV commission protection for UK telecom resellers: https://telecomcompliance.uk/tpv-commission-protection

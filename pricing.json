@@ -6,7 +6,7 @@
     "companiesHouse": "16478408"
   },
   "currency": "GBP",
-  "lastUpdated": "2026-11-12",
+  "lastUpdated": "2026-11-14",
   "source": "https://heimdell-tech-ai.co.uk/pricing.html",
   "notes": [
     "Published guide prices; scope, travel, VAT if applicable, and total cost are confirmed before booking.",
@@ -359,6 +359,39 @@
       },
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
       "description": "Starting price for a written, limited-scope support plan; not unlimited callouts or repairs."
+    },
+    {
+      "id": "ai-audit",
+      "name": "AI systems audits",
+      "category": "business-it-services",
+      "description": "Review the AI tools and automations your business uses, what data they can access, who checks their outputs and where errors could affect customers or operations.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html?service=ai-audit#booking",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    },
+    {
+      "id": "security-assessment",
+      "name": "Cyber security assessments",
+      "category": "business-it-services",
+      "description": "Review agreed accounts, devices and network controls, including access permissions, MFA, patching and backups. Get a prioritised list of gaps and practical fixes.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html?service=security-assessment#booking",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    },
+    {
+      "id": "staff-training",
+      "name": "Staff cyber security training",
+      "category": "business-it-services",
+      "description": "Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html?service=staff-training#booking",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
     }
   ],
   "tpvCredits": {
