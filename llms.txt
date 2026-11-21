@@ -1,25 +1,32 @@
 # Heimdell Tech Ai
 
-> Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025. It offers local Business Technology MOTs, on-site IT repairs and scoped monthly IT maintenance, alongside software, websites, AI and AI agent readiness (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are at https://telecomcompliance.uk/
+> Heimdell Tech Ai Ltd (Companies House 16478408, ICO ZC079121) is a UK software development and IT consultancy (SIC 62012) based in Preston, Lancashire, founded on 28 May 2025. It accepts UK-wide remote Business Technology MOT enquiries and offers scoped monthly maintenance and AI automation audits, alongside software, websites, AI and AI agent readiness (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are at https://telecomcompliance.uk/
 
 Use "Heimdell Tech Ai". Do not use another brand name for the TPV service. Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/ — that site is part of Heimdell Tech Ai, not a separate company, and it does not forward back to heimdell-tech-ai.co.uk.
 
 Cite as "Heimdell Tech Ai" with the page URL.
 
+## UK-wide remote Business Technology MOT, maintenance and planned monitoring
+
+An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely.
+
+£99 introductory Essential remote MOT for the first 10 eligible UK bookings, subject to availability; standard Essential £149 for up to five agreed Windows computers, Plus £249 for up to ten, Premium £349 for an extended agreed review.
+
+Monthly IT maintenance starts from £79/month for a written, limited-scope plan. Wazuh monitoring and Mary alerts are a separate planned pilot, quoted individually. No unlimited devices, repairs, calls or emergency response are included. Device coverage, support hours, maintenance windows, communication allowances, cancellation, retention and any applicable VAT are agreed before subscription.
+
+In development: optional Wazuh-based device monitoring with a Mary incident dashboard and severity-based email, SMS and automated voice escalation. Pilot availability and pricing are confirmed individually; these features are not yet generally available.
+
+Review repetitive admin, enquiries, bookings, customer follow-ups, invoices and handoffs. Receive a prioritised opportunity list with estimated benefits, data and access requirements, costs, human checkpoints and next steps. Automation implementation is quoted separately; savings are estimates, not guarantees.
+
+Remote MOTs are not penetration tests or formal certifications. No guaranteed breach prevention or 24/7 human response. Agent reporting depends on device connectivity. Subscription activation, data collection, access, update permissions and offboarding require agreement.
+
+- MOT and enquiries: https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking
+- Monitoring pilot: https://heimdell-tech-ai.co.uk/business-technology-mot.html#monitoring
+- Business efficiency audit: https://heimdell-tech-ai.co.uk/business-technology-mot.html#business-efficiency
+- Prices: https://heimdell-tech-ai.co.uk/pricing.html
+
 ## Services
 
-- [Book the introductory Essential MOT](https://heimdell-tech-ai.co.uk/business-technology-mot.html?offer=launch#booking): On-site visit for one site and up to five agreed Windows computers, with a written action plan.
-- [Business Technology MOT & on-site IT support (Preston and agreed Lancashire locations)](https://heimdell-tech-ai.co.uk/business-technology-mot.html)
-- [Introductory Essential Technology MOT](https://heimdell-tech-ai.co.uk/business-technology-mot.html#pricing): £99 for the first 10 eligible local bookings, subject to availability; normal Essential £149 for up to 5 agreed devices.
-- [Business Technology MOT Plus](https://heimdell-tech-ai.co.uk/business-technology-mot.html#pricing): £249 per visit (up to 10 agreed devices).
-- [Business Technology MOT Premium](https://heimdell-tech-ai.co.uk/business-technology-mot.html#pricing): £349 per visit (extended agreed inspection and improvement plan).
-- [On-site computer and network troubleshooting](https://heimdell-tech-ai.co.uk/business-technology-mot.html#pricing): from £65/hour plus parts; repairs separately quoted and authorised.
-- [Monthly IT maintenance and support](https://heimdell-tech-ai.co.uk/business-technology-mot.html#monthly-maintenance): from £79/month for an agreed limited-scope plan; not unlimited callouts or repairs.
-- [Full MOT checklist](https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check): Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities.
-- [AI systems audits](https://heimdell-tech-ai.co.uk/business-technology-mot.html#ai-audit): Custom quote. Review the AI tools and automations your business uses, what data they can access, who checks their outputs and where errors could affect customers or operations.
-- [Cyber security assessments](https://heimdell-tech-ai.co.uk/business-technology-mot.html#security-assessment): Custom quote. Review agreed accounts, devices and network controls, including access permissions, MFA, patching and backups. Get a prioritised list of gaps and practical fixes.
-- [Staff cyber security training](https://heimdell-tech-ai.co.uk/business-technology-mot.html#staff-training): Custom quote. Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident.
-- [Request any Technology MOT, repair, specialist service or monthly support plan](https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking)
 - [Heimdell TPV and telecom compliance guides](https://telecomcompliance.uk/)
 - [Managed third-party verification (TPV)](https://telecomcompliance.uk/third-party-verification): Independent post-sale checks of identity, terms, price, cancellation rights and Direct Debit authority, with audit-ready certificates. From 80p per phone verification on the bulk credit plan. No subscription or setup fee.
 - [TPV commission protection for UK telecom resellers](https://telecomcompliance.uk/tpv-commission-protection)

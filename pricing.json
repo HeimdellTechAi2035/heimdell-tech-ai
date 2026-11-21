@@ -6,13 +6,13 @@
     "companiesHouse": "16478408"
   },
   "currency": "GBP",
-  "lastUpdated": "2026-11-14",
+  "lastUpdated": "2026-11-21",
   "source": "https://heimdell-tech-ai.co.uk/pricing.html",
   "notes": [
-    "Published guide prices; scope, travel, VAT if applicable, and total cost are confirmed before booking.",
-    "Every project is scoped and quoted individually.",
-    "Paid credits never expire. Free starter credits expire. There is no subscription, setup fee or monthly minimum.",
-    "Technology MOT prices apply to agreed local visits. The first ten eligible Essential MOT bookings may qualify for the £99 introductory price, subject to availability; repairs and maintenance terms are quoted separately."
+    "£99 introductory Essential remote MOT for the first 10 eligible UK bookings, subject to availability; standard Essential £149 for up to five agreed Windows computers, Plus £249 for up to ten, Premium £349 for an extended agreed review.",
+    "Monthly IT maintenance starts from £79/month for a written, limited-scope plan. Wazuh monitoring and Mary alerts are a separate planned pilot, quoted individually. No unlimited devices, repairs, calls or emergency response are included. Device coverage, support hours, maintenance windows, communication allowances, cancellation, retention and any applicable VAT are agreed before subscription.",
+    "All guide prices are GBP; scope, availability and any applicable VAT and total charges are confirmed before commitment.",
+    "TPV pay-as-you-go credit terms apply only to TPV."
   ],
   "services": [
     {
@@ -289,11 +289,11 @@
         "type": "fixed",
         "amount": 99,
         "currency": "GBP",
-        "unit": "introductory eligible local visit",
+        "unit": "remote inspection",
         "display": "£99 (limited launch offer)"
       },
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
-      "description": "Limited to first 10 eligible local bookings; standard Essential price £149."
+      "description": "£99 introductory Essential remote MOT for the first 10 eligible UK bookings, subject to availability; standard Essential £149 for up to five agreed Windows computers, Plus £249 for up to ten, Premium £349 for an extended agreed review. An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely."
     },
     {
       "id": "business-technology-mot-essential",
@@ -302,11 +302,11 @@
         "type": "fixed",
         "amount": 149,
         "currency": "GBP",
-        "unit": "standard visit",
+        "unit": "remote inspection",
         "display": "£149"
       },
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
-      "description": "Up to 5 agreed devices."
+      "description": "£149 per remote inspection; up to five agreed Windows computers. An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely."
     },
     {
       "id": "business-technology-mot-plus",
@@ -315,11 +315,11 @@
         "type": "fixed",
         "amount": 249,
         "currency": "GBP",
-        "unit": "visit",
+        "unit": "remote inspection",
         "display": "£249"
       },
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
-      "description": "Up to 10 agreed devices."
+      "description": "£249 per remote inspection; up to ten agreed Windows computers. An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely."
     },
     {
       "id": "business-technology-mot-premium",
@@ -328,11 +328,11 @@
         "type": "fixed",
         "amount": 349,
         "currency": "GBP",
-        "unit": "visit",
+        "unit": "remote inspection",
         "display": "£349"
       },
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
-      "description": "Extended agreed system review."
+      "description": "£349 per extended agreed remote review; device count and depth confirmed first. An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely."
     },
     {
       "id": "on-site-it-repairs",
@@ -345,7 +345,7 @@
         "display": "£65/hour + parts"
       },
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
-      "description": "Repairs are separately approved; parts and travel extra where applicable."
+      "description": "Physical repair availability and location confirmed separately; not included in UK-wide remote MOT."
     },
     {
       "id": "monthly-it-maintenance",
@@ -358,7 +358,7 @@
         "display": "from £79/month"
       },
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking",
-      "description": "Starting price for a written, limited-scope support plan; not unlimited callouts or repairs."
+      "description": "Monthly IT maintenance starts from £79/month for a written, limited-scope plan. Wazuh monitoring and Mary alerts are a separate planned pilot, quoted individually. No unlimited devices, repairs, calls or emergency response are included. Device coverage, support hours, maintenance windows, communication allowances, cancellation, retention and any applicable VAT are agreed before subscription."
     },
     {
       "id": "ai-audit",
@@ -388,6 +388,30 @@
       "category": "business-it-services",
       "description": "Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html?service=staff-training#booking",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    },
+    {
+      "id": "managed-monitoring",
+      "name": "Heimdell monitoring with Mary — planned pilot",
+      "category": "business-it-services",
+      "description": "In development: optional Wazuh-based device monitoring with a Mary incident dashboard and severity-based email, SMS and automated voice escalation. Pilot availability and pricing are confirmed individually; these features are not yet generally available.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#monitoring",
+      "availability": "planned-pilot",
+      "price": {
+        "type": "custom",
+        "display": "Custom quote"
+      }
+    },
+    {
+      "id": "business-efficiency-audit",
+      "name": "Business efficiency and AI automation audit",
+      "category": "business-it-services",
+      "description": "Review repetitive admin, enquiries, bookings, customer follow-ups, invoices and handoffs. Receive a prioritised opportunity list with estimated benefits, data and access requirements, costs, human checkpoints and next steps. Automation implementation is quoted separately; savings are estimates, not guarantees.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#business-efficiency",
+      "availability": "enquiry",
       "price": {
         "type": "custom",
         "display": "Custom quote"
