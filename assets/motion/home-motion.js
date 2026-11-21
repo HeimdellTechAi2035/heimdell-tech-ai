@@ -70,6 +70,11 @@
     revealTargets = Array.from(new Set(cards.concat(Array.from(document.querySelectorAll(
       '.mot-home-addition h2, #services h2, #agent-standards h2, #agent-process h2'
     )))));
+    revealTargets.forEach(function (el) {
+      el.addEventListener('animationend', function (event) {
+        if (event.target === el && event.animationName === 'hm-arrive') el.classList.add('hm-arrived');
+      });
+    });
 
     function stopFrame() {
       if (frame) window.cancelAnimationFrame(frame);
@@ -156,6 +161,9 @@
       if (revealObserver) { revealObserver.disconnect(); revealObserver = null; }
       if (!active) {
         stopFrame();
+        revealTargets.forEach(function (el) {
+          if (el.classList.contains('hm-entered')) el.classList.add('hm-arrived');
+        });
         cards.forEach(function (card) {
           if (resetTimers.has(card)) window.clearTimeout(resetTimers.get(card));
           card.classList.remove('hm-active');
@@ -167,6 +175,7 @@
         return;
       }
       revealObserver = new IntersectionObserver(function (entries) {
+        if (!active || !revealObserver) return;
         entries.forEach(function (entry) {
           if (!entry.isIntersecting) return;
           entry.target.classList.add('hm-entered');
