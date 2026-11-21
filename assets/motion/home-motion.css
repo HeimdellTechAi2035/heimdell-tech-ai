@@ -7,17 +7,17 @@
   pointer-events: none;
   user-select: none;
   contain: layout paint;
-  opacity: .36;
+  opacity: .64;
   perspective: 1000px;
 }
 .hm-backdrop *, .hm-sheen { pointer-events: none; }
 .hm-hero > .container { position: relative; z-index: 2; }
 .hm-orbit-anchor {
   position: absolute;
-  width: clamp(240px, 38vw, 520px);
+  width: clamp(320px, 46vw, 640px);
   aspect-ratio: 1;
-  top: 8%;
-  right: -12%;
+  top: 1%;
+  right: -5%;
   transform-style: preserve-3d;
   transform: rotateX(var(--hm-hero-x, -12deg)) rotateY(var(--hm-hero-y, -20deg));
 }
@@ -30,13 +30,62 @@
 .hm-ring {
   position: absolute;
   inset: 0;
-  border: 1px solid var(--purple-accent);
+  border: 1.25px solid var(--purple-accent);
   border-radius: 50%;
   transform: rotateY(var(--hm-angle, 0deg));
-  opacity: .7;
+  opacity: .9;
 }
 .hm-ring.hm-latitude { transform: rotateX(var(--hm-angle, 0deg)); }
-.hm-ring:nth-child(3n) { border-color: var(--purple-light); }
+.hm-ring:nth-child(3n) { border-color: var(--dark-border); }
+.hm-starfield {
+  position: absolute;
+  inset: 0;
+  /* Quieter behind the central copy; brighter toward the margins. */
+  mask-image: linear-gradient(90deg, var(--dark-card), transparent 44%, transparent 56%, var(--dark-card));
+}
+.hm-star {
+  position: absolute;
+  left: var(--hm-star-left);
+  top: var(--hm-star-top);
+  width: var(--hm-star-size, 2px);
+  height: var(--hm-star-size, 2px);
+  border-radius: 50%;
+  background: var(--dark-card);
+  opacity: var(--hm-star-opacity, .7);
+}
+.hm-star:nth-child(5n) {
+  background: var(--dark-border);
+  box-shadow: 0 0 8px var(--purple-accent);
+}
+.hm-nebula {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 88% 30%, var(--purple-light), transparent 45%),
+    radial-gradient(ellipse at 8% 78%, var(--purple-mid), transparent 34%);
+  opacity: .18;
+}
+.hm-shooting-star {
+  position: absolute;
+  top: var(--hm-shoot-top);
+  left: var(--hm-shoot-left);
+  width: 105px;
+  height: 2px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, var(--dark-card), var(--purple-accent) 25%, transparent);
+  opacity: 0;
+  transform: rotate(-32deg);
+}
+.hm-shooting-star::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--dark-card);
+  box-shadow: 0 0 10px var(--dark-border);
+}
 .hm-node {
   position: absolute;
   left: 50%;
@@ -83,6 +132,14 @@
   .hm-running .hm-backdrop.hm-in-view .hm-satellite {
     animation: hm-drift 14s ease-in-out infinite;
   }
+  .hm-running .hm-backdrop.hm-in-view .hm-star:nth-child(6n) {
+    animation: hm-twinkle var(--hm-twinkle-time, 7s) ease-in-out infinite;
+    animation-delay: var(--hm-star-delay, 0s);
+  }
+  .hm-running .hm-backdrop.hm-in-view .hm-shooting-star {
+    animation: hm-shoot var(--hm-shoot-time, 18s) linear infinite;
+    animation-delay: var(--hm-shoot-delay, 4s);
+  }
   .hm-card.hm-active {
     transform-style: preserve-3d;
     transform: perspective(1100px) rotateX(var(--hm-card-x, 0deg)) rotateY(var(--hm-card-y, 0deg)) translateZ(2px);
@@ -106,6 +163,16 @@
   0%, 100% { transform: perspective(600px) translateY(0) rotateX(24deg) rotateY(35deg) rotateZ(18deg); }
   50% { transform: perspective(600px) translateY(-14px) rotateX(34deg) rotateY(55deg) rotateZ(26deg); }
 }
+@keyframes hm-twinkle {
+  0%, 100% { opacity: .35; transform: scale(.85); }
+  50% { opacity: .95; transform: scale(1.2); }
+}
+@keyframes hm-shoot {
+  0%, 5% { opacity: 0; transform: translate3d(0, 0, 0) rotate(-32deg); }
+  6% { opacity: .95; }
+  13% { opacity: 0; transform: translate3d(-600px, 375px, 0) rotate(-32deg); }
+  100% { opacity: 0; transform: translate3d(-600px, 375px, 0) rotate(-32deg); }
+}
 /* Individual translate/rotate properties do not replace existing card animations. */
 @keyframes hm-arrive {
   from { translate: 0 16px -20px; rotate: x 2deg; }
@@ -116,6 +183,10 @@
 .hm-backdrop:not(.hm-in-view) .hm-satellite,
 html:not(.hm-running) .hm-globe,
 html:not(.hm-running) .hm-satellite { animation-play-state: paused; }
+.hm-backdrop:not(.hm-in-view) .hm-star,
+.hm-backdrop:not(.hm-in-view) .hm-shooting-star,
+html:not(.hm-running) .hm-star,
+html:not(.hm-running) .hm-shooting-star { animation-play-state: paused; }
 .hm-hidden .hm-entered { animation-play-state: paused; }
 .hm-motion-ready:not(.hm-running) .hm-hero::before,
 .hm-motion-ready:not(.hm-running) .hm-hero::after,

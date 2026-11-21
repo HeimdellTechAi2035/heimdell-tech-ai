@@ -32,6 +32,28 @@
     }
 
     var backdrop = decorative('hm-backdrop');
+    backdrop.appendChild(decorative('hm-nebula'));
+    var starfield = decorative('hm-starfield');
+    // Deterministic positions avoid re-layout and random visual changes on reload.
+    for (var starIndex = 0; starIndex < 48; starIndex++) {
+      var star = decorative('hm-star');
+      star.style.setProperty('--hm-star-left', ((starIndex * 37 + 7) % 100) + '%');
+      star.style.setProperty('--hm-star-top', ((starIndex * 23 + 11) % 96) + '%');
+      star.style.setProperty('--hm-star-size', (starIndex % 7 === 0 ? 3 : starIndex % 3 === 0 ? 2 : 1) + 'px');
+      star.style.setProperty('--hm-star-opacity', String(.4 + (starIndex % 5) * .12));
+      star.style.setProperty('--hm-twinkle-time', (6 + starIndex % 5) + 's');
+      star.style.setProperty('--hm-star-delay', (-starIndex % 8) + 's');
+      starfield.appendChild(star);
+    }
+    backdrop.appendChild(starfield);
+    for (var shootIndex = 0; shootIndex < 3; shootIndex++) {
+      var shootingStar = decorative('hm-shooting-star');
+      shootingStar.style.setProperty('--hm-shoot-left', (94 - shootIndex * 23) + '%');
+      shootingStar.style.setProperty('--hm-shoot-top', (8 + shootIndex * 17) + '%');
+      shootingStar.style.setProperty('--hm-shoot-time', (18 + shootIndex * 7) + 's');
+      shootingStar.style.setProperty('--hm-shoot-delay', (2 + shootIndex * 6) + 's');
+      backdrop.appendChild(shootingStar);
+    }
     var anchor = decorative('hm-orbit-anchor');
     var globe = decorative('hm-globe');
     for (var i = 0; i < 8; i++) {
