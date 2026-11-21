@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-14",
+  "version": "2026-11-21",
   "organisation": {
     "legalName": "Heimdell Tech Ai Ltd",
     "tradingName": "Heimdell Tech Ai",
@@ -26,7 +26,7 @@
     "email": "contact@heimdell-tech-ai.co.uk",
     "openingHours": "Mon–Fri 08:30–17:30, Sat 09:30–15:00",
     "website": "https://heimdell-tech-ai.co.uk/",
-    "description": "UK software development and IT consultancy firm in Preston, Lancashire. Provides on-site Business Technology MOT inspections (introductory £99; standard £149/£249/£349), authorised IT repairs from £65/hour plus parts and tailored monthly IT maintenance from £79/month in Preston and agreed Lancashire locations. Also builds custom software, websites, apps, AI systems and agent-readiness solutions (A2A, AP2, UCP, MCP and Knowledge Catalog). Heimdell TPV and telecom compliance guides are at telecomcompliance.uk. Also offers AI systems audits, cyber security assessments and staff cyber security training under separate quotes.",
+    "description": "Preston-based UK software and IT consultancy offering UK-wide remote Business Technology MOT enquiries, scoped monthly maintenance, cybersecurity assessments and AI/business automation audits. In development: optional Wazuh-based device monitoring with a Mary incident dashboard and severity-based email, SMS and automated voice escalation. Pilot availability and pricing are confirmed individually; these features are not yet generally available. TPV services are at telecomcompliance.uk.",
     "member": {
       "name": "RemoteAbility CIC",
       "url": "https://remoteability.org.uk",
@@ -36,8 +36,8 @@
   "serviceAreas": [
     {
       "name": "United Kingdom",
-      "coverage": "national for digital services",
-      "notes": "Software development, AI and consultancy services offered nationwide; on-site Business Technology MOTs and IT repairs initially cover Preston and surrounding Lancashire locations by agreement. Travel costs and availability are confirmed before booking."
+      "coverage": "UK-wide remote services, subject to suitability and agreed availability",
+      "notes": "England, Scotland, Wales and Northern Ireland. Physical testing and on-site repair availability are separately confirmed."
     }
   ],
   "expertise": [
@@ -61,11 +61,16 @@
   ],
   "products": {
     "flagship": {
-      "name": "AI Agent Readiness",
-      "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
-      "description": "A free agent-readiness scanner plus implementation of the standards AI agents use (A2A, AP2, UCP, MCP) and the data foundations they rely on, for UK businesses."
+      "name": "Business Technology MOT",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
+      "description": "UK-wide remote inspection enquiries with written findings and optional scoped maintenance. Wazuh monitoring and Mary notifications are a planned pilot, not generally available."
     },
     "other": [
+      {
+        "name": "AI Agent Readiness",
+        "url": "https://heimdell-tech-ai.co.uk/ai-agent-readiness.html",
+        "description": "A free agent-readiness scanner plus implementation of the standards AI agents use (A2A, AP2, UCP, MCP) and the data foundations they rely on, for UK businesses."
+      },
       {
         "name": "Verified Agreements & TPV Platform",
         "url": "https://telecomcompliance.uk/third-party-verification",
@@ -93,43 +98,43 @@
     {
       "id": "monthly-it-maintenance",
       "name": "Monthly business IT maintenance and support",
-      "summary": "Tailored ongoing support with agreed preventative device checks, updates and backup-status reviews, and any agreed remote support. Not unlimited: on-site callouts, repairs, parts, licences and emergency work are separate unless the written plan includes them.",
-      "pricingModel": "From £79 per month; scope, device count, support allowance and exclusions agreed in writing.",
+      "summary": "Monthly IT maintenance starts from £79/month for a written, limited-scope plan. Wazuh monitoring and Mary alerts are a separate planned pilot, quoted individually. No unlimited devices, repairs, calls or emergency response are included. Device coverage, support hours, maintenance windows, communication allowances, cancellation, retention and any applicable VAT are agreed before subscription.",
+      "pricingModel": "From £79/month for maintenance; planned monitoring pilot quoted separately.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
     },
     {
       "id": "on-site-it-repairs",
       "name": "On-site IT repairs and troubleshooting",
-      "summary": "Authorised troubleshooting and practical repairs for business computers, Wi-Fi, printers, networks and minor hardware or cabling issues; inspection and repair quotes are separate.",
+      "summary": "Physical repairs are separate from the UK-wide remote MOT; location and availability confirmed individually.",
       "pricingModel": "£65 per hour plus parts; additional costs and travel confirmed before work.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
     },
     {
       "id": "business-technology-mot-premium",
       "name": "Business Technology MOT Premium",
-      "summary": "Extended agreed review of key business IT systems, technology risks, resilience and AI/workflow opportunities, with a prioritised improvement plan. Scope confirmed before the visit.",
-      "pricingModel": "£349 per visit.",
+      "summary": "An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely.",
+      "pricingModel": "£349 per extended agreed remote review; device count and depth confirmed first.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
     },
     {
       "id": "business-technology-mot-plus",
       "name": "Business Technology MOT Plus",
-      "summary": "On-site technology review for up to 10 agreed devices, broader network/equipment and expanded security-hygiene and backup checks, with prioritised written findings.",
-      "pricingModel": "£249 per visit.",
+      "summary": "An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely.",
+      "pricingModel": "£249 per remote inspection; up to ten agreed Windows computers.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
     },
     {
       "id": "business-technology-mot-essential",
       "name": "Essential Business Technology MOT",
-      "summary": "On-site inspection of one site and up to five agreed devices, with written findings. Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities.",
-      "pricingModel": "£149 per standard visit.",
+      "summary": "An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely.",
+      "pricingModel": "£149 per remote inspection; up to five agreed Windows computers.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
     },
     {
       "id": "business-technology-mot-intro",
       "name": "Introductory Essential Business Technology MOT",
-      "summary": "Limited launch offer for the first 10 eligible local Essential MOT bookings: authorised on-site technology health check of up to 5 agreed devices, written findings and repair quote options. Booking subject to availability.",
-      "pricingModel": "£99 per visit (limited introductory offer; standard Essential MOT £149).",
+      "summary": "An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely.",
+      "pricingModel": "£99 introductory Essential remote MOT for the first 10 eligible UK bookings, subject to availability; standard Essential £149 for up to five agreed Windows computers, Plus £249 for up to ten, Premium £349 for an extended agreed review.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
     },
     {
@@ -306,6 +311,20 @@
       "summary": "Give your team practical training on phishing, payment fraud, safe use of AI and what to do when they spot a suspicious message or incident.",
       "pricingModel": "Custom quote; agreed separately from the MOT.",
       "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#staff-training"
+    },
+    {
+      "id": "managed-monitoring",
+      "name": "Heimdell monitoring with Mary — planned pilot",
+      "summary": "In development: optional Wazuh-based device monitoring with a Mary incident dashboard and severity-based email, SMS and automated voice escalation. Pilot availability and pricing are confirmed individually; these features are not yet generally available.",
+      "pricingModel": "Custom quote; no monitoring activation or guaranteed response time until agreed.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#monitoring"
+    },
+    {
+      "id": "business-efficiency-audit",
+      "name": "Business efficiency and AI automation audit",
+      "summary": "Review repetitive admin, enquiries, bookings, customer follow-ups, invoices and handoffs. Receive a prioritised opportunity list with estimated benefits, data and access requirements, costs, human checkpoints and next steps. Automation implementation is quoted separately; savings are estimates, not guarantees.",
+      "pricingModel": "Custom quote for audit; implementation separately quoted.",
+      "url": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#business-efficiency"
     }
   ],
   "policies": [
@@ -332,7 +351,7 @@
     {
       "id": "pricing-overview",
       "question": "How much does Heimdell Tech Ai charge?",
-      "answer": "Business Technology MOTs in Preston and agreed Lancashire locations: first 10 eligible local Essential visits £99 (standard £149), Plus £249, Premium £349. On-site IT repairs/troubleshooting £65/hour plus parts. Tailored monthly IT maintenance starts at £79/month; the plan is not unlimited support, and exclusions are agreed in writing. AI agent-readiness scan: free. AI agent readiness review, UCP, Knowledge Catalog, A2A, AP2 and MCP: custom quote. Website upgrades: from £1,500. Commission clawback audit: free. TPV phone verification: from 80p per verification using pay-as-you-go credits (£20/100, £90/500, £320/2,000; phone call = 5 credits, link verification = 1; no subscription or setup fee for TPV). Provider audit preparation and regulatory risk assessment: from £500. GDPR/ICO audit: from £750. Compliance protocol setup: from £1,500; implementation: from £3,000. Systems architecture and fractional ops: custom quote. All services are subject to quoted scope and terms.",
+      "answer": "£99 introductory Essential remote MOT for the first 10 eligible UK bookings, subject to availability; standard Essential £149 for up to five agreed Windows computers, Plus £249 for up to ten, Premium £349 for an extended agreed review. Monthly IT maintenance starts from £79/month for a written, limited-scope plan. Wazuh monitoring and Mary alerts are a separate planned pilot, quoted individually. No unlimited devices, repairs, calls or emergency response are included. Device coverage, support hours, maintenance windows, communication allowances, cancellation, retention and any applicable VAT are agreed before subscription. AI/business efficiency audits, cybersecurity assessments, staff training and implementation are custom quotes. Other software and AI services are scoped separately. TPV uses a separate pay-as-you-go credit model at telecomcompliance.uk.",
       "tags": [
         "pricing",
         "prices",
@@ -481,7 +500,7 @@
     {
       "id": "heimdell-service-area-uk",
       "question": "Do you cover Scotland and Wales?",
-      "answer": "Yes. Heimdell Tech Ai works with businesses across the whole United Kingdom: England, Scotland, Wales and Northern Ireland. It is based in Preston, Lancashire, and delivers its AI agent readiness, software and TPV compliance services remotely and nationwide.",
+      "answer": "Yes. Remote Business Technology MOT enquiries and digital services cover England, Scotland, Wales and Northern Ireland. Device suitability and availability are confirmed first. Physical inspections and repairs require a separate location agreement.",
       "tags": [
         "service-area",
         "uk",
@@ -914,8 +933,8 @@
     },
     {
       "id": "third-party-verification-is-there-a-subscription-contract-or-setup-fee-to-u",
-      "question": "Is there a subscription, contract or setup fee to use the service?",
-      "answer": "No — there's no subscription, no contract and no setup fee. You buy credits as you need them (£20/100, £90/500, £320/2,000) and each phone verification uses 5 credits, so you only pay for verifications you actually run.",
+      "question": "Does TPV verification have a subscription or setup fee?",
+      "answer": "TPV verification uses pay-as-you-go credits without a TPV subscription or setup fee. This does not apply to monthly IT maintenance or the planned monitoring subscription. See https://telecomcompliance.uk/pricing for TPV pricing.",
       "tags": [
         "third-party-verification"
       ],
@@ -2050,78 +2069,68 @@
     {
       "id": "mot-what",
       "question": "What is a Heimdell Business Technology MOT?",
-      "answer": "A Business Technology MOT is an authorised on-site inspection for local businesses in Preston and Lancashire. Checks can include Ethernet wiremap testing, switch ports and PoE, internet and Wi-Fi, Windows diagnostics, business systems, cyber security, backup evidence, CCTV connectivity, connected equipment, continuity and AI automation opportunities. We agree the checks before booking and provide written findings and priorities.",
+      "answer": "An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely.",
       "tags": [
         "business technology mot",
-        "it health check",
-        "what do you check",
-        "technology inspection",
-        "small business it"
+        "mot-what"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check",
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
         "what is a technology mot",
-        "do you check my computers"
+        "what is included in the MOT",
+        "computer health check"
       ]
     },
     {
       "id": "mot-pricing",
       "question": "How much does a Business Technology MOT cost?",
-      "answer": "An introductory Essential MOT is £99 for the first 10 eligible local bookings, subject to availability. The standard Essential MOT costs £149 for up to 5 agreed devices; Business MOT Plus is £249 for up to 10 agreed devices; Premium is £349 for an extended agreed review. Final scope, travel, any applicable VAT and charges are confirmed before booking.",
+      "answer": "£99 introductory Essential remote MOT for the first 10 eligible UK bookings, subject to availability; standard Essential £149 for up to five agreed Windows computers, Plus £249 for up to ten, Premium £349 for an extended agreed review. Final scope, remote suitability, availability and any applicable VAT are confirmed before booking. Monitoring, repairs and implementation are separate.",
       "tags": [
-        "mot",
-        "pricing",
-        "£99",
-        "£149",
-        "£249",
-        "£349",
-        "business technology"
+        "business technology mot",
+        "mot-pricing",
+        "pricing"
       ],
       "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
         "mot prices",
-        "cost to inspect my computers",
-        "is there a £99 mot"
+        "how much is a Business Technology MOT",
+        "£99 mot"
       ]
     },
     {
       "id": "mot-local",
-      "question": "Where does Heimdell offer on-site Business Technology MOTs?",
-      "answer": "Heimdell initially offers on-site Business Technology MOTs and IT repairs in Preston and surrounding Lancashire locations, subject to availability and a confirmed quotation. Remote software and consultancy services may be available throughout the UK.",
+      "question": "Where do you offer remote Business Technology MOTs?",
+      "answer": "Remote MOT enquiries are welcome across England, Scotland, Wales and Northern Ireland. We confirm device compatibility, internet access and authorisation before booking. Physical work is separate and location-dependent; nationwide remote coverage does not mean nationwide on-site visits.",
       "tags": [
-        "preston",
-        "lancashire",
-        "on site",
-        "near me",
-        "area"
+        "business technology mot",
+        "mot-local"
       ],
       "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
-        "can you visit my shop",
-        "do you cover blackpool or chorley",
-        "what areas do you cover for the mot"
+        "UK wide",
+        "do you cover the UK",
+        "Scotland Wales Northern Ireland",
+        "can you visit my shop"
       ]
     },
     {
       "id": "mot-timing",
-      "question": "How long does a Technology MOT inspection take?",
-      "answer": "An Essential Technology MOT for a small business is designed around a 60–90 minute on-site visit. Larger or more complicated sites may take longer and will be quoted before booking.",
+      "question": "How long does a remote Technology MOT take?",
+      "answer": "Allow approximately 60–90 minutes for an Essential remote appointment, with device readiness, scope and attendance agreed first. Reporting and any follow-on fixes are scoped separately.",
       "tags": [
-        "mot",
-        "time",
-        "inspection",
-        "duration"
+        "business technology mot",
+        "mot-timing"
       ],
       "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
         "how long is the visit",
-        "will the inspection take all day"
+        "remote appointment duration"
       ]
     },
     {
       "id": "mot-scope",
       "question": "How many devices are covered by each Technology MOT package?",
-      "answer": "The Essential MOT covers up to 5 agreed devices. Business MOT Plus covers up to 10 agreed devices. Premium covers an extended agreed review of key systems, with the exact device and site scope agreed in advance. The limited £99 introductory offer is for an eligible Essential MOT.",
+      "answer": "Essential covers up to five agreed Windows computers; Plus up to ten. Premium is an extended agreed remote review with device count and depth confirmed first. Introductory £99 applies to eligible Essential remote bookings only. Monitoring enrolment and scope are separate.",
       "tags": [
         "mot",
         "devices",
@@ -2138,59 +2147,50 @@
     },
     {
       "id": "mot-repairs",
-      "question": "Do you fix IT problems during or after a Technology MOT?",
-      "answer": "Heimdell can separately quote authorised on-site IT troubleshooting and practical repairs at £65/hour plus parts. Common work includes Wi-Fi problems, printer connections, slow computers, basic network configuration and cable replacements. Inspection fees do not automatically include repair time, and no changes are made without permission.",
+      "question": "Do you fix problems after a remote MOT?",
+      "answer": "Suitable remote fixes are separately scoped and quoted before work; no changes or restarts without agreed authorisation. Physical repairs cannot be performed remotely. Existing on-site labour starts from £65/hour plus parts, subject to separately confirmed location and availability; it is not a nationwide remote repair tariff.",
       "tags": [
-        "it repair",
-        "troubleshooting",
-        "£65",
-        "hour",
-        "fix",
-        "onsite"
+        "business technology mot",
+        "mot-repairs"
       ],
       "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
         "can you fix my wifi",
-        "do you repair computers",
-        "printer not working",
-        "do you do on site repairs"
+        "computer repairs",
+        "remote fixes",
+        "on site repairs"
       ]
     },
     {
       "id": "mot-monthly-support",
       "question": "Does Heimdell offer monthly IT maintenance and what does it cost?",
-      "answer": "Yes. Tailored monthly business IT maintenance starts from £79/month. Depending on the written agreement, coverage can include scheduled device checks, update and backup-status reviews and agreed remote support/advice. Device count, visit frequency, support allowance, response arrangements and charges are agreed before starting.",
+      "answer": "Monthly IT maintenance starts from £79/month for a written, limited-scope plan. Wazuh monitoring and Mary alerts are a separate planned pilot, quoted individually. No unlimited devices, repairs, calls or emergency response are included. Device coverage, support hours, maintenance windows, communication allowances, cancellation, retention and any applicable VAT are agreed before subscription.",
       "tags": [
-        "monthly it support",
-        "£79",
-        "maintenance",
-        "recurring",
-        "subscription",
-        "helpdesk"
+        "business technology mot",
+        "mot-monthly-support",
+        "pricing"
       ],
       "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
-        "is there a monthly IT plan",
-        "monthly support",
-        "can you maintain our office computers"
+        "monthly IT support",
+        "monthly support price",
+        "£79 subscription",
+        "maintenance subscription"
       ]
     },
     {
       "id": "mot-no-unlimited",
-      "question": "Does the £79/month IT maintenance plan include unlimited repairs or callouts?",
-      "answer": "No. £79/month is a starting price for an agreed-scope plan, not unlimited IT support. On-site visits, repair labour, replacement parts, software licences and emergency/out-of-hours assistance are billed separately unless explicitly included in the written plan.",
+      "question": "Does the £79/month maintenance plan include unlimited repairs?",
+      "answer": "Monthly IT maintenance starts from £79/month for a written, limited-scope plan. Wazuh monitoring and Mary alerts are a separate planned pilot, quoted individually. No unlimited devices, repairs, calls or emergency response are included. Device coverage, support hours, maintenance windows, communication allowances, cancellation, retention and any applicable VAT are agreed before subscription.",
       "tags": [
-        "monthly it support",
-        "£79",
-        "support",
-        "callouts",
-        "unlimited"
+        "business technology mot",
+        "mot-no-unlimited"
       ],
       "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
         "unlimited support",
-        "are repairs included in the monthly package",
-        "does £79 cover callouts"
+        "unlimited repairs",
+        "does £79 include monitoring"
       ]
     },
     {
@@ -2212,56 +2212,46 @@
     },
     {
       "id": "mot-booking",
-      "question": "How can I book a Business Technology MOT or ask about repairs?",
-      "answer": "Use the enquiry form at https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking, or email contact@heimdell-tech-ai.co.uk. Select the MOT, on-site repair or monthly-support service and provide basic business and device details. This is an enquiry, not a confirmed appointment; Heimdell confirms scope, price and availability first.",
+      "question": "How can I request a remote Business Technology MOT?",
+      "answer": "Use https://heimdell-tech-ai.co.uk/business-technology-mot.html#booking or email contact@heimdell-tech-ai.co.uk. Include business details, device count and the issue you want checked. This is an enquiry, not a confirmed appointment or monitoring activation. We confirm scope, compatibility, price, payment and availability before work. Never send passwords.",
       "tags": [
-        "mot",
-        "booking",
-        "enquiry",
-        "repair",
-        "monthly support"
+        "business technology mot",
+        "mot-booking"
       ],
       "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
         "book the £99 MOT",
-        "how to get an IT engineer",
-        "reserve inspection"
+        "book remote mot",
+        "request inspection"
       ]
     },
     {
       "id": "mot-wire-testing",
-      "question": "Do you test Ethernet cables and ports?",
-      "answer": "Yes. Where agreed, Heimdell uses wiremap testing on selected Ethernet patch leads and accessible cable runs to identify wiring faults. We also check selected ports for link speed and Power over Ethernet where used.",
+      "question": "Can you physically test Ethernet cables during a remote MOT?",
+      "answer": "No. Remote diagnostics can help investigate connectivity, but cannot physically wiremap cables, inspect terminations or verify electrical PoE measurements without suitable on-site equipment. Physical testing requires a separately arranged service.",
       "tags": [
-        "ethernet cable testing",
-        "wiremap",
-        "wire testing",
-        "check ethernet ports",
-        "poe testing"
+        "business technology mot",
+        "mot-wire-testing"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check",
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
         "ethernet cable testing",
         "wiremap",
-        "wire testing",
-        "check ethernet ports",
-        "poe testing"
+        "poe testing",
+        "check ethernet ports"
       ]
     },
     {
       "id": "mot-system-testing",
-      "question": "What does system testing include?",
-      "answer": "We check agreed Windows computers for updates, responsiveness, CPU and memory usage, drive-health indicators and relevant crashes. We can also check access to agreed business email, Microsoft 365, tills and core software, plus CCTV connectivity and recording indicators where agreed.",
+      "question": "What does remote system testing include?",
+      "answer": "An authorised remote review of agreed Windows computers, performance, updates, available protective settings, business applications and backup evidence, with a human-reviewed report. Account security and business processes are checked with the customer. Findings distinguish measured results, customer answers and unverified areas. Physical cable wiremap testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely.",
       "tags": [
-        "windows system testing",
-        "business system testing",
-        "computer diagnostics",
-        "cctv checks"
+        "business technology mot",
+        "mot-system-testing"
       ],
-      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#what-we-check",
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html",
       "aliases": [
         "windows system testing",
-        "business system testing",
         "computer diagnostics",
         "cctv checks"
       ]
@@ -2315,6 +2305,105 @@
         "phishing training",
         "cyber awareness training"
       ]
+    },
+    {
+      "id": "mot-monitoring",
+      "question": "Do you offer Wazuh monitoring through Mary?",
+      "answer": "In development: optional Wazuh-based device monitoring with a Mary incident dashboard and severity-based email, SMS and automated voice escalation. Pilot availability and pricing are confirmed individually; these features are not yet generally available. After an authorised baseline MOT, eligible pilot devices would be enrolled and tested before monitoring is activated. A computer must be powered on and connected to report; offline devices have a separate status.",
+      "aliases": [
+        "wazuh",
+        "wazhu agent",
+        "Mary dashboard",
+        "24/7 monitoring",
+        "monitoring subscription"
+      ],
+      "tags": [
+        "business technology mot",
+        "mot-monitoring"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#monitoring"
+    },
+    {
+      "id": "mot-alerts",
+      "question": "Will Mary text or call me about security issues?",
+      "answer": "In development: optional Wazuh-based device monitoring with a Mary incident dashboard and severity-based email, SMS and automated voice escalation. Pilot availability and pricing are confirmed individually; these features are not yet generally available. The planned policy groups duplicate findings and reserves SMS or voice escalation for qualifying urgent incidents and agreed contacts. Routine issues appear in summaries. A vulnerability does not prove a breach. Detailed evidence belongs in the authenticated portal; calls never request passwords.",
+      "aliases": [
+        "AI phone warning",
+        "SMS alerts",
+        "automated phone call",
+        "security notifications"
+      ],
+      "tags": [
+        "business technology mot",
+        "mot-alerts"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#monitoring"
+    },
+    {
+      "id": "mot-response",
+      "question": "Does 24/7 monitoring include 24/7 human incident response?",
+      "answer": "No. Planned automated monitoring and notification can operate around the clock when enrolled devices and services are online. Human support hours, response arrangements and out-of-hours escalation must be agreed in writing. No 24/7 staffed incident-response service is currently promised.",
+      "aliases": [
+        "24/7 human response",
+        "overnight support",
+        "response SLA",
+        "emergency response"
+      ],
+      "tags": [
+        "business technology mot",
+        "mot-response"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#monitoring"
+    },
+    {
+      "id": "mot-updates",
+      "question": "Does Wazuh automatically update all my software?",
+      "answer": "Do not assume this. Detection and patching are separate. Any update service needs defined supported software, authorisation, maintenance windows, restart arrangements, failure handling and verification. The planned subscription is scoped individually; no automatic repair of every vulnerability is promised.",
+      "aliases": [
+        "patching",
+        "automatic updates",
+        "patch management",
+        "fix vulnerabilities"
+      ],
+      "tags": [
+        "business technology mot",
+        "mot-updates"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#monitoring"
+    },
+    {
+      "id": "mot-access",
+      "question": "What access and permissions are needed for remote checks?",
+      "answer": "We agree the devices, authorised access method and diagnostic data before starting. Monitoring enrolment requires separate permission and a written subscription. Customer data access is restricted by business; retention and offboarding are agreed. Never email passwords or share them with an automated caller.",
+      "aliases": [
+        "install agent",
+        "remote access",
+        "data privacy",
+        "uninstall",
+        "cancel monitoring"
+      ],
+      "tags": [
+        "business technology mot",
+        "mot-access"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html"
+    },
+    {
+      "id": "mot-efficiency",
+      "question": "Do you audit business processes for AI and automation opportunities?",
+      "answer": "Review repetitive admin, enquiries, bookings, customer follow-ups, invoices and handoffs. Receive a prioritised opportunity list with estimated benefits, data and access requirements, costs, human checkpoints and next steps. Automation implementation is quoted separately; savings are estimates, not guarantees. Available UK-wide by separate quote, before or after an MOT; no monitoring subscription is required.",
+      "aliases": [
+        "business efficiency audit",
+        "automation audit",
+        "find automation gaps",
+        "AI opportunities",
+        "automate admin"
+      ],
+      "tags": [
+        "business technology mot",
+        "mot-efficiency"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#business-efficiency"
     }
   ]
 }

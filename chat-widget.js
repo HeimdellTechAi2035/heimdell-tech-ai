@@ -20,8 +20,8 @@
   var MAXLEN = 300;
   var MOT_FOCUS = cfg('focus', '') === 'mot';
   var SUGGESTIONS = MOT_FOCUS
-    ? ['How much is a Business Technology MOT?', 'What is included in the MOT?', 'How do I request a Business Technology MOT?']
-    : ['How much is a Business Technology MOT?', 'Do you offer monthly IT support?', 'Can you repair our office computers?', 'What is the A2A protocol?', 'Where are you based?'];
+    ? ['How much is a Business Technology MOT?', 'What is included in the MOT?', 'Do you offer Wazuh monitoring through Mary?']
+    : ['How much is a Business Technology MOT?', 'Do you offer monthly IT support?', 'Will Mary text or call me about security issues?', 'Do you audit business processes for AI and automation opportunities?', 'Where are you based?'];
 
   var seq = 0, busy = false, lastSend = 0;
   var ctx = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : 'ctx-' + Math.random().toString(36).slice(2);
@@ -309,8 +309,8 @@
   function greet() {
     if (greeted) return; greeted = true;
     addBot(MOT_FOCUS
-      ? 'Hi, I\'m Heimdell\'s assistant. Ask about the £99 introductory Business Technology MOT, what we check or how to request a visit in Preston and nearby Lancashire.'
-      : 'Hi, I\'m Heimdell\'s assistant. Ask about our Business Technology MOTs from £99, local IT repairs from £65/hour, monthly support from £79, or software, AI agent standards and telecom compliance. What would you like to know?');
+      ? 'Hi, I\'m Heimdell\'s assistant. Ask about the £99 introductory Business Technology MOT, remote checks across the UK, maintenance from £79/month or the planned Wazuh monitoring and Mary alerts pilot.'
+      : 'Hi, I\'m Heimdell\'s assistant. Ask about our Business Technology MOTs from £99, UK-wide remote checks, scoped maintenance from £79/month, AI automation audits or our planned monitoring and Mary alerts pilot. What would you like to know?');
     addChips(SUGGESTIONS.map(function (t) { return { label: t }; }), function (it) { ask(it.label); });
     loadCatalogue().catch(function () {});   // warm the local copy so the fallback and Topics are instant
   }
