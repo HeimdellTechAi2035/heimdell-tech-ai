@@ -27,3 +27,12 @@ The enquiry gateway field names and existing service values are retained. Monito
 ## Verification
 
 Passed: JSON/JSON-LD parsing, unique IDs and one H1 per edited page, local-anchor checks, UK scope checks, chat-widget JavaScript syntax, eight core FAQ retrieval scenarios and both new enquiry prefills using the existing gateway service values. No live outbound enquiry or notification was sent. Browser rendering was attempted but the environment blocked Chromium process sockets; visual/responsive review remains outstanding.
+
+## Follow-up check — 21 November 2026
+
+- Four edited HTML pages: referenced local scripts, page links and section links resolve; all inline scripts parse.
+- Corrected a remaining on-site Open Graph sharing title on the remote MOT page.
+- Live forms gateway health: HTTP 200, status ok. GET on the enquiry route: HTTP 405, as expected for a POST-only route.
+- One authorised internal test submitted through the live MOT gateway with the existing monthly-maintenance service value and explicit DO NOT BOOK / DO NOT CALL instructions. Marker: HEIMDELL-MOT-CHECK-20261121T113003Z. Gateway returned HTTP 303 to the sent=1 booking confirmation. This confirms application acceptance, not inbox receipt; no direct Fasthosts mailbox access is available in this session to confirm delivery.
+- Live assistant endpoint: HTTP 200, but still returns the previous on-site/Lancashire catalogue. Production catalogue version remains 2026-11-14; draft catalogue version is 2026-11-21. Recheck the published assistant after release and its documented cache interval.
+- Draft browser preview remains blocked: local Chromium launch was restricted and the browser URL-policy gate denied observing the failed preview tab. No alternative browser-surface workaround was attempted after the policy denial. Visual/mobile review is not passed.
