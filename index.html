@@ -3696,6 +3696,8 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
         #ai-readiness.hero-simple {padding:clamp(42px,7vw,72px) 0;min-height:auto}
         #ai-readiness-title {font-size:clamp(1.8rem,4vw,3rem);line-height:1.25;margin:0 0 16px;color:#fff}
     </style>
+    <link rel="stylesheet" href="/assets/motion/home-motion.css?v=20261121-galaxy1">
+    <link rel="stylesheet" href="/assets/mot-galaxy.css">
 </head>
 <body data-readiness-page="home">
 
@@ -3717,6 +3719,7 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
     <!-- ===== BUSINESS TECHNOLOGY MOT HERO ===== -->
     <section class="hero hero-simple mot-hero" id="hero" aria-labelledby="mot-hero-title">
         <div class="hero-grid" aria-hidden="true"></div>
+        <div class="mot-galaxy" aria-hidden="true"><canvas></canvas></div>
         <div class="container">
             <div class="hero-simple-content">
                 <p class="mot-hero-area">UK-wide remote IT health checks · Human-reviewed findings</p>
@@ -3729,7 +3732,13 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
                 </div>
                 <p class="mot-hero-services"><a href="#monitoring">Monitoring pilot</a> · <a href="#business-efficiency">AI and automation audits</a> · <a href="/business-technology-mot.html#pricing">Prices and support scope</a></p>
             </div>
+            <div class="mot-diagnostic" aria-hidden="true">
+                <div class="mot-diagnostic-tilt">
+                    <img src="/images/heimdell-business-mot-diagnostic-laptop.webp" alt="" width="1254" height="1254" fetchpriority="high" decoding="async">
+                </div>
+            </div>
         </div>
+        <button class="mot-motion-toggle" type="button" aria-controls="hero" aria-pressed="true" hidden>Pause animation</button>
     </section>
 
     <!-- ===== AI AGENT READINESS ===== -->
@@ -4320,8 +4329,10 @@ a.nav-tpv-btn{display:inline-flex;align-items:center;justify-content:center;padd
         });
     </script>
 
+    <script src="/assets/mot-galaxy.js" defer></script>
     <script src="cookie-consent.min.js" defer></script>
     <script src="/assets/readiness/funnel.js" defer></script>
     <script src="/chat-widget.js" defer></script>
+    <script src="/assets/motion/home-motion.js?v=20261121-galaxy1" defer></script>
 </body>
 </html>
