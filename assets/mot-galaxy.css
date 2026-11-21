@@ -1,4 +1,5 @@
 /* Hero additions reuse the homepage's existing purple and white palette. */
+@property --mot-orbit-phase { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
 .mot-hero { isolation: isolate; }
 .mot-hero .mot-galaxy {
     position: absolute; inset: 0; pointer-events: none; z-index: 0;
@@ -29,6 +30,12 @@
     transition: transform 450ms ease-out; transform-style: preserve-3d;
 }
 .mot-diagnostic img { display: block; width: 100%; height: auto; position: relative; }
+.mot-laptop { z-index: 2; }
+.mot-shield {
+    position: absolute; left: 50%; top: 45%; width: 28%; z-index: 3;
+    transform: translate(-50%, -50%) translate(135%, 0) scale(.9);
+}
+.mot-shield img { animation: none; }
 .mot-motion-toggle {
     position: absolute; right: 24px; bottom: 14px; z-index: 3;
     border: 1px solid var(--purple-accent); border-radius: 20px; padding: 7px 12px;
@@ -39,9 +46,33 @@
 .mot-hero[data-motion-paused] .hero-grid, .mot-hero[data-motion-paused] .mot-diagnostic img {
     animation-play-state: paused;
 }
+.mot-hero[data-motion-paused] .mot-shield { animation-play-state: paused; }
 .mot-hero[data-motion-paused] .mot-diagnostic-tilt { transform: none; }
 @media (prefers-reduced-motion: no-preference) {
-    .mot-diagnostic img { animation: mot-diagnostic-float 8s ease-in-out infinite; }
+    .mot-laptop { animation: mot-diagnostic-float 8s ease-in-out infinite; }
+    .mot-shield { animation: mot-shield-orbit 16s linear infinite; }
+    @keyframes mot-shield-orbit {
+        0%, 100% { transform: translate(-50%, -50%) translate(135%, 0) scale(.9) rotate(-6deg); z-index: 3; }
+        25% { transform: translate(-50%, -50%) translate(0, 40%) scale(1.12) rotate(3deg); z-index: 3; }
+        49% { transform: translate(-50%, -50%) translate(-135%, 0) scale(.9) rotate(8deg); z-index: 3; }
+        50% { transform: translate(-50%, -50%) translate(-135%, 0) scale(.9) rotate(8deg); z-index: 1; }
+        75% { transform: translate(-50%, -50%) translate(0, -65%) scale(.7) rotate(-3deg); z-index: 1; }
+        99% { transform: translate(-50%, -50%) translate(135%, 0) scale(.9) rotate(-6deg); z-index: 1; }
+    }
+    @supports (transform: translateX(calc(cos(0deg) * 1%))) {
+        .mot-shield {
+            animation-name: mot-shield-ellipse;
+            transform: translate(-50%, -50%)
+                translate(calc(cos(var(--mot-orbit-phase)) * 135%), calc(sin(var(--mot-orbit-phase)) * 50%))
+                scale(calc(.9 + sin(var(--mot-orbit-phase)) * .22));
+        }
+        @keyframes mot-shield-ellipse {
+            0% { --mot-orbit-phase: 0deg; z-index: 3; }
+            49.9% { z-index: 3; }
+            50%, 99.9% { z-index: 1; }
+            100% { --mot-orbit-phase: 360deg; z-index: 3; }
+        }
+    }
     @keyframes mot-diagnostic-float {
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-12px); }
