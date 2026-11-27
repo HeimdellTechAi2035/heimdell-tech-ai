@@ -6,13 +6,13 @@
     "companiesHouse": "16478408"
   },
   "currency": "GBP",
-  "lastUpdated": "2026-11-21",
+  "lastUpdated": "2026-11-27",
   "source": "https://heimdell-tech-ai.co.uk/pricing.html",
   "notes": [
     "£99 introductory Essential remote MOT for the first 10 eligible UK bookings, subject to availability; standard Essential £149 for up to five agreed Windows computers, Plus £249 for up to ten, Premium £349 for an extended agreed review.",
     "Monthly IT maintenance starts from £79/month for a written, limited-scope plan. Wazuh monitoring and Mary alerts are a separate planned pilot, quoted individually. No unlimited devices, repairs, calls or emergency response are included. Device coverage, support hours, maintenance windows, communication allowances, cancellation, retention and any applicable VAT are agreed before subscription.",
     "All guide prices are GBP; scope, availability and any applicable VAT and total charges are confirmed before commitment.",
-    "TPV pay-as-you-go credit terms apply only to TPV."
+    "TPV pay-as-you-go credit terms apply only to TPV: paid credits never expire, free starter credits expire, and there is no subscription, setup fee or monthly minimum."
   ],
   "services": [
     {
@@ -113,7 +113,7 @@
       "name": "Third-party verification (TPV), per phone verification",
       "category": "telecom-compliance",
       "url": "https://telecomcompliance.uk/tpv-commission-protection",
-      "description": "Independent verification calls with audit-ready certificates. Pay-as-you-go credits, no subscription or setup fee.",
+      "description": "Independent verification calls with audit-ready certificates. Pay-as-you-go credits, no subscription or setup fee. Paid credits never expire; free starter credits expire.",
       "price": {
         "type": "from",
         "amount": 0.8,
@@ -421,6 +421,7 @@
   "tpvCredits": {
     "phoneVerificationCredits": 5,
     "linkVerificationCredits": 1,
+    "expiry": "Paid credits never expire. Free starter credits expire.",
     "packs": [
       {
         "credits": 100,
