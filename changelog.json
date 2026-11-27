@@ -93,17 +93,17 @@
     },
     "/a2a-protocol-implementation.html": {
       "title": "A2A Protocol Implementation",
-      "lastUpdated": "2026-10-03",
+      "lastUpdated": "2026-11-27",
       "file": "a2a-protocol-implementation.html"
     },
     "/ap2-agent-payments.html": {
       "title": "AP2 Agent Payments",
-      "lastUpdated": "2026-10-03",
+      "lastUpdated": "2026-11-27",
       "file": "ap2-agent-payments.html"
     },
     "/ucp-universal-commerce-protocol.html": {
       "title": "UCP Readiness",
-      "lastUpdated": "2026-10-03",
+      "lastUpdated": "2026-11-27",
       "file": "ucp-universal-commerce-protocol.html"
     },
     "/mcp-model-context-protocol.html": {
@@ -113,8 +113,38 @@
     },
     "/knowledge-catalog-readiness.html": {
       "title": "Knowledge Catalog Readiness",
-      "lastUpdated": "2026-10-03",
+      "lastUpdated": "2026-11-27",
       "file": "knowledge-catalog-readiness.html"
+    },
+    "/ap2-and-ucp-uk-checkout.html": {
+      "title": "How AP2 and UCP Work Together for UK Shops",
+      "lastUpdated": "2026-11-27",
+      "file": "ap2-and-ucp-uk-checkout.html"
+    },
+    "/business-technology-mot-preston.html": {
+      "title": "Business Technology MOT for Preston and Lancashire Firms",
+      "lastUpdated": "2026-11-27",
+      "file": "business-technology-mot-preston.html"
+    },
+    "/a2a-agent-card-uk-service-business.html": {
+      "title": "How to Write an A2A Agent Card for a UK Service Business",
+      "lastUpdated": "2026-11-27",
+      "file": "a2a-agent-card-uk-service-business.html"
+    },
+    "/mcp-uk-data-protection.html": {
+      "title": "MCP Servers and UK Data Protection",
+      "lastUpdated": "2026-11-27",
+      "file": "mcp-uk-data-protection.html"
+    },
+    "/ai-agent-payments-uk-consumer-law.html": {
+      "title": "When an AI Agent Buys: UK Consumer Law and Proof of Mandate",
+      "lastUpdated": "2026-11-27",
+      "file": "ai-agent-payments-uk-consumer-law.html"
+    },
+    "/ucp-shopify-woocommerce-uk.html": {
+      "title": "UCP for UK Shopify and WooCommerce Shops",
+      "lastUpdated": "2026-11-27",
+      "file": "ucp-shopify-woocommerce-uk.html"
     },
     "/tpv-commission-protection.html": {
       "title": "TPV Commission Protection",

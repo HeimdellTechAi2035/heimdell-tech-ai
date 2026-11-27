@@ -71,6 +71,12 @@ Remote MOTs are not penetration tests or formal certifications. No guaranteed br
 - [AI agent readiness checklist for UK businesses](https://heimdell-tech-ai.co.uk/ai-agent-readiness-checklist-uk.html)
 - [llms.txt, agent-card.json and robots.txt explained](https://heimdell-tech-ai.co.uk/llms-txt-agent-card-robots-explained.html)
 - [Agentic commerce: a UK small business guide](https://heimdell-tech-ai.co.uk/agentic-commerce-uk-small-business.html)
+- [How AP2 and UCP work together for UK shops](https://heimdell-tech-ai.co.uk/ap2-and-ucp-uk-checkout.html): UCP finds products and starts checkout. AP2 authorises payment with a signed mandate. Not a readiness checker. Custom quote.
+- [Business Technology MOT for Preston and Lancashire](https://heimdell-tech-ai.co.uk/business-technology-mot-preston.html): Same UK-wide remote MOT. Introductory £99 for the first 10 eligible UK bookings, subject to availability. Standard Essential £149. Monitoring and repairs are separate.
+- [How to write an A2A Agent Card for a UK service business](https://heimdell-tech-ai.co.uk/a2a-agent-card-uk-service-business.html): What to declare at /.well-known/agent-card.json. Custom quote for implementation.
+- [MCP servers and UK data protection](https://heimdell-tech-ai.co.uk/mcp-uk-data-protection.html): Permissions, logging and the ICO principles. Not legal advice. Custom quote.
+- [When an AI agent buys: UK consumer law and proof of mandate](https://heimdell-tech-ai.co.uk/ai-agent-payments-uk-consumer-law.html): Consumer cancellation and refund rules still apply. Not legal advice. Custom quote for implementation.
+- [UCP for UK Shopify and WooCommerce shops](https://heimdell-tech-ai.co.uk/ucp-shopify-woocommerce-uk.html): Platform differences and product data. No Heimdell app. Custom quote.
 
 ## Machine-readable resources
 

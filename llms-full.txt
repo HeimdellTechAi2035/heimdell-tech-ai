@@ -2,7 +2,7 @@
 
 [Site overview and key links](https://heimdell-tech-ai.co.uk/llms.txt) · [Public knowledge catalogue](https://heimdell-tech-ai.co.uk/knowledge/catalogue.json)
 
-Last updated: 2026-11-14
+Last updated: 2026-11-27
 Version: 2.3
 
 ---
@@ -71,6 +71,12 @@ Heimdell Tech Ai helps UK businesses get ready for AI agents: software that find
 - MCP (Model Context Protocol): open standard for connecting AI assistants to tools and data, introduced by Anthropic in late 2024 and donated to the Agentic AI Foundation (Linux Foundation) in December 2025. Heimdell designs scoped, permissioned MCP servers. https://heimdell-tech-ai.co.uk/mcp-model-context-protocol.html
 - Knowledge Catalog: Google Cloud's metadata platform, formerly Dataplex Universal Catalog (renamed April 2026; API, command-line and permission names unchanged). It discovers data and adds descriptions, glossaries, data quality and lineage so AI agents can trust it. For UK businesses on Google Cloud (including BigQuery, Spanner, Cloud SQL and Looker) or not. Heimdell Tech Ai helps describe and govern that data. Custom quote. https://heimdell-tech-ai.co.uk/knowledge-catalog-readiness.html
 - Hub page: https://heimdell-tech-ai.co.uk/ai-agent-readiness.html
+- How AP2 and UCP work together for UK shops: https://heimdell-tech-ai.co.uk/ap2-and-ucp-uk-checkout.html
+- UCP for UK Shopify and WooCommerce shops: https://heimdell-tech-ai.co.uk/ucp-shopify-woocommerce-uk.html
+- When an AI agent buys, UK consumer law and proof of mandate: https://heimdell-tech-ai.co.uk/ai-agent-payments-uk-consumer-law.html
+- How to write an A2A Agent Card for a UK service business: https://heimdell-tech-ai.co.uk/a2a-agent-card-uk-service-business.html
+- MCP servers and UK data protection: https://heimdell-tech-ai.co.uk/mcp-uk-data-protection.html
+- Business Technology MOT for Preston and Lancashire: https://heimdell-tech-ai.co.uk/business-technology-mot-preston.html
 - Machine-readable: Agent Card https://heimdell-tech-ai.co.uk/.well-known/agent-card.json, AI catalogue https://heimdell-tech-ai.co.uk/.well-known/ai-catalog.json, knowledge catalogue https://heimdell-tech-ai.co.uk/knowledge/catalogue.json
 
 Heimdell TPV and telecom compliance guides are now at https://telecomcompliance.uk/ (for example https://telecomcompliance.uk/tpv-commission-protection and https://telecomcompliance.uk/third-party-verification). They are not primary pages on heimdell-tech-ai.co.uk.
