@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-21",
+  "version": "2026-11-27",
   "organisation": {
     "legalName": "Heimdell Tech Ai Ltd",
     "tradingName": "Heimdell Tech Ai",
@@ -2404,6 +2404,121 @@
         "mot-efficiency"
       ],
       "source": "https://heimdell-tech-ai.co.uk/business-technology-mot.html#business-efficiency"
+    },
+    {
+      "id": "guide-ap2-ucp",
+      "question": "How do AP2 and UCP work together for a UK shop?",
+      "answer": "UCP is how an agent finds products and starts a checkout. AP2 is how the payment is authorised with a signed mandate tied to that checkout. Heimdell Tech Ai does not offer a free automated UCP readiness checker. Implementation is a custom quote. Guide: https://heimdell-tech-ai.co.uk/ap2-and-ucp-uk-checkout.html",
+      "tags": [
+        "ucp",
+        "ap2",
+        "ai-agents",
+        "shops"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ap2-and-ucp-uk-checkout.html",
+      "aliases": [
+        "ucp readiness checker",
+        "ap2 protocol",
+        "agent payments protocol",
+        "do I need AP2 and UCP"
+      ]
+    },
+    {
+      "id": "guide-mot-preston",
+      "question": "Do you offer a Business Technology MOT for Preston and Lancashire?",
+      "answer": "Yes. It is the same UK-wide remote MOT: agreed Windows computers, updates, protective settings, business apps and backup evidence, then a human-reviewed report. Introductory Essential is £99 for the first 10 eligible UK bookings, subject to availability. Standard Essential is £149 for up to five agreed Windows computers. Plus is £249 for up to ten. Premium is £349 for an extended agreed review. Monitoring and repairs are separate. Physical cable testing, hardware repairs and whole-premises Wi-Fi surveys are not included remotely. Guide: https://heimdell-tech-ai.co.uk/business-technology-mot-preston.html",
+      "tags": [
+        "business technology mot",
+        "preston",
+        "lancashire"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/business-technology-mot-preston.html",
+      "aliases": [
+        "ai business development solutions lancashire",
+        "ai solutions for lancashire businesses",
+        "MOT Preston",
+        "Lancashire IT check"
+      ]
+    },
+    {
+      "id": "guide-agent-card",
+      "question": "How do I write an A2A Agent Card for a UK service business?",
+      "answer": "An Agent Card is a machine-readable description of what the business can do, published at /.well-known/agent-card.json. Declare the name, description, version, interfaces, capabilities and skills such as request a quote, check availability or book an appointment. A card is not enough without a working endpoint. Implementation is a custom quote. Guide: https://heimdell-tech-ai.co.uk/a2a-agent-card-uk-service-business.html",
+      "tags": [
+        "a2a",
+        "agent-card",
+        "ai-agents"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/a2a-agent-card-uk-service-business.html",
+      "aliases": [
+        "agent card",
+        "agent-card.json",
+        "A2A agent card UK"
+      ]
+    },
+    {
+      "id": "guide-mcp-uk-gdpr",
+      "question": "What should a UK business think about before connecting an MCP server to personal data?",
+      "answer": "An MCP server lets an assistant use only the tools and data you expose. UK GDPR principles still apply: purpose, data minimisation, security and accountability. Write actions should be approved by a person where the change matters, and calls should be logged. This is not legal advice. Implementation is a custom quote. Guide: https://heimdell-tech-ai.co.uk/mcp-uk-data-protection.html",
+      "tags": [
+        "mcp",
+        "uk-gdpr",
+        "ai-agents"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/mcp-uk-data-protection.html",
+      "aliases": [
+        "MCP data protection",
+        "MCP GDPR",
+        "MCP server permissions"
+      ]
+    },
+    {
+      "id": "guide-agent-consumer-law",
+      "question": "Does an AI agent wipe out UK consumer cancellation rights?",
+      "answer": "No. If the buyer is a consumer, distance-selling cancellation and refund rules can still apply. An AP2 mandate is evidence of the checkout and payment that were authorised. It is not a waiver and this is not legal advice. Guide: https://heimdell-tech-ai.co.uk/ai-agent-payments-uk-consumer-law.html",
+      "tags": [
+        "ap2",
+        "consumer-law",
+        "ai-agents"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ai-agent-payments-uk-consumer-law.html",
+      "aliases": [
+        "AI agent refund",
+        "agent checkout cooling off",
+        "proof of mandate"
+      ]
+    },
+    {
+      "id": "guide-ucp-shopify-woo",
+      "question": "How does UCP apply to UK Shopify and WooCommerce shops?",
+      "answer": "UCP lets an agent read a catalogue and check out. Shopify publishes a business profile at /.well-known/ucp. WooCommerce's own pages describe UCP as coming soon or piloted, not as a switch every UK shop can already use. Heimdell Tech Ai does not offer a Shopify or WooCommerce app. Readiness is a custom quote. Guide: https://heimdell-tech-ai.co.uk/ucp-shopify-woocommerce-uk.html",
+      "tags": [
+        "ucp",
+        "shopify",
+        "woocommerce",
+        "shops"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ucp-shopify-woocommerce-uk.html",
+      "aliases": [
+        "UCP Shopify",
+        "UCP WooCommerce",
+        "ucp readiness checker shopify"
+      ]
+    },
+    {
+      "id": "ucp-readiness-checker",
+      "question": "Do you have a UCP readiness checker?",
+      "answer": "No. Heimdell Tech Ai does not offer a free automated UCP readiness checker. The readiness check is a human review of your profile, product data and policies, priced as a custom quote.",
+      "tags": [
+        "ucp",
+        "ai-agents"
+      ],
+      "source": "https://heimdell-tech-ai.co.uk/ucp-universal-commerce-protocol.html",
+      "aliases": [
+        "ucp readiness checker",
+        "UCP scanner",
+        "free UCP check"
+      ]
     }
   ]
 }
